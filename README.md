@@ -4,6 +4,7 @@ This repository contains the data and Stata code associated with the figures, ta
 # Overview
 
 # Data files
+## Chapter 3
 | File name | Directory | Provided in archive? | Source | Notes |
 |----|----|----|----|----|
 | file.dta | data/ | Yes | source | notes|
