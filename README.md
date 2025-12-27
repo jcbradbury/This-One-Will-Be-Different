@@ -1,5 +1,11 @@
 # This-One-Will-Be-Different
-This repository contains the data and Stata code associated with This One Will Be Different by J.C. Bradbury
+This repository contains the data and Stata code associated with 
+****************************************************************
+* Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
+* Author: J.C. Bradbury
+* Publisher: Oxford University Press
+* Year: 2026
+*****************************************************************
 
 # Overview
 This is an overview of the repository.
