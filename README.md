@@ -27,7 +27,7 @@ This is an overview of the repository.
 
 ### Tables
 | Table | Do-file | Input | Output| Line #|
-|----|----|----|----|
+|----|----|----|----|----|
 |5.1|02-fig5.3_5.4_tab5.1.do|venuesdb_base.dta|Stata viewer|###|
 |5.2|02-tab5.2_5.3.do|venuesdb_base.dta|Stata viewer|###|
 |5.3|02-tab5.2_5.3.do|venuesdb_base.dta|Stata viewer|###|
