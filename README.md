@@ -12,8 +12,12 @@ This repository contains the data and Stata code associated with the figures, ta
 ## Chapter 5
 ### Figures
 | Figure | Do-file | Input | Output|
-|5.1|----|----|----|
+|5.1| 02-fig5.1.do|venuesdb_base.dta | |
+|5.2| 02-fig5.2.do| venuesdb_base.dta |venue_forecast.dta |
+
 ### Tables
-| Figure | Do-file | Input | Output|
-|5.1|----|----|----|
+| Table | Do-file | Input | Line #|
+|5.1| 02-fig5.3_5.4_tab5.1.do | venuesdb_base.dta | |
+
+## Other Information
  
