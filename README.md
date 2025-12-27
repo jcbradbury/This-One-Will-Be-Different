@@ -13,19 +13,8 @@ This repository contains the data and Stata code associated with This One Will B
 ### Figures
 | Figure | Do-file | Input | Output|
 |----|----|----|----|
-|5.1| 02-fig5.1.do|venuesdb_base.dta | |
-|5.2| 02-fig5.2.do| venuesdb_base.dta |venue_forecast.dta |
-|5.3|----|----|----|
-|5.4|----|----|----|
-|5.4|----|----|----|
-|5.5|----|----|----|
-|5.6|----|----|----|
-|5.7|----|----|----|
-|5.8|----|----|----|
-|5.9|----|----|----|
-|5.10|----|----|----|
 |5.1|02-fig5.1.do|venuesdb_base.dta||
-|5.2|02-fig5.2.do|venuesdb_base.dta||
+|5.2|02-fig5.2.do|venuesdb_base.dta|venue_forecast.dta|
 |5.3|02-fig5.3_5.4_tab5.1.do|venuesdb_base.dta||
 |5.4|02-fig5.3_5.4_tab5.1.do|venuesdb_base.dta||
 |5.5|02-fig5.5.do|venue_forecast.dta; venuesdb_base.dta||
