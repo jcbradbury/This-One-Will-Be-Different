@@ -5,8 +5,15 @@ This repository contains the data and Stata code associated with the figures, ta
 
 # Data files
 ## Chapter 3
-| File name | Directory | Provided in archive? | Source | Notes |
-|----|----|----|----|----|
-| file.dta | data/ | Yes | source | notes|
-| file2.dta | data/ | Yes | source2 | |
+### Figures
+| Figure | Do-file | Input | Output|
+|----|----|----|----|
+| 3.1 | 02-fig3.1.do| venuesdb_base.dta | |
+## Chapter 5
+### Figures
+| Figure | Do-file | Input | Output|
+|5.1|----|----|----|
+### Tables
+| Figure | Do-file | Input | Output|
+|5.1|----|----|----|
  
