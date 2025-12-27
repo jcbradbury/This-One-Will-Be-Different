@@ -2,8 +2,9 @@
 This repository contains the data and Stata code associated with This One Will Be Different by J.C. Bradbury
 
 # Overview
+This is an overview of the repository.
 
-# Data files
+# Replication files
 ## Chapter 3
 ### Figures
 | Figure | Do-file | Input | Output|
@@ -30,6 +31,10 @@ This repository contains the data and Stata code associated with This One Will B
 |5.1| 02-fig5.3_5.4_tab5.1.do | venuesdb_base.dta | |
 
 ### Other Information
+| Information| Line #|
+|----|----|
+|Venues to be replaced|27|
+
 
 ## Chapter 6
  
