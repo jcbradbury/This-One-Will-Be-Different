@@ -12,7 +12,7 @@ This is an overview of the repository.
 | 3.1 | 02-fig3.1.do| venuesdb_base.dta | |
 ## Chapter 5
 ### Figures
-| Figure | Do-file | Input | Output| |
+| Figure | Do-file | Input | Output| Line #|
 |----|----|----|----|----|
 |5.1|02-fig5.1.do|venuesdb_base.dta||XX|
 |5.2|02-fig5.2.do|venuesdb_base.dta|venue_forecast.dta|XX|
@@ -26,7 +26,7 @@ This is an overview of the repository.
 |5.10 |02-fig5.10.do|venuesdb_mls.dta||XX|
 
 ### Tables
-| Table | Do-file | Input | Line No.|
+| Table | Do-file | Input | Line #|
 |----|----|----|----|
 |5.1| 02-fig5.3_5.4_tab5.1.do | venuesdb_base.dta | |
 
