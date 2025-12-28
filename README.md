@@ -16,6 +16,14 @@ This is an overview of the repository.
 
 |Dataset|Description|How Created|Sources|
 |----|----|----|----|
+|venuesdb_raw.dta|Historical databse of stadium construction costs (MLB, NFL, NBA, NHL)|Collected by author|See Appedix A, Bradbury (2026)|
+|venuesdb_base.dta|Historical databse of stadium construction costs, processsed for analysis|venuesdb_build.do; cpi2024.do|venuesdb_raw.dta; BLS (2025)|
+|leagues_revenue.dta|Average annual revenue for US major sports leagues|Collected by author|Forbes (various webpages)|
+|venuesdb_mls.dta|Historical databse of stadium construction costs, processsed for analysis (includes MLS)|02-fig5.8.do|See Appedix A, Bradbury (2026)|
+|mls_stadiums_only.dta|Historical databse of stadium construction costs (MLS)|Collected by author|See Appedix A, Bradbury (2026)|
+|venue_forecast.dta|Extrapolation of future venue construction|Processed by author|venuesdb_base.dta|
+|forecast_cost.dta|Estimate of future venue construction costs|Processed by author|venuesdb_base.dta|
+|attend_lg.dta|Braves franchise attendance by year|Collected by author|Lahman (2024), Baseball-Reference|
 
 # Replication files
 
