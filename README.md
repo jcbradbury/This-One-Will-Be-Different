@@ -47,4 +47,29 @@ This is an overview of the repository.
 
 
 ## Chapter 6
+### Figures
+### Tables
+
+## Chapter 7
+### Figures
+### Tables
+
+## Chapter 10
+
+## Chapter 12
+
+## Chapter 13
+
+## Chapter 14
+
+## Chapter 15
+
+## Chapter 17
+
+## Chapter 18
+
+## Chapter 19
+
+
+
  
