@@ -50,14 +50,14 @@ All data files provided in .csv format, which can be read by other data analysis
 ## Chapter 3
 
 ### Figures
-| Figure | Do-file | Input | Output| Line #|
+| Figure | Do-file | Data Input | Data Output| Line #|
 |----|----|----|----|----|
 |3.1|02-fig3.1.do|venuesdb_base.dta||###|
 
 ## Chapter 5
 
 ### Figures
-| Figure | Do-file | Input | Output| Line #|
+| Figure | Do-file | Data Input | Data Output| Line #|
 |----|----|----|----|----|
 |5.1|02-fig5.1.do|venuesdb_base.dta||###|
 |5.2|02-fig5.2.do|venuesdb_base.dta|venue_forecast.dta|###|
