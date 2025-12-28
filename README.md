@@ -29,6 +29,12 @@ This is an overview of the repository.
 
 # Replication files
 
+**Instructions for Replicators**
+1. Download repository folders to the desired location on your computer.
+2. Open 00-setup.do, change [PATH] with you home directory, and run the do-file in Stata.
+3. Run do-file associated with desired figure, table, or figure.
+    - Running 01-master.do will run all do-files.
+
 ## Chapter 3
 
 ### Figures
