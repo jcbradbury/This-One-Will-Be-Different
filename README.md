@@ -10,12 +10,11 @@ This repository contains the data and Stata code associated with
 # Overview
 This repository includes datasets and replication code files for generating the figures, tables, and other pertinent information reported in the book. The contents are organized into three folders:
 
-- data\ Includes all data input and final output by the do-files. The code in the do-files may generate intermediate output files that are used in constructing the tables and figures. These files are saved in the working directory.  Data in the .dta and .csv files of the same name are identical. 
+- data\ Includes all input and final output data. The code in the do-files may generate intermediate output files that are used in constructing the tables and figures, which are saved only in the working directory.  All datasets are provided in .dta and .csv formats, and files of the same name except for their format suffix contain identical data. 
 
-- dofiles\ Includes all Stata do-files used for conducting the analyis. 
+- dofiles\ Includes all Stata do-files used for conducting the analyis. Do-files include substantial notation explaining what is being implemented, and sometimes provides copies of the output. Non-Stata users may view these files with any text reader. 
 
-- figs\ Location for the ouput of figures as .pdf files. The code for outputint the figures is suppressed by default, and can be turned on by removing the supression characters (/* */). Figures as pdf files are provided for reference. Figures output using other schemes (I use plotplain) and output formats may look slightly different from the published figures.  
-
+- figs\ Location for the ouput of figures. The code for output as figures is suppressed by default in the do-files, but it can be turned on by removing the supression characters (/* */) around the "graph export" command line. I provide figures as .pdf files for reference. Figures output using other schemes (I use plotplain) and output formats may look slightly different from the published figures.  
 
  # Data
 
