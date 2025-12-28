@@ -10,13 +10,24 @@ This repository contains the data and Stata code associated with
 # Overview
 This is an overview of the repository.
 
+ # Data
+
+ ## Datasets
+
+|Dataset|Description|How Created|Sources|
+|----|----|----|----|
+
 # Replication files
+
 ## Chapter 3
+
 ### Figures
 | Figure | Do-file | Input | Output| Line #|
 |----|----|----|----|----|
 |3.1|02-fig3.1.do|venuesdb_base.dta||###|
+
 ## Chapter 5
+
 ### Figures
 | Figure | Do-file | Input | Output| Line #|
 |----|----|----|----|----|
