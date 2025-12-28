@@ -30,14 +30,15 @@ This is an overview of the repository.
 # Replication files
 
 ## Instructions for Replicators
-**Stata users**
+### Stata users
 1. Download repository folders and their files to the desired location on your computer.
 2. Open 00-setup.do, change [PATH] at with you home directory, and run the do-file in Stata.
     - This will set the home directory structure for running all do-files
 3. Run do-file associated with desired figure, table, or figure.
     - Running 01-master.do will run all do-files.
 
-**Non-Stata users**
+### Non-Stata users
+
 All data files provided in .csv format, which can be read by other data analysis software (e.g., R, Python, Excel, Google Sheets). Though I do not provide code for replcating the analysis in alternate formats, much of the analysis is simple enough that the reader can implement basic analyis routines available in these programs. More complex estimates (e.g., difference-in-differences, synthetic control method) may require more advanced software; however, corresponding packages are available for conducting the analyses. Do-files include notation (and in some cases saved results) that provides instructions that can be translated to other programs. 
 
 ## Chapter 3
