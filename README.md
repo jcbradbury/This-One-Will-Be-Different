@@ -38,10 +38,11 @@ This repository includes datasets and replication code files for generating the 
 ## Instructions for Replicators
 ### Stata users
 1. Download repository folders and their files to the desired location on your computer.
-2. Open 00-setup.do, change [PATH] at with you home directory, and run the do-file in Stata.
+2. Open 00-setup.do, change [PATH] at the top of the file with your home directory where the folders are located, and run the do-file in Stata.
     - This will set the home directory structure for running all do-files
-3. Run do-file associated with desired figure, table, or figure.
-    - Running 01-master.do will run all do-files.
+    - If you do not wish to run the setup file, all do-files contain suppressed [PATH] code that you can use for setting the home directory.  
+3. Run do-files associated with desired figures, tables, or information.
+    - Running 01-master.do will run all do-files. I recommend doing this first to verify the installation. 
 
 ### Non-Stata users
 All data files provided in .csv format, which can be read by other data analysis software (e.g., R, Python, Excel, Google Sheets). Though I do not provide code for replcating the analysis in alternate formats, much of the analysis is simple enough that the reader can implement basic analyis routines available in these programs. More complex estimates (e.g., difference-in-differences, synthetic control method) may require more advanced software; however, corresponding platform-specific packages are available for implementing the described routines. Do-files include notation (and in some cases saved results) that provides instructions that can be translated to other programs. 
