@@ -1,14 +1,19 @@
 # This-One-Will-Be-Different
 This repository contains the data and Stata code associated with 
-***
+****************************************************************
 * Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
 * Author: J.C. Bradbury
 * Publisher: Oxford University Press
 * Year: 2026
-***
+***************************************************************
 
 # Overview
-This is an overview of the repository.
+This repository includes datasets and replication code files for generating the figures, tables, and other pertinent information reported in the book. The contents are organized into three folders
+
+- data/ Includes all data input and final output by the do-files. The code in the do-files may generate intermediate output files that are used in constructing the tables and figures. These files are saved in the working directory.  Data in the .dta and .csv files of the same name are identical. 
+- dofiles/ Includes all Stata do-files used for conducting the analyis. 
+- figs/ Location for the ouput of figures as .pdf files. The code for outputint the figures is suppressed by default, and can be turned on by removing the supression characters (/* */). Figures as pdf files are provided for reference. Figures output using other schemes (I use plotplain) and output formats may look slightly different from the published figures.  
+
 
  # Data
 
