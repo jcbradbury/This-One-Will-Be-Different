@@ -71,7 +71,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.10 |02-fig5.10.do|venuesdb_mls.dta||###|
 
 ### Tables
-| Table | Do-file | Input | Output| Line #|
+| Table | Do-file | Data Input | Data Output| Line #|
 |----|----|----|----|----|
 |5.1|02-fig5.3_5.4_tab5.1.do|venuesdb_base.dta|Stata viewer|###|
 |5.2|02-tab5.2_5.3.do|venuesdb_base.dta|Stata viewer|###|
