@@ -46,7 +46,7 @@ This repository includes datasets and replication code files for generating the 
     - Running 01-master.do will run all do-files. I recommend doing this first to verify the installation. 
 
 ### Non-Stata users
-All data files provided in .csv format, which can be read by other data analysis software (e.g., R, Python, Excel, Google Sheets). Though I do not provide code for replcating the analysis in alternate formats, much of the analysis is simple enough that the reader can implement basic analyis routines available in these programs. More complex estimates (e.g., difference-in-differences, synthetic control method) may require more advanced software; however, corresponding platform-specific packages are available for implementing the described routines. Do-files include notation (and in some cases saved results) that provides instructions that can be translated to other programs. 
+All data files provided in .csv format, which can be read by other data analysis software. Though I do not provide code for replcating the analysis in alternate formats, general analysis of the data can be conducted using spreadsheet programs (e.g., Excel, Google Sheets). More complex estimates (e.g., difference-in-differences, synthetic control method) may require more advanced software (e.g., R, Python); however, corresponding platform-specific packages are available for implementing the described routines. Do-files include notation (and in some cases saved results) that provides instructions that can be translated to other programs. 
 
 ## Chapter 3
 
