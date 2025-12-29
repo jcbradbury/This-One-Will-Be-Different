@@ -109,6 +109,12 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 19
 
+# Data License
 
+Unless otherwise noted, the datasets in `data/` are licensed
+under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+
+Original data sources are credited in accompanying documentation and
+remain subject to their original terms.
 
  
