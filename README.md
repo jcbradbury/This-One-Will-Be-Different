@@ -10,11 +10,11 @@ This repository contains the data and Stata code associated with
 # Overview
 This repository includes datasets and replication code files for generating the figures, tables, and other pertinent information reported in the book. The contents are organized into three folders:
 
-- data\ Includes all input and final output data. The code in the do-files may generate intermediate output files that are used in constructing the tables and figures, which are saved only in the working directory.  All datasets are provided in .dta and .csv formats, and files of the same name except for their format suffix contain identical data. 
+- `data/` Includes all input and final output data. The code in the do-files may generate intermediate output files that are used in constructing the tables and figures, which are saved only in the working directory.  All datasets are provided in .dta and .csv formats, and files of the same name except for their format suffix contain identical data. 
 
-- dofiles\ Includes all Stata do-files used for conducting the analyis. Do-files include substantial notation explaining what is being implemented, and sometimes provides copies of the output. Non-Stata users may view these files with any text reader. 
+- `dofiles/` Includes all Stata do-files used for conducting the analyis. Do-files include substantial notation explaining what is being implemented, and sometimes provides copies of the output. Non-Stata users may view these files with any text reader. 
 
-- figs\ Location for the ouput of figures. The code for output as figures is suppressed by default in the do-files, but it can be turned on by removing the supression characters (/* */) around the "graph export" command line. I provide figures as .pdf files for reference. Figures output using other schemes (I use plotplain) and output formats may look slightly different from the published figures.  
+- `figs/` Location for the ouput of figures. The code for output as figures is suppressed by default in the do-files, but it can be turned on by removing the supression characters (/* */) around the "graph export" command line. I provide figures as .pdf files for reference. Figures output using other schemes (I use plotplain) and output formats may look slightly different from the published figures.  
 
  # Data
 
