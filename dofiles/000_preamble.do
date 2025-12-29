@@ -14,7 +14,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\):
 Tables (Stata viewer): 
-Data (data\):
+Data (outdat\):
 Other: 
 */
 

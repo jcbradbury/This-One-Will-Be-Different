@@ -11,14 +11,14 @@ Data Input (data\):
 venuesdb_base.dta
 
 Intermediate Output (working directory):
-ven_median_collapse.dta
-ven_median_collapse_arena.dta
-ven_median_collapse_stadium.dta
+ven_median_collapse_temp.dta
+ven_median_collapse_arena_temp.dta
+ven_median_collapse_stadium_temp.dta
 
 Final Output:
 Figures(figs\): 5.3, 5.4 
 Tables (Stata viewer): 5.1 
-Data (data\):
+Data (outdat\): ven_median_collapse.dta
 Other: 
 */
 
@@ -33,10 +33,13 @@ do "00-setup.do"
 
 use "$data\venuesdb_base.dta", clear
 
+/*Aggregate venue construction totals and costs by decade*/
 collapse  (sum) stadium arena (median) pubpct100 totalcost2024 publiccost2024 , by(decade)
 
-save ven_median_collapse, replace
+so decade
+save ven_median_collapse_temp, replace
 
+/*Separate out arenas*/
 use "$data\venuesdb_base.dta", clear
 collapse  (sum) arena (median) pubpct100 totalcost2024 publiccost2024 if arena, by(decade)
 rename pubpct100 pubpct100a 
@@ -44,8 +47,9 @@ rename  totalcost2024 totalcost2024a
 rename publiccost2024 publiccost2024a
 
 so decade
-save ven_median_collapse_arena, replace
+save ven_median_collapse_arena_temp, replace
 
+/*Separte out stadiums*/
 use  "$data\venuesdb_base.dta", clear
 collapse  (sum) stadium (median) pubpct100 totalcost2024 publiccost2024 if stadium, by(decade)
 
@@ -54,23 +58,39 @@ rename  totalcost2024 totalcost2024s
 rename publiccost2024 publiccost2024s
 
 so decade
-save ven_median_collapse_stadium, replace
+save ven_median_collapse_stadium_temp, replace
 
-use ven_median_collapse, clear
+/*Merge files for all venues, arenas, stadiums*/
+use ven_median_collapse_temp, clear
 so decade
 
-merge 1:1 decade using ven_median_collapse_arena
+merge 1:1 decade using ven_median_collapse_arena_temp
 drop _m
 
 so decade
-merge 1:1 decade using ven_median_collapse_stadium
+merge 1:1 decade using ven_median_collapse_stadium_temp
+/*
+Result	Number	of	obs
+			
+Not matched			1
+from master			1	(_merge==1) <== No stadiums opened in the 1940s
+from using			0	(_merge==2)
+
+Matched			13	(_merge==3)		
+*/
 drop _m
 
-drop if decade==. /*Removes the Athletics non-specific new stadium*/
 tsset decade
 
-tabstat publiccost2024, by(decade) stats(median)
+/*Outputs file of aggregated venue construction costs by decade */
+save "$outdat\ven_median_collapse.dta", replace
 
+/* Data output into the data\ folder
+save "$data\ven_median_collapse.dta", replace
+export delimited "$data\ven_median_collapse.csv", replace
+*/
+
+tabstat publiccost2024, by(decade) stats(median)
 /*
 Summary for variables: publiccost2024
 Group variable: decade 
@@ -90,22 +110,22 @@ Group variable: decade
     2000 |    345.27
     2010 |    399.36
     2020 |       605
-    2030 |       930
+    2030 |       930 <== Only 3 venues
 ---------+----------
    Total |  113.4075
 --------------------
 
+Because only 3 venues annouced so far for 2030s, I estimate projected 2030s cost by extrapolating from past growth.
+
 Average decade growth rate (1980-2020s): ~42.2% 
 650*1.42179 = 860
-
-Note: 3 venues annouced so far for 2030s
 */
 
-/*Maunually rounding to 860 is more elegant than multiplying a rounded 2020s. Does not alter projections in rounding.*/
-*replace publiccost2024= publiccost2024[_n-1]*1.42179  if decade==2030 
+/*Maunually rounding to 860 is more elegant than multiplying a rounded projection from 2020s.*/
+*replace publiccost2024= publiccost2024[_n-1]*1.42179  if decade==2030 // Alternate method
 replace publiccost2024= 860 if decade==2030
 
-
+/*Builds bar graph */
 g venue = stadium +arena
 g decade_pl1 = decade+1
 g decade_m1 = decade-1
@@ -116,7 +136,6 @@ g decade_m2 = decade-2
 g pubpct100st = string(pubpct100,"%9.0f")
 g pubpct100stpct = pubpct100st+"%"
 g pubpct100stpct_tex = pubpct100st+"\%"
-
 
 g pubpct100sta = string(pubpct100a,"%9.0f")
 g pubpct100stpcta = pubpct100sta+"%"
@@ -140,7 +159,6 @@ g tc2024sts= string(totalcost2024s,"%9.0fc")
 g tc2024dols = "\\$" +tc2024sts
 replace  tc2024dols ="\emph{NA}" if totalcost2024s==.
 
-
 ********** Public cost strings
 g pc2024st= string(publiccost2024,"%9.0fc")
 g pc2024dol = "\\$" +pc2024st
@@ -153,11 +171,7 @@ g pc2024sts= string(publiccost2024s,"%9.0fc")
 g pc2024dols = "\\$" +pc2024sts
 replace  pc2024dols ="\emph{NA}" if publiccost2024s==.
 
-
-
-
 *** Decades
-
 g decades=""
 replace decades ="1900s" if decade==1900
 replace decades ="1910s" if decade==1910
@@ -202,10 +216,6 @@ replace decadelabel ="1990s" if decade==1990
 replace decadelabel ="2000s" if decade==2000
 replace decadelabel ="2010s" if decade==2010
 replace decadelabel ="\rowcolor{gray!25}2020s" if decade==2020
-
-
-
-g blank = ""
 
 g decade_pl5 = decade+5
 g decade_m5 = decade-5
@@ -270,6 +280,8 @@ name(median_pub_fut, replace)
 graph export "$figs\Fig5.4.pdf", as(pdf) replace
 graph export "$tif\Fig5.4.tif", as(tif) width(3000)  replace
 */
+
+g blank = ""
 
 /*Table 5.1*/
 *Tabular outut for tex

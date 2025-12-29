@@ -32,9 +32,8 @@ do "00-setup.do"
 
 use "$data\venuesdb_mls.dta", clear
 
-replace yearst = string(year,"%9.0f")
+g yearst = string(year,"%9.0f")
 replace yearst = "TBD" if year==.
-*replace yearst= "\emph{"+yearst+"}" if year==.
 
 g tc2024st= string(totalcost2024,"%9.0fc")
 replace tc2024st= string(totalcost2024,"%9.2fc") if totalcost2024<1 & totalcost2024>0
@@ -60,7 +59,6 @@ replace tc2024dol ="" if totalcost2024 ==.
 replace pc2024dol ="" if publiccost2024 ==.
 replace pubpct100stpct ="" if pubpct100 ==.
 
-drop venuename_tex_bold
 g venuename_tex_bold = venuename_tex
 replace  venuename_tex_bold = "\textbf{"+venuename_tex+"}" if current
 replace  venuename_tex_bold = "\emph{"+venuename_tex+"}" if year>2024

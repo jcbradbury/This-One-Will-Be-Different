@@ -1,20 +1,21 @@
-/*
+/*This file provides the code for tracking historical US major league sports venue construction. 
+
 **********************************************************************
 ** Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
 ** Author: Bradbury, J.C.
 ** Publisher: Oxford University Press
 ** Year: 2026
 ********************************************************************** 
-This file provides the code for tracking historical US major league sports venue construction. 
 
 Data Input (data\): 
+venuesdb_base.dta
 
 Intermediate Output (working directory):
 
 Final Output:
 Figures(figs\): 3.1
 Tables (Stata viewer): 
-Data (data\):
+Data (outdat\):
 Other: 
 */
 

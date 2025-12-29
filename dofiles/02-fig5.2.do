@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.2
 Tables (Stata viewer): 
-Data (data\): venue_forecast.dta
+Data (outdat\): venue_forecast.dta
 Other: 
 */
 
@@ -123,7 +123,6 @@ replace aforecast_r=1 if year==2028
 replace aforecast_r=8 if year==2029
 replace aforecast_r=2 if year==2030
 replace aforecast_r=1 if year==2031
-*replace aforecast_r=1 if year==2032 // Spurs replacement
 replace aforecast_r=1 if year==2033
 replace aforecast_r=2 if year==2034
 replace aforecast_r=1 if year==2035
@@ -195,10 +194,14 @@ name(forecast_r60s_c, replace) ///
 legend(order(2 "Arenas" 1 "Stadiums" 3 "Projected Replacements" "(1990s and 2000s venues)" 5 "Observed Trend (1960s-2010s)" 4 "Projected Trend (2020s-2030s)" ) ///
 ring(0) pos(11) cols(1) size(medsmall) symxsize(7) ) ///
 scheme(plotplain)
-
 /*
 graph export "$figs\Fig5.2.pdf", as(pdf) replace
 graph export "$tif\Fig5.2.tif", as(tif) width(3000)  replace
 */
 
+save "$outdat\venue_forecast.dta", replace
+
+/* Data output into the data\ folder
 save "$data\venue_forecast.dta", replace
+export delimited "$data\venue_forecast.csv", replace
+*/

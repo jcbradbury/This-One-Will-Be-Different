@@ -16,8 +16,9 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.5
 Tables (Stata viewer): 
-Data (data\): forecast_cost.dta
-Other:  Information on the expected number and public cost of venues in 2020s and 2030s.
+Data (outdat\): forecast_cost.dta
+Other:  
+CITED in text: Projected venue costs for 2020s and 2030s
 */
 
 *************************
@@ -46,7 +47,12 @@ g pubforecast860 =  vensforecast_r*860  if year>2029
 drop if year<2020
 
 so year
+save "$outdat\forecast_cost.dta", replace
+
+/* Data output into the data\ folder
 save "$data\forecast_cost.dta", replace
+export delimited "$data\forecast_cost.csv", replace
+*/
 
 use "$data\venuesdb_base.dta", clear
 
@@ -65,9 +71,9 @@ format cumpc2024bil %9.0fc
 so year
 
 /*Merge observed costs with forecasted costs*/
-merge year using "$data\forecast_cost.dta"
-drop _m
+merge 1:1 year using "$data\forecast_cost.dta"
 so year
+drop _m
 
 /*Create variable that combines public costs and forecasted costs by year*/
 g combinedpub = publiccost2024 if year<2020
@@ -76,7 +82,6 @@ replace combinedpub = pubforecast605 if combinedpub ==. &year>2019 &year<2030
 
 replace combinedpub = publiccost2024 + pubforecast860 if combinedpub ==. &year>2029&year<2040 
 replace combinedpub = pubforecast860 if combinedpub ==. & year>2029
-
 
 /*Generate cumulative costs with forecasted venues*/
 g forecast_cumpc2024 = sum(combinedpub) if year<=year
@@ -87,6 +92,13 @@ replace cumpc2024bil =cumpc2024bil[_n-1] if year>2032
 	
 format forecast_cumpc2024 %9.0fc
 format forecast_cumpc2024bil %9.0fc
+
+save "$outdat\cumulative_cost.dta", replace
+
+/* Data output into the data\ folder
+save "$data\cumulative_cost.dta", replace
+export delimited "$data\cumulative_cost.csv", replace
+*/
 
 /*Generate strings for labels */
 g cumpc2024bst= string(cumpc2024bil,"%9.0fc")
@@ -126,33 +138,7 @@ graph export "$figs\Fig5.5.pdf", as(pdf) replace
 graph export "$tif\Fig5.5.tif", as(tif) width(3000)  replace
 */
 
-/* oldFig5.5 before update
-so year
-mylabels 0(10)100, prefix($) myscale(@) local(dollab)
-twoway area forecast_cumpc2024bil year if year>2019, fcolor(gs15) lc(black) lp(dot) lw(thin) ///
-|| line cumpc2024bil year if year>1920 &year<2020, lc(gs10) lp(solid) lw(thin)  ///
-|| area cumpc2024bil year if year>1920, bcolor(gs10) ///
-|| line forecast_cumpc2024bil year if year>2018, lc(gs6) lp(shortdash)  ///
-|| scatter forecast_cumpc2024bil year if year==2039 , ms(i) mlabel(forecast_cumpc2024bdolB) mlabpos(11) mlabs(medium)  mlabg(-.25) /// 
-|| scatter cumpc2024bil year if year==2010, ms(|) mlabel(cumpc2024bdolB) mlabpos(12) mlabs(medium) mlabg(2) mc(black) ///
-|| scatter cumpc2024bil year if year==1980, ms(|) mlabel(cumpc2024bdolB) mlabpos(12) mlabs(medium) mlabg(2) mc(black) /// 
-|| scatter cumpc2024bil year if year==1960, ms(|) mlabel(cumpc2024bdolB) mlabpos(12) mlabs(medium) mlabg(2) mc(black) /// 
-|| scatter cumpc2024bil year if year==2032 , ms(|) mlabel(cumpc2024bdolB) mlabpos(12) mlabs(medium) mlabg(*1) mc(black) ///
-scheme(plotplain) ///
-xlabel(1920(10)2040, labsize(medium)) ///
-ylabel(`dollab', labsize(medium)) ///
-ytitle("Construction Cost" "(in billions of 2024 dollars)", size(medlarge)  ) ///
-xtitle(, size(medium)) ///
-name(f_cumpc2024_comb, replace) ///
-legend(subtitle("Cumulative Public Funding", size(medlarge)) order(3 "Venues Opened/Approved" 1 "Venues Forecast") ring(0) pos(11) cols(1) size(medlarge) symxsize(10) bmargin(t=5)) ///
-text(52.5 2028.3 "Committed (so far) through 2032 →", place(w) size(medium)) ///
-text(101 2030  "Projected through 2039 →", place(w) size(medium)) ///
-text(41.5 2005.5  "Committed through 2010 →", place(w) size(medium)) ///
-text(25 1990  "Committed through 1980" "                     ↓", place(w) size(medium)) ///
-text(15 1970  "Committed through 1960" "                     ↓", place(w) size(medium)) 
-*/
-
-/*Cited in text for projecting costs by decade*/
+/*CITED in text: CITED in text: Projected venue costs for 2020s and 2030s*/
 tabstat  vensforecast pubforecast605 if pubforecast605!=., stats(sum) format(%9.0fc)
 /*
    Stats |  vensfo~r  pubf~605
@@ -171,5 +157,3 @@ tabstat vensforecast pubforecast860  if pubforecast860!=., stats(sum) format(%9.
 
 Total: 68 venues ==> 49 Billion
 */
-
-save "$data\cumulative_cost.dta", replace
