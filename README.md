@@ -81,7 +81,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.5|02-tab5.5.do|venuesdb_mls.dta|Stata viewer|###|
 
 ### Other Information
-| Information| | Do-file | Line #|
+| Information| Do-file | Line #|
 |----|----|----|
 |Venues to be replaced| xyz.do |###|
 
