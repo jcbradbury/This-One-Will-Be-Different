@@ -86,8 +86,12 @@ All data files provided in .csv format, which can be read by other data analysis
 
 
 ## Chapter 6
+
 ### Figures
 ### Tables
+### Other Information
+
+Much of the analysis described in this chapter is presented in [Bradbury (2024]( https://doi.org/10.1111/ecin.13231). The complete replication package is avaiable [here](https://doi.org/10.1111/ecin.13231)
 
 ## Chapter 7
 ### Figures
