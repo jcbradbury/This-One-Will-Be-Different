@@ -66,7 +66,7 @@ All data files provided in .csv format, which can be read by other data analysis
 | Do-file|  Function| Output |
 |----|----|----|
 | 00-setup.do|  Sets up Stata to run do-files| |
-| 01-venuesdb_build.do|Contructs base dataset of venue construction costs| venuesdb_base.dta|
+| 01-venuesdb_build.do|Contructs primary base dataset of venue construction costs used in the analysis| venuesdb_base.dta|
 | 01-cpi2024.do| Converts current dollar venue construction costs to real 2024 dollars| |
 | 01-cpi2024_reno.do|  Converts current dollar venue renovations costs to real 2024 dollars| |
 
