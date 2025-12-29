@@ -109,7 +109,10 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 19
 
-# Data License
+## Licenses and Permissions
+
+All data included in this repository were collected by me (J.C. Bradbury) from public sources. 
+I provide these data for replication purposes. To the best of my knowledge, this redistribution is permitted. 
 
 Unless otherwise noted, the datasets in `data/` are licensed
 under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
