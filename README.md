@@ -82,7 +82,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ### Other Information
 | Information| | Do-file | Line #|
-|----|----|
+|----|----|----|
 |Venues to be replaced| xyz.do |###|
 
 
