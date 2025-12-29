@@ -35,5 +35,5 @@ use "$data\venuesdb_raw2.dta", clear // adds new KC Chiefs  stadium and Columbus
 
 do "$dofiles\01-cpi2024_convert.do"
 
-
-save "$data\venuesdb_base.dta", replace
+/*Save processed file*/
+*save "$data\venuesdb_base.dta", replace
