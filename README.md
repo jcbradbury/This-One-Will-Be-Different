@@ -8,7 +8,7 @@ This repository contains the data and Stata code associated with
 ***************************************************************
 
 # Overview
-This repository includes datasets and replication code files for generating the figures, tables, and other pertinent information reported in the book. The contents are organized into three folders:
+This repository includes datasets and replication code files for generating the figures, tables, and other pertinent information reported in the book. This repository is designed to be simple and accessible, and thus its contents are organized into three folders:
 
 - `data/` Includes all input and final output data, in order to allow replication and promote further research. The code in the do-files may generate intermediate data files that are used in constructing the tables and figures, which are saved only in the working directory.  All datasets are provided in .dta and .csv formats, and files of the same name except for their format suffix contain identical data. 
 
@@ -16,9 +16,19 @@ This repository includes datasets and replication code files for generating the 
 
 - `figs/` Location for the ouput of figures. The code for output as figures is suppressed by default in the do-files, but it can be turned on by removing the supression characters (/* */) around the "graph export" command line. I provide figures as .pdf files for reference. Figures output using other schemes (I use plotplain) and output formats may look slightly different from the published figures.  
 
+
  # Data
 
  ## Data Availability
+
+All data included in this repository were collected and organized by me (J.C. Bradbury) from public sources. 
+I provide these data for replication purposes. To the best of my knowledge, this redistribution is permitted. 
+
+Unless otherwise noted, the datasets in `data/` are licensed
+under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+
+Original data sources are credited in accompanying documentation and
+remain subject to their original terms.
 
  ## Datasets
 
@@ -36,6 +46,7 @@ This repository includes datasets and replication code files for generating the 
 
 # Replication files
 
+
 ## Instructions for Replicators
 ### Stata users
 1. Download repository folders and their files to the desired location on your computer.
@@ -47,6 +58,15 @@ This repository includes datasets and replication code files for generating the 
 
 ### Non-Stata users
 All data files provided in .csv format, which can be read by other data analysis software. Though I do not provide code for replcating the analysis in alternate formats, general analysis of the data can be conducted using spreadsheet programs (e.g., Excel, Google Sheets). More complex estimates (e.g., difference-in-differences, synthetic control method) may require more advanced software (e.g., R, Python); however, corresponding platform-specific packages are available for implementing the described routines. Do-files include notation (and in some cases saved results) that provides instructions that can be translated to other programs. 
+
+**Code License:** The code in the do-files is governed by the MIT License, which permits users to use, copy, and modify the code for their own use, with the expectation that appropriate attribution will be provided. See the LICENSE file in this repository for explict terms.
+
+## Dataset Construction
+
+|Dataset| Do-file| Notes|
+|----|----|----|
+| venuesdb_base.dta| venuesdb_build.do| Contructs base dataset of venue construction costs|
+
 
 ## Chapter 3
 
@@ -115,16 +135,6 @@ Much of the analysis described in this chapter is based on [Bradbury and Stephen
 
 ## Chapter 19
 
-## Licenses and Permissions
-
-All data included in this repository were collected by me (J.C. Bradbury) from public sources. 
-I provide these data for replication purposes. To the best of my knowledge, this redistribution is permitted. 
-
-Unless otherwise noted, the datasets in `data/` are licensed
-under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
-
-Original data sources are credited in accompanying documentation and
-remain subject to their original terms.
 
 # References
 
