@@ -105,7 +105,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 
 ### Other Information
-| Figures cited in text| Do-file | Line #|
+| Information cited in text| Do-file | Line #|
 |----|----|----|
 |Projected venue costs for 2020s and 2030s|02-fig5.5.do|141|
 |Summary stats for the renovated venues in Table 5.2|02-tab5.2_5.3.do|131|
