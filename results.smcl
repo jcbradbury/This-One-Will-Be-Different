@@ -1,9 +1,9 @@
 {smcl}
-{txt}{sf}{ul off}{.-}
+{com}{sf}{ul off}{txt}{.-}
       name:  {res}<unnamed>
        {txt}log:  {res}C:\Users\jcbra\GitHub\This-One-Will-Be-Different\results.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}30 Dec 2025, 17:33:16
+ {txt}opened on:  {res}30 Dec 2025, 17:42:23
 {txt}
 {com}. 
 . do "$dofiles\02-fig3.1.do"
@@ -222,11 +222,6 @@
 {com}. 
 . save "$outdat\lifespan_collapse.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\lifespan_collapse.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\lifespan_collapse.dta{rm}
 saved
@@ -2452,11 +2447,6 @@ saved
 {com}. 
 . save "$outdat\ven_lifespans.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\ven_lifespans.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\ven_lifespans.dta{rm}
 saved
@@ -3467,11 +3457,6 @@ saved
 {com}. 
 . save "$outdat\mls_stadiums.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\mls_stadiums.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\mls_stadiums.dta{rm}
 saved
@@ -3582,11 +3567,6 @@ saved
 . /*save the curated file that adds MLS venues to venues database */
 . save "$outdat\venuesdb_mls.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\venuesdb_mls.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\venuesdb_mls.dta{rm}
 saved
@@ -3784,11 +3764,6 @@ saved
 {com}. 
 . save "$outdat\mls_median_collapse.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\mls_median_collapse.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\mls_median_collapse.dta{rm}
 saved
@@ -3919,11 +3894,6 @@ saved
 {com}. 
 . save "$outdat\mls_lifespans.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\mls_lifespans.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\mls_lifespans.dta{rm}
 saved
@@ -4880,12 +4850,12 @@ Hard Rock Stadium&Miami Dolphins&&1987&&2017&\$448\\
 Target Center&Minnesota Timberwolves&&1990&&2017&\$186\\
 Delta Center$^\dagger$&Utah Jazz \& Mammoth&&1991&&2017&\$160\\
 Ford Field&Detroit Lions&&2002&&2017&\$128\\
-Bell Centre&Montreal Canadiens&&1996&&2018&\$95\\
 Bank of America Stadium$^\dagger$&Carolina Panthers&&1996&&2018&\$221\\
+Bell Centre&Montreal Canadiens&&1996&&2018&\$95\\
 Raymond James Stadium&Tampa Bay Buccaneers&&1998&&2018&\$200\\
 State Farm Arena&Atlanta Hawks&&1999&&2018&\$250\\
-Rocket Arena&Cleveland Cavaliers&&1994&&2019&\$228\\
 Enterprise Center&St. Louis Blues&&1994&&2019&\$184\\
+Rocket Arena&Cleveland Cavaliers&&1994&&2019&\$228\\
 TD Garden&Boston Celtics \& Bruins&&1995&&2019&\$123\\
 Capital One Arena$^\dagger$&Washington Wizards \& Capitals&&1997&&2019&\$86\\
 M\&T Bank Stadium$^\dagger$&Baltimore Ravens&&1998&&2019&\$148\\
@@ -4932,13 +4902,13 @@ Rogers Centre&Toronto Blue Jays&&1989&&2024&\$296\\
  20. {c |} {res}           Delta Center$^\dagger$             Utah Jazz \& Mammoth   1991       2017        160 {txt}{c |}
  21. {c |} {res}                       Ford Field                    Detroit Lions   2002       2017        128 {txt}{c |}
      {c LT}{hline 35}{c -}{hline 32}{c -}{hline 6}{c -}{hline 10}{c -}{hline 10}{c RT}
- 22. {c |} {res}                      Bell Centre               Montreal Canadiens   1996       2018         95 {txt}{c |}
- 23. {c |} {res}Bank of America Stadium$^\dagger$                Carolina Panthers   1996       2018        221 {txt}{c |}
+ 22. {c |} {res}Bank of America Stadium$^\dagger$                Carolina Panthers   1996       2018        221 {txt}{c |}
+ 23. {c |} {res}                      Bell Centre               Montreal Canadiens   1996       2018         95 {txt}{c |}
  24. {c |} {res}            Raymond James Stadium             Tampa Bay Buccaneers   1998       2018        200 {txt}{c |}
  25. {c |} {res}                 State Farm Arena                    Atlanta Hawks   1999       2018        250 {txt}{c |}
- 26. {c |} {res}                     Rocket Arena              Cleveland Cavaliers   1994       2019        228 {txt}{c |}
+ 26. {c |} {res}                Enterprise Center                  St. Louis Blues   1994       2019        184 {txt}{c |}
      {c LT}{hline 35}{c -}{hline 32}{c -}{hline 6}{c -}{hline 10}{c -}{hline 10}{c RT}
- 27. {c |} {res}                Enterprise Center                  St. Louis Blues   1994       2019        184 {txt}{c |}
+ 27. {c |} {res}                     Rocket Arena              Cleveland Cavaliers   1994       2019        228 {txt}{c |}
  28. {c |} {res}                        TD Garden         Boston Celtics \& Bruins   1995       2019        123 {txt}{c |}
  29. {c |} {res}      Capital One Arena$^\dagger$   Washington Wizards \& Capitals   1997       2019         86 {txt}{c |}
  30. {c |} {res}      M\&T Bank Stadium$^\dagger$                 Baltimore Ravens   1998       2019        148 {txt}{c |}
@@ -5281,11 +5251,6 @@ sumpubpct100 {c |}{res}          6          42           0         42         42
 . 
 . save "$outdat\ven_cost_current.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\ven_cost_current.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\ven_cost_current.dta{rm}
 saved
@@ -5385,11 +5350,6 @@ saved
 {com}. 
 . save "$outdat\attend_atl.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\attend_atl.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\attend_atl.dta{rm}
 saved
