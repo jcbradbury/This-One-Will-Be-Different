@@ -14,7 +14,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.6a, 5.6b, 5.6c, 5.6d,
 Tables (Stata viewer): 
-Data (data\):
+Data (outdat\): ven_lifespans.dta
 Other: 
 CITED in text: Venues hosting teams 30+ years by the end of 2020s
 CITED in text: Venues hosting teams 30+ years and last renovatin 15+ years by the end of 2020s
@@ -57,6 +57,12 @@ g renovationspan_2025 = 2025-lastrenovation+1
 g renovationspan_2029 = 2029-lastrenovation+1
 replace renovationspan_2029 = 2029-future_renovation_complete+1 if future_renovation_complete!=.
 
+save "$outdat\ven_lifespans.dta", replace
+
+/* Data output into the data\ folder
+save "$data\ven_lifespans.dta", replace
+export delimited "$data\ven_lifespans.csv", replace
+*/
 
 /* Hosting Lifespan Graphs */
 /*MLB*/
@@ -96,7 +102,7 @@ graph export "$tif\Fig5.6c.tif", as(tif) width(3000)  replace
 */
 
 /*NHL*/
-graph dot lifespan2025 renovationspan_2025 planned0 announced0 replacement_special0 if current_nhl==1, over(team_nhl, sort(1) descending label(labsize(*1.05) labgap(medsmall)) ) linetype(line) lines(lp(solid) lw(vthin) lc(gs12)) ///
+graph dot lifespan2025 renovationspan_2025 planned0 announced0 replacement0 if current_nhl==1, over(team_nhl, sort(1) descending label(labsize(*1.05) labgap(medsmall)) ) linetype(line) lines(lp(solid) lw(vthin) lc(gs12)) ///
 ytitle(Years, size(medsmall)) name(nhl, replace)  /// 
 marker(1, msymbol(O)) marker(2, msymbol(S)) marker(3, msymbol(Sh)) marker(4, msymbol(Th)) marker(5, msymbol(D)) ///
 yline(28, lp(dash)) ylabel(0(10)20 28 "28  " 30 "  30" 40(10)110,grid gmax ) /// Median is 28.5, but set it at 28 bc 50% obs at least 28 years old and eases interpretation

@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\):
 Tables (Stata viewer): Table A1
-Data (data\):
+Data (outdat\):
 Other: 
 */
 
@@ -73,11 +73,11 @@ replace pcdol="[\\$0]" if venuename_tex=="Climate Pledge Arena*"
 replace pc2024dol="[\\$0]" if venuename_tex=="Climate Pledge Arena*"
 replace pubpct100stpct="[0\%]" if venuename_tex=="Climate Pledge Arena*"
 
-
 replace tcdol="TBD" if venuename_tex=="New Fire Stadium"
 
 g lastyearst  = string(lastyear,"%9.0f")
 replace lastyearst ="[2030]" if venuename_tex=="Empower Field at Mile High" /*Announced tentative replacement date*/
+replace lastyearst="" if lastyear==.
 
 replace tc2024dol="" if year>2024
 replace pc2024dol="" if year>2024
@@ -88,9 +88,9 @@ replace lifespan2025 = 2026-year if lifespan2025==.
 replace lifespan2025 = 2026-year if lastyear>2025 &lastyear!=. /*Keeps age for future closures in 2025 terms*/
 replace lifespan2025 = . if lifespan2025<1
 
-
 so year venuename_tex
 
+/*Table A.1*/
 list venuename_tex_bold teams_tex yearst lastyear lifespan2025 totalcost publiccost totalcost2024 publiccost2024 pubpct100
 
 listtab venuename_tex_bold teams_tex yearst lastyearst lifespan2025 tcdol pcdol tc2024dol pc2024dol pubpct100stpct , type rstyle(tabular)

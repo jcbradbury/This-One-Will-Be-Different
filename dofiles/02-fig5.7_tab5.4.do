@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.7
 Tables (Stata viewer): 5.4
-Data (data\):
+Data (outdat\):
 Other: 
 */
 
@@ -51,8 +51,7 @@ graph export "$tif\Fig5.7.tif", as(tif) width(3000)  replace
 
 
 /*Table 5.4*/
-*Means
-list nfl_rev  mlb_rev nba_rev nhl_rev mls_rev if year==2024
+list nfl_*  mlb_* nba_* nhl_* mls_* if year==2024
 /*Min and Max in table tabulated from Forbes websites (various years):
 NFL: https://www.forbes.com/nfl-valuations/list/;#tab:overall
 MLB: https://www.forbes.com/mlb-valuations/list/;#tab:overall

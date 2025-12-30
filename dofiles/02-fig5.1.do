@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.1
 Tables (Stata viewer): 
-Data (data\):
+Data (outdat\): lifespan_collapse.dta
 Other: 
 */
 
@@ -62,13 +62,23 @@ by decade: egen maxlifesp = max(lifespan2029)
 
 sum lifespan2029 if decade<2000, detail
 
+collapse  medlifesp low25lifesp hi75lifesp low5lifesp hi95lifesp minlifesp maxlifesp, by(decade)
+
 g x35 = 35
 
+save "$outdat\lifespan_collapse.dta", replace
+
+/* Data output into the data\ folder
+save "$data\lifespan_collapse.dta", replace
+export delimited "$data\lifespan_collapse.csv", replace
+*/
+
+/*Figure 5.1 */
 twoway rcap minlifesp maxlifesp decade if decade<2000, lc(black) lw(thin) ///
 || rbar low25lifesp hi75lifesp decade if decade<2000, fcolor(gs6) lcolor(gs6) barw(3) ///
 || rcap medlifesp medlifesp decade if decade<2000, lc(white) msize(4) ///
 || connect medlifesp decade if decade<2000, lc(black) lp(vshortdash) ms(o) mc(black) lw(thin) /// || line x35 decade if decade<2000, lc(black) lp(vshortdash) ///
-|| line x35 decade if year==1950, lc(gs7) lp(dash) /// || scatter lifespan2029 decade if decade<2000, ms(oh) mc(black) ///
+|| line x35 decade if decade==1950, lc(gs7) lp(dash) /// || scatter lifespan2029 decade if decade<2000, ms(oh) mc(black) ///
 ylabel(0(10)120, gmin gmax angle(horizonta) labsize(medium)) ///
 xlabel(1900 "1900s" 1910 "1910s" 1920 "1920s" 1930 "1930s" 1940 "1940s" 1950 "1950s" 1960 "1960s" 1970 "1970s" 1980 "1980s" 1990 "1990s", labsize(medium) ) /// 
 yline(35, lp(dash) )  ///
@@ -77,7 +87,6 @@ xtitle(Decade Opened, size(medium)) ///
 ytitle(Years Hosting Major League Team, size(medlarge)) ///
 text(84 1952 "(Hosting status through 2029)", placement(e)) ///
 name(ls_minmax, replace) 
-
 /*
 graph export "$figs\Fig5.1.pdf", as(pdf) replace
 graph export "$tif\Fig5.1.tif", as(tif) width(3000)  replace

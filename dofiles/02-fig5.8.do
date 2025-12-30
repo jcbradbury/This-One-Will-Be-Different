@@ -19,7 +19,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.8
 Tables (Stata viewer): 
-Data (data\): mls_stadiums.dta, venuesdb_mls.dta
+Data (outdat\): mls_stadiums.dta, venuesdb_mls.dta
 Other: 
 */
 
@@ -40,38 +40,17 @@ do "$dofiles\01-cpi2024_convert.do"
 
 so venuename_tex year
 
+save "$outdat\mls_stadiums.dta", replace
+
+/* Data output into the data\ folder
 save "$data\mls_stadiums.dta", replace
+export delimited "$data\mls_stadiums.csv", replace
+*/
 
 use "$data\venuesdb_base.dta", clear
 
 /*append MLS data*/
 append using "$data\mls_stadiums.dta"
-
-/*
-replace tc2024st= string(totalcost2024,"%9.0fc")
-replace tc2024st= string(totalcost2024,"%9.2fc") if totalcost2024<1 & totalcost2024>0
-
-replace tcst= string(totalcost,"%9.0fc")
-replace tcst= string(totalcost,"%9.2fc") if totalcost<1 & totalcost>0
-
-replace pc2024st= string(publiccost2024,"%9.0fc")
-replace pc2024st= string(publiccost2024,"%9.2fc") if publiccost2024<1 & publiccost2024>0 
-
-replace pcst= string(publiccost,"%9.0fc")
-replace pcst= string(publiccost,"%9.2fc") if publiccost<1 & publiccost>0
-
-replace tc2024dol = "\\$" +tc2024st
-replace pc2024dol = "\\$" +pc2024st
-replace tcdol = "\\$" +tcst
-replace pcdol = "\\$" +pcst
-replace pubpct100st = string(pubpct100,"%9.0f")
-replace pubpct100stpct = pubpct100st+"\%"
-replace tcdol="" if totalcost ==.
-replace pcdol ="" if publiccost ==.
-replace tc2024dol ="" if totalcost2024 ==.
-replace pc2024dol ="" if publiccost2024 ==.
-replace pubpct100stpct ="" if pubpct100 ==.
-*/
 
 replace teams_tex = "New England Patriots \& Revolution" if venuename_tex=="Gillette Stadium"
 replace teams_tex = "Carolina Panthers \& Charlotte FC" if venuename_tex=="Bank of America Stadium"
@@ -83,7 +62,6 @@ replace teams_tex = "New York Yankees \& NYFC" if venuename_tex=="Yankee Stadium
 replace league = "NFL/MLS" if venuename_tex=="Gillette Stadium"|venuename_tex=="Bank of America Stadium"
 replace league = "NFL/MLS" if venuename_tex=="Lumen Field"|venuename_tex=="Mercedes-Benz Stadium"|venuename_tex=="Soldier Field"
 replace league = "MLB/MLS" if venuename_tex=="Yankee Stadium" &year==2009
-
 
 so year venuename_tex
 
@@ -110,7 +88,12 @@ replace  lastrenovation = 2011 if team_mls=="Vancouver Whitecaps"
 replace renovation_amount = 516 if team_mls=="Vancouver Whitecaps" /* All public. Converted for exchnage rate.*/
 
 /*save the curated file that adds MLS venues to venues database */
+save "$outdat\venuesdb_mls.dta", replace
+
+/* Data output into the data\ folder
 save "$data\venuesdb_mls.dta", replace
+export delimited "$data\venuesdb_mls.csv", replace
+*/
 
 /*Count MLS stadium construction by year*/
 keep if mls==1 

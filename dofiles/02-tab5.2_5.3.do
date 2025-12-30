@@ -18,7 +18,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\):
 Tables (Stata viewer): 5.2, 5.3
-Data (data\):
+Data (outdat\):
 Other:
 CITED in text: Summary stats for the renovated venues in Table 5.2
 CITED in text: Summary stats for future renovated venues in Table 5.3

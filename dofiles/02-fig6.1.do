@@ -8,16 +8,17 @@
 ********************************************************************** 
 
 Data Input (data\): 
-attend_lg.dta
-Original from Lahman Baseball Database: https://sabr.org/lahman-database/ (teams.csv file)
-More recent data updated from Baseball-Reference: https://www.baseball-reference.com/teams/ATL/attend.shtml
+1901-2024 data from Lahman Baseball Database: https://sabr.org/lahman-database/ (Teams.csv file)
+The SABR Lahman Baseball Database 1871-2024, Release Date: Oct 30, 2025
+
+2025 attendance data from Baseball-Reference: https://www.baseball-reference.com/teams/ATL/attend.shtml
 
 Intermediate Output (working directory):
 
 Final Output:
 Figures(figs\): 6.1
 Tables (Stata viewer): 
-Data (data\): 
+Data (outdat\): attend_atl.dta
 Other: 
 */
 
@@ -32,8 +33,36 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\attend_lg.dta", clear
+/*Import the raw Teams.csv file*/
+import delimited "$data\Teams.csv", clear
 
+g x1915 = 1915
+g x1953 = 1953
+g x1966 = 1966
+g x1997 = 1997
+g x2017 = 2017
+
+keep if franchid=="ATL"
+drop if year<1901
+
+insobs 1
+replace yearid = 2025 if year==.
+
+replace attendance = 2903167	if yearid==2025
+replace ghome = 81 if yearid ==2025
+replace franchid ="ATL" if year ==2025
+
+g attg = attendance/ghome
+format attg %9.0fc
+
+save "$outdat\attend_atl.dta", replace
+
+/* Data output into the data\ folder
+save "$data\attend_atl.dta", replace
+export delimited "$data\attend_atl.csv", replace
+*/
+
+/*Fig 6.1*/
 twoway bar attg year if franchid=="ATL" ,  bc(gs10)  ///
 || dropline attg x1915 if franchid=="ATL" ,  lpattern(longdash) mcolor(none) lcolor(black) lw(vthin) ,  ///
 || dropline attg x1953 if franchid=="ATL" ,  lpattern(longdash) mcolor(none) lcolor(black) lw(vthin),  ///
@@ -51,8 +80,7 @@ xtitle(Season) ///
 xlabel(1900(10)2020 2025 "   2025") ///
 legend(order(1 "Attendance" 2 "New Stadium")  bmargin(l=20 b=50) pos(9) ring(0) rows(2) size(small) symxsize(10) region(lcolor(black)) ) ///
 plotregion(margin(t=6 b=1 )) ///
-name(atl_attend2025, replace) scheme(plotplain)
-
+name(atl_attend2025a, replace) scheme(plotplain)
 /*
 graph export "$figs\Fig6.1.pdf", as(pdf) replace
 graph export "$tif\Fig6.1.tif", as(tif) width(3000)  replace

@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\):
 Tables (Stata viewer): 5.5
-Data (data\):
+Data (outdat\): ven_cost_current.dta
 Other: 
 */
 
@@ -83,5 +83,11 @@ sum sumpubpct100, format
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
 sumpubpct100 |          6          42           0         42         42
+*/
 
+save "$outdat\ven_cost_current.dta", replace
+
+/* Data output into the data\ folder
+save "$data\ven_cost_current.dta", replace
+export delimited "$data\ven_cost_current.csv", replace
 */

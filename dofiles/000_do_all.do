@@ -14,7 +14,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\):
 Tables (Stata viewer): 
-Data (data\):
+Data (outdat\):
 Other: 
 */
 
@@ -46,3 +46,6 @@ do "$dofiles\02-fig5.10.do"
 do "$dofiles\02-tab5.2_5.3.do"
 do "$dofiles\02-tab5.2_5.3.do"
 do "$dofiles\02-tab5.5.do"
+
+do "$dofiles\02-fig6.1.do"
+do "$dofiles\02-fig6.5.do"

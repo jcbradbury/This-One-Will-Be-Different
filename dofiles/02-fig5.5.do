@@ -16,7 +16,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.5
 Tables (Stata viewer): 
-Data (outdat\): forecast_cost.dta
+Data (outdat\): forecast_cost.dta ; cumulative_cost.dta
 Other:  
 CITED in text: Projected venue costs for 2020s and 2030s
 */

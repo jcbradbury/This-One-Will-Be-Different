@@ -61,7 +61,3 @@ name(counts_3eras, replace) scheme(plotplain)
 graph export "$figs\Fig3.1.pdf", as(pdf) replace
 graph export "$tif\Fig3.1.tif", as(tif) width(3000)  replace
 */
-
-
-
-

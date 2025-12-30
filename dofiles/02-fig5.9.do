@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.9
 Tables (Stata viewer): 
-Data (data\):
+Data (outdat\): mls_median_collapse.dta
 Other: 
 CITED in text: Summary stats of MLS stadium costs
 */
@@ -36,9 +36,15 @@ use "$data\venuesdb_mls.dta", clear
 keep if year>1995&mls==1
 keep if league=="MLS"|league=="MLS/CFL"
 
-/*CITED in text: Summary stats of MLS stadium costs*/
-sum publiccost2024 totalcost2024 pubpct100 , detail
-tabstat publiccost2024 totalcost2024 pubpct100, stats(sum)
+/*CITED in text: Median and cumulative MLS stadium costs*/
+tabstat publiccost2024 totalcost2024 pubpct100, stats(median, sum) format
+/*
+   Stats |  pub~2024  tot~2024  pubp~100
+---------+------------------------------
+     p50 |        67       278        40
+     Sum |     2,790     7,647     1,097
+----------------------------------------
+*/
 
 /*Add decades for tracking median public share*/
 *replace decade =1990 if year>1989&year<2000 // only Crew Stadium opened in 1990s (0%)
@@ -55,12 +61,19 @@ replace decade=2030 in 31
 so decade
 by decade: egen medianpubpct = median(pubpct100)
 
-
 collapse  (sum) stadium (median) pubpct100 totalcost2024 publiccost2024 medianpubpct decade, by(year)
 
 replace decade=2030  if decade==2015
 replace medianpubpct =26.5 if decade==2030
 
+save "$outdat\mls_median_collapse.dta", replace
+
+/* Data output into the data\ folder
+save "$data\mls_median_collapse.dta", replace
+export delimited  "$data\mls_median_collapse.csv", replace
+*/
+
+/*Adjust bar spacing on graph*/
 g decade_pl10= decade+10
 g decade_pl5= decade+5
 
