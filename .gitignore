@@ -1,2 +1,9 @@
-ven_median_collapse*.dta
+#Stata temporary files
+*_temp.dta
+*.smcl
+
+# Generated output datasets
+outdat/
+
+
 organization.xlsx
