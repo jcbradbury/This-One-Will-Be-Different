@@ -98,10 +98,10 @@ All data files provided in .csv format, which can be read by other data analysis
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |5.1|02-fig5.3_5.4_tab5.1.do|286|venuesdb_base.dta|ven_median_collapse.dta|
-|5.2|02-tab5.2_5.3.do|98|venuesdb_base.dta||
-|5.3|02-tab5.2_5.3.do|123|venuesdb_base.dta||
-|5.4|02-fig5.7_tab5.4.do|54|leagues_revenue.dta||
-|5.5|02-tab5.5.do|56|venuesdb_mls.dta|ven_cost_current.dta|
+|5.2|02-tab5.2_5.3.do|95|venuesdb_base.dta|none|
+|5.3|02-tab5.2_5.3.do|120|venuesdb_base.dta|none|
+|5.4|02-fig5.7_tab5.4.do|53|leagues_revenue.dta|none|
+|5.5|02-tab5.5.do|56|venuesdb_all.dta|ven_cost_current.dta|
 
 
 ### Other Information
