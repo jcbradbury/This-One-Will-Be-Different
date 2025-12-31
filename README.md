@@ -76,7 +76,7 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Figures
 | Figure | Do-file | Line # | Data Input| Data Output|
 |----|----|----|----|----|
-|3.1|02-fig3.1.do|46|venuesdb_base.dta||
+|3.1|02-fig3.1.do|53|venuesdb_base.dta|venue_count.dta|
 
 ## Chapter 5
 
