@@ -3,7 +3,7 @@
       name:  {res}<unnamed>
        {txt}log:  {res}C:\Users\jcbra\GitHub\This-One-Will-Be-Different\results.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}31 Dec 2025, 15:32:38
+ {txt}opened on:  {res}31 Dec 2025, 15:41:03
 {txt}
 {com}. 
 . do "$dofiles\02-fig3.1.do"
@@ -70,11 +70,6 @@
 {com}. 
 . save "$outdat\venue_count.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\venue_count.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\venue_count.dta{rm}
 saved
@@ -2103,11 +2098,6 @@ Group variable: decade (Decade)
 {txt}
 {com}. save forecast_cost_temp, replace
 {txt}{p 0 4 2}
-(file {bf}
-forecast_cost_temp.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 forecast_cost_temp.dta{rm}
 saved
@@ -2735,11 +2725,6 @@ saved
 {com}. 
 . save "$outdat\venue_count_mls.dta", replace
 {txt}{p 0 4 2}
-(file {bf}
-C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\venue_count_mls.dta{rm}
-not found)
-{p_end}
-{p 0 4 2}
 file {bf}
 C:\Users\jcbra\GitHub\This-One-Will-Be-Different\outdat\venue_count_mls.dta{rm}
 saved
@@ -3344,8 +3329,8 @@ Hard Rock Stadium&Miami Dolphins&&1987&&2017&\$448\\
 Target Center&Minnesota Timberwolves&&1990&&2017&\$186\\
 Delta Center$^\dagger$&Utah Jazz \& Mammoth&&1991&&2017&\$160\\
 Ford Field&Detroit Lions&&2002&&2017&\$128\\
-Bell Centre&Montreal Canadiens&&1996&&2018&\$95\\
 Bank of America Stadium$^\dagger$&Carolina Panthers&&1996&&2018&\$221\\
+Bell Centre&Montreal Canadiens&&1996&&2018&\$95\\
 Raymond James Stadium&Tampa Bay Buccaneers&&1998&&2018&\$200\\
 State Farm Arena&Atlanta Hawks&&1999&&2018&\$250\\
 Enterprise Center&St. Louis Blues&&1994&&2019&\$184\\
@@ -3396,8 +3381,8 @@ Rogers Centre&Toronto Blue Jays&&1989&&2024&\$296\\
  20. {c |} {res}           Delta Center$^\dagger$             Utah Jazz \& Mammoth   1991       2017        160 {txt}{c |}
  21. {c |} {res}                       Ford Field                    Detroit Lions   2002       2017        128 {txt}{c |}
      {c LT}{hline 35}{c -}{hline 32}{c -}{hline 6}{c -}{hline 10}{c -}{hline 10}{c RT}
- 22. {c |} {res}                      Bell Centre               Montreal Canadiens   1996       2018         95 {txt}{c |}
- 23. {c |} {res}Bank of America Stadium$^\dagger$                Carolina Panthers   1996       2018        221 {txt}{c |}
+ 22. {c |} {res}Bank of America Stadium$^\dagger$                Carolina Panthers   1996       2018        221 {txt}{c |}
+ 23. {c |} {res}                      Bell Centre               Montreal Canadiens   1996       2018         95 {txt}{c |}
  24. {c |} {res}            Raymond James Stadium             Tampa Bay Buccaneers   1998       2018        200 {txt}{c |}
  25. {c |} {res}                 State Farm Arena                    Atlanta Hawks   1999       2018        250 {txt}{c |}
  26. {c |} {res}                Enterprise Center                  St. Louis Blues   1994       2019        184 {txt}{c |}
@@ -3782,8 +3767,8 @@ Hard Rock Stadium&Miami Dolphins&&1987&&2017&\$448\\
 Target Center&Minnesota Timberwolves&&1990&&2017&\$186\\
 Delta Center$^\dagger$&Utah Jazz \& Mammoth&&1991&&2017&\$160\\
 Ford Field&Detroit Lions&&2002&&2017&\$128\\
-Bank of America Stadium$^\dagger$&Carolina Panthers&&1996&&2018&\$221\\
 Bell Centre&Montreal Canadiens&&1996&&2018&\$95\\
+Bank of America Stadium$^\dagger$&Carolina Panthers&&1996&&2018&\$221\\
 Raymond James Stadium&Tampa Bay Buccaneers&&1998&&2018&\$200\\
 State Farm Arena&Atlanta Hawks&&1999&&2018&\$250\\
 Enterprise Center&St. Louis Blues&&1994&&2019&\$184\\
@@ -3834,8 +3819,8 @@ Rogers Centre&Toronto Blue Jays&&1989&&2024&\$296\\
  20. {c |} {res}           Delta Center$^\dagger$             Utah Jazz \& Mammoth   1991       2017        160 {txt}{c |}
  21. {c |} {res}                       Ford Field                    Detroit Lions   2002       2017        128 {txt}{c |}
      {c LT}{hline 35}{c -}{hline 32}{c -}{hline 6}{c -}{hline 10}{c -}{hline 10}{c RT}
- 22. {c |} {res}Bank of America Stadium$^\dagger$                Carolina Panthers   1996       2018        221 {txt}{c |}
- 23. {c |} {res}                      Bell Centre               Montreal Canadiens   1996       2018         95 {txt}{c |}
+ 22. {c |} {res}                      Bell Centre               Montreal Canadiens   1996       2018         95 {txt}{c |}
+ 23. {c |} {res}Bank of America Stadium$^\dagger$                Carolina Panthers   1996       2018        221 {txt}{c |}
  24. {c |} {res}            Raymond James Stadium             Tampa Bay Buccaneers   1998       2018        200 {txt}{c |}
  25. {c |} {res}                 State Farm Arena                    Atlanta Hawks   1999       2018        250 {txt}{c |}
  26. {c |} {res}                Enterprise Center                  St. Louis Blues   1994       2019        184 {txt}{c |}
