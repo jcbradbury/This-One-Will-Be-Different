@@ -3,7 +3,8 @@
 *.smcl
 
 # Generated output datasets
-outdat/
+outdat/ 
+
 
 
 organization.xlsx
