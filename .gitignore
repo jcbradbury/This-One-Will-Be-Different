@@ -1,10 +1,7 @@
-#Stata temporary files
+# Generated output
+outdat/
+
+# Temporary Stata files
 *_temp.dta
+*.log
 *.smcl
-
-# Generated output datasets
-outdat/ 
-
-
-
-organization.xlsx
