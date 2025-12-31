@@ -107,9 +107,9 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Other Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
-|Projected venue costs for 2020s and 2030s|02-fig5.5.do|141|
-|Summary stats for the renovated venues in Table 5.2|02-tab5.2_5.3.do|131|
-|Summary stats for future renovated venues in Table 5.3|02-tab5.2_5.3.do|142|
+|Projected venue costs for 2020s and 2030s|02-fig5.5.do|137|
+|Summary stats for the renovated venues in Table 5.2|02-tab5.2_5.3.do|128|
+|Summary stats for future renovated venues in Table 5.3|02-tab5.2_5.3.do|139|
 |Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|116|
 |Venues hosting teams 30+ years and last renovation 15+ years by the end of 2020s|02-fig5.6.do|127|
 |Median and cumulative MLS stadium costs|02-fig5.9.do|39|
