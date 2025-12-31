@@ -83,16 +83,16 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|5.1|02-fig5.1.do|76|venuesdb_base.dta|lifespan_collapse.dta|	
-|5.2|02-fig5.2.do|183|venuesdb_base.dta|venue_forecast.dta|	
-|5.3|02-fig5.3_5.4_tab5.1.do|226|venuesdb_base.dta|ven_median_collapse.dta|	
-|5.4|02-fig5.3_5.4_tab5.1.do|259|venuesdb_base.dta|ven_median_collapse.dta|	
-|5.5|02-fig5.5.do|112|venue_forecast.dta; venuesdb_base.dta|forecast_cost.dta; cumulative_cost.dta|	
-|5.6|02-fig5.6.do|67|venuesdb_base.dta|ven_lifespans.dta|	
-|5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta||	
-|5.8|02-fig5.8.do|121|mls_stadiums_only.dta; venuesdb_base.dta|mls_stadiums.dta; venuesdb_mls.dta|	
-|5.9|02-fig5.9.do|83|venuesdb_mls.dta|mls_median_collapse.dta|	
-|5.10 |02-fig5.10.do|58|venuesdb_mls.dta|mls_lifespans.dta|	
+|5.1|02-fig5.1.do|76|venuesdb_base.dta|lifespan_collapse.dta|
+|5.2|02-fig5.2.do|189|venuesdb_base.dta|venue_forecast.dta|
+|5.3|02-fig5.3_5.4_tab5.1.do|226|venuesdb_base.dta|ven_median_collapse.dta|
+|5.4|02-fig5.3_5.4_tab5.1.do|259|venuesdb_base.dta|ven_median_collapse.dta|
+|5.5|02-fig5.5.do|108|venue_forecast.dta; venuesdb_base.dta|cumulative_cost.dta|
+|5.6|02-fig5.6.do|67|venuesdb_base.dta|ven_lifespans.dta|
+|5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta|none|
+|5.8|02-fig5.8.do|121|venuesdb_all.dta|venue_count_mls.dta|
+|5.9|02-fig5.9.do|63|venuesdb_all.dta|mls_median_collapse.dta|
+|5.10 |02-fig5.10.do|58|venuesdb_all.dta|mls_lifespans.dta|
 
 ### Tables
 | Table | Do-file | Line #| Data Input | Data Output| 
