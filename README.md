@@ -143,6 +143,12 @@ Much of the analysis described in this chapter is based on [Bradbury and Stephen
 
 ## Chapter 19
 
+## Appendix A
+
+### Table
+| Table | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|A.1|02-tabA.1.do|93|venuesdb_mls.dta||
 
 # References
 
