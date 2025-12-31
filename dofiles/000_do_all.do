@@ -49,3 +49,6 @@ do "$dofiles\02-tab5.5.do"
 
 do "$dofiles\02-fig6.1.do"
 do "$dofiles\02-fig6.5.do"
+
+do "$dofiles\02-tabA.1.do"
+

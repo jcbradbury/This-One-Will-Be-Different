@@ -287,4 +287,4 @@ g blank = ""
 *Tabular outut for tex
 listtab decadelabel era  blank arena tc2024dola pc2024dola pubpct100stpcta_tex blank stadium tc2024dols pc2024dols pubpct100stpcts_tex blank venue tc2024dol pc2024dol pubpct100stpct_tex if decade<2030, type rstyle(tabular)
 *List output (make screen viewer wide)
-list decadelabel era  arena tc2024dola pc2024dola pubpct100stpcta_tex blank stadium tc2024dols pc2024dols pubpct100stpcts_tex blank venue tc2024dol pc2024dol pubpct100stpct_tex if decade<2030
+list decadelabel era  arena tc2024dola pc2024dola pubpct100stpcta_tex stadium tc2024dols pc2024dols pubpct100stpcts_tex  venue tc2024dol pc2024dol pubpct100stpct_tex if decade<2030

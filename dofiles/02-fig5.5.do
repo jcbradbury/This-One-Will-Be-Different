@@ -11,12 +11,12 @@ Data Input (data\):
 venue_forecast.dta
 venuesdb_base.dta
 
-Intermediate Output (working directory):
+Intermediate Output (working directory): forecast_cost_temp
 
 Final Output:
 Figures(figs\): 5.5
 Tables (Stata viewer): 
-Data (outdat\): forecast_cost.dta ; cumulative_cost.dta
+Data (outdat\): cumulative_cost.dta
 Other:  
 CITED in text: Projected venue costs for 2020s and 2030s
 */
@@ -47,12 +47,8 @@ g pubforecast860 =  vensforecast_r*860  if year>2029
 drop if year<2020
 
 so year
-save "$outdat\forecast_cost.dta", replace
+save forecast_cost_temp, replace
 
-/* Data output into the data\ folder
-save "$data\forecast_cost.dta", replace
-export delimited "$data\forecast_cost.csv", replace
-*/
 
 use "$data\venuesdb_base.dta", clear
 
@@ -71,7 +67,7 @@ format cumpc2024bil %9.0fc
 so year
 
 /*Merge observed costs with forecasted costs*/
-merge 1:1 year using "$data\forecast_cost.dta"
+merge 1:1 year using forecast_cost_temp
 so year
 drop _m
 

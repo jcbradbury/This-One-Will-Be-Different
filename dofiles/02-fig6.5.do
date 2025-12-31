@@ -14,7 +14,13 @@ payroll2025.dta
 Annual payroll rank data culled from annual Baseball-Reference  Miscellaneous Team Info pages. For example, the 2025 can be found here: https://www.baseball-reference.com/leagues/majors/2025-misc.shtml.
 
 Note about MLB payroll data: 
-There are many other sources for MLB payroll data, which do not all agree. I chose the Baseball-Reference collection because the data source is credible, and its payroll calculations are available consistently for the longest period. Other databases may calculate payroll burdens differently, but in general the ranks do not differ considerably. I would describe the data as reasonably accurate, but perhaps not precise. 
+There are many other sources for MLB payroll data, which do not all agree. I use the Baseball-Reference collection because the data source is credible, and its payroll calculations are consistently available for the longest period. Other databases may calculate payroll burdens differently, but in general the ranks do not differ considerably. I would describe these data as reasonably accurate, but perhaps not precise. 
+
+The Baseball-Reference ranking is more favorable to the Atlanta Braves than others.
+Source: 2025 Payroll Rank (Link)
+Baseball-Reference: 6 (https://www.baseball-reference.com/leagues/majors/2025-misc.shtml)
+USA Today:	8 (https://www.usatoday.com/story/sports/mlb/2025/10/13/mlb-teams-payroll-2025-highest-lowest/86667489007/)
+Fangraphs: 10 (https://blogs.fangraphs.com/the-2025-payrolls-and-beyond/)
 
 Intermediate Output (working directory):
 

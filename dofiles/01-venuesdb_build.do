@@ -35,12 +35,13 @@ use "$data\venuesdb_raw.dta", clear //  adds new KC Chiefs  stadium and Columbus
 *use "$data\venuesdb_raw_preKC_SJS.dta", clear // update through November
 
 do "$dofiles\01-cpi2024_convert.do"
+do "$dofiles\01-cpi2024_reno.do"
 
 label variable 	venuename	"Venue Name"	// 	Venue name (current/most common)
 label variable 	year	"Year"	// 	Year opened
 label variable 	teams	"Teams"	// 	Teams hosted
 
-/*_tex suffix denotes Tex friendly names for tables*/
+/*_tex suffix denotes LaTeX friendly names for tables*/
 label variable 	venuename_tex	"VenueName_tex"	// 	Tex friendly version for tables
 label variable 	teams_tex	"Teams_tex"	// 	Tex friendly version for tables
 label variable 	team_current_tex	"Team_Current_Tex"	// 	Tex friendly version for tables
@@ -64,15 +65,15 @@ label variable 	current_nfl	"Current NFL"	// 	NFL indicator (current team)
 label variable 	current_nba	"Current NBA"	// 	NBA indicator (current team)
 label variable 	current_nhl	"Current NHL"	// 	NHL indicator (current team)
 label variable 	current	"Current Team"	// 	Current team indicator (all leagues)
-label variable 	label_nfl	label_nfl	// 	Short label (NFL)
 label variable 	label_mlb	label_mlb	// 	Short label (MLB)
+label variable 	label_nfl	label_nfl	// 	Short label (NFL)
 label variable 	label_nba	label_nba	// 	Short label (NBA)
 label variable 	label_nhl	label_nhl	// 	Short label (NHL)
 label variable 	future	"Future"	// 	Future venue indicator 
 label variable 	stadium	"Stadium"	// 	Stadium indicator
 label variable 	arena	"Arena"	// 	Arena indicator
-label variable 	team_nfl	"Team Name (NFL)"	// 	Team name (NFL)
 label variable 	team_mlb	"Team Name (MLB)"	// 	Team name (MLB)
+label variable 	team_nfl	"Team Name (NFL)"	// 	Team name (NFL)
 label variable 	team_nba	"Team Name (NBA)"	// 	Team name (NBA)
 label variable 	team_nhl	"Team Name (NHL)"	// 	Team name (NHL)
 label variable 	team_current	"Team Name (current)"	// 	Team name (all leagues)
@@ -96,6 +97,7 @@ label variable 	replacement0	replacement0	// 	Planned replacement indicator (0)
 label variable 	source	"Source"	// 	List of sources that document values (not exhaustive)
 label variable 	totalcost2024	"Total Cost (2024)"	// 	Total cost in real 2024 dollars
 label variable 	publiccost2024	"Public Cost (2024)"	// 	Public cost in real 2024 dollars
+label variable 	renovation_amount2024	"Renovation Cost (2024)"	// 	Total cost of last renovation in real 2024 dollars
 
 
 save "$outdat\venuesdb_base.dta", replace

@@ -14,9 +14,8 @@ Intermediate Output (working directory):
 
 Final Output:
 Figures(figs\):
-Tables (Stata viewer): Table A1
+Tables (Stata viewer): Table A.1
 Data (outdat\):
-Other: 
 */
 
 *************************
@@ -30,7 +29,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\venuesdb_mls.dta", clear
+use "$data\venuesdb_all.dta", clear
 
 g yearst = string(year,"%9.0f")
 replace yearst = "TBD" if year==.
@@ -76,8 +75,9 @@ replace pubpct100stpct="[0\%]" if venuename_tex=="Climate Pledge Arena*"
 replace tcdol="TBD" if venuename_tex=="New Fire Stadium"
 
 g lastyearst  = string(lastyear,"%9.0f")
-replace lastyearst ="[2030]" if venuename_tex=="Empower Field at Mile High" /*Announced tentative replacement date*/
 replace lastyearst="" if lastyear==.
+replace lastyearst ="[2030]" if venuename_tex=="Empower Field at Mile High" /*Announced tentative replacement date*/
+
 
 replace tc2024dol="" if year>2024
 replace pc2024dol="" if year>2024
@@ -91,6 +91,10 @@ replace lifespan2025 = . if lifespan2025<1
 so year venuename_tex
 
 /*Table A.1*/
-list venuename_tex_bold teams_tex yearst lastyear lifespan2025 totalcost publiccost totalcost2024 publiccost2024 pubpct100
+list venuename_tex_bold teams_tex yearst lastyearst lifespan2025 totalcost publiccost totalcost2024 publiccost2024 pubpct100
 
 listtab venuename_tex_bold teams_tex yearst lastyearst lifespan2025 tcdol pcdol tc2024dol pc2024dol pubpct100stpct , type rstyle(tabular)
+
+/*Optional Code for exporting table as csv
+export delimited venuename teams yearst lastyearst lifespan2025 tcst pcst tc2024st pc2024st pubpct100st using TableA1.csv, replace
+*/

@@ -12,7 +12,7 @@ This setup file installs the necessary ado-files and sets directory structure.
 set more off
 
 /*Set home directory  */
-global path ="C:\Users\jcbra\GitHub\This-One-Will-Be-Different" // <== Replace [PATH] with home directory
+global path ="C:\Users\jcbra\OneDrive\AtlStadium\data\repository" // <== Replace [PATH] with home directory
 global data="$path\data" // Pull data from here
 global dofiles="$path\dofiles" // Pull do-files from here
 global outdat = "$path\outdat" // Created data output to this folder

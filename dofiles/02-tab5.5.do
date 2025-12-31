@@ -8,7 +8,7 @@
 ********************************************************************** 
 
 Data Input (data\):
-venuesdb_mls.dta
+venuesdb_all.dta
 
 Intermediate Output (working directory):
 
@@ -29,7 +29,7 @@ cd "$path" // Set your working directory
 
 do "00-setup.do"
 */
-use "$data\venuesdb_mls.dta", clear
+use "$data\venuesdb_all.dta", clear
 
 g main_mlb =0
 replace main_mlb=1 if current_mlb==1

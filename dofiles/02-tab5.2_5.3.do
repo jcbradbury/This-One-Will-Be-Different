@@ -1,4 +1,4 @@
-/* This file provides the code for .
+/* This file provides the code for generating tables of venue renovation costs.
 
 **********************************************************************
 ** Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
@@ -11,7 +11,7 @@ Data Input (data\):
 venuesdb_base.dta
 
 Other Inputs:
-Do-files: 01-cpi2024_reno.do
+Do-files:
 
 Intermediate Output (working directory):
 
@@ -38,9 +38,7 @@ do "00-setup.do"
 
 use "$data\venuesdb_base.dta", clear
 
-/*Convert current to real 2024 dollars*/
-do "$dofiles\01-cpi2024_reno.do"
-
+/*Create Tex friendly variables for table input*/
 g reno2024st = string(renovation_amount2024,"%9.0fc")
 g reno2024dol = "\\$" +reno2024st
 replace reno2024dol ="" if renovation_amount2024 ==.
@@ -78,7 +76,6 @@ replace venuename_reno = "Scotiabank Saddledome*" if venuename_reno == "Scotiaba
 replace venuename_reno = "Oakland-Alameda County Coliseum*" if venuename_reno == "Oakland-Alameda County Coliseum"
 replace venuename_reno = "Paycom Center*" if venuename_reno == "Paycom Center"
 replace venuename_reno = "Highmark Stadium*" if venuename_reno == "Highmark Stadium"
-
 
 replace venuename_reno = "EverBank Stadium$^\dagger$" if venuename_reno == "EverBank Stadium"
 replace venuename_reno = "Delta Center$^\dagger$" if venuename_reno == "Delta Center"

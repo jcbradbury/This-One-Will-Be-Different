@@ -28,3 +28,8 @@ cd "$path" // Set your working directory
 
 do "00-setup.do"
 */
+
+/* Data output into the data\ folder
+save "$data\.dta", replace
+export delimited "$data\.csv", replace
+*/

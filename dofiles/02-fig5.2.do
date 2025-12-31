@@ -65,8 +65,8 @@ r_arena_rep |
        2037 |          1        2.94      100.00
 ------------+-----------------------------------
       Total |         34      100.00
-
 */
+
 tab forecastyear_stadium_replaced
 /*
 forecastyea |
@@ -179,6 +179,12 @@ g ma11vensforecast_r_connect = ma11vensforecast_r
 replace ma11vensforecast_r_connect= . if year<2020
 replace ma11vensforecast_r_connect= ma11vens if year==2019
 
+save "$outdat\venue_forecast.dta", replace
+
+/* Data output into the data\ folder
+save "$data\venue_forecast.dta", replace
+export delimited "$data\venue_forecast.csv", replace
+*/
 
 /*Figure 5.2*/
 twoway bar vens year if year>1959,  bc(gs5)  ///
@@ -199,9 +205,3 @@ graph export "$figs\Fig5.2.pdf", as(pdf) replace
 graph export "$tif\Fig5.2.tif", as(tif) width(3000)  replace
 */
 
-save "$outdat\venue_forecast.dta", replace
-
-/* Data output into the data\ folder
-save "$data\venue_forecast.dta", replace
-export delimited "$data\venue_forecast.csv", replace
-*/

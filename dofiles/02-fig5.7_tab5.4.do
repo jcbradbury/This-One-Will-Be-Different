@@ -42,7 +42,7 @@ ylabel(`dollab', axis(2) labsize(medium)) ///
 ytitle(MLS Teams, axis(1) size(medlarge)) ///
 ytitle(Average Team Revenue (in millions),axis(2) size(medlarge)) ///
 xtitle(, size(medlarge)) ///
-name(mls_ref, replace) ///
+name(mls_rev, replace) ///
 legend(order(1 "Teams" 2 "Revenue" ) ring(0) pos(11) size(medlarge) symxsize(11))
 /*
 graph export "$figs\Fig5.7.pdf", as(pdf) replace
@@ -62,5 +62,3 @@ MLS: https://www.forbes.com/sites/justinbirnbaum/2025/02/21/the-most-valuable-ml
 Note: Annual rankings reflect revenue from previous year.
 NBA and NHL years refer the year the season ended (i.e., 2024 value reflects 2023-2024 season).
 */
-
-
