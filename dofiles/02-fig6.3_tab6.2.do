@@ -31,9 +31,9 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-*FCI*
+/*Estimating novelty effect on price of attendance*/
 
-*MLB
+/*MLB*/
 use "$data\mlb_did.dta", clear
 
 *>2001 when TMA began excluding club seats from calculation
@@ -41,7 +41,7 @@ qui csdid fci2020 wpct lagwpct population ypc2020 if year>2001 , ivar(franid) ti
 estat event,   window(0 7) estore(mlb_short_fci)
 event_plot mlb_short_fci, ciplottype(rcap) stub_lag(Tp#) stub_lead(Tm#)
 
-*NFL
+/*NFL*/
 use "$data\nfl_did.dta", clear
 
 *>2001 when TMA began excluding club seats from calculation
@@ -49,6 +49,7 @@ qui csdid fci2020 wpct lagwpct population if year>2001 , ivar(franid) time(year)
 estat event,   window(0 7) estore(nfl_short_fci)
 event_plot nfl_short_fci, ciplottype(rcap) stub_lag(Tp#) stub_lead(Tm#)
 
+/*Figure 6.3*/
 mylabels -25(25)125, prefix($) myscale(@)  local(dollab) format(%2.0fc) last
 event_plot  mlb_short_fci nfl_short_fci ,  plottype(connected) ciplottype(none) stub_lag(Tp# Tp#) stub_lead(Tm# Tm#)  shift(0)  ///
 noautolegend ///
