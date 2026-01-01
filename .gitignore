@@ -5,3 +5,4 @@ outdat/
 *_temp.dta
 *.log
 *.smcl
+*.do.stswp
