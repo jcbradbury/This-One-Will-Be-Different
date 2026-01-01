@@ -130,13 +130,15 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 6
 
+The technical details of the analysis presented this chapter are described thoroughly in [Bradbury (2024)]( https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
+
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |6.1|02-fig6.1.do|65|Teams.csv|attend_atl.dta|
 |6.2|02-fig6.2_tab6.1|149|mlb_did.dta; nfl_did.dta; nba_did.dta; nhl_did.dta|none|
 |6.3|02-fig6.3_tab6.2|57|mlb_did.dta; nfl_did.dta; venuecosts2020.dta|none|
-|6.4|02-fig6.4.do||propheter_lease_data.dta|none|
+|6.4|02-fig6.4.do|47|propheter_lease_data.dta|none|
 |6.5|02-fig6.5.do|51|payroll2025.dta|none|
 
 
@@ -148,8 +150,12 @@ All data files provided in .csv format, which can be read by other data analysis
 |6.2|02-fig6.3_tab6.2|130|mlb_did.dta; nfl_did.dta; venuecosts2020.dta|none|
 
 ### Other Information
+| Information cited in text| Do-file | Line #|
+|----|----|----|
+|Distribution of lease term length|02-fig6.4.do|58|
 
-The technical details of the analysis presented this chapter are described thoroughly in [Bradbury (2024)]( https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
+
+
 
 ## Chapter 7
 ### Figures
