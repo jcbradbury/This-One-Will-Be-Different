@@ -33,7 +33,6 @@ do "00-setup.do"
 */
 
 /*Estimating novelty effect on price of attendance for Fig. 6.3*/
-
 /*MLB*/
 use "$data\mlb_did.dta", clear
 
