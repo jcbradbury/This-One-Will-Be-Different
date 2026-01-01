@@ -131,6 +131,13 @@ All data files provided in .csv format, which can be read by other data analysis
 ## Chapter 6
 
 ### Figures
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|6.1|02-fig6.1.do|65|Teams.csv|attend_atl.dta|
+|6.2|02-fig6.2_tab6.1|145|mlb_did.dta; nfl_did.dta; nba_did.dta; nhl_did.dta|none|
+|6.3|02-fig6.3_tab6.2|52|mlb_did.dta; nfl_did.dta; venuecosts2020.dta|none|
+
+
 ### Tables
 ### Other Information
 
