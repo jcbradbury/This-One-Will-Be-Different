@@ -25,7 +25,7 @@ Figures(figs\):
 Tables (Stata viewer): 
 Data (outdat\):
 Other: 
-CITED in text: Distribution of least term length
+CITED in text: Distribution of lease term length
 */
 
 *************************
@@ -55,7 +55,7 @@ graph export "$figs\Fig6.4.pdf", as(pdf)  replace
 graph export "$figs\Fig6.4.tif", as(tif) width(3000)  replace
 */
 
-/*CITED in text: Distribution of least term lengths*/
+/*CITED in text: Distribution of lease term lengths*/
 tab minimumleaselengthyears if facilitytype!="soccer",
 /*
     minimum |
