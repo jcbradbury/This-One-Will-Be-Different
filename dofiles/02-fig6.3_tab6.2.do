@@ -67,7 +67,7 @@ graph_opt( legend( order(1 "MLB" 2 "NFL") ring(0) pos(1) symxsize(15) size(mediu
  lag_opt2(msymbol(Dh) color(gs6) lp(longdash))   ///
   lead_opt1(msymbol(Oh) color(black) lp(solid) )   ///
  lead_opt2(msymbol(Dh) color(gs6) lp(longdash)) 
-/* save graphs
+/*
 graph export "$figs\Fig6.3.pdf", as(pdf)  replace
 graph export "$figs\Fig6.3.tif", as(tif) width(3000)  replace
 */
