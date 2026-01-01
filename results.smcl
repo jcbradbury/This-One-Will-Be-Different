@@ -6879,4 +6879,6 @@ Toyota Park&Chicago Fire&2006&2019&14&\$106&\$106&\$165&\$165&100\%\\
 . 
 {txt}end of do-file
 
-{com}. 
+{com}. clear
+
+. exit
