@@ -130,7 +130,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 6
 
-The technical details of the analysis presented this chapter are described thoroughly in [Bradbury (2024)]( https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
+The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2024)]( https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
