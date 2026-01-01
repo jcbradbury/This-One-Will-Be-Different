@@ -6,6 +6,10 @@
 ** Publisher: Oxford University Press
 ** Year: 2026
 ********************************************************************** 
+Much of the analysis discussed in Chapter 6 draws from the follow study:
+Bradbury, John Charles (2024) "Revisiting the novelty effect from new stadiums: An event study approach", Economic Inquiry, 62(4): 1722-1747
+(https://onlinelibrary.wiley.com/doi/10.1111/ecin.13231). 
+Further details on the emprical analysis and tables are available in the replication package for the article located here: https://doi.org/10.3886/E200122V2 .
 
 Data Input (data\): 
 mlb_did.dta
@@ -33,13 +37,13 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
+/*Code produces coefficent estimates for Fig 6.2 and Table 6.1*/
 /*MLB*/
 use "$data\mlb_did.dta", clear
 
 qui csdid attg wpct lagwpct population ypc2020 if !nyteam , ivar(franid) time(yearid) gvar(newstadium) notyet  method(reg) short
 estat event,   window(0 11) estore(mlb_short_nony)
 event_plot mlb_short_nony, ciplottype(rcap) stub_lag(Tp#) stub_lead(Tm#)
-
 /*
 ------------------------------------------------------------------------------
              | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
