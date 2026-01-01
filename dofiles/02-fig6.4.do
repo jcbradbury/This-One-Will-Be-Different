@@ -16,7 +16,7 @@ Propheter, Geoffrey (2022) Major League Sports and the Property Tax. Series: Spo
 ************************
 
 Data Input (data\): 
-propheter_lease_data.dt
+propheter_lease_data.dta
 
 Intermediate Output (working directory):
 
