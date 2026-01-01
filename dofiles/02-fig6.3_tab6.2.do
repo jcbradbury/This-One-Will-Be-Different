@@ -10,6 +10,7 @@
 Data Input (data\): 
 mlb_did.dta
 nfl_did.dta
+venuecosts2020.dta
 
 Intermediate Output (working directory):
 
@@ -31,7 +32,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-/*Estimating novelty effect on price of attendance*/
+/*Estimating novelty effect on price of attendance for Fig. 6.3*/
 
 /*MLB*/
 use "$data\mlb_did.dta", clear
@@ -67,7 +68,8 @@ graph export "$figs\Fig6.3.pdf", as(pdf)  replace
 graph export "$figs\Fig6.3.tif", as(tif) width(3000)  replace
 */
 
-/*revenue*/
+/*Generating information for Table 6.2*/
+/*Novelty revenue estimates for left side of table*/
 
 /*MLB*/
 use "$data\mlb_did.dta", clear
@@ -119,4 +121,54 @@ estat event,  window(0  11) estore(nfl_short_rev)
         Tp10 |   63.75248   37.32251     1.71   0.088    -9.398288    136.9033
         Tp11 |   28.57769   23.88286     1.20   0.231    -18.23186    75.38724
 ------------------------------------------------------------------------------
+*/
+
+/*Venue construction cost for right side of Table 6.2 
+Dataset and data processing information available https://www.openicpsr.org/openicpsr/project/200122/version/V2/view
+Download venuecosts2020.dta from the main/ folder
+*/
+use "$data\venuecosts2020.dta", clear //
+
+tabstat  teamcost2020 subsidizecost2020 totalcost2020  subsidizedpct if nyteam!=1 &league=="MLB", by(league) stats(mean) format 
+/* Yankees and Mets excluded due to unique attributes, discused in:
+Bradbury, John Charles (2024) "Revisiting the novelty effect from new stadiums: An event study approach", Economic Inquiry, 62(4): 1722-1747
+https://onlinelibrary.wiley.com/doi/10.1111/ecin.13231
+
+Summary statistics: Mean
+Group variable: league 
+
+ league |  tea~2020  sub~2020  tot~2020  subsi~ct
+--------+----------------------------------------
+    MLB |       149       321       470        69 <== MLB columns 6→9
+--------+----------------------------------------
+  Total |       149       321       470        69 
+-------------------------------------------------
+*/
+
+tabstat  teamcost2020 subsidizecost2020 totalcost2020  subsidizedpct if league=="NFL", by(league) stats(mean) format
+/*
+Summary statistics: Mean
+Group variable: league 
+
+ league |  tea~2020  sub~2020  tot~2020  subsi~ct
+--------+----------------------------------------
+    NFL |       405       312       717        51 <== NFL columns 6→9
+--------+----------------------------------------
+  Total |       405       312       717        51
+-------------------------------------------------
+*/
+
+tabstat  teamcost2020 subsidizecost2020 totalcost2020  subsidizedpct if league=="NBA"|league=="NHL"|league=="NBA/NHL", by(league) stats(mean) format
+/*
+Summary statistics: Mean
+Group variable: league 
+
+ league |  tea~2020  sub~2020  tot~2020  subsi~ct
+--------+----------------------------------------
+    NBA |       144       160       304        52
+NBA/NHL |       300        67       368        17
+    NHL |       195       205       401        45
+--------+----------------------------------------
+  Total |       228       128       356        34 <== NBA/NHL columns 6→9
+-------------------------------------------------
 */
