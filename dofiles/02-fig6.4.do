@@ -25,6 +25,7 @@ Figures(figs\):
 Tables (Stata viewer): 
 Data (outdat\):
 Other: 
+CITED in text: Distribution of least term length
 */
 
 *************************
@@ -45,8 +46,7 @@ export delimited "$data\.csv", replace
 
 use "$data\propheter_lease_data.dta" , clear
 
-sum minimumleaselengthyears if facilitytype!="soccer" ,  detail
-
+/*Fig 6.4*/
 histogram minimumleaselengthyears if facilitytype!="soccer" ,  width(1) freq discrete ///
 xlabel(0(10)50 55,  labsize(medium) gmax) ///
 ylabel(0(5)45,labsize(medium)) ///
@@ -57,4 +57,38 @@ graph export "$figs\Fig6.4.pdf", as(pdf)  replace
 graph export "$figs\Fig6.4.tif", as(tif) width(3000)  replace
 */
 
-sum leaseendsyear if facilitytype!="soccer", detail
+/*CITED in text: Distribution of least term lengths*/
+tab minimumleaselengthyears if facilitytype!="soccer",
+/*
+    minimum |
+      lease |
+     length |
+      years |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |          1        1.10        1.10
+          3 |          1        1.10        2.20
+         12 |          1        1.10        3.30
+         13 |          1        1.10        4.40
+         15 |          3        3.30        7.69
+         20 |          6        6.59       14.29
+         22 |          2        2.20       16.48 ___
+         25 |          9        9.89       26.37 
+         26 |          1        1.10       27.47
+         29 |          2        2.20       29.67
+         30 |         42       46.15       75.82 Sum Freq 25-35 = 66
+         31 |          1        1.10       76.92
+         32 |          1        1.10       78.02
+         33 |          1        1.10       79.12
+         35 |          9        9.89       89.01 ___
+         37 |          2        2.20       91.21
+         40 |          3        3.30       94.51
+         48 |          1        1.10       95.60
+         49 |          1        1.10       96.70
+         50 |          2        2.20       98.90
+         55 |          1        1.10      100.00
+------------+-----------------------------------
+      Total |         91      100.00
+
+66/91 = 73%
+*/
+
