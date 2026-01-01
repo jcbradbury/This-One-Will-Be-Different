@@ -1,0 +1,119 @@
+facilityname,facilitytype,minimumleaselengthyears,maximumleaselengthyears,notes,leaseendsyear
+AT&T Center,arena,25,25, ,2027
+AT&T Stadium,football,30,30, ,2039
+Allegiant Stadium,football,31,31, ,2051
+Allianz Field,soccer,52,52,includes land lease,2068
+Amalie Arena,arena,30,40, ,2037
+American Airlines Center,arena,30,30, ,2031
+American Family Field,baseball,30,30, ,2030
+Amway Center,arena,25,25, ,2035
+Angel Stadium,baseball,0,0,"at the time of writing the book, it looked like the stadium sale was going to close, so the stadium and land would become private. Hence no lease. Obviously the sale didn't go through, so this needs to be updated.",2038
+Arrowhead Stadium,football,15,15, ,2031
+Audi Field,soccer,30,45, ,2048
+Ball Arena,arena,,,private,
+Banc of California Stadium,soccer,38,95,includes land lease,2054
+Bank of America Stadium,football,49,99,includes land lease,2095
+Barclays Center,arena,37,99,includes land lease,2049
+Bridgestone Arena,arena,30,30, ,2049
+Busch Stadium,baseball,35,50,includes land lease,2041
+Caesars Superdome,football,13,33, ,2035
+Camden Yards,baseball,30,35, ,2023
+Capital One Arena,arena,30,50,includes land lease,2027
+Chase Center,arena,,,private,
+Chase Field,baseball,30,40, ,2028
+Children's Mercy Park,soccer,,,private,
+Citi Field,baseball,37,97,includes land lease,2039
+Citizens Bank Park,baseball,30,30, ,2034
+Comerica Park,baseball,35,95,includes land lease,2029
+Coors Field,baseball,30,45, ,2047
+DRV PNK Stadium,soccer,50,50, ,2070
+Dick's Sporting Goods Park,soccer,25,25, ,2032
+Dignity Health Sports Park,soccer,55,55, ,2058
+Dodger Stadium,baseball,,,private,
+Empower Field at Mile High,football,30,35, ,2031
+Enterprise Center,arena,50,50, ,2042
+Exploria Stadium,soccer,,,private,
+FLA Live Arena,arena,30,40, ,2028
+FTX Arena,arena,40,40, ,2040
+FedEx Forum,arena,25,50, ,2029
+Fedex Field,football,,,private,
+Fenway Park,baseball,,,private,
+FirstEnergy Stadium,football,30,30, ,2029
+Fiserv Forum,arena,30,30, ,2048
+Footprint Center,arena,48,53, ,2037
+Ford Field,football,35,95,includes land lease,2037
+Gainbridge Fieldhouse,arena,25,25, ,2044
+Gila River Arena,arena,20,20, ,2022
+Gillette Stadium,football,30,30, ,2032
+Globe Life Field,baseball,30,50, ,2053
+Golden 1 Center,arena,35,45, ,2051
+Great American Ball Park,baseball,35,35, ,2037
+Guaranteed Rate Field,baseball,20,40, ,2029
+Hard Rock Stadium,football,,99,private faciilty public land (changed by Bradbury from 99),2086
+Heinz Field,football,29,20, ,2031
+Highmark Stadium,football,25,25, ,2023
+Honda Center,arena,25,50, ,2048
+Kauffman Stadium,baseball,15,15, ,2031
+KeyBank Center,arena,30,30, ,2025
+Lambeau Field,football,30,40, ,2033
+Levi's Stadium,football,40,40, ,2054
+Lincoln Financial Field,football,30,44, ,2033
+Little Caesars Arena,arena,35,95, ,2052
+Lucas Oil Stadium,football,35,35, ,2034
+Lumen Field,football,30,50, ,2031
+M&T Bank Stadium,football,30,30, ,2027
+Madison Square Garden,arena,40,40,"operating permit. The arena operates under a special permit that the city over the last 20 years has granted 5-10 year extensions on from time to time. Each time a new permit window is granted, I extend the lease noted here.",2023
+Mapfre Stadium,soccer,20,20, ,2021
+Marlins Park,baseball,35,45, ,2047
+Mercedes-Benz Stadium,football,30,45, ,2047
+MetLife Stadium,football,25,97, ,2032
+Minute Maid Park,baseball,30,30, ,2050
+Moda Center,arena,30,50, ,2025
+NRG Stadium,football,30,30, ,2032
+Nassau Coliseum,arena,3,3,a short term lease at Nassau Memorial while waiting for UBS Arena was finished.,2021
+Nationals Park,baseball,30,40, ,2038
+Nationwide Arena,arena,25,25, ,2039
+Nissan Stadium,football,30,30, ,2028
+Oakland Coliseum,baseball,30,30, ,2024
+Oracle Park,baseball,22,63, ,2063
+PNC Arena,arena,20,30, ,2029
+PNC Park,baseball,30,35, ,2030
+PNC Stadium,soccer,30,30, ,2042
+PPG Paints Arena,arena,30,30, ,2040
+Paul Brown Stadium,football,26,26, ,2026
+PayPal Park,soccer,,,private,
+Paycom Center,arena,15,15, ,2023
+Petco Park,baseball,30,40, ,2027
+Progressive Field,baseball,12,22, ,2036
+Providence Park,soccer,25,28, ,2036
+Prudential Center,arena,30,30, ,2037
+Raymond James Stadium,football,30,30, ,2028
+Red Bull Arena,soccer,30,50, ,2038
+Rio Tinto Stadium,soccer,25,25, ,2033
+Rocket Mortgage Fieldhouse,arena,30,30, ,2034
+SAP Center,arena,30,45, ,2025
+Smoothie King Center,arena,22,27, ,2024
+SoFi Stadium,football,,,private,
+Soldier Field,football,30,50, ,2033
+Spectrum Center,arena,25,30, ,2030
+Staples Center,arena,55,55, ,2053
+State Farm Arena,arena,20,20, ,2046
+State Farm Stadium,football,30,40, ,2036
+Subaru Park,soccer,30,50, ,2040
+T-Mobile Arena,arena,,,private,
+T-Mobile Park,baseball,20,35, ,2053
+TD Garden,arena,,,private,
+TIAA Bank Stadium,football,30,30, ,2030
+Target Center,arena,20,20, ,2035
+Target Field,baseball,30,30, ,2037
+Toyota Center,arena,30,30, ,2033
+Toyota Stadium,soccer,33,33, ,2037
+Tropicana Field,baseball,32,32, ,2027
+Truist Park,baseball,33,38, ,2046
+US Bank Stadium,football,30,50, ,2046
+United Center,arena,,,private,
+Vivint Smart Home Arena,arena,50,50, ,2040
+Wells Fargo Center,arena,29,59, ,2046
+Wrigley Field,baseball,,,private,
+Xcel Energy Center,arena,35,35, ,2035
+Yankee Stadium,baseball,30,56, ,2049
