@@ -1,0 +1,2 @@
+This folder contains generated output datasets created by Stata do-files and is intentionally empty in the repository.
+All .dta files ouput to this folder are included in the `data/` folder. This is done to maintain the integrity of the input data in `data\` used for replication. 
