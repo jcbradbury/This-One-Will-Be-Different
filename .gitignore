@@ -2,6 +2,7 @@
 # Ignore all generated output data
 outdat/*
 !outdat/.gitkeep
+!outdat/README.md
 
 # Temporary Stata files
 *_temp.dta
