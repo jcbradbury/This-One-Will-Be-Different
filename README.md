@@ -20,7 +20,9 @@ This repository includes datasets and replication code files for generating the 
 
 I provide this repository for two reasons: 
     1. Make the data available interested readers who want to view the data for themselves, especially for researchers who may wish to use the data for other research projects. 
-    2. Allow the analysis to be replicated to as a mark of its credibility
+    2. Allow the analysis to be replicated to establish its credibility.
+
+This repository is desinged to be a complementary companion to the book, and it is not intended to be used separate from the book. The contnent not necessarily self-explanatory. 
 
 
  # Data
