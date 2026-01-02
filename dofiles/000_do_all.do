@@ -29,8 +29,10 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
+/*
 cap log close _all
 log using results, replace
+*/
 
 do "$dofiles\02-fig3.1.do"
 do "$dofiles\02-fig5.1.do"
