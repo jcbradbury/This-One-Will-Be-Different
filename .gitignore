@@ -1,5 +1,5 @@
 # Generated output
-outdat/
+outdat/*.dta
 
 # Temporary Stata files
 *_temp.dta
