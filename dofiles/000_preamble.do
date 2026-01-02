@@ -33,3 +33,8 @@ do "00-setup.do"
 save "$data\.dta", replace
 export delimited "$data\.csv", replace
 */
+
+/*
+graph export "$figs\FigX.Y.pdf", as(pdf) replace
+graph export "$tif\FigX.Y.tif", as(tif) width(3000)  replace
+*/
