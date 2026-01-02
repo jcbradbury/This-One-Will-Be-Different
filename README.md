@@ -142,8 +142,6 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |6.5|02-fig6.5.do|51|payroll2025.dta|none|
 |6.6|02-fig6.6.do|all|mlb_did.dta; nfl_did.dta; nba_did.dta; nhl_did.dta|none|
 
-
-
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
@@ -155,12 +153,18 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |----|----|----|
 |Distribution of lease term length|02-fig6.4.do|58|
 
-
-
-
 ## Chapter 7
-### Figures
+
 ### Tables
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|7.1|02-tab7.1.do|151|venuesdb_base.dta; venue_acres_base2024.dta; venue_demographics2024.dta|opulence.dta|
+
+### Other Information
+| Information cited in text| Do-file | Line #|
+|----|----|----|
+|Truist Park opulence example|02-tab7.1.do|184|
+
 
 ## Chapter 10
 
