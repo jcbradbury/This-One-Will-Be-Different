@@ -1,5 +1,7 @@
-# Generated output
-outdat/*.dta
+
+# Ignore all generated output data
+outdat/*
+!outdat/.gitkeep
 
 # Temporary Stata files
 *_temp.dta
