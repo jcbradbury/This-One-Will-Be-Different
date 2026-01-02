@@ -161,17 +161,24 @@ The technical details of the analysis presented Chapter 6 are described thorough
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|7.1|02-tab7.1.do|151|venuesdb_base.dta; venue_acres_base2024.dta; venue_demographics2024.dta|opulence.dta|
+|7.1|02-tab7.1.do|151|venuesdb_base.dta; venue_acres.dta; venue_demo.dta|opulence.dta|
+
 
 ### Other Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
 |Truist Park opulence example|02-tab7.1.do|184|
 
+## Chapter 9
+
+Table 9.1 reports all information. 
+Figure 9.1 created from Google Maps.
 
 ## Chapter 10
 
 ## Chapter 12
+
+Figure 12.5: I'm an economist, not an artist.
 
 ## Chapter 13
 
@@ -185,6 +192,19 @@ Much of the analysis described in this chapter is based on [Bradbury and Stephen
 ## Chapter 18
 
 ## Chapter 19
+
+Table 19.1 reports all information.
+
+## Chapter 22
+
+Figure 22.1 presented for exposision.
+
+## Chapter 26
+Tables 26.1 and 26.2 report all information.
+
+## Chapter 29
+
+Figure 29.1 presented for exposision.
 
 ## Appendix A
 
