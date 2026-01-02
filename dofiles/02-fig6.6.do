@@ -7,12 +7,25 @@
 ** Year: 2026
 ********************************************************************** 
 
-Data Input (data\): 
+Much of the analysis discussed in Chapter 6 draws from the follow study:
+Bradbury, John Charles (2024) "Revisiting the novelty effect from new stadiums: An event study approach", Economic Inquiry, 62(4): 1722-1747
+(https://onlinelibrary.wiley.com/doi/10.1111/ecin.13231). 
+Further details on the emprical analysis and tables are available in the replication package for the article located here: https://doi.org/10.3886/E200122V2 .
 
-Intermediate Output (working directory):
+Data Input (data\): 
+mlb_did.dta
+nfl_did.dta
+nba_did.dta
+nhl_did.dta
+
+Intermediate Output (working directory): League-specific graphs conbined to produce Fig 6.6
+wpct_mlb.gph
+wpct_nfl.gph
+wpct_nba.gph
+wpct_nhl.gph
 
 Final Output:
-Figures(figs\):
+Figures(figs\): 6.6
 Tables (Stata viewer): 
 Data (outdat\):
 Other: 
@@ -41,10 +54,8 @@ graph_opt( legend(off) ///
   ytitle("Average Change in Winning %") xtitle("") ///
   name(mlb_post, replace) title("MLB", size(medlarge) ring(0) pos(12))  xsize(4) ysize(4) ) ///
 lag_opt1(msymbol(Oh) color(black) lp(solid) )   lag_ci_opt1(color(gs6%50)) 
- 
 /* save graphs*/
 graph save wpct_mlb.gph, replace
-
 
 /*NFL*/
 use "$data\nfl_did.dta", clear
@@ -58,7 +69,6 @@ graph_opt( legend(off) ///
   ytitle("") xtitle("") ///
   name(nfl_post, replace) title("NFL", size(medlarge) ring(0) pos(12)) xsize(4) ysize(4)) ///
 lag_opt1(msymbol(Oh) color(black) lp(solid) )   lag_ci_opt1(color(gs6%50)) 
-
 /* save graphs*/
 graph save wpct_nfl.gph, replace
 
@@ -74,8 +84,6 @@ graph_opt( legend(order(1 "Average Difference") pos(6) size(medsmall) ) ///
 ytitle("Average Change in Winning %")  xtitle("Year In New Venue") ///
   name(nba_post, replace) title("NBA", size(medlarge) ring(0) pos(12)) xsize(4) ysize(4.5)) ///
 lag_opt1(msymbol(Oh) color(black) lp(solid) )   lag_ci_opt1(color(gs6%50)) 
-
-
 /* save graphs*/
 graph save wpct_nba.gph, replace
 
@@ -91,13 +99,13 @@ graph_opt( legend(order(2 "Confidence Interval (95%)") pos(6) size(medsmall)) //
   ytitle("") xtitle("Year In New Venue") ///
   name(nhl_post, replace) title("NHL", size(medlarge) ring(0) pos(12)) xsize(4) ysize(4)) ///
 lag_opt1(msymbol(Oh) color(black) lp(solid) )   lag_ci_opt1(color(gs6%50)) 
-
 /* save graphs*/
 graph save wpct_nhl.gph, replace
 
-/* Average post-venue Winning Percentage, by League*/
+
+/* Fig 6.6 */
 graph combine wpct_mlb.gph   wpct_nfl.gph wpct_nba.gph wpct_nhl.gph, cols(2)  name(winning_pct, replace) xsize(4) ysize(4) plotregion(margin(t=0 b=0 l=0 r=0))
 /*
-graph export "$figs\Fig6.6.Y.pdf", as(pdf) replace
+graph export "$figs\Fig6.6.6.pdf", as(pdf) replace
 graph export "$tif\Fig6.6.tif", as(tif) width(3000)  replace
 */
