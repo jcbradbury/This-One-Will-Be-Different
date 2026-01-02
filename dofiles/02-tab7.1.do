@@ -145,11 +145,8 @@ g oppct100st = string(opulencepct,"%9.0f")
 g oppct100sttpct = oppct100st+"\%"
 
 g blank = ""
-
 g league_venue = league
-
 replace league_venue = "NHL & NBA" if arena
-
 
 /*Table 7.1*/
 /*Columns 3-8*/
