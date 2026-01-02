@@ -47,7 +47,10 @@ remain subject to their original terms.
 |venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do|venuesdb_base.dta|
 |forecast_cost.dta|Estimate of future venue construction costs|02-fig5.5.do|venuesdb_base.dta|
 |attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do|Lahman (2024), Baseball-Reference|
-|leagues_revenue.dta|Average annual revenue for US major sports leagues|Collected by author|Forbes (various webpages)|
+|leagues_revenue.dta|Average annual revenue for US major sports leagues|Compiled by author|Forbes (various webpages)|
+|venue_acres.dta|Acreage of venues|Compiled by author|Propheter (2017); Collected by author|
+|venue_demo.dta|Demographics of venue metropolitan areas|Compiled by author|BEA (2024)|
+
 
 ### Raw Data
 |Dataset|Description|How Created|Sources|
