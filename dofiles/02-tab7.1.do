@@ -39,12 +39,12 @@ keep if year>1989 &year<2020 // Confine to Stadium Mania era
 
 /*Merge in acreage */
 so venuename_tex year
-merge 1:1 venuename_tex year using "$data\venue_acres_base2024.dta"
+merge 1:1 venuename_tex year using "$data\venue_acres.dta"
 drop _m
 
 /*Merge in metro population and income */
 so venuename_tex year
-merge 1:1  venuename_tex year using "$data\venue_demographics2024.dta"
+merge 1:1  venuename_tex year using "$data\venue_demo.dta"
 
 /*Add in past team tenants for venues that do not currently host teams */
 replace team_mlb="Atlanta Braves" if venuename_tex=="Turner Field"
