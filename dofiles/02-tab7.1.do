@@ -9,8 +9,8 @@
 
 Data Input (data\):
 venuesdb_base.dta
-venue_acres_base2024.dta
-venue_demographics2024.dta
+venue_acres.dta
+venue_demo.dta
 
 Intermediate Output (working directory):
 
