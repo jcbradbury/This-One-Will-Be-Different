@@ -184,7 +184,10 @@ Figure 9.1 created from Google Maps.
 |10.1|02-fig10.1.do|114|venuesdb_base.dta|compare_mlb.dta|
 
 ### Tables
-Tables 10.1 and 10.2 report all information.
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|10.1| Reports all information| | | |
+|10.2| Reports all information| | | | 
 
 ### Other Information
 | Information cited in text| Do-file | Line #|
