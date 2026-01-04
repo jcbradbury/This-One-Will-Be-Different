@@ -195,13 +195,11 @@ Tables 10.1 and 10.2 report all information.
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
-|12.2|NA||||
+|12.2|Illustration ||||
 |12.3|02-fig12.1_12.3|119|cidgr2010_2023.dta|cid_vpa.dta|
 |12.4|||||
 |12.5|I'm an economist, not an artist||||
 
-
-Figure 12.5: I'm an economist, not an artist.
 
 ## Chapter 13
 
