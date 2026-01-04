@@ -192,6 +192,14 @@ Tables 10.1 and 10.2 report all information.
 |How Truist Park public share compares to same-era MLB stadiums|02-tab10.1.do|133|
 
 ## Chapter 12
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
+|12.2|NA||||
+|12.3|02-fig12.1_12.3|119|cidgr2010_2023.dta|cid_vpa.dta|
+|12.4|||||
+|12.5|I'm an economist, not an artist||||
+
 
 Figure 12.5: I'm an economist, not an artist.
 
