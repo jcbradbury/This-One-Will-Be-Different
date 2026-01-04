@@ -178,6 +178,8 @@ Figure 9.1 created from Google Maps.
 
 ## Chapter 10
 
+Tables 10.1 and 10.2 report all information.
+
 ## Chapter 12
 
 Figure 12.5: I'm an economist, not an artist.
@@ -199,14 +201,14 @@ Table 19.1 reports all information.
 
 ## Chapter 22
 
-Figure 22.1 presented for exposision.
+Figure 22.1 presented for exposition.
 
 ## Chapter 26
 Tables 26.1 and 26.2 report all information.
 
 ## Chapter 29
 
-Figure 29.1 presented for exposision.
+Figure 29.1 presented for exposition.
 
 ## Appendix A
 
