@@ -202,6 +202,14 @@ Tables 10.1 and 10.2 report all information.
 
 
 ## Chapter 13
+### Figures
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+
+### Tables
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+
 
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
