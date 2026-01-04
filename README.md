@@ -178,7 +178,18 @@ Figure 9.1 created from Google Maps.
 
 ## Chapter 10
 
+### Figures
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|10.1|02-fig10.1.do|114|venuesdb_base.dta|compare_mlb.dta|
+
+### Tables
 Tables 10.1 and 10.2 report all information.
+
+### Other Information
+| Information cited in text| Do-file | Line #|
+|----|----|----|
+|How Truist Park public share compares to same-era MLB stadiums|02-tab10.1.do|133|
 
 ## Chapter 12
 
