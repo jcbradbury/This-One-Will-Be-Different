@@ -19,7 +19,7 @@ Leave jurisdiction blank.
 Select Distribution start date: 01-Jan-1999
 Select Distribution end date: 31-Dec-2020
 
-MSA County list: 
+Atlanta MSA County list: 
 Barrow
 Bartow
 Butts
@@ -50,6 +50,14 @@ Rockdale
 Spalding
 Walton
 
+County sales tax rates from Department of Revenue, Historical Sales Tax Chart (https://dor.georgia.gov/historical-sales-tax-chart)
+Data were gathered from the October 2020 release (https://dor.georgia.gov/document/document/october-2020-historical-sales-tax-chart/download)
+
+County econ demographics from BEA. https://apps.bea.gov/regional/downloadzip.cfm CAINC1: Annual Personal Income by County
+Website: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
+2019 data release: 11/17/2020
+
+See DataNotes_Ch13.md in this repository for more information on how tax distributions were aggregated.
 
 Intermediate Output (working directory): cobb_stsynth_temp.dta
 
