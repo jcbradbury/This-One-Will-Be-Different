@@ -186,7 +186,7 @@ Figure 9.1 created from Google Maps.
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|10.1| Reports all information ||
+|10.1| Reports all information| | | | 
 |10.2| Reports all information| | | | 
 
 ### Other Information
@@ -195,6 +195,10 @@ Figure 9.1 created from Google Maps.
 |How Truist Park public share compares to same-era MLB stadiums|02-tab10.1.do|133|
 
 ## Chapter 12
+
+The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2022)](https://doi.org/10.1111/jors.12560). 
+
+### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
