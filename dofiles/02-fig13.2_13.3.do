@@ -1,4 +1,4 @@
-/* This file provides the code for .
+/* This file provides the code for estimating the effect of Truist Park opening on sales tax collections.
 
 **********************************************************************
 ** Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
@@ -7,8 +7,15 @@
 ** Year: 2026
 ********************************************************************** 
 
+Much of the analysis discussed in Chapter 13 draws from the following study:
+Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evidence from sales tax collections," Journal of Urban Affairs, 46(1):139-159 (https://doi.org/10.1080/07352166.2022.2044837).
+
+The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
+
 Data Input (data\): 
 county_synthdata_2010_2019.dta
+
+See DataNotes_Ch13.md in this repository for more information on how tax distributions were aggregated.
 
 County Tax Revnue data manually collected from Georgia Department of Revenue, Georgia Tax Center
 Website: https://gtc.dor.ga.gov/_/
@@ -19,36 +26,7 @@ Leave jurisdiction blank.
 Select Distribution start date: 01-Jan-1999
 Select Distribution end date: 31-Dec-2020
 
-Atlanta MSA County list: 
-Barrow
-Bartow
-Butts
-Carroll
-Cherokee
-Clayton
-Cobb
-Coweta
-Dawson
-Dekalb
-Douglas
-Fayette
-Forsyth
-Fulton
-Gwinnett
-Haralson
-Heard
-Henry
-Jasper
-Lamar
-Meriwether
-Morgan
-Newton
-Paulding
-Pickens
-Pike
-Rockdale
-Spalding
-Walton
+Atlanta MSA County list: Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Dekalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Haralson, Heard, Henry, Jasper, Lamar, Meriwether, Morgan, Newton, Paulding, Pickens, Pike, Rockdale, Spalding, Walton
 
 County sales tax rates from Department of Revenue, Historical Sales Tax Chart (https://dor.georgia.gov/historical-sales-tax-chart)
 Data were gathered from the October 2020 release (https://dor.georgia.gov/document/document/october-2020-historical-sales-tax-chart/download)
@@ -56,8 +34,6 @@ Data were gathered from the October 2020 release (https://dor.georgia.gov/docume
 County econ demographics from BEA. https://apps.bea.gov/regional/downloadzip.cfm CAINC1: Annual Personal Income by County
 Website: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
 2019 data release: 11/17/2020
-
-See DataNotes_Ch13.md in this repository for more information on how tax distributions were aggregated.
 
 Intermediate Output (working directory): cobb_stsynth_temp.dta
 
