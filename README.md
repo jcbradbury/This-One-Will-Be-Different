@@ -173,8 +173,12 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ## Chapter 9
 
-Table 9.1 reports all information. 
+### Figures
 Figure 9.1 created from Google Maps.
+
+### Tables
+Table 9.1 reports all information. 
+
 
 ## Chapter 10
 
