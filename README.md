@@ -186,7 +186,7 @@ Figure 9.1 created from Google Maps.
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|10.1| Reports all information ||||
+|10.1| Reports all information |||
 |10.2| Reports all information| | | | 
 
 ### Other Information
