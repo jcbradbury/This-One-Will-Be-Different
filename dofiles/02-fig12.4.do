@@ -50,6 +50,7 @@ rename _Y_synthetic counterfact
 gen predgap=treat-counterfact
 sort year 
 
+/*Fig 12.4*/
 mylabels 250000(25000)350000, prefix($) myscale(@)  local(dol) format(%7.0fc)
 twoway (line treat year, lp(solid) lc(black) lw(medium)) /// 
 (line counterfact year, lp(dash) lc(black) lw(medium)), ///
@@ -67,7 +68,3 @@ ttext( 260000 2014 "First assessment → ""post-announcement ", place(w) yaxis(1
 graph export "$figs\Fig12.4.pdf", as(pdf) replace
 graph export "$tif\Fig12.4.tif", as(tif) width(3000)  replace
 */
-
-
-
-

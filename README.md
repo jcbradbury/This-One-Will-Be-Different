@@ -200,7 +200,7 @@ Figure 9.1 created from Google Maps.
 |12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
 |12.2|Illustration ||||
 |12.3|02-fig12.1_12.3|119|cidgr2010_2023.dta|cid_vpa.dta|
-|12.4|||||
+|12.4|02-fig12.4.do|58|CIDdata.dta|none|
 |12.5|I'm an economist, not an artist||||
 
 
