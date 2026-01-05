@@ -14,6 +14,7 @@ Amount = Returns + Billing + Audits +Adjustments – Admin Fee
 Monthly distributions for sales tax collections processed in the preceding 30 days. The collections are primarily derived from the sales period one month prior to the month of distribution. For example, July 30th distributions are for the month of June (from reports filed by taxpayers by July 20). Distributions may include funds derived from earlier sales periods, possibly several months or years prior. 
 
 In May of 2009, distributions for “Amount” were made on the 1 and 31 of the month, probably because of the changes due to electronic reporting. I lean toward starting the analysis no earlier than July 2009, using Returns (per capita) only. Returns is the cleanest measure of revenue generated from sales in the previous month, without disbursements for other reasons. Probably best to start with 2010-2019, which provides 10 full years (120 months, 40 quarters), and coincidently aligns with my property value sample.  Monthly or quarterly data, yet to be determined.
+
 Tax collection in any month is the lead of the non-pro rata tax disbursement in following month.
 “pro rata” distributions are for tax proceeds from unprocessable sales tax collections, which are distributed to all sales tax jurisdictions on a pro rata (of identifiable proceeds) basis after 90 days of searching for the correct jurisdiction. (https://law.justia.com/codes/georgia/2010/title-48/chapter-8/article-1/part-2/48-8-67/) 
 
