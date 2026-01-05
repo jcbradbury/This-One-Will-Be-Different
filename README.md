@@ -198,6 +198,7 @@ Figure 9.1 created from Google Maps.
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
+
 |----|----| 
 |12.2|Illustration |
 |----|----|----|----|----|
