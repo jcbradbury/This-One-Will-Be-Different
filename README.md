@@ -220,6 +220,9 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
+|13.1|Map||||
+|13.2|02-fig13.2_13.3.do|95|county_synthdata_2010_2019.dta|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
+|13.3|02-fig13.2_13.3.do|158|county_synthdata_2010_2019.dta|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
 
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
