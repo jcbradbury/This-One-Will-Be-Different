@@ -196,7 +196,7 @@ Figure 9.1 created from Google Maps.
 
 ## Chapter 12
 
-The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2022)](https://doi.org/10.1111/jors.12560). 
+The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022)](https://doi.org/10.1111/jors.12560). 
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
