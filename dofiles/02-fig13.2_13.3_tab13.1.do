@@ -150,6 +150,8 @@ label variable upper "Baseball Season"
 
 save "$outdat\cobb_stsynth.dta", replace
 
+use  "$data\cobb_stsynth_orig.dta", replace
+
 /*Fig 13.3*/
 mylabels 80(5)110, prefix($) myscale(@)  local(dollab) format(%2.0fc)
 twoway (bar upper quarteryr if inrange(quarteryr,229.1,230 &upper>80), barwidth(.1) bcolor(gs14) ) ///
@@ -170,7 +172,6 @@ name(st_synth, replace)
 graph export "$figs\Fig13.3.pdf", as(pdf) replace
 graph export "$tif\Fig13.3.tif", as(tif) width(3000)  replace
 */
-
 
 /*Table 13.1*/
 tabstat predgap if quarteryr>228, by(baseball) // Average treatment effect of Truist Park measured by differnce between observed and synthetic Cobb 
