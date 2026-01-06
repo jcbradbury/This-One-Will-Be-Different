@@ -1,5 +1,4 @@
-## Cobb Board of Commissioners Annual Reviews of Truist Park and The Battery
-Slide presentations on the stadium development are included in YearInReview_YEAR.pdf for each year from 2017-2024. 
+
 
 ## County Documents
 |File|Document Description|
@@ -7,6 +6,9 @@ Slide presentations on the stadium development are included in YearInReview_YEAR
 |Cobb-Braves-MOU.pdf | Memorandum of Understanding between Atlanta Braves and Cobb County|
 |Cobb-Braves-Development-Agreement.pdf |Stadium Development Agreement|
 |Cobb-Braves-Operating-Agreement.pdf |Stadium Operating Agreement|
+
+## Cobb Board of Commissioners Annual Reviews of Truist Park and The Battery
+Slide presentations on the stadium development are included in YearInReview_YEAR.pdf for each year from 2017-2024. 
 
 ## Fiscal Impact Studies
 |File|Document Description|
