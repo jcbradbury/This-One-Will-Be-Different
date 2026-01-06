@@ -39,7 +39,7 @@ Intermediate Output (working directory): cobb_stsynth_temp.dta
 
 Final Output:
 Figures(figs\): 13.2, 13.3
-Tables (Stata viewer): 
+Tables (Stata viewer): 13.1
 Data (outdat\): county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta
 Other: 
 */
@@ -134,7 +134,7 @@ drop if _time==.
 rename _time quarteryr
 rename _Y_treated  treat
 rename _Y_synthetic counterfact
-gen predgap=treat-counterfact
+gen predgap=treat-counterfact // Treatment Effect
 sort quarteryr
 
 format  quarteryr %tq
@@ -154,6 +154,7 @@ save "$outdat\cobb_stsynth.dta", replace
 save "$data\cobb_stsynth.dta", replace
 export delimited "$data\cobb_stsynth.csv", replace
 */
+
 
 /*Fig 13.3*/
 mylabels 80(5)110, prefix($) myscale(@)  local(dollab) format(%2.0fc)
@@ -175,3 +176,45 @@ name(st_synth, replace)
 graph export "$figs\Fig13.3.pdf", as(pdf) replace
 graph export "$tif\Fig13.3.tif", as(tif) width(3000)  replace
 */
+
+
+/*Table 13.1*/
+tabstat predgap if quarteryr>228, by(baseball) // Average treatment effect of Truist Park measured by differnce between observed and synthetic Cobb 
+
+/*
+Summary for variables: predgap
+Group variable: baseball 
+
+baseball |      Mean
+---------+----------
+       0 |  .4432074
+       1 |  1.446454
+---------+----------
+   Total |  .9904331
+--------------------
+
+Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce estimates that differ slightly from mine. The results above reflect the estimated treatment effects that I use for estimating crowding out.
+
+This is a quarterly estimate of sales tax revenue per capita
+Multipled by 4 for annual: 4 * $0.99 = $3.96
+Cobb 2019 population estimte: 760,141 (US Census: https://web.archive.org/web/20201031053126/https://www.census.gov/quickfacts/cobbcountygeorgia)
+Estimated tax revenue added by Truist Park: $3.96 * 760,141 = $3,011,475 <==  Column 2, Row 2
+
+		Battery			County+schools
+Year	County/School	Total Sales Tax Revenue (*2)
+		
+2017	$1,600,000		$3,200,000 (Source: BOC Year in Review for 2017, p. 8)
+2018	$2,482,550		$4,965,100 (Source: BOC Year in Review for 2018, p. 12)
+2019	$2,743,463		$5,486,926 (Source: BOC Year in Review for 2019, p. 10)
+Mean	$2,275,338		$4,550,675 <==  Column 2, Row 1
+
+Total Spending = Tax Revenue/Local sales tax rate (2%)
+Spending at The Battery: $4.55 mil /0.02 = $228 mil <== Column 3, Row 1
+Total new Cobb spending: $3.00 mil /0.02 = $150 mil <== Column 3, Row 2
+
+Crowding out
+$4.55 mil - 3.00 mil = $1.55 mil <== Column 2, Row 3
+$1.55 mil /0.02 = $78 mil <== Column 3, Row 3
+$1.55 mil/ $4.55 mil = 34%	<== Column 3, Row 4
+*/
+
