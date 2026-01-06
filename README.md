@@ -217,6 +217,8 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 
 
 ## Chapter 13
+The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837). 
+
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
@@ -224,6 +226,8 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 |13.2|02-fig13.2_13.3_tab13.1.do|95|county_synthdata_2010_2019.dta ; cobb_stsynth_orig.dta|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
 |13.3|02-fig13.2_13.3_tab13.1.do|155|county_synthdata_2010_2019.dta ; cobb_stsynth_orig.dta|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
 
+### Other Information
+Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs' folder.
 
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
