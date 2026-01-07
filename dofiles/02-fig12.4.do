@@ -55,6 +55,10 @@ rename _Y_synthetic counterfact
 gen predgap=treat-counterfact
 sort year 
 
+save "$outdat\vpa2014_treat.dta", replace
+
+use "$data\vpa2014_treat.dta", replace
+
 /*Fig 12.4*/
 mylabels 250000(25000)350000, prefix($) myscale(@)  local(dol) format(%7.0fc)
 twoway (line treat year, lp(solid) lc(black) lw(medium)) /// 
