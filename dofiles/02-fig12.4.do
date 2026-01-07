@@ -20,7 +20,7 @@ Intermediate Output (working directory): vpa2014_temp.dta
 Final Output:
 Figures(figs\): 12.4
 Tables (Stata viewer): 
-Data (outdat\):
+Data (outdat\): vpa2014_treat.dta
 Other: 
 */
 
