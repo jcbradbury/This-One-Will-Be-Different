@@ -150,7 +150,11 @@ label variable upper "Baseball Season"
 
 save "$outdat\cobb_stsynth.dta", replace
 
-use  "$data\cobb_stsynth_orig.dta", replace
+/*
+Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce cobb_stsynth.dta in `outdat\' that differs slightly from mine. 
+*/
+
+use  "$data\cobb_stsynth.dta", replace
 
 /*Fig 13.3*/
 mylabels 80(5)110, prefix($) myscale(@)  local(dollab) format(%2.0fc)
@@ -188,7 +192,7 @@ baseball |      Mean
    Total |  .9904331
 --------------------
 
-Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce cobb_stsynth.dta in `outdat\' that differs slightly from mine. The results above reflect the estimated treatment effects that I use for estimating crowding out.
+The results above reflect the estimated treatment effects that I use for estimating crowding out.
 
 This is a quarterly estimate of sales tax revenue per capita
 Multipled by 4 for annual: 4 * $0.99 = $3.96
