@@ -228,7 +228,7 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 
 
 ### Other Information
-Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder.
+Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. See file Table_13.2_sources.xlsx for information locations within files.
 
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
