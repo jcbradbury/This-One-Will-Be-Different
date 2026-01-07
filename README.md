@@ -212,8 +212,8 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 |12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
 |12.2|Illustration ||||
 |12.3|02-fig12.1_12.3|119|cidgr2010_2023.dta|cid_vpa.dta|
-|12.4|02-fig12.4.do|58|CIDdata.dta|none|
-|12.5|I'm an economist, not an artist||||
+|12.4|02-fig12.4.do|66|CIDdata.dta|vpa2014_treat.dta|
+|12.5|I'm an economist, not an artist.||||
 
 
 ## Chapter 13
@@ -223,11 +223,12 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |13.1|Map||||
-|13.2|02-fig13.2_13.3_tab13.1.do|95|county_synthdata_2010_2019.dta ; cobb_stsynth_orig.dta|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
-|13.3|02-fig13.2_13.3_tab13.1.do|155|county_synthdata_2010_2019.dta ; cobb_stsynth_orig.dta|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
+|13.2|02-fig13.2_13.3_tab13.1.do|95|county_synthdata_2010_2019.dta|county_synthdata_2010_2019_noSTch_q.dta; cobb_stsynth.dta|
+|13.3|02-fig13.2_13.3_tab13.1.do|159|county_synthdata_2010_2019.dta|county_synthdata_2010_2019_noSTch_q.dta; cobb_stsynth.dta|
+
 
 ### Other Information
-Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs' folder.
+Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder.
 
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
