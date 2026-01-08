@@ -8,7 +8,7 @@
 ********************************************************************** 
 
 Much of the analysis discussed in Chapter 12 draws from the following study:
-Bradbury, John Charles (2022) "The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district," Journal of Regional Science, 62(1):194-217 (https://doi.org/10.1111/jors.12560).
+Bradbury, John Charles (2022b) "The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district," Journal of Regional Science, 62(1):194-217 (https://doi.org/10.1111/jors.12560).
 
 The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
 

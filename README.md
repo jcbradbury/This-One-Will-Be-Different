@@ -204,7 +204,7 @@ Links to Annual Financial Documents
 
 ## Chapter 12
 
-The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022)](https://doi.org/10.1111/jors.12560). 
+The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560). 
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
@@ -239,13 +239,13 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
 
 ## Chapter 15
+The technical details of the analysis presented Chapter 15 are described thoroughly in [Bradbury (2022a)](https://link.springer.com/article/10.1007/s10101-022-00268-z). 
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|15.1|02-fig15.1.do|53|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
-|15.2|02-fig15.2.do|143|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
-
+|15.1|02-fig15.1.do|58|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
+|15.2|02-fig15.2.do|148|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
 
 ## Chapter 17
 
