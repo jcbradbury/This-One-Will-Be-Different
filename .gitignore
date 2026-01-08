@@ -4,6 +4,13 @@ outdat/*
 #!outdat/.gitkeep
 !outdat/README.md
 
+# Ignore published manuscript files
+papers/CobbBraves/*
+!papers/CobbBraves/.gitkeep
+
+papers/OtherPapers/*
+!papers/OtherPapers/.gitkeep
+
 # Temporary Stata files
 *_temp.dta
 *.log
