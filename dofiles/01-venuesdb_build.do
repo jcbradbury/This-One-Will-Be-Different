@@ -32,6 +32,7 @@ do "00-setup.do"
 */
 
 use "$data\venuesdb_raw.dta", clear //  adds new KC Chiefs  stadium and Columbus BJ arena renovation in Dec.
+*export delimited "$data\venuesdb_raw.csv", replace
 *use "$data\venuesdb_raw_preKC_SJS.dta", clear // update through November
 
 do "$dofiles\01-cpi2024_convert.do"
