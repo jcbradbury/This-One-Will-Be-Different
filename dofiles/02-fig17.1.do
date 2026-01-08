@@ -14,7 +14,7 @@ venuesdb_all.dta
 Intermediate Output (working directory):
 
 Final Output:
-Figures(figs\):
+Figures(figs\): 17.1
 Tables (Stata viewer): 
 Data (outdat\):
 Other: 
@@ -30,11 +30,6 @@ global path ="[PATH]" // <== Replace [PATH] with home directory
 cd "$path" // Set your working directory
 
 do "00-setup.do"
-*/
-
-/* Data output into the data\ folder
-save "$data\.dta", replace
-export delimited "$data\.csv", replace
 */
 
 /*Sort the population data by city*/
@@ -55,19 +50,27 @@ so city
 /*Merge the datasets*/
 merge m:m city using combine_msarank2023_temp  
 
-
-/*build the tables*/
+/*Build the table*/
 gsort -year venuename_tex
 
 replace team_current_tex = teams_tex if league=="MLS"
 replace team_current_tex = teams_tex if league=="NFL/MLS"
 replace team_current_tex = teams_tex if league=="MLB/MLS"
 
+save "$outdat\msa_teams_count.dta", replace
+
+/* Data output into the data\ folder
+save "$data\msa_teams_count.dta", replace
+export delimited "$data\msa_teams_count.csv", replace
+*/
+
+/*Table 17.1*/
 list rankmsa2023 venuename_tex team_current_tex league year  totalcost2024 totalcost publiccost pubpct100  if pubpct100<=5 &current
 listtab rankmsa2023 venuename_tex team_current_tex league year  totalcost2024  if pubpct100<=5 &current, type rstyle(tabular)
 
+/*CITED in text: Total teams hosted in primarily privately financed venues*/
 tabstat current_*  if pubpct100<=5 &current, stats(sum)
-/*CITED in text: Total teams hosted in primarily privately financed venues
+/*
 46 total teams (also hand-counted)
    Stats |  curren~b  curre~fl  curren~a  curre~hl  curren~s
 ---------+--------------------------------------------------

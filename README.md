@@ -249,7 +249,21 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 
 ## Chapter 17
 
+### Tables
+| Table | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|17.1|02-fig17.1.do|67|msarank2023.dta; : venuesdb_all.dta|msa_teams_count.dta|
+
+
 ## Chapter 18
+
+### Tables
+| Table | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|18.1|02-fig18.1.do|180|population_msa.dta|msarank2023.dta|
+|18.2|Reports all information||||
+|19.1|Reports all information||||
+
 
 ## Chapter 19
 
