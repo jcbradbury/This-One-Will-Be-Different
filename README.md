@@ -240,6 +240,13 @@ Much of the analysis described in this chapter is based on [Bradbury and Stephen
 
 ## Chapter 15
 
+### Figures
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|15.1|02-fig15.1.do|53|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
+|15.2|02-fig15.2.do|143|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
+
+
 ## Chapter 17
 
 ## Chapter 18
