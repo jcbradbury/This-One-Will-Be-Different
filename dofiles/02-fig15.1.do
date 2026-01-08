@@ -33,10 +33,12 @@ do "00-setup.do"
 use "$data\propertyvpa2014_data.dta", clear 
 drop if year<2003
 
+/*Identify each county's Gross Digest Value per Acre in 2013*/
 g grossvpa2013 = grossvpa if year==2013
 by county: egen meangrossvpa2013 = mean(grossvpa2013)
 replace grossvpa2013 = meangrossvpa2013 if grossvpa2013==.
 
+/*Record the change in property value in percentage terms*/
 g pctdifgrossvpa2013 = ((grossvpa-grossvpa2013)/grossvpa2013)*100
 label variable pctdifgrossvpa2013 "% Difference from 2013"
 format pctdifgrossvpa2013 %9.2f
@@ -48,6 +50,7 @@ save "$data\.dta", replace
 export delimited "$data\.csv", replace
 */
 
+/* Fig 15.1 */
 mylabels -50(25)225, suffix(%) myscale(@)  local(pct) format(%2.0fc)
 #delimit;
 twoway
@@ -92,7 +95,6 @@ text( -40 2013 "← Truist Park announced", placement(e) size(medium) )
 name(county_pctdiff, replace)
 ;
 #delimit cr
-
 /*
 graph export "$figs\Fig15.1.pdf", as(pdf) replace
 graph export "$tif\Fig15.1.tif", as(tif) width(3000)  replace
