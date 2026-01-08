@@ -275,4 +275,10 @@ Figure 29.1 presented for exposition.
 
 # References
 
- 
+Bradbury, John Charles (2022a) "Does hosting a professional sports team benefit the local community? Evidence from property assessments," Economics of Governance, 23(1):219–252 (https://link.springer.com/article/10.1007/s10101-022-00268-z).
+
+Bradbury, John Charles (2022b) "The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district," Journal of Regional Science, 62(1):194-217 (https://doi.org/10.1111/jors.12560).
+
+Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evidence from sales tax collections," Journal of Urban Affairs, 46(1):139-159 (https://doi.org/10.1080/07352166.2022.2044837).
+
+Bradbury, John Charles and Stephenson, E. Frank (2026) "The impact of MLB team relocation on hotel demand, In Press (https://journals.sagepub.com/doi/10.1177/13548166251405295)
