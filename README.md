@@ -247,14 +247,22 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 |15.1|02-fig15.1.do|77|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
 |15.2|02-fig15.2.do|167|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
 
-
 ## Chapter 17
 
 ## Chapter 18
 
 ## Chapter 19
 
-Table 19.1 reports all information.
+### Figures
+| Figure | Do-file | Line #| Data Input | Data Output| 
+|----|----|----|----|----|
+|19.1|Map||||
+|19.2|02-fig19.2.do|148|milb_ballparkcosts.dta|milb_cumulative.dta|
+
+
+### Tables
+Table 9.1 reports all information.
+
 
 ## Chapter 22
 
