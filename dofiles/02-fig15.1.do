@@ -7,6 +7,11 @@
 ** Year: 2026
 ********************************************************************** 
 
+Much of the analysis discussed in Chapter 15 draws from the following study:
+Bradbury, John Charles (2022) "Does hosting a professional sports team benefit the local community? Evidence from property assessments," Economics of Governance, 23(1):219–252 (https://link.springer.com/article/10.1007/s10101-022-00268-z).
+
+The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
+
 Data Input (data\): 
 propertyvpa2014_data.dta
 
