@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 15.1
 Tables (Stata viewer): 
-Data (outdat\):
+Data (outdat\): propertyvpa2014_meanch.dta
 Other: 
 */
 
