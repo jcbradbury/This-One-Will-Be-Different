@@ -106,6 +106,6 @@ graph save wpct_nhl.gph, replace
 /* Fig 6.6 */
 graph combine wpct_mlb.gph   wpct_nfl.gph wpct_nba.gph wpct_nhl.gph, cols(2)  name(winning_pct, replace) xsize(4) ysize(4) plotregion(margin(t=0 b=0 l=0 r=0))
 /*
-graph export "$figs\Fig6.6.6.pdf", as(pdf) replace
+graph export "$figs\Fig6.6.pdf", as(pdf) replace
 graph export "$tif\Fig6.6.tif", as(tif) width(3000)  replace
 */
