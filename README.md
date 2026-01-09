@@ -266,7 +266,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 ## Chapter 18
 
 ### Tables
-| Table | Do-file | Line #| Data Input | Data Output| 
+| Table | Do-file/Information  | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |18.1|02-tab18.1.do|180|population_msa.dta|msarank2023.dta|
 |18.2|Metro areas team hosting status reported in table||||
