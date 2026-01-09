@@ -310,6 +310,6 @@ Bradbury, John Charles (2022b) "The impact of sports stadiums on localized comme
 
 Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evidence from sales tax collections," *Journal of Urban Affairs*, 46(1):139-159 (https://doi.org/10.1080/07352166.2022.2044837).
 
-Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," Economic Inquiry, In Press.
+Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," *Economic Inquiry*, In Press (link to come).
 
 Bradbury, John Charles and Stephenson, E. Frank (2026) "The impact of MLB team relocation on hotel demand, *Tourism Economics*, In Press (https://journals.sagepub.com/doi/10.1177/13548166251405295)
