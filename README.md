@@ -233,7 +233,7 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 |13.1|county_synthdata_2010_2019.dta ; cobb_stsynth_orig.dta|176|02-fig13.2_13.3_tab13.1.do|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
 |13.2|CobbDocs\CobbBOCYearInReview_data.xlsx |*|||
 
-*Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. File lists information locations within each document.
+*Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. Workbook associated with the table lists information locations within each document.
 
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
