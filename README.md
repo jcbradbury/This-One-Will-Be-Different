@@ -289,7 +289,13 @@ Table 19.1 reports all information.
 Figure 22.1 presented for exposition.
 
 ## Chapter 26
-Tables 26.1 and 26.2 report all information.
+
+### Tables
+| Table | Source File | Location | 
+|----|----|----|
+|26.1|CobbDocs\CobbBOCYearInReview_data.xlsx |See appropriate worksheet|
+|26.2|CobbDocs\CobbBOCYearInReview_data.xlsx |See appropriate worksheets|
+
 
 ## Chapter 29
 
