@@ -284,7 +284,9 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 
 ### Tables
-Table 19.1 reports all information.
+| Table | Information | 
+|----|----|
+|19.1|Atlanta Braves minor-league affiliates data reported in table|
 
 
 ## Chapter 22
