@@ -300,13 +300,15 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 ### Tables
 | Table | Source File | Location | 
 |----|----|----|
-|26.1|CobbDocs\CobbBOCYearInReview_data.xlsx |See appropriate worksheet|
-|26.2|CobbDocs\CobbBOCYearInReview_data.xlsx |See appropriate worksheets|
+|26.1|CobbDocs\CobbBOCYearInReviews.xlsx |See appropriate worksheet in file|
+|26.2|CobbDocs\CobbBOCYearInReviews.xlsx |See appropriate worksheets in file|
 
 
 ## Chapter 29
 
-Figure 29.1 presented for exposition.
+| Figure | Information | 
+|----|----|
+|29.1|Illustration of the stadium replacement cycle|
 
 ## Appendix A
 
