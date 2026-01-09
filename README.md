@@ -290,8 +290,10 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 
 ## Chapter 22
+| Figure | Information | 
+|----|----|
+|22.1|Illustration of median voter model|
 
-Figure 22.1 presented for exposition.
 
 ## Chapter 26
 
