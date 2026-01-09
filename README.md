@@ -192,10 +192,11 @@ Links to Annual Financial Documents
 |10.1|02-fig10.1.do|114|venuesdb_base.dta|compare_mlb.dta|
 
 ### Tables
-| Figure | Do-file | Line #| Data Input | Data Output| 
-|----|----|----|----|----|
-|10.1| Reports all information| | | | 
-|10.2| Reports all information| | | | 
+| Table | Notes| 
+|----|----|
+|10.1|Reports all information|
+|10.2|Reports all information|
+
 
 ### Other Information
 | Information cited in text| Do-file | Line #|
