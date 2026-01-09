@@ -270,6 +270,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 
 
 ## Chapter 19
+MiLB ballpark contruction costs discussed in Chapter 19 are presented in more detail in [Bradbury (2026)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5318600)
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
@@ -308,5 +309,7 @@ Bradbury, John Charles (2022a) "Does hosting a professional sports team benefit 
 Bradbury, John Charles (2022b) "The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district," *Journal of Regional Science*, 62(1):194-217 (https://doi.org/10.1111/jors.12560).
 
 Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evidence from sales tax collections," *Journal of Urban Affairs*, 46(1):139-159 (https://doi.org/10.1080/07352166.2022.2044837).
+
+Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," Economic Inquiry, In Press.
 
 Bradbury, John Charles and Stephenson, E. Frank (2026) "The impact of MLB team relocation on hotel demand, *Tourism Economics*, In Press (https://journals.sagepub.com/doi/10.1177/13548166251405295)

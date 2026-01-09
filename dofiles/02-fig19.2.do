@@ -7,7 +7,7 @@
 ** Year: 2026
 ********************************************************************** 
 
-Much of the analysis discussed in Chapter 19 draws from the follow study:
+MiLB ballpark contruction costs discussed in Chapter 19 are presented in more detail in:
 Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," Economic Inquiry, In Press
 (LINK). 
 Further details on the emprical analysis and tables are available in the replication package for the article located here: LINK .
