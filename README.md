@@ -180,11 +180,9 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |Figure 9.1 | [Google Maps link](https://earth.google.com/web/@33.89019965,-84.46950765,303.38709086a,2262.26052534d,30.00022021y,320.3128022h,0t,0r/data=CgRCAggBMikKJwolCiExTUtLcC00OTcydUZUZW5faFp3bS1qQ2hkLUI2aHlLUDAgAToDCgEwQgIIAEoICO7p_oQCEAE?utm_source=earth7&utm_campaign=vine&hl=en)|
 
 ### Tables
-Table 9.1 reports all information. Link to Google Map
-
-Links to Annual Financial Documents 
-2017-2022: [Liberty Media](https://www.libertymedia.com/investors/financial-information/annual-reports-proxy-statements)
-2023-2024: [Braves Holding Company](https://www.bravesholdings.com/investors/financial-information/financial-results)
+| Figure | Information|
+|----|----|
+|Links to Annual Financial Documents| 2017-2022: [Liberty Media](https://www.libertymedia.com/investors/financial-information/annual-reports-proxy-statements). 2023-2024: [Braves Holding Company](https://www.bravesholdings.com/investors/financial-information/financial-results).|
 
 
 ## Chapter 10
