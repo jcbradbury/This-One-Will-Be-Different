@@ -193,10 +193,10 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |10.1|02-fig10.1.do|114|venuesdb_base.dta|compare_mlb.dta|
 
 ### Tables
-| Table | Notes| 
+| Table | Information | 
 |----|----|
-|10.1|Reports all information|
-|10.2|Reports all information|
+|10.1|Stadium-related capital costs reported in table|
+|10.2|Projected revenues and costs reported in table|
 
 
 ### Other Information
