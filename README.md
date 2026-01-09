@@ -255,12 +255,13 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 ### Tables
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|17.1|02-fig17.1.do|67|msarank2023.dta; : venuesdb_all.dta|msa_teams_count.dta|
+|17.1|02-tab17.1.do|67|msarank2023.dta; : venuesdb_all.dta|msa_teams_count.dta|
+
 
 ### Other Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
-| Total teams hosted in primarily privately financed venues| 02-fig17.1 |71|
+| Total teams hosted in primarily privately financed venues| 02-tab17.1 |71|
 
 ## Chapter 18
 
