@@ -209,7 +209,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560). 
 
 ### Figures
-| Figure | Do-file | Line #| Data Input | Data Output| 
+| Figure | Do-file/Information | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |12.1|02-fig12.1_12.3|98|cidgr2010_2023.dta|cid_vpa.dta|
 |12.2|Illustration ||||
@@ -236,7 +236,7 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 |13.2|CobbDocs\CobbBOCYearInReviews.xlsx |*|||
 
 
-*Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. Workbook associated with the table lists information locations within each document.
+*Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. Worksheets associated with the table list information locations within each document.
 
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
