@@ -164,5 +164,5 @@ graph_opt( legend( order(1 "MLB" 2 "NFL" 3 "NBA"  4 "NHL") ring(0) pos(1) symxsi
  lead_opt4(msymbol(Sh) color(gs10) lp(vshortdash))  
 /*
 graph export "$figs\Fig6.2.pdf", as(pdf)  replace
-graph export "$figs\Fig6.2.tif", as(tif) width(3000)  replace
+graph export "$tif\Fig6.2.tif", as(tif) width(3000)  replace
 */

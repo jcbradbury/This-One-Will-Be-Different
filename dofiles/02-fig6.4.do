@@ -52,7 +52,7 @@ xtitle(Lease Term, size(medlarge)) ytitle(Venues, size(medlarge)) ///
 plotregion(margin(l=0))
 /*
 graph export "$figs\Fig6.4.pdf", as(pdf)  replace
-graph export "$figs\Fig6.4.tif", as(tif) width(3000)  replace
+graph export "$tif\Fig6.4.tif", as(tif) width(3000)  replace
 */
 
 /*CITED in text: Distribution of lease term lengths*/

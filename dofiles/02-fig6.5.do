@@ -63,8 +63,7 @@ xsize(2) ysize(1) ///
 xline(1996.5, lp(dash) lw(medthick) lc(black)) xline(2016.5, lp(dash) lw(medthick) lc(black)) ///
 plotregion(margin(t=1 b=1 l=5 r=5)) ///
 name(payroll25, replace)
-
 /*
-graph export "$figs\Fig6.2.pdf", as(pdf) replace
-graph export "$tif\Fig6.2.tif", as(tif) width(3000)  replace
+graph export "$figs\Fig6.5.pdf", as(pdf) replace
+graph export "$tif\Fig6.5.tif", as(tif) width(3000)  replace
 */
