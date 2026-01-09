@@ -233,7 +233,8 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |13.1|county_synthdata_2010_2019.dta ; cobb_stsynth_orig.dta|176|02-fig13.2_13.3_tab13.1.do|county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta|
-|13.2|CobbDocs\CobbBOCYearInReview_data.xlsx |*|||
+|13.2|CobbDocs\CobbBOCYearInReviews.xlsx |*|||
+
 
 *Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. Workbook associated with the table lists information locations within each document.
 
