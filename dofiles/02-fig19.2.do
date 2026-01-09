@@ -1,4 +1,4 @@
-/* This file provides the code for aggregating MiLB ballpark costs.
+/* This file provides the code for aggregating cumulative MiLB ballpark costs.
 
 **********************************************************************
 ** Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
