@@ -1,4 +1,4 @@
-/* This file provides the code for aggregating median MiLB ballpark costs.
+/* This file provides the code for measuring the distribution MiLB ballpark costs.
 
 **********************************************************************
 ** Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
