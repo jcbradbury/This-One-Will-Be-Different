@@ -182,7 +182,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 ### Tables
 | Figure | Information|
 |----|----|
-|Links to Annual Financial Documents| 2017-2022: [Liberty Media](https://www.libertymedia.com/investors/financial-information/annual-reports-proxy-statements). 2023-2024: [Braves Holding Company](https://www.bravesholdings.com/investors/financial-information/financial-results).|
+|Links to Atlanta Braves Financial Documents| 2017-2022: [Liberty Media](https://www.libertymedia.com/investors/financial-information/annual-reports-proxy-statements). 2023-2024: [Braves Holding Company](https://www.bravesholdings.com/investors/financial-information/financial-results).|
 
 
 ## Chapter 10
