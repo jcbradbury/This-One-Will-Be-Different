@@ -77,3 +77,7 @@ ytitle("Public Cost (in millions of 2024 dollars)", size(medlarge))  ///
 xtitle("Decade", size(medlarge)) ///
 plotregion(margin(l=3 r=3)) ///
 legend(order(- "{bf:Total Cost}" 1 "Middle 50%" 5  "Median" - - "{bf:Public Cost}"  2 "Middle 50%" 4 "Median ") cols(1) size(medium) symxsize(11) ring(0) pos(11)) name(all_tcpc, replace)
+/*
+graph export "$figs\Fig19.3.pdf", as(pdf) replace
+graph export "$tif\Fig19.3.tif", as(tif) width(3000)  replace
+*/

@@ -111,10 +111,10 @@ name(st_means, replace)
 
 gr_edit	.legend.plotregion1.label[3].xoffset = -12.25
 gr_edit	.legend.plotregion1.label[3].yoffset = -.75
-/*
+/**/
 graph export "$figs\Fig13.2.pdf", as(pdf) replace
 graph export "$tif\Fig13.2.tif", as(tif) width(3000)  replace
-*/
+
 
 /*Run SCM analysis*/
 synth sumcollections3_pc  logypc salestaxrate popdens sq_miles distanceturner ///
@@ -172,10 +172,10 @@ ylabel(`dollab', angle(horizontal ) labsize(medium))  ///
 legend(order(2 3 1) cols(1) ring(0) pos(10) symxsize(15) size(medium)) ///
 plotregion(margin(t=3 b=3 l=3 r=3) ) ///
 name(st_synth, replace)		
-/*
+/**/
 graph export "$figs\Fig13.3.pdf", as(pdf) replace
 graph export "$tif\Fig13.3.tif", as(tif) width(3000)  replace
-*/
+
 
 /*Table 13.1*/
 tabstat predgap if quarteryr>228, by(baseball) // Average treatment effect of Truist Park measured by differnce between observed and synthetic Cobb 
