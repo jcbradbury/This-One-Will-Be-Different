@@ -11,6 +11,11 @@ papers/CobbBraves/*
 papers/OtherPapers/*
 !papers/OtherPapers/.gitkeep
 
+# Hi-res figures (local only)
+tif/
+
+
+
 # Temporary Stata files
 *_temp.dta
 *.log
