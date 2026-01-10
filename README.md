@@ -193,13 +193,16 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ### Relevant Links
 
+- Baker, Andrew, Brantly Callaway, Scott Cunningham, Andrew Goodman-Bacon, and Pedro HC Sant'Anna (2026) "[Difference-in-Differences Designs: A Practitioner’s Guide](https://www.aeaweb.org/articles?id=10.1257/jel.20251650)" *Journal of Economic Literature*. In Press.
+
 - Bradbury, J.C. (2024) “[Revisiting the novelty effect from new stadiums: An event study approach](https://doi.org/10.1111/ecin.13231),”*Economic Inquiry*, 62 (4), 1722–1747.
+
+- Callaway, Brantly and Pedro H.C. Sant’Anna (2021) “[Difference-in-differences with multiple time periods](https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948),” *Journal of Econometrics*, 225 (2), 200–230.
 
 - Coates, Dennis and Brad R. Humphreys (2005) “[Novelty effects of new facilities on attendance at professional sporting events](https://doi.org/10.1093/cep/byi033),” *Contemporary Economic Policy*, 23 (3), 436–455.
 
 - Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
-- Baker, Andrew, Brantly Callaway, Scott Cunningham, Andrew Goodman-Bacon, and Pedro HC Sant'Anna (2026) "[Difference-in-Differences Designs: A Practitioner’s Guide](https://www.aeaweb.org/articles?id=10.1257/jel.20251650)" *Journal of Economic Literature*. In Press.
 
 ## Chapter 7
 
