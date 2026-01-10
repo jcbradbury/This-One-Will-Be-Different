@@ -116,6 +116,8 @@ All data files provided in .csv format, which can be read by other data analysis
 
 - Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises, stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
 
+- Coates, Dennis and Brad R. Humphreys (2003) “[The effect of professional sports on earnings and employment in the services and retail sectors in U.S. cities](https://www.sciencedirect.com/science/article/abs/pii/S0166046202000108),” *Regional Science and Urban Economics*, 33 (2), 175–198.
+
 - US Economic Experts Panel (2017) “[Sports Stadiums]"(https://www.kentclarkcenter.org/us-economic-experts-panel/).
 
 ## Chapter 5
