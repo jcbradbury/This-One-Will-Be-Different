@@ -122,7 +122,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 - Hudson, Ian (1999) “[Bright lights, big city: Do professional sports teams increase employment?](https://doi.org/10.1111/0735-2166.00027)” *Journal of Urban Affairs*, 21 (4), 397–407.
 
-- US Economic Experts Panel (2017) “[Sports Stadiums]"(https://www.kentclarkcenter.org/us-economic-experts-panel/).
+- US Economic Experts Panel (2017) “[Sports Stadiums](https://www.kentclarkcenter.org/us-economic-experts-panel/)".
 
 ## Chapter 5
 
