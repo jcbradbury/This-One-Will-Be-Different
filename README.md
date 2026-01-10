@@ -114,9 +114,13 @@ All data files provided in .csv format, which can be read by other data analysis
 
 - Bastiat, Frederic (1850) *Essays on Political Economy*, "[What is seen and what is not seen](https://oll.libertyfund.org/page/wswns)," Liberty Fund.
 
+- Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2023) “[The impact of professional sports franchises and venues on local economies: A comprehensive survey](https://doi.org/10.1111/joes.12533),” *Journal of Economic Surveys*, 37 (4), 1389–1431.
+
 - Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises, stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
 
 - Coates, Dennis and Brad R. Humphreys (2003) “[The effect of professional sports on earnings and employment in the services and retail sectors in U.S. cities](https://www.sciencedirect.com/science/article/abs/pii/S0166046202000108),” *Regional Science and Urban Economics*, 33 (2), 175–198.
+
+- Hudson, Ian (1999) “[Bright lights, big city: Do professional sports teams increase employment?](https://doi.org/10.1111/0735-2166.00027)” *Journal of Urban Affairs*, 21 (4), 397–407.
 
 - US Economic Experts Panel (2017) “[Sports Stadiums]"(https://www.kentclarkcenter.org/us-economic-experts-panel/).
 
@@ -155,6 +159,10 @@ All data files provided in .csv format, which can be read by other data analysis
 |Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|116|
 |Venues hosting teams 30+ years and last renovation 15+ years by the end of 2020s|02-fig5.6.do|127|
 |Median and cumulative MLS stadium costs|02-fig5.9.do|39|
+
+### Relevant Links
+
+- Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
 
 ## Chapter 6
 
