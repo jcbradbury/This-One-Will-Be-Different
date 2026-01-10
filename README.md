@@ -108,7 +108,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ### Relevant Links
 
-- Bastiat, Frederic (1850) Essays on Political Economy "[What is Seen and What is Not Seen](https://oll.libertyfund.org/page/wswns)," Liberty Fund.
+- Bastiat, Frederic (1850) *Essays on Political Economy*, "[What is seen and what is not seen](https://oll.libertyfund.org/page/wswns)," Liberty Fund.
 
 - Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises, stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
 
