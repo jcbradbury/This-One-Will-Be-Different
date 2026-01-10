@@ -201,7 +201,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - Coates, Dennis and Brad R. Humphreys (2005) “[Novelty effects of new facilities on attendance at professional sporting events](https://doi.org/10.1093/cep/byi033),” *Contemporary Economic Policy*, 23 (3), 436–455.
 
-- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
+- Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 
 ## Chapter 7
@@ -305,7 +305,7 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 
 - Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
-- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
+- Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 - Huang, Haifang and Brad R. Humphreys (2014) “[New sports facilities and residential housing markets](https://doi.org/10.1111/jors.12120),” *Journal of Regional Science*, 54 (4), 629–663.
 
@@ -344,7 +344,7 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 
 - Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
-- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
+- Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
@@ -354,6 +354,8 @@ Much of the analysis described in this chapter is based on [Bradbury and Stephen
 - Baade, Robert A. and Victor A. Matheson (2001) “[Home run or wild pitch? Assessing the economic impact of Major League Baseball’s All-Star Game](https://doi.org/10.1177/152700250100200401),” *Journal of Sports Economics*, 2 (4), 307–327.
 
 - Bradbury, J.C. and E. Frank Stephenson (2026) “[The impact of MLB team relocation on hotel demand](https://doi.org/10.1177/13548166251405295),” *Tourism Economics*.
+
+- Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 - Depken, Craig A. and E. Frank Stephenson (2018) “[Hotel demand before, during, and after sports events: evidence from Charlotte, North Carolina](https://doi.org/10.1111/ecin.12572),” *Economic Inquiry*, 56 (3), 1764–1776.
 
@@ -374,7 +376,8 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 - Bradbury, J.C. (2022) “[Does hosting a professional sports team benefit the local community? Evidence from property assessments](https://link.springer.com/article/10.1007/s10101-022-00268-z),” *Economics of Governance*, 23, 219–252.
 
 - Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
-- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
+
+- Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 ## Chapter 17
 
