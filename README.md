@@ -204,6 +204,10 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |----|----|----|
 |Truist Park opulence example|02-tab7.1.do|184|
 
+### Relevant Links
+
+Propheter, Geoffrey (2017) “[Subsidies and stadia’ opulence](https://doi.org/10.1177/1527002514551803),” *Journal of Sports Economics*, 18 (1), 3–18.
+
 ## Chapter 9
 
 ### Figures
