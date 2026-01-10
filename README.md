@@ -456,7 +456,15 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Delaney, Kevin J. and Rick Eckstein (2003) [*Public Dollars, Private Stadiums: The Battle over Building Sports Stadiums*](https://www.rutgersuniversitypress.org/public-dollars-private-stadiums/9780813533438), Rutgers University Press.
 
-- 
+## Chapter 20
+
+### Relevant Links
+
+- Klepal, Dan (2014) [Lee hires off-the-books attorney for Braves deal](https://www.ajc.com/news/lee-hires-off-the-books-attorney-for-braves-deal/FnKWooTna7Y4hJ3DSvdM3M/), *Atlanta Journal-Constitution*, August 16.
+
+- Klepal, Dan (2014) [Email to attorney: Lee confirms you’re on Braves deal](https://www.ajc.com/news/local-govt--politics/email-attorney-lee-confirms-you-braves-deal/2CRrQZ7Jwia6nHBrLvIWAM/), *Atlanta Journal-Constitution*, October 4.
+
+- Walls, Jim (2014b) “[The role of the Cobb Chamber of Commerce in luring the Braves away from Atlanta](https://www.atlantamagazine.com/news-culture-articles/the-role-of-the-cobb-chamber-of-commerce-in-luring-the-braves-away-from-atlanta/)”, *Atlanta Magazine*, June 23.
 
 ## Chapter 22
 | Figure | Information | 
