@@ -195,6 +195,8 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - Bradbury, J.C. (2024) “[Revisiting the novelty effect from new stadiums: An event study approach](https://doi.org/10.1111/ecin.13231),”*Economic Inquiry*, 62 (4), 1722–1747.
 
+- Coates, Dennis and Brad R. Humphreys (2005) “[Novelty effects of new facilities on attendance at professional sporting events](https://doi.org/10.1093/cep/byi033),” *Contemporary Economic Policy*, 23 (3), 436–455.
+
 ## Chapter 7
 
 ### Tables
