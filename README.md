@@ -102,7 +102,16 @@ All data files provided in .csv format, which can be read by other data analysis
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
 
 - Baade, Robert A. and Richard F. Dye (1990) “[Stadiums and professional sports on metropolitan area development](https://onlinelibrary.wiley.com/doi/10.1111/j.1468-2257.1990.tb00513.x),”
-Growth and Change, 12 (114), 1–14.
+*Growth and Change*, 12 (114), 1–14.
+
+## Chapter 4
+
+### Relevant Links
+- Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises,
+stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
+
+- US Economic Experts Panel (2017) “[Sports Stadiums]"(https://www.kentclarkcenter.org/
+us-economic-experts-panel/).
 
 ## Chapter 5
 
