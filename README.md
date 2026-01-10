@@ -256,7 +256,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ### Relevant Links
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2025) "[Public choice and stadium subsidies](https://doi.org/10.4337/9781802207750.00100)," in Richard Jong-A-Pin and Christian Bjørnskov (eds.) *Elgar Encyclopedia of Public Choice*, Edward Elgar. 
 
@@ -274,7 +274,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - [Commissioned Fiscal Impact Study, 2018](https://web.cobbchamber.org/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=12245) Center for Economic Development Research (2018) “Fiscal impact of SunTrust Park and The Battery Atlanta on Cobb County,” Report commissioned by Cobb Chamber of Commerce.
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Crompton, John L. (1995) “[Analysis of sports facilities and events: Eleven sources of misapplication](https://doi.org/10.1123/jsm.9.1.14),” *Journal of Sport Management*, 9 (1), 14–35.
 
@@ -303,7 +303,7 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 
 - Bradbury, J.C. (2022) “[The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district]((https://doi.org/10.1111/jors.12560)),” *Journal of Regional Science*, 62 (1), 194–217.
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
@@ -344,7 +344,7 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 
 - Bradbury, J.C.  (2024) “[Sports stadiums and local economic activity: Evidence from sales tax collections](https://doi.org/10.1080/07352166.2022.2044837),” *Journal of Urban Affairs*, 46 (1), 139–159.
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
@@ -377,7 +377,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 
 - Bradbury, J.C. (2022) “[Does hosting a professional sports team benefit the local community? Evidence from property assessments](https://link.springer.com/article/10.1007/s10101-022-00268-z),” *Economics of Governance*, 23, 219–252.
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2023) “[The impact of professional sports franchises and venues on local economies: A comprehensive survey](https://doi.org/10.1111/joes.12533),” *Journal of Economic Surveys*, 37 (4), 1389–1431.
 
@@ -510,7 +510,7 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Baumann, Robert W. and J.C. Bradbury (2024) “[Estimating the fiscal impact of stadium developments: Evaluating a pro forma model](https://journals.sagepub.com/doi/10.1177/10911421231199517),” *Public Finance Review*, 52 (4), 399–438.
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Wassmer, Robert W., Ryan S. Ong, and Geoffrey Propheter (2016) “[Suggestions for the needed standardization of determining the local economic impact of professional sports](https://doi.org/10.1177/0891242416636685),” *Economic Development Quarterly*, 30 (3), 252–266.
 
