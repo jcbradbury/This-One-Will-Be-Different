@@ -270,6 +270,7 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 |12.4|02-fig12.4.do|66|CIDdata.dta|vpa2014_treat.dta|
 |12.5|I'm an economist, not an artist.||||
 
+### Relevant Links
 
 ## Chapter 13
 The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837). 
@@ -291,8 +292,12 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 
 *Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. Worksheets associated with the table list information locations within each document.
 
+### Relevant Links
+
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
+
+### Relevant Links
 
 ## Chapter 15
 The technical details of the analysis presented Chapter 15 are described thoroughly in [Bradbury (2022a)](https://link.springer.com/article/10.1007/s10101-022-00268-z). 
@@ -302,6 +307,8 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 |----|----|----|----|----|
 |15.1|02-fig15.1.do|77|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
 |15.2|02-fig15.2.do|167|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
+
+### Relevant Links
 
 ## Chapter 17
 
@@ -315,6 +322,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 | Information cited in text| Do-file | Line #|
 |----|----|----|
 | Total teams hosted in primarily privately financed venues| 02-tab17.1 |71|
+
 
 ## Chapter 18
 
@@ -341,12 +349,14 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 |----|----|
 |19.1|Atlanta Braves minor-league affiliates data reported in table|
 
+### Relevant Links
 
 ## Chapter 22
 | Figure | Information | 
 |----|----|
 |22.1|Illustration of median voter model|
 
+### Relevant Links
 
 ## Chapter 26
 
