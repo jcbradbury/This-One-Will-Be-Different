@@ -260,11 +260,20 @@ The technical details of the analysis presented Chapter 6 are described thorough
 ## Chapter 11
 
 ### Relevant Links
+
 - [Cobb County's Braves Stadium Information webpage (archived from March 2014)](https://web.archive.org/web/20140423070831/http://www.cobbcounty.org/index.php?option=com_content&view=article&id=2713&Itemid=698)
 
 - [Commissioned Fiscal Benefits Study, 2013](https://assets.cobbcounty.gov/files/2018-07/SunTrust-Park-Agreement-Final-Benefits-Study.pdf)
 
 - [Commissioned Fiscal Impact Study, 2018](https://web.cobbchamber.org/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=12245) Center for Economic Development Research (2018) “Fiscal impact of SunTrust Park and The Battery Atlanta on Cobb County,” Report commissioned by Cobb Chamber of Commerce.
+
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+
+- Crompton, John L. (1995) “[Analysis of sports facilities and events: Eleven sources of misapplication](https://doi.org/10.1123/jsm.9.1.14),” *Journal of Sport Management*, 9 (1), 14–35.
+
+- Hudson, Ian (2001) “[The use and misuse of economic impact analysis](https://doi.org/10.1177/0193723501251003),” *Journal of Sport & Social Issues*, 25 (1), 20–39.
+
+- Wassmer, Robert W., Ryan S. Ong, and Geoffrey Propheter (2016) “[Suggestions for the needed standardization of determining the local economic impact of professional sports](https://doi.org/10.1177/0891242416636685),” *Economic Development Quarterly*, 30 (3), 252–266.
 
 
 
