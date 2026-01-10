@@ -292,9 +292,13 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 
 ### Relevant Links
 
+- Abadie, Alberto (2021) “[Using synthetic controls: feasibility, data requirements, and methodological aspects](https://www.aeaweb.org/articles?id=10.1257/jel.20191450),” *Journal of Economic Literature*, 59 (2), 391–425.
+
 - Bradbury, J.C. (2022) “[The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district]((https://doi.org/10.1111/jors.12560)),” *Journal of Regional Science*, 62 (1), 194–217.
 
 - Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+
+- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 - Huang, Haifang and Brad R. Humphreys (2014) “[New sports facilities and residential housing markets](https://doi.org/10.1111/jors.12120),” *Journal of Regional Science*, 54 (4), 629–663.
 
