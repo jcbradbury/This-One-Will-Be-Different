@@ -340,12 +340,22 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 
 - Abadie, Alberto (2021) “[Using synthetic controls: feasibility, data requirements, and methodological aspects](https://www.aeaweb.org/articles?id=10.1257/jel.20191450),” *Journal of Economic Literature*, 59 (2), 391–425.
 
+- Bradbury, J.C.  (2024) “[Sports stadiums and local economic activity: Evidence from sales tax collections](https://doi.org/10.1080/07352166.2022.2044837),” *Journal of Urban Affairs*, 46 (1), 139–159.
+
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+
 - Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
 
 ### Relevant Links
+
+- Baade, Robert A. and Victor A. Matheson (2001) “[Home run or wild pitch? Assessing the economic impact of Major League Baseball’s All-Star Game](https://doi.org/10.1177/152700250100200401),” *Journal of Sports Economics*, 2 (4), 307–327.
+
+- Bradbury, J.C. and E. Frank Stephenson (2026) “[The impact of MLB team relocation on hotel demand](https://doi.org/10.1177/13548166251405295),” *Tourism Economics*.
+
+- Depken, Craig A. and E. Frank Stephenson (2018) “[Hotel demand before, during, and after sports events: evidence from Charlotte, North Carolina](https://doi.org/10.1111/ecin.12572),” *Economic Inquiry*, 56 (3), 1764–1776.
 
 
 ## Chapter 15
