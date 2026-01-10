@@ -99,7 +99,10 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ### Relevant Links
 
-- Bradbury, J.C., Coates, Dennis, and Humphreys,  Brad R. [Public Policy Toward Professional Sports Stadiums: A Review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534), *Journal of Policy Analysis and Management*, 2024, 43(3): 899–937.
+- Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
+
+- Baade, Robert A. and Richard F. Dye (1990) “[Stadiums and professional sports on metropolitan area development](https://onlinelibrary.wiley.com/doi/10.1111/j.1468-2257.1990.tb00513.x),”
+Growth and Change, 12 (114), 1–14.
 
 ## Chapter 5
 
