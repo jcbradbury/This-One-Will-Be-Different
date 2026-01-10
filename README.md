@@ -272,6 +272,18 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 
 ### Relevant Links
 
+- Bradbury, J.C. (2022) “[The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district]((https://doi.org/10.1111/jors.12560)),” *Journal of Regional Science*, 62 (1), 194–217.
+
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+
+- Huang, Haifang and Brad R. Humphreys (2014) “[New sports facilities and residential housing markets](https://doi.org/10.1111/jors.12120),” *Journal of Regional Science*, 54 (4), 629–663.
+
+- Nelson, Arthur C. (2001) “[Prosperity or blight? A question of major league stadia locations](https://doi.org/10.1177/089124240101500305),” *Economic Development Quarterly*, 15 (3), 255–265.
+
+- Nelson, Arthur C. (2001) “[Reply to Robert W. Wassmer](https://doi.org/10.1177/089124240101500307),” *Economic Development Quarterly*, 15 (3), 272–273.
+
+- Wassmer, Robert W. (2001) “[Metropolitan prosperity from Major League Sports in the CBD: Stadia locations or just strength of the central city? A reply to Arthur C. Nelson](https://doi.org/10.1177/089124240101500306),” *Economic Development Quarterly*, 15 (3), 266–271.
+
 ## Chapter 13
 The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837). 
 
