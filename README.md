@@ -168,7 +168,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 6
 
-The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2024)]( https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
+The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
@@ -191,6 +191,10 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |----|----|----|
 |Distribution of lease term length|02-fig6.4.do|58|
 
+### Relevant Links
+
+- Bradbury, J.C. (2024) “[Revisiting the novelty effect from new stadiums: An event study approach](https://doi.org/10.1111/ecin.13231),”*Economic Inquiry*, 62 (4), 1722–1747.
+
 ## Chapter 7
 
 ### Tables
@@ -206,7 +210,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ### Relevant Links
 
-Propheter, Geoffrey (2017) “[Subsidies and stadia’ opulence](https://doi.org/10.1177/1527002514551803),” *Journal of Sports Economics*, 18 (1), 3–18.
+- Propheter, Geoffrey (2017) “[Subsidies and stadia’ opulence](https://doi.org/10.1177/1527002514551803),” *Journal of Sports Economics*, 18 (1), 3–18.
 
 ## Chapter 9
 
