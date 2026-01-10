@@ -371,6 +371,9 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 
 - Abadie, Alberto (2021) “[Using synthetic controls: feasibility, data requirements, and methodological aspects](https://www.aeaweb.org/articles?id=10.1257/jel.20191450),” *Journal of Economic Literature*, 59 (2), 391–425.
 
+- Bradbury, J.C. (2022) “[Does hosting a professional sports team benefit the local community? Evidence from property assessments](https://link.springer.com/article/10.1007/s10101-022-00268-z),” *Economics of Governance*, 23, 219–252.
+
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 - Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 ## Chapter 17
