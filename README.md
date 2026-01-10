@@ -473,6 +473,19 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 ### Relevant Links
 
+- Matsusaka, John G.(2020) [*Let the People Rule: How Direct Democracy Can Meet the Populist Challenge*](https://press.princeton.edu/books/hardcover/9780691199726/let-the-people-rule), Princeton: Princeton University Press.
+
+## Chapter 23
+
+### Relevant Links
+
+- Delaney, Kevin J. and Rick Eckstein (2008) “[Local media coverage of sports stadium initiatives](https://doi.org/10.1177/0193723507311674),” *Journal of Sport & Social Issues*, 32 (1), 72–93.
+
+- Delaney, Kevin J. and Rick Eckstein (2003) [*Public Dollars, Private Stadiums: The Battle over Building Sports Stadiums*](https://www.rutgersuniversitypress.org/public-dollars-private-stadiums/9780813533438), Rutgers University Press.
+
+
+
+
 ## Chapter 26
 
 ### Tables
