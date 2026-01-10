@@ -164,6 +164,8 @@ All data files provided in .csv format, which can be read by other data analysis
 
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
 
+- Propheter, Geoffrey (2023) [*Major league sports and the property tax: Costs and implications of a stealth tax expenditure*](https://link.springer.com/book/10.1007/978-3-031-18790-2), Sports Economics, Management, and Policy, Springer.
+
 ## Chapter 6
 
 The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2024)]( https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
