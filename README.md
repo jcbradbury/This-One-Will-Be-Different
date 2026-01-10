@@ -199,6 +199,8 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
+- Baker, Andrew, Brantly Callaway, Scott Cunningham, Andrew Goodman-Bacon, and Pedro HC Sant'Anna (2026) "[Difference-in-Differences Designs: A Practitioner’s Guide](https://www.aeaweb.org/articles?id=10.1257/jel.20251650)" *Journal of Economic Literature*. In Press.
+
 ## Chapter 7
 
 ### Tables
