@@ -410,6 +410,13 @@ Groothuis, Peter A., Bruce K. Johnson, and John C. Whitehead (2004) “[Public f
 |18.1|02-tab18.1.do|180|population_msa.dta|msarank2023.dta|
 |18.2|Metro areas team hosting status reported in table||||
 
+### Relevant Links
+
+- Humphreys, Brad R. and Li Zhou (2015a) “[Reference-dependent preferences, team relocations, and major league expansion](https://doi.org/10.1016/j.jebo.2014.11.007),” *Journal of Economic Behavior & Organization*, 109, 10–25.
+
+- Neale, Walter C. (1964) “[The peculiar economics of professional sports: A contribution to the theory of the firm in sporting competition and in market competition](https://doi.org/10.2307/1880543),” *Quarterly Journal of Economics*, 78 (1), 1–14.
+
+- Ross, Stephen F. (1989) “[Monopoly sports leagues](https://heinonline.org/HOL/P?h=hein.journals/mnlr73&i=657),” *Minnesota Law Review*, 73, 643–761.
 
 ## Chapter 19
 MiLB ballpark contruction costs discussed in Chapter 19 are presented in more detail in [Bradbury (2026)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5318600)
