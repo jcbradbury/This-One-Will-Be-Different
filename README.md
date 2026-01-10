@@ -456,7 +456,7 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Delaney, Kevin J. and Rick Eckstein (2003) [*Public Dollars, Private Stadiums: The Battle over Building Sports Stadiums*](https://www.rutgersuniversitypress.org/public-dollars-private-stadiums/9780813533438), Rutgers University Press.
 
-## Chapter 20
+## Chapter 21
 
 ### Relevant Links
 
@@ -484,7 +484,13 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 - Delaney, Kevin J. and Rick Eckstein (2003) [*Public Dollars, Private Stadiums: The Battle over Building Sports Stadiums*](https://www.rutgersuniversitypress.org/public-dollars-private-stadiums/9780813533438), Rutgers University Press.
 
 
+## Chapter 24
 
+### Relevant Links
+
+- Bartik, Timothy J. (2019) [*Making sense of incentives: Taming business incentives to promote prosperity*](https://www.upjohn.org/research-highlights/making-sense-incentives-taming-business-incentives-promote-prosperity), Kalamazoo, Michigan: WE Upjohn Institute.
+
+- Rubin, Herbert J. (1988) “[Shoot anything that flies; claim anything that falls: Conversations with economic development practitioners](https://doi.org/10.1177/089124248800200304),” *Economic Development Quarterly*, 2 (3), 236–251.
 
 ## Chapter 26
 
@@ -493,6 +499,19 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 |----|----|----|
 |26.1|CobbDocs\CobbBOCYearInReviews.xlsx |See appropriate worksheet in file|
 |26.2|CobbDocs\CobbBOCYearInReviews.xlsx |See appropriate worksheets in file|
+
+### Relevant Links
+
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+
+- Bradbury, J.C. (2022) “Reply to Zimbalist: Report on the fiscal impact of Truist Park and The
+Battery,” https://papers.ssrn.com/sol3/papers.cfm?abstract id=4165031.
+
+- Zimbalist, Andrew (2018) “[The case for Worcester’s stadium deal](https://www.telegram.com/story/news/local/worcester/2018/08/26/guest-columnist-andrew-zimbalist-case-for-worcesters-stadium-deal/10940746007/),” *Telegram & Gazette*, August 26.
+
+- Zimbalist, Andrew  (2022) “[Report on the fiscal impact of Truist Park and The Battery](https://s3.us-west-2.amazonaws.com/cobbcounty.org.if-us-west-2/prod/2022-06/Fiscal%20Impact%20of%20Truist%20Park%20and%20the%20Battery-by%20Andrew%20Zimbalist.pdf),”
+
+- Zimbalist, Andrew (2022b) “[Zimbalist Reply to Bradbury](https://papers.ssrn.com/sol3/papers.cfm?abstractid=4179764)”.
 
 
 ## Chapter 29
