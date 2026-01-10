@@ -532,6 +532,7 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 |----|----|----|----|----|
 |A.1|02-tabA.1.do|93|venuesdb_all.dta||
 
+<!-- 
 # References
 
 Bradbury, John Charles (2022a) "Does hosting a professional sports team benefit the local community? Evidence from property assessments," *Economics of Governance*, 23(1):219–252 (https://link.springer.com/article/10.1007/s10101-022-00268-z).
@@ -543,3 +544,5 @@ Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evid
 Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," *Economic Inquiry*, In Press (link to come).
 
 Bradbury, John Charles and Stephenson, E. Frank (2026) "The impact of MLB team relocation on hotel demand, *Tourism Economics*, In Press (https://journals.sagepub.com/doi/10.1177/13548166251405295)
+
+-->
