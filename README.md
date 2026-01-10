@@ -110,6 +110,8 @@ All data files provided in .csv format, which can be read by other data analysis
 
 - Baade, Robert A. (1987) “[Is there an economic rationale for subsidizing sports stadiums?](https://web.archive.org/web/20140913130938/http://heartland.org/sites/all/modules/custom/heartland_migration/files/pdfs/17280.pdf)”, The Heartland Institute, Policy Study.
 
+- Baade, Robert A. (1996) “[Professional sports as catalysts for metropolitan economic development](https://doi.org/10.1111/j.1467-9906.1996.tb00361.x),” *Journal of Urban Affairs*, 18 (1), 1–17. 
+
 - Bastiat, Frederic (1850) *Essays on Political Economy*, "[What is seen and what is not seen](https://oll.libertyfund.org/page/wswns)," Liberty Fund.
 
 - Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises, stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
