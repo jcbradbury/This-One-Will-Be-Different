@@ -448,6 +448,15 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Bradbury, J.C. (2026) "[The public cost of Minor League Baseball stadium subsidies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5318600)," *Economic Inquiry*.
 
+## Chapter 20
+
+### Relevant Links
+
+- Delaney, Kevin J. and Rick Eckstein(2007) “[Urban power structures and publicly financed stadiums](https://doi.org/10.1111/j.1573-7861.2007.00022.x),” *Sociological Forum*, 22 (3), 331–353.
+
+- Delaney, Kevin J. and Rick Eckstein (2003) [*Public Dollars, Private Stadiums: The Battle over Building Sports Stadiums*](https://www.rutgersuniversitypress.org/public-dollars-private-stadiums/9780813533438), Rutgers University Press.
+
+- 
 
 ## Chapter 22
 | Figure | Information | 
