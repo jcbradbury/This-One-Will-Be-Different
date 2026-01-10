@@ -197,6 +197,8 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - Coates, Dennis and Brad R. Humphreys (2005) “[Novelty effects of new facilities on attendance at professional sporting events](https://doi.org/10.1093/cep/byi033),” *Contemporary Economic Policy*, 23 (3), 436–455.
 
+- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
+
 ## Chapter 7
 
 ### Tables
@@ -328,12 +330,18 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 
 *Data on spending at The Battery is listed in the Cobb Board of Commissioners' Annual Year in Review reports in the `CobbDocs/` folder. Worksheets associated with the table list information locations within each document.
 
+
 ### Relevant Links
+
+- Abadie, Alberto (2021) “[Using synthetic controls: feasibility, data requirements, and methodological aspects](https://www.aeaweb.org/articles?id=10.1257/jel.20191450),” *Journal of Economic Literature*, 59 (2), 391–425.
+
+- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 ## Chapter 14
 Much of the analysis described in this chapter is based on [Bradbury and Stephenson (2026)](https://doi.org/10.1177/13548166251405295). The hotel data are proprietary, and thus I do not provide the data or code for the figures in this chapter.
 
 ### Relevant Links
+
 
 ## Chapter 15
 The technical details of the analysis presented Chapter 15 are described thoroughly in [Bradbury (2022a)](https://link.springer.com/article/10.1007/s10101-022-00268-z). 
@@ -345,6 +353,10 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 |15.2|02-fig15.2.do|167|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
 
 ### Relevant Links
+
+- Abadie, Alberto (2021) “[Using synthetic controls: feasibility, data requirements, and methodological aspects](https://www.aeaweb.org/articles?id=10.1257/jel.20191450),” *Journal of Economic Literature*, 59 (2), 391–425.
+
+- Cunningham, Scott (2021) [*Causal inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 ## Chapter 17
 
