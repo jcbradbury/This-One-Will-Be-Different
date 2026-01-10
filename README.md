@@ -311,9 +311,11 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 
 - Nelson, Arthur C. (2001) “[Prosperity or blight? A question of major league stadia locations](https://doi.org/10.1177/089124240101500305),” *Economic Development Quarterly*, 15 (3), 255–265.
 
-- Nelson, Arthur C. (2001) “[Reply to Robert W. Wassmer](https://doi.org/10.1177/089124240101500307),” *Economic Development Quarterly*, 15 (3), 272–273.
+    - Wassmer, Robert W. (2001) “[Metropolitan prosperity from Major League Sports in the CBD: Stadia locations or just strength of the central city? A reply to Arthur C. Nelson](https://doi.org/10.1177/089124240101500306),” *Economic Development Quarterly*, 15 (3), 266–271.
 
-- Wassmer, Robert W. (2001) “[Metropolitan prosperity from Major League Sports in the CBD: Stadia locations or just strength of the central city? A reply to Arthur C. Nelson](https://doi.org/10.1177/089124240101500306),” *Economic Development Quarterly*, 15 (3), 266–271.
+    - Nelson, Arthur C. (2001) “[Reply to Robert W. Wassmer](https://doi.org/10.1177/089124240101500307),” *Economic Development Quarterly*, 15 (3), 272–273.
+
+
 
 ## Chapter 13
 The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837). 
@@ -380,6 +382,10 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2023) “[The impact of professional sports franchises and venues on local economies: A comprehensive survey](https://doi.org/10.1111/joes.12533),” *Journal of Economic Surveys*, 37 (4), 1389–1431.
 
 - Carlino, Gerald and N. Edward Coulson (2004) “[Compensating differentials and the social benefits of the NFL](https://doi.org/10.1016/j.jue.2004.03.001),” *Journal of Urban Economics*, 56 (1), 25–50.
+
+    - Coates, Dennis, Brad R. Humphreys, and Andrew Zimbalist (2006) “[Compensating differentials and the social benefits of the NFL: A comment](https://doi.org/10.1016/j.jue.2006.01.001),” *Journal of Urban Economics*, 60 (1), 124–131.
+
+    - Carlino, Gerald and N. Edward Coulson (2006) “[Compensating differentials and the social benefits of the NFL: Reply](https://doi.org/10.1016/j.jue.2006.02.002),” *Journal of Urban Economics*, 60 (1), 132–138.
 
 - Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
