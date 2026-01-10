@@ -379,6 +379,8 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2023) “[The impact of professional sports franchises and venues on local economies: A comprehensive survey](https://doi.org/10.1111/joes.12533),” *Journal of Economic Surveys*, 37 (4), 1389–1431.
 
+- Carlino, Gerald and N. Edward Coulson (2004) “[Compensating differentials and the social benefits of the NFL](https://doi.org/10.1016/j.jue.2004.03.001),” *Journal of Urban Economics*, 56 (1), 25–50.
+
 - Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
 Groothuis, Peter A., Bruce K. Johnson, and John C. Whitehead (2004) “[Public funding of professional sports stadiums: Public choice or civic pride?](https://www.jstor.org/stable/40326145)” *Eastern Economic Journal*, 30 (4), 515–526.
