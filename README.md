@@ -249,6 +249,8 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ### Relevant Links
 
+- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2025) "[Public choice and stadium subsidies](https://doi.org/10.4337/9781802207750.00100)," in Richard Jong-A-Pin and Christian Bjørnskov (eds.) *Elgar Encyclopedia of Public Choice*, Edward Elgar. 
 
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
