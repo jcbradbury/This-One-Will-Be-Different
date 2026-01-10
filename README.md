@@ -257,6 +257,17 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - Buchanan, James M. (1987) [*Public Finance in Democratic Process: Fiscal Institutions and Individual Choice*](https://www.econlib.org/library/Buchanan/buchCv4.html), Chapel Hill: University of North Carolina Press, Reprinted in The Collected Works of James M. Buchanan: Volume 4, Liberty Fund, 1999.
 
+## Chapter 11
+
+### Relevant Links
+- [Cobb County's Braves Stadium Information webpage (archived from March 2014)](https://web.archive.org/web/20140423070831/http://www.cobbcounty.org/index.php?option=com_content&view=article&id=2713&Itemid=698)
+
+- [Commissioned Fiscal Benefits Study, 2013](https://assets.cobbcounty.gov/files/2018-07/SunTrust-Park-Agreement-Final-Benefits-Study.pdf)
+
+- [Commissioned Fiscal Impact Study, 2018](https://web.cobbchamber.org/External/WCPages/WCWebContent/WebContentPage.aspx?ContentID=12245) Center for Economic Development Research (2018) “Fiscal impact of SunTrust Park and The Battery Atlanta on Cobb County,” Report commissioned by Cobb Chamber of Commerce.
+
+
+
 ## Chapter 12
 
 The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560). 
