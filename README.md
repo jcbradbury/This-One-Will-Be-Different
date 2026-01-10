@@ -502,16 +502,25 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 ### Relevant Links
 
+- Baumann, Robert W. and J.C. Bradbury (2024) “[Estimating the fiscal impact of stadium developments: Evaluating a pro forma model](https://journals.sagepub.com/doi/10.1177/10911421231199517),” *Public Finance Review*, 52 (4), 399–438.
+
+- Wassmer, Robert W., Ryan S. Ong, and Geoffrey Propheter (2016) “[Suggestions for the needed standardization of determining the local economic impact of professional sports](https://doi.org/10.1177/0891242416636685),” *Economic Development Quarterly*, 30 (3), 252–266.
+
+Cobb
 - Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/marketseconomic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
-- Bradbury, J.C. (2022) “Reply to Zimbalist: Report on the fiscal impact of Truist Park and The
+
+- Zimbalist, Andrew  (2022) “[Report on the fiscal impact of Truist Park and The Battery](https://s3.us-west-2.amazonaws.com/cobbcounty.org.if-us-west-2/prod/2022-06/Fiscal%20Impact%20of%20Truist%20Park%20and%20the%20Battery-by%20Andrew%20Zimbalist.pdf).”
+    
+    -  Bradbury, J.C. (2022) “Reply to Zimbalist: Report on the fiscal impact of Truist Park and The
 Battery,” https://papers.ssrn.com/sol3/papers.cfm?abstract id=4165031.
+    
+    - Zimbalist, Andrew (2022b) “[Zimbalist Reply to Bradbury](https://papers.ssrn.com/sol3/papers.cfm?abstractid=4179764)”.
+
+Worcester
+- Welker, Grant (2018) “[Sports economists: $101M WooSox stadium deal unlikely to beat the odds](https://www.wbjournal.com/article/sports-economists-101m-woosox-stadium-deal-unlikely-to-beat-the-odds),” *Worcester Business Journal*, August 21, .
 
 - Zimbalist, Andrew (2018) “[The case for Worcester’s stadium deal](https://www.telegram.com/story/news/local/worcester/2018/08/26/guest-columnist-andrew-zimbalist-case-for-worcesters-stadium-deal/10940746007/),” *Telegram & Gazette*, August 26.
-
-- Zimbalist, Andrew  (2022) “[Report on the fiscal impact of Truist Park and The Battery](https://s3.us-west-2.amazonaws.com/cobbcounty.org.if-us-west-2/prod/2022-06/Fiscal%20Impact%20of%20Truist%20Park%20and%20the%20Battery-by%20Andrew%20Zimbalist.pdf),”
-
-- Zimbalist, Andrew (2022b) “[Zimbalist Reply to Bradbury](https://papers.ssrn.com/sol3/papers.cfm?abstractid=4179764)”.
 
 
 ## Chapter 29
