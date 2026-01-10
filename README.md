@@ -99,26 +99,26 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ### Relevant Links
 
+- Baade, Robert A. and Richard F. Dye (1990) “[Stadiums and professional sports on metropolitan area development](https://onlinelibrary.wiley.com/doi/10.1111/j.1468-2257.1990.tb00513.x),” *Growth and Change*, 12 (114), 1–14.
+
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
 
-- Baade, Robert A. and Richard F. Dye (1990) “[Stadiums and professional sports on metropolitan area development](https://onlinelibrary.wiley.com/doi/10.1111/j.1468-2257.1990.tb00513.x),”
-*Growth and Change*, 12 (114), 1–14.
 
 ## Chapter 4
 
 ### Relevant Links
 
-- Baade, Robert A. (1987) “[Is there an economic rationale for subsidizing sports stadiums?](https://web.archive.org/web/20140913130938/http://heartland.org/sites/all/modules/custom/heartland_migration/files/pdfs/17280.pdf)”, The Heartland Institute, Policy Study.
-
 - Baade, Robert A. (1996) “[Professional sports as catalysts for metropolitan economic development](https://doi.org/10.1111/j.1467-9906.1996.tb00361.x),” *Journal of Urban Affairs*, 18 (1), 1–17. 
+
+- Baade, Robert A. (1987) “[Is there an economic rationale for subsidizing sports stadiums?](https://web.archive.org/web/20140913130938/http://heartland.org/sites/all/modules/custom/heartland_migration/files/pdfs/17280.pdf)”, The Heartland Institute, Policy Study.
 
 - Bastiat, Frederic (1850) *Essays on Political Economy*, "[What is seen and what is not seen](https://oll.libertyfund.org/page/wswns)," Liberty Fund.
 
 - Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2023) “[The impact of professional sports franchises and venues on local economies: A comprehensive survey](https://doi.org/10.1111/joes.12533),” *Journal of Economic Surveys*, 37 (4), 1389–1431.
 
-- Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises, stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
-
 - Coates, Dennis and Brad R. Humphreys (2003) “[The effect of professional sports on earnings and employment in the services and retail sectors in U.S. cities](https://www.sciencedirect.com/science/article/abs/pii/S0166046202000108),” *Regional Science and Urban Economics*, 33 (2), 175–198.
+
+- Coates, Dennis and Brad R. Humphreys (1999) “[The growth effects of sports franchises, stadia and arenas](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1520-6688(199923)18:4%3C601::AID-PAM4%3E3.0.CO;2-A),” *Journal of Policy Analysis and Management*, 18 (4), 601–624.
 
 - Hudson, Ian (1999) “[Bright lights, big city: Do professional sports teams increase employment?](https://doi.org/10.1111/0735-2166.00027)” *Journal of Urban Affairs*, 21 (4), 397–407.
 
