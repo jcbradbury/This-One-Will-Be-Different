@@ -247,6 +247,14 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |----|----|----|
 |How Truist Park public share compares to same-era MLB stadiums|02-tab10.1.do|133|
 
+### Relevant Links
+
+- Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2025) "[Public choice and stadium subsidies](https://doi.org/10.4337/9781802207750.00100)," in Richard Jong-A-Pin and Christian Bjørnskov (eds.) *Elgar Encyclopedia of Public Choice*, Edward Elgar. 
+
+- Bradbury, J.C., Dennis Coates, and Brad R. Humphreys (2024) “[Public policy toward professional sports stadiums: A review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534),” *Journal of Policy Analysis and Management*, 43 (3), 899–937.
+
+- Buchanan, James M. (1987) [*Public Finance in Democratic Process: Fiscal Institutions and Individual Choice*](https://www.econlib.org/library/Buchanan/buchCv4.html), Chapel Hill: University of North Carolina Press, Reprinted in The Collected Works of James M. Buchanan: Volume 4, Liberty Fund, 1999.
+
 ## Chapter 12
 
 The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560). 
