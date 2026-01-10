@@ -97,6 +97,10 @@ All data files provided in .csv format, which can be read by other data analysis
 |----|----|----|----|----|
 |3.1|02-fig3.1.do|53|venuesdb_base.dta|venue_count.dta|
 
+### Relevant Links
+
+- Bradbury, J.C., Coates, Dennis, and Humphreys,  Brad R. [Public Policy Toward Professional Sports Stadiums: A Review](https://onlinelibrary.wiley.com/doi/full/10.1002/pam.22534), *Journal of Policy Analysis and Management*, 2024, 43(3): 899–937.
+
 ## Chapter 5
 
 ### Figures
