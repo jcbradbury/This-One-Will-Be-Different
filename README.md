@@ -48,6 +48,7 @@ If you are looking for the stadium cost datasets, download the two files below. 
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL)|venuesdb_base.dta|01-venuesdb_build.do|
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|venuesdb_all.dta|01-venuesdb_all_ build.do|
 
+The table below provides information for datasets included in the `data/` folder. For simplicity, I list only the Stata .dta files, but duplicate copies in comma-delimited (.csv) format---minus Stata-specific attributes (e.g, labels, number formatting)---are provided for non-Stata users.
 
 ### Full List (alphabetical)
 
