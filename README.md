@@ -40,66 +40,68 @@ remain subject to their original terms.
 
  ## Datasets
 
-### Stadium Databases
+If you are looking for the stadium cost datasets, download the two files below.  The venuesdb_base.dta (.csv) dataset includes venues that hosted traditional major-league sports teams, and venuesdb_all.dta (.csv) includes MLS-hosting venues.
+
+### Stadium Cost Datasets
 |Description|File Name|Created By|
 |----|----|----|
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL)|venuesdb_base.dta|01-venuesdb_build.do|
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|venuesdb_all.dta|01-venuesdb_all_ build.do|
 
 
-### Full list (alphabetical)
+### Full List (alphabetical)
 
 |Dataset|Description|How Created|Used By|Sources|
 |----|----|----|----|----|
-|attend_atl.dta|02-fig6.1.do||Lahman (2024), Baseball-Reference|
-|cid_vpa.dta|02-fig12.1_fig_12.3.do||cidgr2010_2023.dta|
-|CIDdata.dta||02-fig12.4.do||
-|cidgr2010_2023.dta||||
-|cobb_stsynth.dta||||
-|compare_mlb.dta||||
-|county_synthdata_2010_2019.dta||||
-|county_synthdata_2010_2019_noSTch_q.csv||||
-|county_synthdata_2010_2019_noSTch_q.dta||||
-|cpi2024.xlsx||||
-|cumulative_cost.dta||||
-|forecast_cost.dta|02-fig5.5.do||venuesdb_base.dta|
-|leagues_revenue.dta|Compiled by author||Forbes (various webpages)|
-|lifespan_collapse.dta||||
-|milb_ballparkcosts.dta||||
-|milb_cumulative.dta||||
-|milb_median.dta||||
-|mlb_did.dta||||
-|mls_lifespans.dta||||
-|mls_median_collapse.dta||||
-|mls_stadiums.dta||||
-|mls_stadiums_base.dta|||mls_stadiums_raw.dta; BLS (2025)|
-|mls_stadiums_only.dta||||
-|mls_stadiums_raw.dta|Collected by author||See Appendix A, Bradbury (2026)|
-|msa_teams_count.dta||||
-|msarank2023.dta||||
-|nba_did.dta||||
-|nfl_did.dta||||
-|nhl_did.dta||||
-|opulence.dta||||
-|payroll2025.dta||||
-|population_msa.dta||||
-|propertyvpa2014_data.dta||||
-|propheter_lease_data.dta||||
-|propvpa2014pct.dta||||
-|Teams.csv|Downloaded by author||Lahman (2024)|
-|ven_cost_current.dta||||
-|ven_lifespans.dta||||
-|ven_median_collapse.dta||||
-|venue_acres.dta|Compiled by author||Propheter (2017); Collected by author|
-|venue_count.dta||||
-|venue_count_mls.dta||||
-|venue_demo.dta|Compiled by author||BEA (2024)|
-|venue_forecast.dta|02-fig5.2.do||venuesdb_base.dta|
-|venuecosts2020.dta||||
-|venuesdb_all.dta|01-venuesdb_all_ build.do||venuesdb_base.dta; mls_stadiums_base.dta|
-|venuesdb_base.dta|01-venuesdb_build.do||venuesdb_raw.dta; BLS (2025)|
-|venuesdb_mls.dta||||
-|venuesdb_raw.dta|Collected by author||See Appendix A, Bradbury (2026)|
+|attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do||Lahman (2024), Baseball-Reference|
+|cid_vpa.dta|CID digeset data|02-fig12.1_fig_12.3.do||cidgr2010_2023.dta|
+|CIDdata.dta|CID data for SCM analysis||02-fig12.4.do||
+|cidgr2010_2023.dta|||||
+|cobb_stsynth.dta|||||
+|compare_mlb.dta|||||
+|county_synthdata_2010_2019.dta|||||
+|county_synthdata_2010_2019_noSTch_q.csv|||||
+|county_synthdata_2010_2019_noSTch_q.dta|||||
+|cpi2024.xlsx|||||
+|cumulative_cost.dta|||||
+|forecast_cost.dta|Estimate of future venue construction costs|02-fig5.5.do||venuesdb_base.dta|
+|leagues_revenue.dta|Average annual revenue for US major sports leagues|Compiled by author||Forbes (various webpages)|
+|lifespan_collapse.dta|||||
+|milb_ballparkcosts.dta|||||
+|milb_cumulative.dta|||||
+|milb_median.dta|||||
+|mlb_did.dta|||||
+|mls_lifespans.dta|||||
+|mls_median_collapse.dta|||||
+|mls_stadiums.dta|||||
+|mls_stadiums_base.dta|Historical databse of stadium construction costs (MLS)|||mls_stadiums_raw.dta; BLS (2025)|
+|mls_stadiums_only.dta|||||
+|mls_stadiums_raw.dta|Historical databse of stadium construction costs (MLS)|Collected by author||See Appendix A, Bradbury (2026)|
+|msa_teams_count.dta|||||
+|msarank2023.dta|||||
+|nba_did.dta|||||
+|nfl_did.dta|||||
+|nhl_did.dta|||||
+|opulence.dta|||||
+|payroll2025.dta|||||
+|population_msa.dta|||||
+|propertyvpa2014_data.dta|||||
+|propheter_lease_data.dta|||||
+|propvpa2014pct.dta|||||
+|Teams.csv|Annual data for MLB teams|Downloaded by author||Lahman (2024)|
+|ven_cost_current.dta|||||
+|ven_lifespans.dta|||||
+|ven_median_collapse.dta|||||
+|venue_acres.dta|Acreage of venues|Compiled by author||Propheter (2017); Collected by author|
+|venue_count.dta|||||
+|venue_count_mls.dta|||||
+|venue_demo.dta|Demographics of venue metropolitan areas|Compiled by author||BEA (2024)|
+|venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do||venuesdb_base.dta|
+|venuecosts2020.dta|||||
+|venuesdb_all.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|01-venuesdb_all_ build.do||venuesdb_base.dta; mls_stadiums_base.dta|
+|venuesdb_base.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do||venuesdb_raw.dta; BLS (2025)|
+|venuesdb_mls.dta|||||
+|venuesdb_raw.dta|Historical databse of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author||See Appendix A, Bradbury (2026)|
 
 
 # Replication files
