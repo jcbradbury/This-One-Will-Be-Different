@@ -40,7 +40,10 @@ remain subject to their original terms.
 
  ## Datasets
 
-### Processed Data
+### Stadium Databases
+
+
+### Full list (alphabetical)
 
 |Dataset|Description|How Created|Used By|Sources|
 |----|----|----|----|----|
@@ -93,27 +96,6 @@ remain subject to their original terms.
 |venuesdb_base.dta|01-venuesdb_build.do||venuesdb_raw.dta; BLS (2025)|
 |venuesdb_mls.dta||||
 |venuesdb_raw.dta|Collected by author||See Appendix A, Bradbury (2026)|
-
-
-|Dataset|Description|How Created|Sources|
-|----|----|----|----|
-|venuesdb_base.dta|Historical databse of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do|venuesdb_raw.dta; BLS (2025)|
-|venuesdb_all.dta|Historical databse of stadium construction costs  (all leagues)|01-venuesdb_all_ build.do|venuesdb_base.dta; mls_stadiums_base.dta|
-|mls_stadiums_base.dta|Historical databse of stadium construction costs (MLS)|01-venuesdb_all_ build.do|mls_stadiums_raw.dta; BLS (2025)|
-|venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do|venuesdb_base.dta|
-|forecast_cost.dta|Estimate of future venue construction costs|02-fig5.5.do|venuesdb_base.dta|
-|attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do|Lahman (2024), Baseball-Reference|
-|leagues_revenue.dta|Average annual revenue for US major sports leagues|Compiled by author|Forbes (various webpages)|
-|venue_acres.dta|Acreage of venues|Compiled by author|Propheter (2017); Collected by author|
-|venue_demo.dta|Demographics of venue metropolitan areas|Compiled by author|BEA (2024)|
-
-
-### Raw Data
-|Dataset|Description|How Created|Sources|
-|----|----|----|----|
-|venuesdb_raw.dta|Historical databse of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author|See Appendix A, Bradbury (2026)|
-|mls_stadiums_raw.dta|Historical databse of stadium construction costs (MLS)|Collected by author|See Appendix A, Bradbury (2026)|
-|Teams.csv|Annual data for MLB teams|Downloaded by author|Lahman (2024)|
 
 
 # Replication files
