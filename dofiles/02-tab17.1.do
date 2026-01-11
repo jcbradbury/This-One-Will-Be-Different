@@ -16,7 +16,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 17.1
 Tables (Stata viewer): 
-Data (outdat\):
+Data (outdat\): msa_vens_pvt.dta
 Other: 
 CITED in text: Total teams hosted in primarily privately financed venues
 */
@@ -57,11 +57,11 @@ replace team_current_tex = teams_tex if league=="MLS"
 replace team_current_tex = teams_tex if league=="NFL/MLS"
 replace team_current_tex = teams_tex if league=="MLB/MLS"
 
-save "$outdat\msa_teams_count.dta", replace
+save "$outdat\msa_vens_pvt.dta", replace
 
 /* Data output into the data\ folder
-save "$data\msa_teams_count.dta", replace
-export delimited "$data\msa_teams_count.csv", replace
+save "$data\msa_vens_pvt.dta", replace
+export delimited "$data\msa_vens_pvt.csv", replace
 */
 
 /*Table 17.1*/
