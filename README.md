@@ -32,11 +32,28 @@ This repository is desinged to be a complementary companion to the book, and it 
 All data included in this repository were collected and organized by me (J.C. Bradbury) from public sources. 
 I provide these data for replication purposes. To the best of my knowledge, this redistribution is permitted. 
 
-Unless otherwise noted, the datasets in `data/` are licensed
-under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
+Unless otherwise noted, the datasets in `data/` are licensed under the Creative Commons Attribution 4.0 International License (CC-BY 4.0).
 
-Original data sources are credited in accompanying documentation and
-remain subject to their original terms.
+Original data sources are credited in accompanying documentation and remain subject to their original terms.
+
+## How to Cite
+
+If you use these data or code, please cite:
+
+Bradbury, J. C. (2026). *Data for This One Will Be Different*.
+GitHub repository. https://github.com/jcbra/This-One-Will-Be-Different
+
+### BibTeX
+
+```bibtex
+@misc{Bradbury2026TOWBD,
+  author       = {Bradbury, J. C.},
+  title        = {Replication Data for This One Will Be Different},
+  year         = {2026},
+  howpublished = {GitHub repository},
+  url          = {https://github.com/jcbra/This-One-Will-Be-Different}
+}
+
 
  ## Datasets
 
