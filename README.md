@@ -41,6 +41,60 @@ remain subject to their original terms.
  ## Datasets
 
 ### Processed Data
+
+|Dataset|Description|How Created|Used By|Sources|
+|----|----|----|----|----|
+|attend_atl.dta|02-fig6.1.do||Lahman (2024), Baseball-Reference|
+|cid_vpa.dta|02-fig12.1_fig_12.3.do||cidgr2010_2023.dta|
+|CIDdata.dta||02-fig12.4.do||
+|cidgr2010_2023.dta||||
+|cobb_stsynth.dta||||
+|compare_mlb.dta||||
+|county_synthdata_2010_2019.dta||||
+|county_synthdata_2010_2019_noSTch_q.csv||||
+|county_synthdata_2010_2019_noSTch_q.dta||||
+|cpi2024.xlsx||||
+|cumulative_cost.dta||||
+|forecast_cost.dta|02-fig5.5.do||venuesdb_base.dta|
+|leagues_revenue.dta|Compiled by author||Forbes (various webpages)|
+|lifespan_collapse.dta||||
+|milb_ballparkcosts.dta||||
+|milb_cumulative.dta||||
+|milb_median.dta||||
+|mlb_did.dta||||
+|mls_lifespans.dta||||
+|mls_median_collapse.dta||||
+|mls_stadiums.dta||||
+|mls_stadiums_base.dta|||mls_stadiums_raw.dta; BLS (2025)|
+|mls_stadiums_only.dta||||
+|mls_stadiums_raw.dta|Collected by author||See Appendix A, Bradbury (2026)|
+|msa_teams_count.dta||||
+|msarank2023.dta||||
+|nba_did.dta||||
+|nfl_did.dta||||
+|nhl_did.dta||||
+|opulence.dta||||
+|payroll2025.dta||||
+|population_msa.dta||||
+|propertyvpa2014_data.dta||||
+|propheter_lease_data.dta||||
+|propvpa2014pct.dta||||
+|Teams.csv|Downloaded by author||Lahman (2024)|
+|ven_cost_current.dta||||
+|ven_lifespans.dta||||
+|ven_median_collapse.dta||||
+|venue_acres.dta|Compiled by author||Propheter (2017); Collected by author|
+|venue_count.dta||||
+|venue_count_mls.dta||||
+|venue_demo.dta|Compiled by author||BEA (2024)|
+|venue_forecast.dta|02-fig5.2.do||venuesdb_base.dta|
+|venuecosts2020.dta||||
+|venuesdb_all.dta|01-venuesdb_all_ build.do||venuesdb_base.dta; mls_stadiums_base.dta|
+|venuesdb_base.dta|01-venuesdb_build.do||venuesdb_raw.dta; BLS (2025)|
+|venuesdb_mls.dta||||
+|venuesdb_raw.dta|Collected by author||See Appendix A, Bradbury (2026)|
+
+
 |Dataset|Description|How Created|Sources|
 |----|----|----|----|
 |venuesdb_base.dta|Historical databse of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do|venuesdb_raw.dta; BLS (2025)|
