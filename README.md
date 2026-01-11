@@ -59,11 +59,6 @@ The table below provides information for all datasets included in the `data/` fo
 
 |Dataset|Description|How Created|Used By|Sources|
 |----|----|----|----|----|
-|attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do|02-fig6.1.do|Lahman (2024), Baseball-Reference|
-|cid_vpa.dta|CID data processed for Figs. 12.1 and 12.3|02-fig12.1_fig_12.3.do|02-fig12.1_fig_12.3.do|cidgr2010_2023.dta|
-|CIDdata.dta|CID data for SCM analysis in Chap. 12|Compiled by author|02-fig12.4.do|See DataNotes_Ch12.md|
-|cidgr2010_2023.dta|CID gross digest data (2010-2023)|Downloaded by author|02-fig12.1_fig_12.3.do|See DataNotes_Ch12.md|
-|cobb_stsynth.dta|Treatment effect data to construct Fig 13.3|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |compare_mlb.dta|MLB ballparks comparable to Truist Park|02-fig10.1.do|02-fig10.1.do|venuesdb_base.dta|
 |county_synthdata_2010_2019.dta|County sales tax data for SCM analysis in Chap .13|Compiled by author|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |county_synthdata_2010_2019_noSTch_q.dta|County sales tax data processed for SCM analysis in Chap .13|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
@@ -80,15 +75,15 @@ The table below provides information for all datasets included in the `data/` fo
 |mls_median_collapse.dta|MLS stadium construction costs by year|02-fig5.9.do|02-fig5.9.do|venuesdb_all.dta|
 |mls_stadiums.dta|MLS stadium contruction costs (raw)|Compiled by author|01-venuesdb_all_build.do|Author|
 |mls_stadiums_base.dta|Historical databse of stadium construction costs (MLS)|01-venuesdb_all_build.do|01-venuesdb_all_build.do|mls_stadiums_raw.dta; BLS (2025)|
-|mls_stadiums_raw.dta|Historical databse of stadium construction costs (MLS)|Compiled by author||See Appendix A, Bradbury (2026)|
+|mls_stadiums_raw.dta|Historical databse of stadium construction costs (MLS)|Compiled by author|01-venuesdb_all_build.do|See Appendix A, Bradbury (2026)|
 |msa_vens_pvt.dta|Data on privately financed stadiums |02-tab17.1.do|02-tab17.1.do|msarank2023.dta; venuesdb_all.dta|
 |msarank2023.dta|Major-league teams by metro area population rank|02-tab18.1.do|02-tab18.1.do|population_msa.dta|
 |nba_did.dta|NBA data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
 |nfl_did.dta|NHL data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
 |nhl_did.dta|NHL data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
-|opulence.dta|||||
-|payroll2025.dta|||||
-|population_msa.dta|||||
+|opulence.dta|Estimated opulence of venues|02-tab7.1.do|02-tab7.1.do|venuesdb_base.dta; venue_acres.dta; venue_demo.dta|
+|payroll2025.dta|Atlanta Braves annual payroll rank|02-fig6.5.do|02-fig6.5.do|Baseball-Reference|
+|population_msa.dta|Population of US/Canada metro areas|Downloaded and processed by author|02-tab18.1.do|US Census/Statistics Canada|
 |propertyvpa2014_data.dta|||||
 |propheter_lease_data.dta|||||
 |propvpa2014pct.dta|||||
@@ -109,7 +104,6 @@ The table below provides information for all datasets included in the `data/` fo
 
 
 # Replication files
-
 
 ## Instructions for Replicators
 ### Stata users
