@@ -36,7 +36,7 @@ Unless otherwise noted, the datasets in `data/` are licensed under the Creative 
 
 Original data sources are credited in accompanying documentation and remain subject to their original terms.
 
-## How to Cite
+### How to Cite
 
 If you use these data or code, please cite:
 
