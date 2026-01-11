@@ -41,6 +41,10 @@ remain subject to their original terms.
  ## Datasets
 
 ### Stadium Databases
+|Description|File Name|Created By|
+|----|----|----|
+|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|venuesdb_base.dta|01-venuesdb_build.do|
+|Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|venuesdb_all.dta|01-venuesdb_all_ build.do|
 
 
 ### Full list (alphabetical)
