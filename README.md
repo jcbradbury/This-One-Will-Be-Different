@@ -55,9 +55,9 @@ The table below provides information for datasets included in the `data/` folder
 |Dataset|Description|How Created|Used By|Sources|
 |----|----|----|----|----|
 |attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do|02-fig6.1.do|Lahman (2024), Baseball-Reference|
-|cid_vpa.dta|CID digeset data|02-fig12.1_fig_12.3.do||cidgr2010_2023.dta|
-|CIDdata.dta|CID data for SCM analysis||02-fig12.4.do||
-|cidgr2010_2023.dta|||||
+|cid_vpa.dta|CID data processed for Figs. 12.1 and 12.3|02-fig12.1_fig_12.3.do|02-fig12.1_fig_12.3.do|cidgr2010_2023.dta|
+|CIDdata.dta|CID data for SCM analysis|Compiled by author|02-fig12.4.do|See DataNotes_Ch12.md|
+|cidgr2010_2023.dta|CID gross digest data (2010-2023)|Downloaded by author|02-fig12.1_fig_12.3.do|See DataNotes_Ch12.md|
 |cobb_stsynth.dta|||||
 |compare_mlb.dta|||||
 |county_synthdata_2010_2019.dta|||||
@@ -102,7 +102,7 @@ The table below provides information for datasets included in the `data/` folder
 |venuesdb_all.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|01-venuesdb_all_ build.do||venuesdb_base.dta; mls_stadiums_base.dta|
 |venuesdb_base.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do||venuesdb_raw.dta; BLS (2025)|
 |venuesdb_mls.dta|||||
-|venuesdb_raw.dta|Historical databse of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author||See Appendix A, Bradbury (2026)|
+|venuesdb_raw.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author||See Appendix A, Bradbury (2026)|
 
 
 # Replication files
