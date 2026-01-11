@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite:"
+title: "Data Repository for This One Will Be Different"
+authors:
+  - family-names: Bradbury
+    given-names: J. C.
+date-released: 2026
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/jcbra/This-One-Will-Be-Different"
