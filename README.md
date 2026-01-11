@@ -53,7 +53,7 @@ If you are looking for the stadium cost datasets, download the two files below. 
 
 |Dataset|Description|How Created|Used By|Sources|
 |----|----|----|----|----|
-|attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do||Lahman (2024), Baseball-Reference|
+|attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do|02-fig6.1.do|Lahman (2024), Baseball-Reference|
 |cid_vpa.dta|CID digeset data|02-fig12.1_fig_12.3.do||cidgr2010_2023.dta|
 |CIDdata.dta|CID data for SCM analysis||02-fig12.4.do||
 |cidgr2010_2023.dta|||||
