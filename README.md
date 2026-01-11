@@ -43,18 +43,6 @@ If you use these data or code, please cite:
 Bradbury, J. C. (2026). *Data for This One Will Be Different*.
 GitHub repository. https://github.com/jcbra/This-One-Will-Be-Different
 
-### BibTeX
-
-```bibtex
-@misc{Bradbury2026TOWBD,
-  author       = {Bradbury, J. C.},
-  title        = {Replication Data for This One Will Be Different},
-  year         = {2026},
-  howpublished = {GitHub repository},
-  url          = {https://github.com/jcbra/This-One-Will-Be-Different}
-}
-
-
  ## Datasets
 
 If you are looking for the stadium cost datasets, download the two files below.  The venuesdb_base.dta (.csv) dataset includes venues that hosted traditional major-league sports teams, and venuesdb_all.dta (.csv) includes MLS-hosting venues.
