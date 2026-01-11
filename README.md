@@ -40,7 +40,7 @@ Original data sources are credited in accompanying documentation and remain subj
 
 If you use these data or code, please cite:
 
-Bradbury, J. C. (2026). *Data for This One Will Be Different*.
+Bradbury, J. C. (2026). *Data Repository for This One Will Be Different*.
 GitHub repository. https://github.com/jcbra/This-One-Will-Be-Different
 
  ## Datasets
@@ -53,7 +53,7 @@ If you are looking for the stadium cost datasets, download the two files below. 
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL)|venuesdb_base.dta|01-venuesdb_build.do|
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|venuesdb_all.dta|01-venuesdb_all_ build.do|
 
-The table below provides information for datasets included in the `data/` folder. For simplicity, I list only the Stata .dta files, but duplicate copies in comma-delimited (.csv) format---minus Stata-specific attributes (e.g, labels, number formatting)---are provided for non-Stata users.
+The table below provides information for all datasets included in the `data/` folder. For simplicity, I list only the Stata file versions (.dta), but duplicate copies in comma-delimited (.csv) format---minus Stata-specific attributes (e.g, labels, number formatting)---are provided for non-Stata users. This way users have access to the processed data to replicate the figures and table information presented in the book.
 
 ### Full List (alphabetical)
 
