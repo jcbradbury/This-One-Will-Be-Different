@@ -13,7 +13,7 @@ Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evid
 The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
 
 Data Input (data\): 
-county_synthdata_2010_2019.dta
+countyST.dta
 
 See DataNotes_Ch13.md in this repository for more information on how tax distributions were aggregated.
 
@@ -40,7 +40,7 @@ Intermediate Output (working directory): cobb_stsynth_temp.dta
 Final Output:
 Figures(figs\): 13.2, 13.3
 Tables (Stata viewer): 13.1
-Data (outdat\): county_synthdata_2010_2019_noSTch_q.dta ; cobb_stsynth.dta
+Data (outdat\): countyST_noSTch_q.dta ; countyST_treat.dta
 Other: 
 */
 
@@ -55,7 +55,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\county_synthdata_2010_2019.dta", replace
+use "$data\countyST.dta", replace
 
 /**Remove unsuitable control counties**/
 drop if countyid==14 // Fulton, reverse treatment of losing ballpark
@@ -81,7 +81,7 @@ g quarter = quarter(dofq(qdate))
 
 format  qdate %tq
 
-save "$outdat\county_synthdata_2010_2019_noSTch_q.dta", replace
+save "$outdat\countyST_noSTch_q.dta", replace
 
 /* Data output into the data\ folder
 save "$data\county_synthdata_2010_2019_noSTch_q.dta", replace
@@ -148,13 +148,13 @@ replace baseball =1 if quarter>1 & quarter<4
 g upper = 110
 label variable upper "Baseball Season"
 
-save "$outdat\cobb_stsynth.dta", replace
+save "$outdat\countyST_treat.dta", replace
 
 /*
 Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce cobb_stsynth.dta in `outdat\' that differs slightly from mine. 
 */
 
-use  "$data\cobb_stsynth.dta", replace
+use  "$data\countyST_treat.dta", replace
 
 /*Fig 13.3*/
 mylabels 80(5)110, prefix($) myscale(@)  local(dollab) format(%2.0fc)
