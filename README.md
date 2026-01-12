@@ -67,13 +67,13 @@ The table below provides information for all datasets included in the `data/` fo
 |CIDgrossdigest.dta|CID gross property value digest data (2010-2023)|Downloaded by author|02-fig12.1_fig_12.3.do|See DataNotes_Ch12.md|
 |CIDvpa2014_treat.dta|Cumberland CID property value post-SCM treatment effects|02-fig12.4.do|02-fig12.4.do|See DataNotes_Ch12.md|
 |compare_mlb.dta|MLB ballparks comparable to Truist Park|02-fig10.1.do|02-fig10.1.do|venuesdb_base.dta|
-|countyST.dta|County sales tax data for SCM analysis in Chap .13|Compiled by author|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
+|countyST.dta|County sales tax data|Compiled by author|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |countyST_noSTch_q.dta|County sales tax data processed for SCM analysis in Chap .13|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |countyST_treat.dta|Cobb sales tax post-SCM treatment effects|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
-|cpi2024.xlsx|Consumer Price Index used for real dollar conversions|Downloaded and processed by author|Many do-files|BLS (2025)|
+|cpi2024.xlsx|Consumer Price Index (CPI) used for real dollar conversions|Downloaded and processed by author|Many do-files|BLS (2025)|
 |cumulative_cost.dta|Cumulative major-league venue construction costs over time|02-fig5.5.do|02-fig5.5.do|venue_forecast.dta; venuesdb_base.dta|
 |forecast_cost.dta|Estimate of future venue construction costs|02-fig5.2.do|02-fig5.2.do; 02-fig5.5.do|venuesdb_base.dta|
-|leagues_revenue.dta|Average annual revenue for US major sports leagues|Compiled by author|02-fig5.7_tab5.4.do|Forbes (various webpages)|
+|leagues_revenue.dta|Average annual team revenue for US major sports leagues|Compiled by author|02-fig5.7_tab5.4.do|Forbes (various webpages)|
 |lifespan_collapse.dta|Distribution of venue hosting lifespans by decade|02-fig5.1.do|02-fig5.1.do|venuesdb_base.dta|
 |milb_ballparkcosts.dta|MiLB (minor league) ballpark costs|Collected by author|02-fig19.2.do; 02-fig19.3do|Author|
 |milb_cumulative.dta|Cumulative MiLB ballpark construction costs over time|02-fig19.2.do; 02-fig19.3do|02-fig19.2.do; 02-fig19.3do|milb_ballparkcosts.dta|
@@ -81,7 +81,6 @@ The table below provides information for all datasets included in the `data/` fo
 |mlb_did.dta|MLB data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
 |mls_lifespans.dta|Hosting status of MLS stadiums|02-fig5.10.do|02-fig5.10.do|venuesdb_all.dta|
 |mls_median_collapse.dta|MLS stadium construction costs by year|02-fig5.9.do|02-fig5.9.do|venuesdb_all.dta|
-|mls_stadiums.dta|MLS stadium contruction costs (raw)|Compiled by author|01-venuesdb_all_build.do|Author|
 |mls_stadiums_base.dta|Historical databse of stadium construction costs (MLS)|01-venuesdb_all_build.do|01-venuesdb_all_build.do|mls_stadiums_raw.dta; BLS (2025)|
 |mls_stadiums_raw.dta|Historical databse of stadium construction costs (MLS)|Compiled by author|01-venuesdb_all_build.do|See Appendix A, Bradbury (2026)|
 |msa_vens_pvt.dta|Data on privately financed stadiums |02-tab17.1.do|02-tab17.1.do|msarank2023.dta; venuesdb_all.dta|
