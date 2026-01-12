@@ -49,7 +49,7 @@ If you are looking for the stadium cost datasets, download the two files below.
 - The venuesdb_base.dta (.csv) dataset includes venues that hosted traditional big-4 US major-league sports teams (MLB, NBA, NFL, NHL). 
 - The venuesdb_all.dta (.csv) dataset includes MLS host stadiums.
 
-### Stadium Cost Datasets
+### Major-League Sports Venue Costs Datasets
 |Description|File Name|Created By|
 |----|----|----|
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL)|venuesdb_base.dta|01-venuesdb_build.do|
