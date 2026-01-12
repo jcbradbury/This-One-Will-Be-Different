@@ -45,7 +45,9 @@ GitHub repository. https://github.com/jcbra/This-One-Will-Be-Different
 
  ## Datasets
 
-If you are looking for the stadium cost datasets, download the two files below.  The venuesdb_base.dta (.csv) dataset includes venues that hosted traditional major-league sports teams, and venuesdb_all.dta (.csv) includes MLS-hosting venues.
+If you are looking for the stadium cost datasets, download the two files below.  
+- The venuesdb_base.dta (.csv) dataset includes venues that hosted traditional big-4 US major-league sports teams (MLB, NBA, NFL, NHL). 
+- The venuesdb_all.dta (.csv) dataset includes MLS host stadiums.
 
 ### Stadium Cost Datasets
 |Description|File Name|Created By|
