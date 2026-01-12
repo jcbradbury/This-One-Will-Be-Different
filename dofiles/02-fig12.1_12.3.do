@@ -8,7 +8,7 @@
 ********************************************************************** 
 
 Data Input (data\): 
-cidgr2010_2023.dta
+CIDgrossdigest.dta
 
 CID Tax Digest data in this file manually input from Georgia Department of Revenue, County Services Portal (no stable URL)
 Website: https://apps.dor.ga.gov/
