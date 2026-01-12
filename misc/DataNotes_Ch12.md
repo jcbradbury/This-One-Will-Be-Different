@@ -5,6 +5,9 @@ Bradbury, John Charles (2022b) "The impact of sports stadiums on localized comme
 
 The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
 
+CIDgrossdigest.dta includes only gross digest data, which I added to extend the %-difference changes through 2023 from the book.
+CIDanalysis.dta is the processed data file that used for the original analysis (Bradbury 2022b).
+
 CID Tax Digest data were manually input from Georgia Department of Revenue, County Services Portal (no stable URL)
 Website: https://apps.dor.ga.gov/
 1. Click on  Digest Summaries under "Property Taxes"
