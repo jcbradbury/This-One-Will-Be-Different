@@ -1,38 +1,24 @@
+Much of the analysis discussed in Chapter 13 draws from the following study:
+Bradbury, John Charles (2024) "Sports stadiums and local economic activity: Evidence from sales tax collections," Journal of Urban Affairs, 46(1):139-159 (https://doi.org/10.1080/07352166.2022.2044837).
+
+The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
+
 ## Atlanta MSA County list: 
-Barrow
-Bartow
-Butts
-Carroll
-Cherokee
-Clayton
-Cobb
-Coweta
-Dawson
-Dekalb
-Douglas
-Fayette
-Forsyth
-Fulton
-Gwinnett
-Haralson
-Heard
-Henry
-Jasper
-Lamar
-Meriwether
-Morgan
-Newton
-Paulding
-Pickens
-Pike
-Rockdale
-Spalding
-Walton
+
+Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Dekalb, Douglas, Fayette, Forsyth, Fulton, Gwinnett, Haralson, Heard, Henry, Jasper, Lamar, Meriwether, Morgan, Newton, Paulding, Pickens, Pike, Rockdale, Spalding, Walton
 
 ## Sales Tax Distributions
-Sales tax distributions from Georgia Department of Revenue (https://gtc.dor.ga.gov/_/ , then must clink on “Sales Tax Distribution” Link is not stable.)
 
-State tax distributions must be downloaded by county for the entire span of Jan 1, 1999 – Aug 31, 2020. Choosing all counties limits the timespan of the download to 1 month. 
+County Tax Revnue data manually collected from Georgia Department of Revenue, Georgia Tax Center
+Website: https://gtc.dor.ga.gov/_/
+1. Click on "Search Sales Tax Distribution" under the Sales Tax menue
+2. Make the following selections for each Atlanta MSA county:
+    - Select County: [Cobb]
+    - Leave jurisdiction blank.
+    - Select Distribution start date: 01-Jan-1999
+    - Select Distribution end date: 31-Dec-2020
+
+State tax distributions must be downloaded by county for the entire sample period of 1999 – 2020. Choosing all counties limits the timespan of the download to 1 month. 
 
 •	Adjustments – Changes to revenue due to refunds, transfers or corrections to previous distributions.
 •	Admin Fee – Revenue reduced due to the Department’s statutory administrative fee; 1% of distribution.
