@@ -553,6 +553,8 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 |26.1|CobbDocs\CobbBOCYearInReviews.xlsx |See appropriate worksheet in file|
 |26.2|CobbDocs\CobbBOCYearInReviews.xlsx |See appropriate worksheets in file|
 
+## Chapter 27
+
 ### Relevant Links
 
 - Baumann, Robert W. and J.C. Bradbury (2024) “[Estimating the fiscal impact of stadium developments: Evaluating a pro forma model](https://journals.sagepub.com/doi/10.1177/10911421231199517),” *Public Finance Review*, 52 (4), 399–438.
