@@ -559,6 +559,8 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
+- Kaplan, Daniel (2022) “[Atlanta Braves stadium subsidy sparks heated clash between sports economists](https://www.nytimes.com/athletic/3441691/2022/07/22/atlanta-braves-stadium-economists/),” *The Athletic*, July 22.
+
 - Libit, Daniel (2022) “[Atlanta Braves’ ballpark figures foment economist brawl](https://www.sportico.com/leagues/baseball/2022/atlanta-braves-truist-fieldeconomic-impact-1234678997/),” *Sportico*, June 17.
 
 - Wassmer, Robert W., Ryan S. Ong, and Geoffrey Propheter (2016) “[Suggestions for the needed standardization of determining the local economic impact of professional sports](https://doi.org/10.1177/0891242416636685),” *Economic Development Quarterly*, 30 (3), 252–266.
