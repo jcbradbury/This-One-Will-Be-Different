@@ -45,7 +45,7 @@ GitHub repository. https://github.com/jcbra/This-One-Will-Be-Different
 
  ## Datasets
 
-If you are looking for the stadium cost datasets, download the two files below.  
+The most common data requests I receive are for my venue costs datasets.  
 - The venuesdb_base.dta (.csv) dataset includes venues that hosted traditional big-4 US major-league sports teams (MLB, NBA, NFL, NHL). 
 - The venuesdb_all.dta (.csv) dataset includes MLS host stadiums.
 
@@ -55,7 +55,7 @@ If you are looking for the stadium cost datasets, download the two files below.
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL)|venuesdb_base.dta|01-venuesdb_build.do|
 |Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|venuesdb_all.dta|01-venuesdb_all_ build.do|
 
-The table below provides information for all datasets included in the `data/` folder. For simplicity, I list only the Stata file versions (.dta), but duplicate copies in comma-delimited (.csv) format---minus Stata-specific attributes (e.g, labels, number formatting)---are provided for non-Stata users. This way users have access to the processed data to replicate the figures and table information presented in the book.
+The table below provides information for all datasets included in the `data/` folder. These datasets were created for analysis provided throughout the book, particularly for constructing the figures and tables.  For simplicity, I list only the Stata file versions (.dta), but duplicate copies in comma-delimited (.csv) format---minus Stata-specific attributes (e.g, labels, number formatting)---are provided for non-Stata users. This way users have access to the processed data to replicate the information presented in the book. Non-Stata users should view the do-files (described in the replication section below) for notes on sources, data processing, and conducting the analysis.
 
 ### Full List (alphabetical)
 
