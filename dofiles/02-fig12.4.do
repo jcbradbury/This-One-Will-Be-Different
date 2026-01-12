@@ -20,7 +20,7 @@ Intermediate Output (working directory): vpa2014_temp.dta
 Final Output:
 Figures(figs\): 12.4
 Tables (Stata viewer): 
-Data (outdat\): vpa2014_treat.dta
+Data (outdat\): CIDvpa2014_treat.dta
 Other: 
 */
 
@@ -35,7 +35,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\CIDdata.dta", replace
+use "$data\CIDanalysis.dta", replace
 /* Data output into the data\ folder
 export delimited "$data\CIDdata.csv", replace
 */
@@ -55,13 +55,13 @@ rename _Y_synthetic counterfact
 gen predgap=treat-counterfact
 sort year 
 
-save "$outdat\vpa2014_treat.dta", replace
+save "$outdat\CIDvpa2014_treat.dta", replace
 
 /*
 Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects across computing environments. Thus your machine may produce vpa2014_treat.dta in `outdat/' that differs slightly from mine.
 */
 
-use "$data\vpa2014_treat.dta", replace
+use "$data\CIDvpa2014_treat.dta", replace
 
 /*Fig 12.4*/
 mylabels 250000(25000)350000, prefix($) myscale(@)  local(dol) format(%7.0fc)

@@ -21,7 +21,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 12.1, 12.3
 Tables (Stata viewer): 
-Data (outdat\): cid_vpa.dta
+Data (outdat\): CID_vpa.dta
 Other: 
 */
 
@@ -36,7 +36,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\cidgr2010_2023.dta", clear
+use "$data\CIDgrossdigest.dta", clear
 
 /* Input CID acreage 
 Distance measured using Google maps distance tool. Rounded to closest km
@@ -87,11 +87,11 @@ g cumberland12_17 =0
 replace cumberland12_17=1 if cidid==1 &year==2012
 replace cumberland12_17=1 if cidid==1 &year==2017
 
-save "$outdat\cid_vpa.dta", replace
+save "$outdat\CID_vpa.dta", replace
 
 /* Data output into the data\ folder
-save "$data\cid_vpa.dta", replace
-export delimited "$data\cid_vpa.csv", replace
+save "$data\CID_vpa.dta", replace
+export delimited "$data\CID_vpa.csv", replace
 */
 
 *Cumberland CID only, Fair market value
