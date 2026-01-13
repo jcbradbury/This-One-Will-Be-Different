@@ -14,7 +14,7 @@ CID Tax Digest data in this file manually input from Georgia Department of Reven
 Website: https://apps.dor.ga.gov/
 1. Click on  Digest Summaries under "Property Taxes"
 2. From drop-down menu, select Year:[year] and County: [County]
-3. Once County slected, select District: [CID] from drop-down menu
+3. Once County selected, select District: [CID] from drop-down menu
 
 Intermediate Output (working directory):
 
