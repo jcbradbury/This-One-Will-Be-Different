@@ -37,7 +37,7 @@ do "00-setup.do"
 
 use "$data\CIDanalysis.dta", replace
 /* Data output into the data\ folder
-export delimited "$data\CIDdata.csv", replace
+export delimited "$data\CIDanalysis.csv", replace
 */
 
 synth realvpa  commercialpct   totalmillage_i realcountyvpa2018 logrealypc2018_epolate  realvpa(2010) realvpa(2013) realvpa(2010&2013), /// 
