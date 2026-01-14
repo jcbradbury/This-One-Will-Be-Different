@@ -35,7 +35,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\CIDanalysis.dta", replace
+use "$data\CIDanalysis.dta", clear
 /* Data output into the data\ folder
 export delimited "$data\CIDanalysis.csv", replace
 */
@@ -61,7 +61,7 @@ save "$outdat\CIDvpa2014_treat.dta", replace
 Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects across computing environments. Thus your machine may produce vpa2014_treat.dta in `outdat/' that differs slightly from mine.
 */
 
-use "$data\CIDvpa2014_treat.dta", replace
+use "$data\CIDvpa2014_treat.dta", clear
 
 /*Fig 12.4*/
 mylabels 250000(25000)350000, prefix($) myscale(@)  local(dol) format(%7.0fc)
