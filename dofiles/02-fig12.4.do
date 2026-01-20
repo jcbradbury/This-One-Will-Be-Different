@@ -58,7 +58,7 @@ sort year
 save "$outdat\CIDvpa2014_treat.dta", replace
 
 /*
-Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects across computing environments. Thus your machine may produce vpa2014_treat.dta in `outdat/' that differs slightly from mine.
+Note: The `synth' optimization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects across computing environments. Thus your machine may produce vpa2014_treat.dta in `outdat/' that differs slightly from mine.
 */
 
 use "$data\CIDvpa2014_treat.dta", clear

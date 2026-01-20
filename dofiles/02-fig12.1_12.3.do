@@ -43,23 +43,23 @@ Distance measured using Google maps distance tool. Rounded to closest km
 Acres convered from miles by multiplying by 640
 */
 
-g cidacresgoog=.
+g cidacres=.
 
-replace cidacresgoog=4352 if cidid==1
-replace cidacresgoog=4339.2 if cidid==2
-replace cidacresgoog=1017.6 if cidid==7
-replace cidacresgoog=1120 if cidid==5
-replace cidacresgoog=934.4 if cidid==3
-replace cidacresgoog=678.4 if cidid==4
-replace cidacresgoog=3635.2 if cidid==9
-replace cidacresgoog=1580.8 if cidid==6
-replace cidacresgoog=6528 if cidid==8
-replace cidacresgoog=2240 if cidid==11
-replace cidacresgoog=11456 if cidid==10
-replace cidacresgoog=6150.4 if cidid==12
+replace cidacres=4352 if cidid==1
+replace cidacres=4339.2 if cidid==2
+replace cidacres=1017.6 if cidid==7
+replace cidacres=1120 if cidid==5
+replace cidacres=934.4 if cidid==3
+replace cidacres=678.4 if cidid==4
+replace cidacres=3635.2 if cidid==9
+replace cidacres=1580.8 if cidid==6
+replace cidacres=6528 if cidid==8
+replace cidacres=2240 if cidid==11
+replace cidacres=11456 if cidid==10
+replace cidacres=6150.4 if cidid==12
 
 /*Normalize CID property values per acre*/
-g vpa = grossdigestvalue/cidacresgoog
+g vpa = grossdigestvalue/cidacres
 label variable vpa "Value per Acre"
 
 so cidid year
