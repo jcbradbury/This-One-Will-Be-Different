@@ -35,12 +35,12 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\CIDanalysis.dta", clear
+use "$data\CIDproperty.dta", clear
 /* Data output into the data\ folder
 export delimited "$data\CIDanalysis.csv", replace
 */
 
-synth realvpa  commercialpct   totalmillage_i realcountyvpa2018 logrealypc2018_epolate  realvpa(2010) realvpa(2013) realvpa(2010&2013), /// 
+synth realvpa  commercialpct   totalmillage_i realcountyvpa logrealypc_e  realvpa(2010) realvpa(2013) realvpa(2010&2013), /// 
 trunit(1)  trperiod(2014)  resultsperiod(2010(1)2019) ///
 nested allopt figure ///
 keep(vpa2014_temp.dta, replace)
