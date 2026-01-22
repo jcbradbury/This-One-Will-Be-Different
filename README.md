@@ -66,10 +66,10 @@ The table below provides information for all datasets included in the `data/` fo
 |CIDgrossdigest.dta|CID gross property value digest data (2010-2023)|Downloaded by author|02-fig12.1_fig_12.3.do|See DataNotes_Ch12.md|
 |CIDproperty.dta|CID data for SCM analysis in Chap. 12|Compiled by author|02-fig12.4.do|See DataNotes_Ch12.md|
 |CIDvpa2014_treat.dta|Cumberland CID property value post-SCM treatment effects|02-fig12.4.do|02-fig12.4.do|See DataNotes_Ch12.md|
+|cobb_stsynth_noSTch_q.dta|Cobb sales tax post-SCM treatment effects|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |compare_mlb.dta|MLB ballparks comparable to Truist Park|02-fig10.1.do|02-fig10.1.do|venuesdb_base.dta|
 |countyST.dta|County sales tax data|Compiled by author|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |countyST_noSTch_q.dta|County sales tax data processed for SCM analysis in Chap .13|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
-|countyST_treat.dta|Cobb sales tax post-SCM treatment effects|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |cpi2024.xlsx|Consumer Price Index (CPI) used for real dollar conversions|Downloaded and processed by author|Many do-files|BLS (2025)|
 |cumulative_cost.dta|Cumulative major-league venue construction costs over time|02-fig5.5.do|02-fig5.5.do|venue_forecast.dta; venuesdb_base.dta|
 |forecast_cost.dta|Estimate of future venue construction costs|02-fig5.2.do|02-fig5.2.do; 02-fig5.5.do|venuesdb_base.dta|
