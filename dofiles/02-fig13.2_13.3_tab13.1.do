@@ -111,10 +111,10 @@ name(st_means, replace)
 
 gr_edit	.legend.plotregion1.label[3].xoffset = -12.25
 gr_edit	.legend.plotregion1.label[3].yoffset = -.75
-/**/
+/*
 graph export "$figs\Fig13.2.pdf", as(pdf) replace
 graph export "$tif\Fig13.2.tif", as(tif) width(3000)  replace
-
+*/
 
 /*Run SCM analysis*/
 synth sumcollections3_pc  logypc salestaxrate popdens sq_miles distanceturner ///
@@ -148,13 +148,13 @@ replace baseball =1 if quarter>1 & quarter<4
 g upper = 110
 label variable upper "Baseball Season"
 
-save "$outdat\countyST_treat.dta", replace
+save "$outdat\cobb_stsynth_noSTch_q.dta", replace
 
 /*
-Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce cobb_stsynth.dta in `outdat\' that differs slightly from mine. 
+Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce cobb_stsynth_noSTch_q.dta in `outdat\' that differs slightly fron the results saved in data\cobb_stsynth_noSTch_q.dta, which I report here to exactly replicate the findings in the original paper. 
 */
 
-use  "$data\countyST_treat.dta", replace
+use "$data\cobb_stsynth_noSTch_q.dta", replace
 
 /*Fig 13.3*/
 mylabels 80(5)110, prefix($) myscale(@)  local(dollab) format(%2.0fc)
@@ -172,10 +172,10 @@ ylabel(`dollab', angle(horizontal ) labsize(medium))  ///
 legend(order(2 3 1) cols(1) ring(0) pos(10) symxsize(15) size(medium)) ///
 plotregion(margin(t=3 b=3 l=3 r=3) ) ///
 name(st_synth, replace)		
-/**/
+/*
 graph export "$figs\Fig13.3.pdf", as(pdf) replace
 graph export "$tif\Fig13.3.tif", as(tif) width(3000)  replace
-
+*/
 
 /*Table 13.1*/
 tabstat predgap if quarteryr>228, by(baseball) // Average treatment effect of Truist Park measured by differnce between observed and synthetic Cobb 

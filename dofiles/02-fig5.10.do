@@ -37,6 +37,7 @@ keep if mls==1
 replace replacement0  =0 if team_mls=="NYFC"
 replace replacement0  =0 if team_mls=="Inter Miami"
 replace announced0=0 if team_mls=="Chicago Fire"
+replace announced0=0 if team_mls=="New England Revolution" // agreement announced 12/31/2025
 
 g lifespan2025= lastyear-year+1
 replace lifespan2025 = 2026-year if lifespan2025==.

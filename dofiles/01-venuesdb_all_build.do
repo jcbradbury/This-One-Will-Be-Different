@@ -72,7 +72,7 @@ replace current_mls=1 if venuename_tex=="Gillette Stadium"|venuename_tex=="Bank 
 replace current_mls=1 if venuename_tex=="Yankee Stadium" & year==2009
 
 g team_mls = teams_tex if current_mls==1
-replace team_mls="New England  Revolution"   if teams_tex=="New England Patriots \& Revolution"
+replace team_mls="New England Revolution"   if teams_tex=="New England Patriots \& Revolution"
 replace team_mls="Vancouver Whitecaps"   if teams_tex=="Vancouver Whitecaps \& BC Lions"
 replace team_mls="Toronto FC"   if teams_tex=="Toronto FC \& Argonauts"
 replace team_mls="Charlotte FC"  if teams_tex=="Carolina Panthers \& Charlotte FC"
