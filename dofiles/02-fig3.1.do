@@ -17,6 +17,8 @@ Figures(figs\): 3.1
 Tables (Stata viewer): 
 Data (outdat\):
 Other: 
+CITED in text: Summary of public/private arenas opened since 2000
+
 */
 
 *************************
@@ -31,6 +33,11 @@ do "00-setup.do"
 */
 
 use "$data\venuesdb_base.dta", clear
+
+/*CITED in text: Summary of public/private arenas opened since 2000*/
+list venuename year pubpct if arena &year>1999 &pubpct!=.
+list venuename year pubpct if arena &year>1999 &pubpct==0
+sum publiccost2024 pubpct if arena &year>1999
 
 so year
 by year: egen scount= sum(stadium)
