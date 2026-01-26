@@ -81,7 +81,7 @@ event_plot nba_wpct, plottype(connected) ciplottype(rarea) stub_lag(Tp#) stub_le
 graph_opt( legend(order(1 "Average Difference") pos(6) size(medsmall) ) ///
   yline(0, lcolor(gs10) lp(dash))  /// xline(0, lp(dash))
   ylabel(-.2(.1).2, angle(horizontal) format(%9.3fc)) xlabel( 0 "1" 1 "2" 2 "3" 3 "4" 4 "5" 5 "6" 6 "7" 7 "8"  ) /// 
-ytitle("Average Change in Winning %")  xtitle("Year In New Venue") ///
+ytitle("Average Change in Winning %")  xtitle("Year in New Venue") ///
   name(nba_post, replace) title("NBA", size(medlarge) ring(0) pos(12)) xsize(4) ysize(4.5)) ///
 lag_opt1(msymbol(Oh) color(black) lp(solid) )   lag_ci_opt1(color(gs6%50)) 
 /* save graphs*/
@@ -96,7 +96,7 @@ event_plot nhl_wpct, plottype(connected) ciplottype(rarea) stub_lag(Tp#) stub_le
 graph_opt( legend(order(2 "Confidence Interval (95%)") pos(6) size(medsmall)) ///
   yline(0, lcolor(gs10) lp(dash))  /// xline(0, lp(dash))
   ylabel(-.2(.1).2, angle(horizontal) format(%9.3fc)) xlabel( 0 "1" 1 "2" 2 "3" 3 "4" 4 "5" 5 "6" 6 "7" 7 "8" ) /// 
-  ytitle("") xtitle("Year In New Venue") ///
+  ytitle("") xtitle("Year in New Venue") ///
   name(nhl_post, replace) title("NHL", size(medlarge) ring(0) pos(12)) xsize(4) ysize(4)) ///
 lag_opt1(msymbol(Oh) color(black) lp(solid) )   lag_ci_opt1(color(gs6%50)) 
 /* save graphs*/

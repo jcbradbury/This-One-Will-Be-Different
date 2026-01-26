@@ -197,7 +197,7 @@ xtitle(,size(medlarge)) ///
 xlabel(1960(10)2040,labsize(medium)) ///
 ylabel(0(2)12, angle(horizontal) labsize(medium))  ///
 name(forecast_r60s_c, replace) ///
-legend(order(2 "Arenas" 1 "Stadiums" 3 "Projected Replacements" "(1990s and 2000s venues)" 5 "Observed Trend (1960s-2010s)" 4 "Projected Trend (2020s-2030s)" ) ///
+legend(order(2 "Arenas" 1 "Stadiums" 3 "Projected Replacements" "(1990s and 2000s venues)" 5 "Observed Trend (1960s–2010s)" 4 "Projected Trend (2020s–2030s)" ) ///
 ring(0) pos(11) cols(1) size(medsmall) symxsize(7) ) ///
 scheme(plotplain)
 /*

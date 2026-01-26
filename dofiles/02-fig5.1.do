@@ -84,7 +84,7 @@ xlabel(1900 "1900s" 1910 "1910s" 1920 "1920s" 1930 "1930s" 1940 "1940s" 1950 "19
 yline(35, lp(dash) )  ///
 legend(order(4 "Decade Median" 2 "Decade Middle 50%"  1 "Decade Range (Min to Max)" 5 "Sample Median = 35" ) ring(0) pos(1) cols(1) symxsize(8) size(medium)) ///
 xtitle(Decade Opened, size(medium)) ///
-ytitle(Years Hosting Major League Team, size(medlarge)) ///
+ytitle("Years Hosting Major-League Team", size(medlarge)) ///
 text(84 1952 "(Hosting status through 2029)", placement(e)) ///
 name(ls_minmax, replace) 
 /*

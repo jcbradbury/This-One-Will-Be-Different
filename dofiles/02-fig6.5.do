@@ -42,7 +42,7 @@ cd "$path" // Set your working directory
 do "00-setup.do"
 */
 
-use "$data\payroll2025.dta"
+use "$data\payroll2025.dta", clear
 
 /* Data output into the data\ folder
 export delimited "$data\payroll2025.csv"
@@ -58,7 +58,7 @@ ytitle(MLB Team Payroll Rank, size(vlarge))  ///
 xtitle(Season, size(vlarge))  ///
 text(25 2020 "Truist Park", placement(s) box bc(white) fc(white) size(vlarge)) ///
 text(25 2006.5  "Turner Field", placement(s) box bc(white) fc(white) size(vlarge)) ///
-text(25 1992.5  "Atlanta-Fulton" "County Stadium", placement(s) box bc(white) fc(white) size(vlarge)) ///
+text(25 1992.5  "Atlanta–Fulton" "County Stadium", placement(s) box bc(white) fc(white) size(vlarge)) ///
 xsize(2) ysize(1) ///
 xline(1996.5, lp(dash) lw(medthick) lc(black)) xline(2016.5, lp(dash) lw(medthick) lc(black)) ///
 plotregion(margin(t=1 b=1 l=5 r=5)) ///

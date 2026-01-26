@@ -18,6 +18,7 @@ Figures(figs\): 5.5
 Tables (Stata viewer): 
 Data (outdat\): cumulative_cost.dta
 Other:  
+CITED in text: Cumulative public cost at key dates
 CITED in text: Projected venue costs for 2020s and 2030s
 */
 
@@ -134,7 +135,35 @@ graph export "$figs\Fig5.5.pdf", as(pdf) replace
 graph export "$tif\Fig5.5.tif", as(tif) width(3000)  replace
 */
 
-/*CITED in text: CITED in text: Projected venue costs for 2020s and 2030s*/
+/* CITED in text: Cumulative public cost at key dates*/
+tabstat publiccost2024 if year<1961, stats(sum) // $1 billion → 1960
+/*
+    Variable |       Sum
+-------------+----------
+publicc~2024 |   1086.87
+------------------------
+*/
+
+tabstat publiccost2024 if year>1979, stats(sum) // Nearly $40 billion since 1980
+/*
+    Variable |       Sum
+-------------+----------
+publicc~2024 |  39451.17
+------------------------
+*/
+
+tabstat publiccost2024 , stats(sum) // Overall cumulative total
+/*
+    Variable |       Sum
+-------------+----------
+publicc~2024 |  50750.97
+------------------------
+
+(39451.17/ 50750.97) * 100 = 77.73%
+*/
+
+
+/*CITED in text: Projected venue costs for 2020s and 2030s*/
 tabstat  vensforecast pubforecast605 if pubforecast605!=., stats(sum) format(%9.0fc)
 /*
    Stats |  vensfo~r  pubf~605

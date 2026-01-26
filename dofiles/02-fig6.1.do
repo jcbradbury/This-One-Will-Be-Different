@@ -69,7 +69,7 @@ twoway bar attg year if franchid=="ATL" ,  bc(gs10)  ///
 || dropline attg x1966 if franchid=="ATL" ,  lpattern(longdash) mcolor(none) lcolor(black) lw(vthin), ///
 || dropline attg x1997 if franchid=="ATL" ,  lpattern(longdash) mcolor(none) lcolor(black) lw(vthin),  ///
 || dropline attg x2017 if franchid=="ATL" ,  lpattern(longdash) mcolor(none) lcolor(black) lw(vthin)  ///
-ytitle("Attendance (per game)", axis(1) size(medium))  ///
+ytitle("Attendance per Game", axis(1) size(medium))  ///
 text(49000 1915  "Braves" "Field", placement(n) box bc(white) fc(white)) ///
 text(49000 1953  "Milwaukee  " "Stadium  ", placement(n) box bc(white) fc(white)) ///
 text(49000 1966  " Atlanta" " Stadium", placement(n) box bc(white) fc(white)) ///

@@ -61,7 +61,7 @@ noautolegend ///
 graph_opt( legend( order(1 "MLB" 2 "NFL") ring(0) pos(1) symxsize(15) size(medium)) ///
   yline(0, lcolor(gs10) lp(dash))  ///
   ylabel(`dollab', angle(horizontal) format(%9.0fc) labsize(medium)) xlabel( 0 "1" 1 "2" 2 "3" 3 "4" 4 "5" 5 "6" 6 "7" 7 "8" , labsize(medium) ) /// 8 "9" 9"10" 
-  ytitle("Average Change in Price of Attendance", size(medlarge)) xtitle("Year In New Venue", size(medlarge)) ///
+  ytitle("Average Change in Price of Attendance", size(medlarge)) xtitle("Year in New Venue", size(medlarge)) ///
   name(event_fci, replace)) ///
  lag_opt1(msymbol(Oh) color(black) lp(solid) )   ///
  lag_opt2(msymbol(Dh) color(gs6) lp(longdash))   ///

@@ -133,4 +133,6 @@ tab typelabel if lifespan2029>29 &current & lastyear==. &renovationspan_2029>14 
    Stadiums |         11       50.00      100.00
 ------------+-----------------------------------
       Total |         22      100.00
+	  
+Forecasted replacement cost: 22 * $860 million = $18.92 billion 	  
 */

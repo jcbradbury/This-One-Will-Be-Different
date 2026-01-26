@@ -152,7 +152,7 @@ noautolegend ///
 graph_opt( legend( order(1 "MLB" 2 "NFL" 3 "NBA"  4 "NHL") ring(0) pos(1) symxsize(15) size(medium)) ///
   yline(0, lcolor(gs10) lp(dash))  /// xline(0, lp(dash))
   ylabel(-4000(2000)10000, angle(horizontal) format(%9.0fc) labsize(medium) ) xlabel( 0 "1" 1 "2" 2 "3" 3 "4" 4 "5" 5 "6" 6 "7" 7 "8" 8 "9" 9"10" 10 "11" 11 "12", labsize(medium) ) /// -6(1)-1
-  ytitle("Average Change in Attendance per Game", size(medlarge)) xtitle("Year In New Venue", size(medlarge)) ///
+  ytitle("Average Change in Attendance per Game", size(medlarge)) xtitle("Year in New Venue", size(medlarge)) ///
   name(event_all, replace)) ///
  lag_opt1(msymbol(Oh) color(black) lp(solid) )   ///
  lag_opt2(msymbol(Dh) color(gs6) lp(longdash))   ///
