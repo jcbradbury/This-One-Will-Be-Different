@@ -102,7 +102,7 @@ xline(229, lp(longdash) lc(black)lw(medthick))  ///
 tline(200(4)240, lp(dot)) ///
 xlabel(202(4)238 240 " ", noticks format(%tqCY) nogrid labsize(medium)) /// 
 xtitle("Year (quarterly)", size(medium)) ///
- ytitle("Sales Tax Revenue (per capita)", size(medlarge))  ///
+ ytitle("Sales Tax Revenue per Capita", size(medlarge))  ///
 ylabel(`dollab', angle(horizontal ) labsize(medium))  ///
 ttext( 120 229 "   April 2017  →" "Truist Park opens ", place(w) yaxis(1) xaxis(1))  ///
 legend(order( 1 "Atlanta MSA Counties (non-Cobb mean)"  2 "Cobb County" - "{bf: Post-Stadium Linear Trends}"  3 "Atlanta non-Cobb" 4 "Cobb" ) ring(0) cols(1) pos(10) symxsize(9) size(medium)) ///
@@ -167,7 +167,7 @@ tline(200(4)240, lp(dot)) ///
 ttext( 105 229 "   April 2017  →" "Truist Park opens ", place(w) yaxis(1) xaxis(1))  ///
 xtitle("Year (quarterly)", size(medium)) ///
 xlabel(202(4)238 240 " ", noticks format(%tqCY) nogrid labsize(medium)) ///
-ytitle("Sales Tax Revenue (per capita)", size(medlarge)) ///
+ytitle("Sales Tax Revenue per Capita", size(medlarge)) ///
 ylabel(`dollab', angle(horizontal ) labsize(medium))  /// 
 legend(order(2 3 1) cols(1) ring(0) pos(10) symxsize(15) size(medium)) ///
 plotregion(margin(t=3 b=3 l=3 r=3) ) ///
