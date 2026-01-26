@@ -105,7 +105,7 @@ xline(2013, lpattern(shortdash) lcolor(black)) legend( cols(3)) yline(0, lp(shor
 ylabel(`dol', angle(horizontal) labsize(medium))
 xlabel(2010(1)2023, labsize(medium)) 
 ytitle("Fair Market Value" "(in billions of dollars)" , size(medlarge)) xtitle(,size(medlarge))
-legend(order(2 "Cumberland CID" 1 "Change (2012-2017)") ring(0) pos(12) cols(1) size(medlarge) symxsize(15))
+legend(order(2 "Cumberland CID" 1 "Change (2012–2017)") ring(0) pos(12) cols(1) size(medlarge) symxsize(15))
 text( 2.6 2013 "← Truist Park announced", placement(e) size(medium))
 name(fairmarket, replace)
 ;
