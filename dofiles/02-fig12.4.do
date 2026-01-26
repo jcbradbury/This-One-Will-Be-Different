@@ -68,7 +68,7 @@ mylabels 250000(25000)350000, prefix($) myscale(@)  local(dol) format(%7.0fc)
 twoway (line treat year, lp(solid) lc(black) lw(medium)) /// 
 (line counterfact year, lp(dash) lc(black) lw(medium)), ///
 ttext( 260000 2017 "Truist Park opens →", place(w) yaxis(1) xaxis(1))  ///
-ttext( 260000 2014 "First assessment → ""post-announcement ", place(w) yaxis(1) xaxis(1))  ///
+ttext( 260000 2014 "First assessment → ""postannouncement ", place(w) yaxis(1) xaxis(1))  ///
 	xtitle("Year",size(medlarge))  ///
 	ytitle("Assessed Value per Acre", size(medlarge)) ///
 	xline(2014, lpattern(shortdash_dot) lcolor(black)) ////
