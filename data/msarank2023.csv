@@ -4,7 +4,7 @@ Los Angeles,"Los Angeles-Long Beach-Anaheim, CA",13178547,12970073,12870137,1279
 Chicago,"Chicago-Naperville-Elgin, IL-IN",9435217,9356597,9279427,9262825,2,1,1,1,1,6,"Chicago-Naperville-Elgin, IL-IN Metro Area", ,0,0,"Chicago, IL",0,3,9.262825,3,2,1,1,1,1,6
 Dallas,"Dallas-Fort Worth-Arlington, TX",7666418,7774647,7947439,8100037,1,1,1,1,1,5,"Dallas-Fort Worth-Arlington, TX Metro Area", ,0,0,"Dallas-Fort Worth-Arlington, TX",0,4,8.1000366,4,1,1,1,\hphantom{*}1$^+$,1,5
 Houston,"Houston-Pasadena-The Woodlands, TX",7168723,7245134,7370464,7510253,1,1,1,0,1,4,"Houston-Pasadena-The Woodlands, TX Metro Area", ,0,0,"Houston, TX",0,5,7.510253,5,1,1,\hphantom{**}1$^{-x}$,0,\hphantom{*}1$^+$,4
-Toronto,"Toronto (CMA), Ontario",6491939,6472951,6583259,6804847,1,1,0,1,1,4,"Toronto (CMA), Ontario", ,1,0,"Toronto (CMA), ON",1,6,6.8048468,,1,\hphantom{*}1$^{x}$,\hphantom{*}0$^c$,1,\hphantom{*}1$^x$,4
+Toronto,"Toronto (CMA), Ontario",6491939,6472951,6583259,6804847,1,1,0,1,1,4,"Toronto (CMA), Ontario", ,1,0,"Toronto, ON",1,6,6.8048468,,1,\hphantom{*}1$^{x}$,\hphantom{*}0$^c$,1,\hphantom{*}1$^x$,4
 Atlanta,"Atlanta-Sandy Springs-Roswell, GA",6120849,6159696,6238676,6307261,1,1,1,0,1,4,"Atlanta-Sandy Springs-Roswell, GA Metro Area", ,0,0,"Atlanta, GA",0,7,6.307261,6,1,1,1,\hphantom{*}0$^-$,\hphantom{*}1$^x$,4
 Washington,"Washington-Arlington-Alexandria, DC-VA-MD-WV",6260311,6258549,6265891,6304975,1,1,1,1,1,5,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area", ,0,0,"Washington, DC",0,8,6.304975,7,\hphantom{*}1$^+$,1,1,1,1,5
 Philadelphia,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",6241967,6253394,6242746,6246160,1,1,1,1,1,5,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area", ,0,0,"Philadelphia, PA",0,9,6.24616,8,1,1,1,1,\hphantom{*}1$^x$,5
@@ -13,14 +13,14 @@ Phoenix,"Phoenix-Mesa-Chandler, AZ",4875246,4948431,5020870,5070110,1,1,1,0,0,3,
 Boston,"Boston-Cambridge-Newton, MA-NH",4933650,4906460,4903026,4919179,1,1,1,1,1,5,"Boston-Cambridge-Newton, MA-NH Metro Area", ,0,0,"Boston, MA",0,12,4.919179,11,1,1,1,1,1,5
 Riverside,"Riverside-San Bernardino-Ontario, CA",4606384,4646486,4669149,4688053,0,0,0,0,0,0,"Riverside-San Bernardino-Ontario, CA Metro Area", ,0,0,"Riverside-San Bernardino, CA",0,13,4.6880531,12,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*
 San Francisco,"San Francisco-Oakland-Fremont, CA",4740838,4618350,4578135,4566961,2,1,0,0,0,3,"San Francisco-Oakland-Fremont, CA Metro Area", ,0,0,"San Francisco-Oakland, CA",0,14,4.5669608,13,\hphantom{**}1$^{-\dagger}$,1,\hphantom{***}0$^{--}$*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}3*
-Montreal,"Montréal (CMA), Quebec",4356853,4330143,4372913,4502177,0,0,0,1,1,2,"Montréal (CMA), Quebec", ,1,0,"Montréal (CMA), QC",1,15,4.5021768,,\hphantom{*}0$^-$,0,\hphantom{*}0$^c$,1,\hphantom{*}1$^x$,2
+Montreal,"Montréal (CMA), Quebec",4356853,4330143,4372913,4502177,0,0,0,1,1,2,"Montréal (CMA), Quebec", ,1,0,"Montreal, QC",1,15,4.5021768,,\hphantom{*}0$^-$,0,\hphantom{*}0$^c$,1,\hphantom{*}1$^x$,2
 Detroit,"Detroit-Warren-Dearborn, MI",4385248,4369283,4348636,4342304,1,1,1,1,0,4,"Detroit-Warren-Dearborn, MI Metro Area", ,0,0,"Detroit, MI",0,16,4.3423042,14,1,1,1,1,0,4
 Seattle,"Seattle-Tacoma-Bellevue, WA",4027804,4016479,4032242,4044837,1,0,1,1,1,4,"Seattle-Tacoma-Bellevue, WA Metro Area", ,0,0,"Seattle, WA",0,17,4.044837,15,1,\hphantom{*}0$^-$,1,\hphantom{*}1$^x$,\hphantom{*}1$^x$,4
 Minneapolis,"Minneapolis-St. Paul-Bloomington, MN-WI",3694114,3696290,3691666,3712020,1,1,1,1,1,5,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area", ,0,0,"Minneapolis-St. Paul, MN",0,18,3.7120199,16,1,\hphantom{*}1$^x$,1,\hphantom{**}1$^{-x}$,\hphantom{*}1$^x$,5
 Tampa Bay,"Tampa-St. Petersburg-Clearwater, FL",3187828,3230074,3291341,3342963,1,0,1,1,0,3,"Tampa-St. Petersburg-Clearwater, FL Metro Area", ,0,0,"Tampa-St. Petersburg, FL",0,19,3.342963,17,\hphantom{*}1$^x$,0,1,\hphantom{*}1$^x$,\hphantom{*}0$^-$,3
 San Diego,"San Diego-Chula Vista-Carlsbad, CA",3295298,3274432,3277176,3269973,1,0,0,0,1,2,"San Diego-Chula Vista-Carlsbad, CA Metro Area", ,0,0,"San Diego, CA",0,20,3.269973,18,1,0,\hphantom{*}0$^-$,0,\hphantom{*}1$^x$,2
 Denver,"Denver-Aurora-Centennial, CO",2970119,2978016,2986190,3005131,1,1,1,1,1,5,"Denver-Aurora-Centennial, CO Metro Area", ,0,0,"Denver, CO",0,21,3.005131,19,\hphantom{*}1$^x$,1,1,\hphantom{*}1$^+$,1,5
-Vancouver,"Vancouver (CMA), British Columbia",2750966,2771430,2852203,2971853,0,0,0,1,1,2,"Vancouver (CMA), British Columbia", ,1,0,"Vancouver (CMA), BC",1,22,2.971853,,0,\hphantom{**}0$^{x-}$,\hphantom{*}0$^c$,1,\hphantom{*}1$^x$,2
+Vancouver,"Vancouver (CMA), British Columbia",2750966,2771430,2852203,2971853,0,0,0,1,1,2,"Vancouver (CMA), British Columbia", ,1,0,"Vancouver, BC",1,22,2.971853,,0,\hphantom{**}0$^{x-}$,\hphantom{*}0$^c$,1,\hphantom{*}1$^x$,2
 Baltimore,"Baltimore-Columbia-Towson, MD",2842668,2843219,2834813,2834316,1,0,1,0,0,2,"Baltimore-Columbia-Towson, MD Metro Area", ,0,0,"Baltimore, MD",0,23,2.834316,20,1,\hphantom{*}0*,\hphantom{*}1$^+$,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}2*
 Orlando,"Orlando-Kissimmee-Sanford, FL",2680491,2698960,2763017,2817933,0,1,0,0,1,2,"Orlando-Kissimmee-Sanford, FL Metro Area", ,0,0,"Orlando, FL",0,24,2.8179331,21,0,1,0,0,\hphantom{*}1$^x$,2
 Charlotte,"Charlotte-Concord-Gastonia, NC-SC",2669651,2707454,2754657,2805115,0,1,1,0,1,3,"Charlotte-Concord-Gastonia, NC-SC Metro Area", ,0,0,"Charlotte, NC",0,25,2.805115,22,0,\hphantom{**}1$^{-x}$,\hphantom{*}1$^x$,0,\hphantom{*}1$^x$,3
@@ -40,10 +40,10 @@ Nashville,"Nashville-Davidson--Murfreesboro--Franklin, TN",2021744,2033369,20710
 San Jose,"San Jose-Sunnyvale-Santa Clara, CA",1995698,1951882,1945978,1945767,0,0,1,1,1,3,"San Jose-Sunnyvale-Santa Clara, CA Metro Area", ,0,0,"San Jose-Santa Clara, CA",0,39,1.945767,36,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}1$^+$,\hphantom{*}1$^{x}$,\hphantom{**}1$^{-x}$,\hphantom{*}3*
 Norfolk,"Virginia Beach-Chesapeake-Norfolk, VA-NC",1781712,1785531,1785390,1787169,0,0,0,0,0,0,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area", ,0,0,"Norfolk-Virginia Beach, VA",0,40,1.787169,37,0,0,0,0,0,0
 "Jacksonville, FL","Jacksonville, FL",1612981,1641741,1676329,1713240,0,0,1,0,0,1,"Jacksonville, FL Metro Area", ,0,0,"Jacksonville, FL",0,41,1.71324,38,0,0,\hphantom{*}1$^x$,0,0,1
-Calgary,"Calgary (CMA), Alberta",1528262,1540242,1586725,1682509,0,0,0,1,0,1,"Calgary (CMA), Alberta", ,1,0,"Calgary (CMA), AB",1,42,1.6825089,,0,0,\hphantom{*}0$^c$,1,0,1
+Calgary,"Calgary (CMA), Alberta",1528262,1540242,1586725,1682509,0,0,0,1,0,1,"Calgary (CMA), Alberta", ,1,0,"Calgary, AB",1,42,1.6825089,,0,0,\hphantom{*}0$^c$,1,0,1
 Providence,"Providence-Warwick, RI-MA",1673216,1676848,1673586,1677803,0,0,0,0,0,0,"Providence-Warwick, RI-MA Metro Area", ,0,0,"Providence, RI",0,43,1.677803,39,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*,\hphantom{*}0*
-Ottawa,"Ottawa - Gatineau (CMA), Ontario/Quebec",1524974,1540340,1569135,1609805,0,0,0,1,0,1,"Ottawa - Gatineau (CMA), Ontario/Quebec", ,1,0,"Ottawa (CMA), ON-QC",1,44,1.609805,,0,0,\hphantom{*}0$^c$,\hphantom{*}1$^x$,0,1
-Edmonton,"Edmonton (CMA), Alberta",1461697,1472402,1500356,1563571,0,0,0,1,0,1,"Edmonton (CMA), Alberta", ,1,0,"Edmonton (CMA), AB",1,45,1.563571,,0,0,\hphantom{*}0$^c$,1,0,1
+Ottawa,"Ottawa - Gatineau (CMA), Ontario/Quebec",1524974,1540340,1569135,1609805,0,0,0,1,0,1,"Ottawa - Gatineau (CMA), Ontario/Quebec", ,1,0,"Ottawa, ON-QC",1,44,1.609805,,0,0,\hphantom{*}0$^c$,\hphantom{*}1$^x$,0,1
+Edmonton,"Edmonton (CMA), Alberta",1461697,1472402,1500356,1563571,0,0,0,1,0,1,"Edmonton (CMA), Alberta", ,1,0,"Edmonton, AB",1,45,1.563571,,0,0,\hphantom{*}0$^c$,1,0,1
 Milwaukee,"Milwaukee-Waukesha, WI",1574476,1563237,1559128,1560424,1,1,0,0,0,2,"Milwaukee-Waukesha, WI Metro Area", ,0,0,"Milwaukee, WI",0,46,1.560424,40,1,1,0,0,0,2
 Raleigh,"Raleigh-Cary, NC",1417455,1451435,1480080,1509231,0,0,0,1,0,1,"Raleigh-Cary, NC Metro Area", ,0,0,"Raleigh, NC",0,47,1.509231,41,0,0,0,\hphantom{*}1$^+$,0,1
 Oklahoma City,"Oklahoma City, OK",1429940,1443830,1459957,1477926,0,1,0,0,0,1,"Oklahoma City, OK Metro Area", ,0,0,"Oklahoma City, OK",0,48,1.477926,42,0,\hphantom{*}1$^+$,0,0,0,1
@@ -67,18 +67,18 @@ Bridgeport,"Bridgeport-Stamford-Danbury, CT",942755,950010,949982,951558,0,0,0,0
 Knoxville,"Knoxville, TN",905896,916415,932921,946264,0,0,0,0,0,0,"Knoxville, TN Metro Area", ,0,0,"Knoxville, TN",0,66,.94626403,60,0,0,0,0,0,0
 Albuquerque,"Albuquerque, NM",917579,919392,920138,922296,0,0,0,0,0,0,"Albuquerque, NM Metro Area", ,0,0,"Albuquerque, NM",0,67,.92229599,61,0,0,0,0,0,0
 Delano,"Bakersfield-Delano, CA",905910,912709,916751,913820,0,0,0,0,0,0,"Bakersfield-Delano, CA Metro Area", ,0,0,"Bakersfield-Delano, CA",0,68,.91382003,62,0,0,0,0,0,0
-Winnipeg,"Winnipeg (CMA), Manitoba",852805,860237,876263,910240,0,0,0,1,0,1,"Winnipeg (CMA), Manitoba", ,1,0,"Winnipeg (CMA), MB",1,69,.91023999,,0,0,\hphantom{*}0$^c$,\hphantom{**}1$^{-+}$,0,1
+Winnipeg,"Winnipeg (CMA), Manitoba",852805,860237,876263,910240,0,0,0,1,0,1,"Winnipeg (CMA), Manitoba", ,1,0,"Winnipeg, MB",1,69,.91023999,,0,0,\hphantom{*}0$^c$,\hphantom{**}1$^{-+}$,0,1
 North Port,"North Port-Bradenton-Sarasota, FL",837856,862352,891721,910108,0,0,0,0,0,0,"North Port-Bradenton-Sarasota, FL Metro Area", ,0,0,"North Port-Bradenton-Sarasota, FL",0,70,.91010797,63,0,0,0,0,0,0
 "Albany, NY","Albany-Schenectady-Troy, NY",899724,904824,903595,904682,0,0,0,0,0,0,"Albany-Schenectady-Troy, NY Metro Area", ,0,0,"Albany-Schenectady-Troy, NY",0,71,.90468198,64,0,0,0,0,0,0
 McAllen,"McAllen-Edinburg-Mission, TX",872856,879865,888286,898471,0,0,0,0,0,0,"McAllen-Edinburg-Mission, TX Metro Area", ,0,0,"McAllen-Edinburg-Mission, TX",0,72,.898471,65,0,0,0,0,0,0
-Quebec,"Quebec (CMA), Quebec",840396,844774,858600,880875,0,0,0,0,0,0,"Quebec (CMA), Quebec", ,1,1,"Québec (CMA), QC",0,73,.88087499,,0,0,0,\hphantom{*}0$^-$,0,0
+Quebec,"Quebec (CMA), Quebec",840396,844774,858600,880875,0,0,0,0,0,0,"Quebec (CMA), Quebec", ,1,1,"Quebec, QC",0,73,.88087499,,0,0,0,\hphantom{*}0$^-$,0,0
 Baton Rouge,"Baton Rouge, LA",870286,872646,872347,873661,0,0,0,0,0,0,"Baton Rouge, LA Metro Area", ,0,0,"Baton Rouge, LA",0,74,.87366098,66,0,0,0,0,0,0
 Allentown,"Allentown-Bethlehem-Easton, PA-NJ",861557,870135,870570,873555,0,0,0,0,0,0,"Allentown-Bethlehem-Easton, PA-NJ Metro Area", ,0,0,"Allentown-Bethlehem-Easton, PA-NJ",0,75,.873555,67,0,0,0,0,0,0
 El Paso,"El Paso, TX",869802,870774,870655,873331,0,0,0,0,0,0,"El Paso, TX Metro Area", ,0,0,"El Paso, TX",0,76,.87333101,68,0,0,0,0,0,0
 Worcester,"Worcester, MA",859669,862224,862873,866866,0,0,0,0,0,0,"Worcester, MA Metro Area", ,0,0,"Worcester, MA",0,77,.86686599,69,0,0,0,0,0,0
 "Columbia, SC","Columbia, SC",830137,837804,848112,858302,0,0,0,0,0,0,"Columbia, SC Metro Area", ,0,0,"Columbia, SC",0,78,.858302,70,0,0,0,0,0,0
 Charleston,"Charleston-North Charleston, SC",803475,814823,830352,849417,0,0,0,0,0,0,"Charleston-North Charleston, SC Metro Area", ,0,0,"Charleston-North Charleston, SC",0,79,.84941697,71,0,0,0,0,0,0
-Hamilton,"Hamilton (CMA), Ontario",811706,817777,827679,841186,0,0,0,0,0,0,,,1,,"Hamilton (CMA), ON",1,80,.84118599,,0,0,\hphantom{*}0$^c$,0,0,0
+Hamilton,"Hamilton (CMA), Ontario",811706,817777,827679,841186,0,0,0,0,0,0,,,1,,"Hamilton, ON",1,80,.84118599,,0,0,\hphantom{*}0$^c$,0,0,0
 Cape Coral,"Cape Coral-Fort Myers, FL",765547,790888,822391,834573,0,0,0,0,0,0,"Cape Coral-Fort Myers, FL Metro Area", ,0,0,"Cape Coral-Fort Myers, FL",0,81,.83457297,72,0,0,0,0,0,0
 Oxnard,"Oxnard-Thousand Oaks-Ventura, CA",843371,839471,832871,829590,0,0,0,0,0,0,"Oxnard-Thousand Oaks-Ventura, CA Metro Area", ,0,0,"Oxnard-Thousand Oaks-Ventura, CA",0,82,.82959002,73,0,0,0,0,0,0
 Boise City,"Boise City, ID",770223,797026,811355,824657,0,0,0,0,0,0,"Boise City, ID Metro Area", ,0,0,"Boise City, ID",0,83,.82465702,74,0,0,0,0,0,0
@@ -200,7 +200,7 @@ Bremerton,"Bremerton-Silverdale-Port Orchard, WA",275823,276589,277813,277658,0,
 Rapids,"Cedar Rapids, IA",276621,276009,275631,275668,0,0,0,0,0,0,"Cedar Rapids, IA Metro Area", ,0,0,"Cedar Rapids, IA",0,199,.275668,182,0,0,0,0,0,0
 Slidell,"Slidell-Mandeville-Covington, LA",265000,270147,273237,275583,0,0,0,0,0,0,"Slidell-Mandeville-Covington, LA Metro Area", ,0,0,"Slidell-Mandeville-Covington, LA",0,200,.275583,183,0,0,0,0,0,0
 Amarillo,"Amarillo, TX",269029,269804,270589,272395,0,0,0,0,0,0,"Amarillo, TX Metro Area", ,0,0,"Amarillo, TX",0,201,.27239501,184,0,0,0,0,0,0
-Regina,"Regina (CMA), Saskatchewan",257598,257368,260534,271119,0,0,0,0,0,0,,,1,,"Regina (CMA), SK",1,202,.271119,,0,0,\hphantom{*}0$^c$,0,0,0
+Regina,"Regina (CMA), Saskatchewan",257598,257368,260534,271119,0,0,0,0,0,0,,,1,,"Regina, SK",1,202,.271119,,0,0,\hphantom{*}0$^c$,0,0,0
 Evansville,"Evansville, IN",269517,269987,269892,270717,0,0,0,0,0,0,"Evansville, IN Metro Area", ,0,0,"Evansville, IN",0,203,.270717,185,0,0,0,0,0,0
 Laredo,"Laredo, TX",267363,267400,267619,269148,0,0,0,0,0,0,"Laredo, TX Metro Area", ,0,0,"Laredo, TX",0,204,.26914799,186,0,0,0,0,0,0
 Erie,"Erie, PA",270578,269257,268840,267571,0,0,0,0,0,0,"Erie, PA Metro Area", ,0,0,"Erie, PA",0,205,.267571,187,0,0,0,0,0,0
