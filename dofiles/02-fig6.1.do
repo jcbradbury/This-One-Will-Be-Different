@@ -20,6 +20,7 @@ Figures(figs\): 6.1
 Tables (Stata viewer): 
 Data (outdat\): attend_atl.dta
 Other: 
+CITED in text: Mean Truist annual attendance, non-COVID years (Chap 16) 
 */
 
 *************************
@@ -84,4 +85,26 @@ name(atl_attend2025a, replace) scheme(plotplain)
 /*
 graph export "$figs\Fig6.1.pdf", as(pdf) replace
 graph export "$tif\Fig6.1.tif", as(tif) width(3000)  replace
+*/
+
+/*CITED in text: Mean Truist annual attendance, non-COVID years (Chap 16) */
+g covid =0
+replace covid=1 if year==2020|year==2021
+tabstat attendance if year>2016 &!covid, by(year) format(%9.0fc)
+/*
+Summary for variables: attendance
+Group variable: yearid (yearID)
+
+  yearid |      Mean
+---------+----------
+    2017 | 2,505,252
+    2018 | 2,555,781
+    2019 | 2,655,100
+    2022 | 3,129,931
+    2023 | 3,191,505
+    2024 | 3,011,755
+    2025 | 2,903,167
+---------+----------
+   Total | 2,850,356
+--------------------
 */
