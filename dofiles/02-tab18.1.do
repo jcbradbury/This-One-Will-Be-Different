@@ -170,6 +170,18 @@ replace mlsst= "\hphantom{*}1$^x$" if msa=="Salt Lake City-Murray, UT"
 replace city = "Regina" if shortmsa=="Regina (CMA), SK"
 replace city = "Hamilton" if shortmsa=="Hamilton (CMA), ON"
 
+replace shortmsa = "Toronto, ON" if shortmsa=="Toronto (CMA), ON"
+replace shortmsa = "Montreal, QC" if shortmsa=="Montréal (CMA), QC"
+replace shortmsa = "Vancouver, BC" if shortmsa=="Vancouver (CMA), BC"
+replace shortmsa = "Calgary, AB" if shortmsa=="Calgary (CMA), AB"
+replace shortmsa = "Ottawa, ON-QC" if shortmsa=="Ottawa (CMA), ON-QC"
+replace shortmsa = "Edmonton, AB" if shortmsa=="Edmonton (CMA), AB"
+replace shortmsa = "Winnipeg, MB" if shortmsa=="Winnipeg (CMA), MB"
+replace shortmsa = "Quebec, QC" if shortmsa=="Québec (CMA), QC"
+replace shortmsa = "Hamilton, ON" if shortmsa=="Hamilton (CMA), ON"
+replace shortmsa = "Regina, SK" if shortmsa=="Regina (CMA), SK"
+
+
 save "$outdat\msarank2023.dta", replace
 
 /* Data output into the data\ folder
