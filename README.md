@@ -443,6 +443,12 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 
 ## Chaprter 16
 
+### Other Information
+| Information cited in text| Do-file | Line #|
+|----|----|----|
+|Mean Truist annual attendance, non-COVID years|02-fig6.1.do|90|
+
+
 ### Relevant Links
 
 - Burns, Rebecca (2013) “[The other 284 days](https://www.atlantamagazine.com/great-reads/turner-field-development/),” *Atlanta Magazine*, July.
