@@ -76,6 +76,10 @@ replace venuename_reno = "Scotiabank Saddledome*" if venuename_reno == "Scotiaba
 replace venuename_reno = "Oakland-Alameda County Coliseum*" if venuename_reno == "Oakland-Alameda County Coliseum"
 replace venuename_reno = "Paycom Center*" if venuename_reno == "Paycom Center"
 replace venuename_reno = "Highmark Stadium*" if venuename_reno == "Highmark Stadium"
+replace venuename_reno = "GEHA Field at Arrowhead Stadium*" if venuename_reno == "GEHA Field at Arrowhead Stadium"
+replace venuename_reno = "Huntington Bank Field*" if venuename_reno == "Huntington Bank Field"
+replace venuename_reno = "Empower Field at Mile High*" if venuename_reno == "Empower Field at Mile High"
+replace venuename_reno = "Xfinity Mobile Arena*" if venuename_reno == "Xfinity Mobile Arena"
 
 replace venuename_reno = "EverBank Stadium$^\dagger$" if venuename_reno == "EverBank Stadium"
 replace venuename_reno = "Delta Center$^\dagger$" if venuename_reno == "Delta Center"
@@ -93,7 +97,7 @@ replace future_reno_pub_dol ="\\$0" if venuename_tex == "United Center" /*Ballpa
 
 ******************************
 /*Table 5.2 (output created)*/
-gsort lastrenovation year
+gsort lastrenovation venuename_tex 
 
 listtab venuename_reno team_current_tex blank year blank lastrenovation   reno2024dol  if renolist==1 &lastrenovation!=. &stillopen, type rstyle(tabular)
 
@@ -118,7 +122,7 @@ typelabel |         N       Min       p50       Max        SD       p25       p7
 
 **************
 /*Figure 5.3*/
-gsort future_renovation_complete future_renovation_complete_st  venuename_tex -year
+gsort future_renovation_complete future_renovation_complete_st  venuename_tex
 
 listtab venuename_tex team_current_tex blank year blank  future_renovation_complete_st    future_reno_dol future_reno_pub_dol if renolist==1 & planned_renovation==1, type rstyle(tabular)
 

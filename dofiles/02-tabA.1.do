@@ -63,8 +63,8 @@ replace  venuename_tex_bold = "\textbf{"+venuename_tex+"}" if current
 replace  venuename_tex_bold = "\emph{"+venuename_tex+"}" if year>2024
 replace venuename_tex_bold = "Turner Field\$^\ddagger\$" if venuename_tex=="Turner Field"
 replace venuename_tex_bold = "\emph{New Athletics Stadium$^\S$}" if venuename_tex=="New Athletics Stadium"
-replace venuename_tex_bold = "\emph{New Browns Stadium$^\P$}" if venuename_tex=="New Browns Stadium"
-replace venuename_tex_bold = "\emph{New Fire Stadium$^\|$}" if venuename_tex=="New Fire Stadium"
+*replace venuename_tex_bold = "\emph{New Browns Stadium$^\P$}" if venuename_tex=="New Browns Stadium"
+*replace venuename_tex_bold = "\emph{New Fire Stadium$^\|$}" if venuename_tex=="New Fire Stadium"
 
 replace tcdol="[\\$1,150]" if venuename_tex=="Climate Pledge Arena*"
 replace tc2024dol="[\\$1,334]" if venuename_tex=="Climate Pledge Arena*"
@@ -72,7 +72,7 @@ replace pcdol="[\\$0]" if venuename_tex=="Climate Pledge Arena*"
 replace pc2024dol="[\\$0]" if venuename_tex=="Climate Pledge Arena*"
 replace pubpct100stpct="[0\%]" if venuename_tex=="Climate Pledge Arena*"
 
-replace tcdol="TBD" if venuename_tex=="New Fire Stadium"
+replace tcdol="[\\$750]" if venuename_tex=="New Fire Stadium"
 
 g lastyearst  = string(lastyear,"%9.0f")
 replace lastyearst="" if lastyear==.
