@@ -9,9 +9,9 @@ Barrow, Bartow, Butts, Carroll, Cherokee, Clayton, Cobb, Coweta, Dawson, Dekalb,
 
 ## Sales Tax Distributions
 
-County Tax Revnue data manually collected from Georgia Department of Revenue, Georgia Tax Center
+County Tax Revenue data manually collected from Georgia Department of Revenue, Georgia Tax Center
 Website: https://gtc.dor.ga.gov/_/
-1. Click on "Search Sales Tax Distribution" under the Sales Tax menue
+1. Click on "Search Sales Tax Distribution" under the Sales Tax menu
 2. Make the following selections for each Atlanta MSA county:
     - Select County: [Cobb]
     - Leave jurisdiction blank.
