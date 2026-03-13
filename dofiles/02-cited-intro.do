@@ -18,8 +18,8 @@ Figures(figs\):
 Tables (Stata viewer): 
 Data (outdat\):
 Other:
-CITED in text: Public contributions to stadiums since 2000
-CITED in text: Cumulative public funding to MLS teams
+CITED in text: Public contributions to sports venue construction since 2000
+CITED in text: Cumulative public funding to MLS stadium construction
 CITED in text: Cumulative public contributions to minor-league ballparks
 */
 
@@ -36,7 +36,7 @@ do "00-setup.do"
 
 use "$data\venuesdb_all.dta", clear
 
-/* CITED in text: Public contributions to stadiums since 2000 (see Chapter 5) */
+/* CITED in text: Public contributions to sports venue construction since 2000 (see Chapter 5) */
 tabstat publiccost2024 if year>1999 &year!=. & league!="MLS" & league!="MLS/CFL", stats(sum, median, mean) format
 /*
     Variable |       Sum       p50      Mean
@@ -45,7 +45,7 @@ publicc~2024 |    28,284       383       442
 --------------------------------------------
 */
 
-/*CITED in text: Cumulative public funding to MLS teams (see Chapter 5) */
+/*CITED in text: Cumulative public funding to MLS stadium construction (see Chapter 5) */
 tabstat publiccost2024 if league=="MLS"|league=="MLS/CFL", stats(sum) format
 /*
     Variable |       Sum
