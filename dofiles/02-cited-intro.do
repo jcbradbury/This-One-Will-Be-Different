@@ -9,6 +9,7 @@
 
 Data Input (data\): 
 venuesdb_all.dta
+milb_ballparkcosts.dta
 
 Intermediate Output (working directory):
 
@@ -19,7 +20,7 @@ Data (outdat\):
 Other:
 CITED in text: Public contributions to stadiums since 2000
 CITED in text: Cumulative public funding to MLS teams
-CITED in text: Cumulatve public contributions to minor-league ballparks
+CITED in text: Cumulative public contributions to minor-league ballparks
 */
 
 *************************
@@ -53,7 +54,7 @@ publicc~2024 |     3,187
 ------------------------
 */
 
-/*CITED in text: Cumulatve public contributions to minor-league ballparks (see Chapter 19) */
+/*CITED in text: Cumulative public contributions to minor-league ballparks (see Chapter 19) */
 use "$data\milb_ballparkcosts.dta", clear
  
 tabstat publiccost2024 sumpublicrenovationcost2024 , stats(sum) format(%9.0fc)
