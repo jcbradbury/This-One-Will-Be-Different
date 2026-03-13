@@ -143,7 +143,7 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Summary Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
-|Public contributions to sports venue construction since 2000(see Chapter 5)|02-cited-intro.do|38|
+|Public contributions to sports venue construction since 2000 (see Chapter 5)|02-cited-intro.do|38|
 |Cumulative public funding to MLS stadium construction (see Chapter 5)|02-cited-intro.do|47|
 |Cumulative public contributions to minor-league ballparks (see Chapter 19)|02-cited-intro.do|56|
 
