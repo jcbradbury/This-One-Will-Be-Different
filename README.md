@@ -140,7 +140,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 1
 
-### Other Information
+### Summary Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
 |Public contributions to stadiums since 2000 (see Chapter 5)|02-cited-intro.do|38|
