@@ -114,7 +114,8 @@ The table below provides information for all datasets included in the `data/` fo
 
 ## Instructions for Replicators
 ### Stata users
-1. Download repository folders and their files to the desired location on your computer.
+1. Clone/Download repository folders and their files to the desired location on your computer.
+    - Click on `Code` at the top of the page and select "Download ZIP" to download all files.
 2. Open 00-setup.do, change [PATH] at the top of the file with your home directory where the folders are located, and run the do-file in Stata.
     - This will set the home directory structure for running all do-files
     - If you do not wish to run the setup file, all do-files contain suppressed [PATH] code that you can use for setting the home directory.  
@@ -131,10 +132,20 @@ All data files provided in .csv format, which can be read by other data analysis
 | Do-file|  Function| Output |
 |----|----|----|
 | 00-setup.do|  Sets up Stata to run do-files. Creates the directory structure and installs all necessary ado-files to conduct the analysis.| none |
-| 01-venuesdb_build.do|Contructs base dataset of venue construction costs used in the analysis of the traditional four major US sports leagues (MLB, NFL, NBA, NHL)| venuesdb_base.dta|
-| 01-venuesdb_all_ build.do|Contructs base dataset of venue construction costs that includes the traditional four major US sports leagues along with MLS venues| venuesdb_all.dta|
+| 01-venuesdb_build.do|Constructs base dataset of venue construction costs used in the analysis of the traditional four major US sports leagues (MLB, NFL, NBA, NHL)| venuesdb_base.dta|
+| 01-venuesdb_all_ build.do|Constructs base dataset of venue construction costs that includes the traditional four major US sports leagues along with MLS venues| venuesdb_all.dta|
 | 01-cpi2024.do| Converts current dollar venue construction costs to real 2024 dollars| none |
 | 01-cpi2024_reno.do|  Converts current dollar venue renovations costs to real 2024 dollars| none |
+
+
+## Chapter 1
+
+### Other Information
+| Information cited in text| Do-file | Line #|
+|----|----|----|
+|Public contributions to stadiums since 2000 (see Chapter 5)|02-cited-intro.do|38|
+|Cumulative public funding to MLS teams (see Chapter 5)|02-cited-intro.do|47|
+|Cumulative public contributions to minor-league ballparks (see Chapter 19)|02-cited-intro.do|56|
 
 
 ## Chapter 3
