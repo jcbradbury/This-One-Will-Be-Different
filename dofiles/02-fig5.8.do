@@ -1,4 +1,4 @@
-/* This file provides the code for merging MLS stadium costs and tracking MLS stadium openings.
+/* This file provides the code for tracking MLS stadium openings.
 
 **********************************************************************
 ** Title: This One Will Be Different: False Promises and Fiscal Realities of Publicly Funded Stadiums
