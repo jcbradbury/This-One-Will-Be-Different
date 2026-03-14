@@ -155,6 +155,12 @@ All data files provided in .csv format, which can be read by other data analysis
 |----|----|----|----|----|
 |3.1|02-fig3.1.do|53|venuesdb_base.dta|venue_count.dta|
 
+### Other Information
+| Information cited in text| Do-file | Line #|
+|----|----|----|
+|Summary of public/private arenas opened since 2000|02-fig3.1.do|37|
+
+
 ### Relevant Links
 
 - Baade, Robert A. and Richard F. Dye (1990) “[Stadiums and professional sports on metropolitan area development](https://onlinelibrary.wiley.com/doi/10.1111/j.1468-2257.1990.tb00513.x),” *Growth and Change*, 12 (114), 1–14.
