@@ -18,6 +18,7 @@ Tables (Stata viewer):
 Data (outdat\):
 Other: 
 CITED in text: Summary of public/private arenas opened since 2000
+CITED in text: Public funding of venues that opened in 1990s and 2000s
 
 */
 
@@ -38,6 +39,9 @@ use "$data\venuesdb_base.dta", clear
 list venuename year pubpct if arena &year>1999 &pubpct!=.
 list venuename year pubpct if arena &year>1999 &pubpct==0
 sum publiccost2024 pubpct if arena &year>1999
+
+/*CITED in text: Public funding of venues that opened in 1990s and 2000s*/
+sum pubpct100 if year > 1989 & year <2010, detail
 
 so year
 by year: egen scount= sum(stadium)
