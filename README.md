@@ -219,6 +219,7 @@ All data files provided in .csv format, which can be read by other data analysis
 | Information cited in text| Do-file | Line #|
 |----|----|----|
 |Projected venue costs for 2020s and 2030s|02-fig5.5.do|137|
+|Cumulative public cost at key dates|02-tab5.2_5.3.do|138|
 |Summary stats for the renovated venues in Table 5.2|02-tab5.2_5.3.do|128|
 |Summary stats for future renovated venues in Table 5.3|02-tab5.2_5.3.do|139|
 |Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|116|
