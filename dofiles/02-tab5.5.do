@@ -17,6 +17,7 @@ Figures(figs\):
 Tables (Stata viewer): 5.5
 Data (outdat\): ven_cost_current.dta
 Other: 
+CITED in text: Public cost of venue subsidies to US households 
 */
 
 *************************
@@ -78,7 +79,7 @@ egen sumtotalcost2024 = sum(totalcost2024)
 g sumpubpct100 = (sumpubliccost2024/sumtotalcost2024)*100
 format sumpubliccost2024 sumtotalcost2024 sumpubpct100 %9.0fc
 
-sum sumpubpct100, format
+sum sumpubpct100 if main_lg!="", format
 /*
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -91,3 +92,14 @@ save "$outdat\ven_cost_current.dta", replace
 save "$data\ven_cost_current.dta", replace
 export delimited "$data\ven_cost_current.csv", replace
 */
+
+/*CITED in text: Public cost of venue subsidies to US households 
+
+Total public outlays to stadium construction: $32,540 million
+US households: 127,482,865 // Link to archived source (since updtated): https://web.archive.org/web/20251231163338/https://www.census.gov/quickfacts/fact/table/US/PST045224
+
+$32,540,000,000 /  127,482,865 = $255
+*/
+
+*/
+

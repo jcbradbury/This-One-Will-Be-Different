@@ -212,7 +212,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.2|02-tab5.2_5.3.do|95|venuesdb_base.dta|none|
 |5.3|02-tab5.2_5.3.do|120|venuesdb_base.dta|none|
 |5.4|02-fig5.7_tab5.4.do|53|leagues_revenue.dta|none|
-|5.5|02-tab5.5.do|56|venuesdb_all.dta|ven_cost_current.dta|
+|5.5|02-tab5.5.do|57|venuesdb_all.dta|ven_cost_current.dta|
 
 
 ### Other Information
@@ -225,6 +225,8 @@ All data files provided in .csv format, which can be read by other data analysis
 |Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|116|
 |Venues hosting teams 30+ years and last renovation 15+ years by the end of 2020s|02-fig5.6.do|127|
 |Median and cumulative MLS stadium costs|02-fig5.9.do|39|
+|Public cost of venue subsidies to US households |02-fig5.10.do|96|
+
 
 ### Relevant Links
 
