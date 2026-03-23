@@ -51,7 +51,12 @@ graph export "$tif\Fig5.7.tif", as(tif) width(3000)  replace
 
 
 /*Table 5.4*/
-list nfl_*  mlb_* nba_* nhl_* mls_* if year==2024
+list nfl_*  if year==2024
+list mlb_*  if year==2024
+list nba_*  if year==2024
+list nhl_*  if year==2024
+list mls_* if year==2024
+
 /*Min and Max in table tabulated from Forbes websites (various years):
 NFL: https://www.forbes.com/nfl-valuations/list/;#tab:overall
 MLB: https://www.forbes.com/mlb-valuations/list/;#tab:overall
