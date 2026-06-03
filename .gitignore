@@ -25,5 +25,6 @@ CobbDocs/Fiscal Impact Study_2018.pdf
 *.smcl
 *.do.stswp
 *_jcb.do
+000_preamble.do
 *.gph
 misc/*_jcb.*
