@@ -11,7 +11,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |Dataset|Description|How Created|Used By|Sources|
 |----|----|----|----|----|
 |attend_atl.dta|Braves franchise attendance by year|02-fig6.1.do|02-fig6.1.do|Lahman (2024), Baseball-Reference|
-|CID_vpa.dta|CID data processed for constructing Figs. 12.1 and 12.3|02-fig12.1_fig_12.3.do|02-fig12.1_fig_12.3.do|cidgr2010_2023.dta|
+|CID_vpa.dta|CID data processed for constructing Figs. 12.1 and 12.3|02-fig12.1_fig_12.3.do|02-fig12.1_fig_12.3.do|CIDgrossdigest.dta|
 |CIDgrossdigest.dta|CID gross property value digest data (2010-2023)|Downloaded by author|02-fig12.1_fig_12.3.do|See DataNotes_Ch12.md|
 |CIDproperty.dta|CID data for SCM analysis in Chap. 12|Compiled by author|02-fig12.4.do|See DataNotes_Ch12.md|
 |CIDvpa2014_treat.dta|Cumberland CID property value post-SCM treatment effects|02-fig12.4.do|02-fig12.4.do|See DataNotes_Ch12.md|
