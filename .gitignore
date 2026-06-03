@@ -12,7 +12,7 @@ papers/OtherPapers/*
 !papers/OtherPapers/.gitkeep
 
 misc/*
-!misc.gitkeep
+papers/*
 
 # Hi-res figures (local only)
 tif/
