@@ -31,4 +31,4 @@ CobbDocs/Fiscal Impact Study_2018.pdf
 000_preamble.do
 *.gph
 misc/*_jcb.*
-_old.*
+*_old.*
