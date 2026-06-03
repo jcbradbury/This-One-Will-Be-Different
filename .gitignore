@@ -14,7 +14,11 @@ papers/OtherPapers/*
 # Hi-res figures (local only)
 tif/
 
-
+# Cobb Docs
+CobbDocs/Funding-Infographic.pdf
+CobbDocs/Fiscal Impact Study_2013.pdf
+CobbDocs/Fiscal Impact Study_2016.pdf
+CobbDocs/Fiscal Impact Study_2018.pdf
 
 # Temporary Stata files
 *_temp.dta
