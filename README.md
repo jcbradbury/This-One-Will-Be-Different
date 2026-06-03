@@ -346,8 +346,9 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |13.1|Map||||
-|13.2|02-fig13.2_13.3_tab13.1.do|95|county_synthdata_2010_2019.dta|county_synthdata_2010_2019_noSTch_q.dta; cobb_stsynth.dta|
-|13.3|02-fig13.2_13.3_tab13.1.do|159|county_synthdata_2010_2019.dta|county_synthdata_2010_2019_noSTch_q.dta; cobb_stsynth.dta|
+|13.2|02-fig13.2_13.3_tab13.1.do|95|countyST.dta|countyST_q_noSTch.dta; countyST_q_noSTch_means.dta|
+|13.3|02-fig13.2_13.3_tab13.1.do|161|countyST.dta|countyST_q_noSTch.dta; cobb_stsynth_noSTch_q.dta|
+
 
 
 ### Tables
