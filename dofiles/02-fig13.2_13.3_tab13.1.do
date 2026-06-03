@@ -15,7 +15,7 @@ The paper provides a detailed explanation of the synthetic control method (SCM) 
 Data Input (data\): 
 countyST.dta
 
-See DataNotes_Ch13.md in this repository for more information on how tax distributions were aggregated.
+
 
 County Tax Revnue data manually collected from Georgia Department of Revenue, Georgia Tax Center
 Website: https://gtc.dor.ga.gov/_/
@@ -80,17 +80,17 @@ tsset countyid qdate
 g quarter = quarter(dofq(qdate))
 
 format  qdate %tq
+save "$outdat\countyST_q_noSTch.dta", replace
 
-save "$outdat\countyST_noSTch_q.dta", replace
-
-/* Data output into the data\ folder
-save "$data\county_synthdata_2010_2019_noSTch_q.dta", replace
-export delimited "$data\county_synthdata_2010_2019_noSTch_q.csv", replace
-*/
+/*Generage county mean quarterly sales tax revenue per capita*/
+use "$data\countyST_q_noSTch.dta", clear
 
 so qdate
 by qdate: egen meannonCobbsumcollections3_pc = mean( sumcollections3_pc) if county!="Cobb"
 by qdate: egen mednonCobbsumcollections3_pc = median( sumcollections3_pc) if county!="Cobb"
+
+save "$outdat\countyST_q_noSTch_means.dta", replace
+export delimited "$data\countyST_q_noSTch_means.csv", replace
 
 /*Fig 13.2*/
 mylabels 80(5)150, prefix($) myscale(@)  local(dollab) format(%2.0fc)
@@ -117,6 +117,8 @@ graph export "$tif\Fig13.2.tif", as(tif) width(3000)  replace
 */
 
 /*Run SCM analysis*/
+use "$data\countyST_q_noSTch.dta", clear
+
 synth sumcollections3_pc  logypc salestaxrate popdens sq_miles distanceturner ///
 sumcollections3_pc(200(4)227) ///  1Q average all years
 sumcollections3_pc(200(1)203) ///  first calendar year
