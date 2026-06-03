@@ -13,7 +13,7 @@ Bradbury, John Charles (2022b) "The impact of sports stadiums on localized comme
 The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
 
 Data Input (data\): 
-CIDanalysis.dta
+CIDproperty.dta
 
 Intermediate Output (working directory): vpa2014_temp.dta
 
@@ -36,9 +36,6 @@ do "00-setup.do"
 */
 
 use "$data\CIDproperty.dta", clear
-/* Data output into the data\ folder
-export delimited "$data\CIDanalysis.csv", replace
-*/
 
 synth realvpa  commercialpct   totalmillage_i realcountyvpa logrealypc_e  realvpa(2010) realvpa(2013) realvpa(2010&2013), /// 
 trunit(1)  trperiod(2014)  resultsperiod(2010(1)2019) ///
