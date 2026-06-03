@@ -10,7 +10,7 @@ This repository contains the data and Stata code associated with
 # Overview
 This repository includes datasets and replication code files for generating the figures, tables, and other pertinent information reported in the book. This repository is designed to be simple and accessible, and thus its contents are organized into four folders:
 
-- `data/` Includes all input and final output data, in order to allow replication and promote further research. The code in the do-files may generate intermediate data files that are used in constructing the tables and figures, which are saved only in the working directory.  All datasets are provided in .dta and .csv formats, and files of the same name except for their format suffix contain identical data. 
+- `data/` Includes all input and final output data, in order to allow replication and promote further research. The code in the do-files may generate intermediate data files that are used in constructing the tables and figures, which are saved only in the working directory.  All datasets are provided in .dta and .csv formats, and files of the same name except for their format suffix contain identical data. This folder includes a subfolder with documents relating to the Cobb-Braves stadium agreement.
 
 - `dofiles/` Includes all Stata do-files used for conducting the analysis. Do-files include substantial notation explaining what is being implemented, and in some cases the files include copies of the output. Non-Stata users may view these files with any text reader. 
 

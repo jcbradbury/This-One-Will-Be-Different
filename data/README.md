@@ -1,5 +1,7 @@
 The table below provides information for all datasets included in the `data/` folder. These datasets were created for analysis provided throughout the book, particularly for constructing the figures and tables.  For simplicity, I list only the Stata file versions (.dta), but duplicate copies in comma-delimited (.csv) format---minus Stata-specific attributes (e.g, labels, number formatting)---are provided for non-Stata users. This way users have access to the processed data to replicate the information presented in the book. Non-Stata users should view the do-files (described in the replication section below) for notes on sources, data processing, and conducting the analysis.
 
+The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium deal.
+
 <!-- - See `sourcefiles/` for more descriptions of data sources, collection, and organization.  -->
 
 
