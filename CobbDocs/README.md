@@ -6,6 +6,7 @@
 |Cobb-Braves-MOU.pdf | Memorandum of Understanding between Atlanta Braves and Cobb County|
 |Cobb-Braves-Development-Agreement.pdf |Stadium Development Agreement|
 |Cobb-Braves-Operating-Agreement.pdf |Stadium Operating Agreement|
+|Funding-Infographic.pdf |Cobb infographic on the funding breakdown and projected economic impact|
 
 ## Cobb Board of Commissioners Annual Reviews of Truist Park and The Battery
 Slide presentations on the stadium development are included in YearInReview_YEAR.pdf for each year from 2017-2024. 
