@@ -14,7 +14,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |CID_vpa.dta|CID data processed for constructing Figs. 12.1 and 12.3|02-fig12.1_fig_12.3.do|02-fig12.1_fig_12.3.do|CIDgrossdigest.dta|
 |CIDgrossdigest.dta|CID gross property value digest data (2010-2023)|Downloaded by author|02-fig12.1_fig_12.3.do|See Bradbury (2022) [repository](https://github.com/jcbradbury/CIDproperty)|
 |CIDproperty.dta|CID data for SCM analysis in Chap. 12|Compiled by author|02-fig12.4.do|See Bradbury (2022) [repository](https://github.com/jcbradbury/CIDproperty)|
-|CIDvpa2014_treat.dta|Cumberland CID property value post-SCM treatment effects|02-fig12.4.do|02-fig12.4.do|See DataNotes_Ch12.md|
+|CIDvpa2014_treat.dta|Cumberland CID property value post-SCM treatment effects|02-fig12.4.do|02-fig12.4.do|See Bradbury (2022) [repository](https://github.com/jcbradbury/CIDproperty)|
 |cobb_stsynth_noSTch_q.dta|Cobb sales tax post-SCM treatment effects|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
 |compare_mlb.dta|MLB ballparks comparable to Truist Park|02-fig10.1.do|02-fig10.1.do|venuesdb_base.dta|
 |countyST.dta|County sales tax data|Compiled by author|02-fig13.2_13.3_tab13.1.do|See DataNotes_Ch13.md|
