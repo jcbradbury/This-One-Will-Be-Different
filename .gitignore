@@ -11,6 +11,9 @@ papers/CobbBraves/*
 papers/OtherPapers/*
 !papers/OtherPapers/.gitkeep
 
+misc/*
+!misc.gitkeep
+
 # Hi-res figures (local only)
 tif/
 
