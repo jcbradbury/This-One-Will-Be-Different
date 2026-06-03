@@ -354,7 +354,7 @@ The technical details of the analysis presented Chapter 13 are described thoroug
 ### Tables
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|13.1|02-fig13.2_13.3_tab13.1.do|180|cobb_stsynth_noSTch_q.dta||
+|13.1|02-fig13.2_13.3_tab13.1.do|164|cobb_stsynth_noSTch_q.dta||
 |13.2|CobbBOCYearInReviews.xlsx |*|||
 
 
