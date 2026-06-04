@@ -184,10 +184,6 @@ replace shortmsa = "Regina, SK" if shortmsa=="Regina (CMA), SK"
 
 save "$outdat\msarank2023.dta", replace
 
-/* Data output into the data\ folder
-save "$data\msarank2023.dta", replace
-export delimited "$data\msarank2023.csv", replace
-*/
 
 /*Table 18.1*/
 *Stata viewer friendly
