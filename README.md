@@ -231,13 +231,13 @@ The technical details of the analysis presented Chapter 6 are described thorough
 ### Tables
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|7.1|02-tab7.1.do|151|venuesdb_base.dta; venue_acres.dta; venue_demo.dta|opulence.dta|
+|7.1|02-tab7.1.do|148|venuesdb_base.dta; venue_acres.dta; venue_demo.dta|opulence.dta|
 
 
 ### Other Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
-|Truist Park opulence example|02-tab7.1.do|184|
+|Truist Park opulence example|02-tab7.1.do|181|
 
 ### Relevant Links
 

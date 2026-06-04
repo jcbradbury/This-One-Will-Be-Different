@@ -124,10 +124,7 @@ label variable opulencepct "Opulence Share (%)"
 format totalcost totalcost2024 publiccost publiccost2024 subsidizecost subsidizecost2024 teamcost teamcost2024  opulence2024 opulencepct tmpct100 pubpct100 subsidizedpct %9.0fc
 
 save "$outdat\opulence.dta", replace
-/* Data output into the data\ folder
-save "$data\opulence.dta", replace
-export delimited "$data\opulence.csv", replace
-*/
+
 
 /*Tex friendly string variables for table*/
 g op2024st= string(opulence2024,"%9.0fc")
