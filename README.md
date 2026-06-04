@@ -436,7 +436,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 ### Tables
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|17.1|02-tab17.1.do|67|msarank2023.dta; : venuesdb_all.dta|msa_teams_count.dta|
+|17.1|02-tab17.1.do|67|msarank2023.dta; : venuesdb_all.dta|msa_vens_pvt.dta|
 
 
 ### Other Information
