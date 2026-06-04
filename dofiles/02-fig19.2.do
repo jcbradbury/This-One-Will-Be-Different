@@ -137,10 +137,7 @@ format cumpriv_ncbil cumpriv_renobil %9.1fc
 so year
 
 save "outdat\milb_cumulative.dta", replace
-/* Data output into the data\ folder
-save "$data\milb_cumulative.dta", replace
-export delimited "$data\milb_cumulative.csv", replace
-*/
+
 
 /* Cost summary*/
 tabstat cumpc2024bil cumtc2024bil cumpcreno2024bil cumtcreno2024bil cumallpubbil cumalltotbil cumallpubpct100 if year==2025, format
