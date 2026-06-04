@@ -48,10 +48,6 @@ g renovationspan_2025 = 2025-lastrenovation+1
 
 save "$outdat\mls_lifespans.dta", replace
 
-/* Data output into the data\ folder
-save "$data\mls_lifespans.dta", replace
-export delimited "$data\mls_lifespans.csv", replace
-*/
 
 sum lifespan2025 if current_mls, detail
 

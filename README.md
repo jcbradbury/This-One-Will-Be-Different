@@ -157,7 +157,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta|none|
 |5.8|02-fig5.8.do|121|venuesdb_all.dta|venue_count_mls.dta|
 |5.9|02-fig5.9.do|63|venuesdb_all.dta|mls_median_collapse.dta|
-|5.10 |02-fig5.10.do|58|venuesdb_all.dta|mls_lifespans.dta|
+|5.10 |02-fig5.10.do|54|venuesdb_all.dta|mls_lifespans.dta|
 
 ### Tables
 | Table | Do-file | Line #| Data Input | Data Output| 
