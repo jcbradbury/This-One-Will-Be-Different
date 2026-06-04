@@ -68,10 +68,6 @@ replace medianpubpct =26.5 if decade==2030
 
 save "$outdat\mls_median_collapse.dta", replace
 
-/* Data output into the data\ folder
-save "$data\mls_median_collapse.dta", replace
-export delimited  "$data\mls_median_collapse.csv", replace
-*/
 
 /*Adjust bar spacing on graph*/
 g decade_pl10= decade+10

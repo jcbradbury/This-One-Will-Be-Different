@@ -156,7 +156,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.6|02-fig5.6.do|67|venuesdb_base.dta|ven_lifespans.dta|
 |5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta|none|
 |5.8|02-fig5.8.do|121|venuesdb_all.dta|venue_count_mls.dta|
-|5.9|02-fig5.9.do|63|venuesdb_all.dta|mls_median_collapse.dta|
+|5.9|02-fig5.9.do|79|venuesdb_all.dta|mls_median_collapse.dta|
 |5.10 |02-fig5.10.do|54|venuesdb_all.dta|mls_lifespans.dta|
 
 ### Tables
