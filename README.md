@@ -468,8 +468,8 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
 |19.1|Map||||
-|19.2|02-fig19.2.do|145|milb_ballparkcosts.dta|milb_cumulative.dta|
-|19.3|02-fig19.3do|67|milb_ballparkcosts.dta|milb_median.dta|
+|19.2|02-fig19.2.do|146|milb_ballparkcosts.dta|milb_cumulative.dta|
+|19.3|02-fig19.3do|64|milb_ballparkcosts.dta|milb_median.dta|
 
 
 ### Tables
