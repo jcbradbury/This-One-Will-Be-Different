@@ -44,9 +44,7 @@ do "00-setup.do"
 
 use "$data\payroll2025.dta", clear
 
-/* Data output into the data\ folder
-export delimited "$data\payroll2025.csv"
-*/
+
 
 /*Figure 6.5*/
 twoway bar mlbrank year if year>2016 ,   connect(stair) ysc(reverse) barw(.75) mlab(mlbrank) mlabpos(6) mlabsize(large) ///

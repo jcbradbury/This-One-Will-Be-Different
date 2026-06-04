@@ -1,0 +1,540 @@
+city,msa,pop2020,pop2021,pop2022,pop2023,mlb,nba,nfl,nhl,mls,total,longmsa,blank,canada,lost,shortmsa,cfl
+New York,"New York-Newark-Jersey City, NY-NJ",19990547,19721192,19563798,19498249,2,2,2,3,2,11,"New York-Newark-Jersey City, NY-NJ Metro Area", ,0,0,"New York, NY",0
+Los Angeles,"Los Angeles-Long Beach-Anaheim, CA",13178547,12970073,12870137,12799100,2,2,2,2,2,10,"Los Angeles-Long Beach-Anaheim, CA Metro Area", ,0,0,"Los Angeles-Anaheim, CA",0
+Chicago,"Chicago-Naperville-Elgin, IL-IN",9435217,9356597,9279427,9262825,2,1,1,1,1,6,"Chicago-Naperville-Elgin, IL-IN Metro Area", ,0,0,"Chicago, IL",0
+Dallas,"Dallas-Fort Worth-Arlington, TX",7666418,7774647,7947439,8100037,1,1,1,1,1,5,"Dallas-Fort Worth-Arlington, TX Metro Area", ,0,0,"Dallas-Fort Worth-Arlington, TX",0
+Houston,"Houston-Pasadena-The Woodlands, TX",7168723,7245134,7370464,7510253,1,1,1,0,1,4,"Houston-Pasadena-The Woodlands, TX Metro Area", ,0,0,"Houston, TX",0
+Toronto,"Toronto (CMA), Ontario",6491939,6472951,6583259,6804847,1,1,0,1,1,4,"Toronto (CMA), Ontario", ,1,0,"Toronto (CMA), ON",1
+Atlanta,"Atlanta-Sandy Springs-Roswell, GA",6120849,6159696,6238676,6307261,1,1,1,0,1,4,"Atlanta-Sandy Springs-Roswell, GA Metro Area", ,0,0,"Atlanta, GA",0
+Washington,"Washington-Arlington-Alexandria, DC-VA-MD-WV",6260311,6258549,6265891,6304975,1,1,1,1,1,5,"Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area", ,0,0,"Washington, DC",0
+Philadelphia,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",6241967,6253394,6242746,6246160,1,1,1,1,1,5,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area", ,0,0,"Philadelphia, PA",0
+Miami,"Miami-Fort Lauderdale-West Palm Beach, FL",6133365,6108758,6139812,6183199,1,1,1,1,1,5,"Miami-Fort Lauderdale-West Palm Beach, FL Metro Area", ,0,0,"Miami, FL",0
+Phoenix,"Phoenix-Mesa-Chandler, AZ",4875246,4948431,5020870,5070110,1,1,1,0,0,3,"Phoenix-Mesa-Chandler, AZ Metro Area", ,0,0,"Phoenix, AZ",0
+Boston,"Boston-Cambridge-Newton, MA-NH",4933650,4906460,4903026,4919179,1,1,1,1,1,5,"Boston-Cambridge-Newton, MA-NH Metro Area", ,0,0,"Boston, MA",0
+Riverside,"Riverside-San Bernardino-Ontario, CA",4606384,4646486,4669149,4688053,0,0,0,0,0,0,"Riverside-San Bernardino-Ontario, CA Metro Area", ,0,0,"Riverside-San Bernardino, CA",0
+San Francisco,"San Francisco-Oakland-Fremont, CA",4740838,4618350,4578135,4566961,2,1,0,0,0,3,"San Francisco-Oakland-Fremont, CA Metro Area", ,0,0,"San Francisco-Oakland, CA",0
+Montreal,"Montréal (CMA), Quebec",4356853,4330143,4372913,4502177,0,0,0,1,1,2,"Montréal (CMA), Quebec", ,1,0,"Montréal (CMA), QC",1
+Detroit,"Detroit-Warren-Dearborn, MI",4385248,4369283,4348636,4342304,1,1,1,1,0,4,"Detroit-Warren-Dearborn, MI Metro Area", ,0,0,"Detroit, MI",0
+Seattle,"Seattle-Tacoma-Bellevue, WA",4027804,4016479,4032242,4044837,1,0,1,1,1,4,"Seattle-Tacoma-Bellevue, WA Metro Area", ,0,0,"Seattle, WA",0
+Minneapolis,"Minneapolis-St. Paul-Bloomington, MN-WI",3694114,3696290,3691666,3712020,1,1,1,1,1,5,"Minneapolis-St. Paul-Bloomington, MN-WI Metro Area", ,0,0,"Minneapolis-St. Paul, MN",0
+Tampa Bay,"Tampa-St. Petersburg-Clearwater, FL",3187828,3230074,3291341,3342963,1,0,1,1,0,3,"Tampa-St. Petersburg-Clearwater, FL Metro Area", ,0,0,"Tampa-St. Petersburg, FL",0
+San Diego,"San Diego-Chula Vista-Carlsbad, CA",3295298,3274432,3277176,3269973,1,0,0,0,1,2,"San Diego-Chula Vista-Carlsbad, CA Metro Area", ,0,0,"San Diego, CA",0
+Denver,"Denver-Aurora-Centennial, CO",2970119,2978016,2986190,3005131,1,1,1,1,1,5,"Denver-Aurora-Centennial, CO Metro Area", ,0,0,"Denver, CO",0
+Vancouver,"Vancouver (CMA), British Columbia",2750966,2771430,2852203,2971853,0,0,0,1,1,2,"Vancouver (CMA), British Columbia", ,1,0,"Vancouver (CMA), BC",1
+Baltimore,"Baltimore-Columbia-Towson, MD",2842668,2843219,2834813,2834316,1,0,1,0,0,2,"Baltimore-Columbia-Towson, MD Metro Area", ,0,0,"Baltimore, MD",0
+Orlando,"Orlando-Kissimmee-Sanford, FL",2680491,2698960,2763017,2817933,0,1,0,0,1,2,"Orlando-Kissimmee-Sanford, FL Metro Area", ,0,0,"Orlando, FL",0
+Charlotte,"Charlotte-Concord-Gastonia, NC-SC",2669651,2707454,2754657,2805115,0,1,1,0,1,3,"Charlotte-Concord-Gastonia, NC-SC Metro Area", ,0,0,"Charlotte, NC",0
+St. Louis,"St. Louis, MO-IL",2819212,2812587,2800245,2796999,1,0,0,1,1,3,"St. Louis, MO-IL Metro Area", ,0,0,"St. Louis, MO",0
+San Antonio,"San Antonio-New Braunfels, TX",2568526,2605100,2655928,2703999,0,1,0,0,0,1,"San Antonio-New Braunfels, TX Metro Area", ,0,0,"San Antonio, TX",0
+"Portland, OR","Portland-Vancouver-Hillsboro, OR-WA",2518160,2518051,2508928,2508050,0,1,0,0,1,2,"Portland-Vancouver-Hillsboro, OR-WA Metro Area", ,0,0,"Portland, OR",0
+Austin,"Austin-Round Rock-San Marcos, TX",2300135,2358634,2423170,2473275,0,0,0,0,1,1,"Austin-Round Rock-San Marcos, TX Metro Area", ,0,0,"Austin, TX",0
+Pittsburgh,"Pittsburgh, PA",2455323,2450605,2432532,2422725,1,0,1,1,0,3,"Pittsburgh, PA Metro Area", ,0,0,"Pittsburgh, PA",0
+Sacramento,"Sacramento-Roseville-Folsom, CA",2400029,2408702,2417259,2420608,0,1,0,0,0,1,"Sacramento-Roseville-Folsom, CA Metro Area", ,0,0,"Sacramento, CA",0
+Las Vegas,"Las Vegas-Henderson-North Las Vegas, NV",2274887,2295310,2322535,2336573,0,0,1,1,0,2,"Las Vegas-Henderson-North Las Vegas, NV Metro Area", ,0,0,"Las Vegas, NV",0
+Cincinnati,"Cincinnati, OH-KY-IN",2251974,2252627,2258625,2271479,1,0,1,0,1,3,"Cincinnati, OH-KY-IN Metro Area", ,0,0,"Cincinnati, OH",0
+Kansas City,"Kansas City, MO-KS",2195218,2203335,2208782,2221343,1,0,1,0,1,3,"Kansas City, MO-KS Metro Area", ,0,0,"Kansas City, MO-KS",0
+"Columbus, OH","Columbus, OH",2141895,2146927,2162066,2180271,0,0,0,1,1,2,"Columbus, OH Metro Area", ,0,0,"Columbus, OH",0
+Cleveland,"Cleveland, OH",2184115,2170475,2160701,2158932,1,1,1,0,0,3,"Cleveland, OH Metro Area", ,0,0,"Cleveland, OH",0
+Indianapolis,"Indianapolis-Carmel-Greenwood, IN",2092745,2107531,2120661,2138468,0,1,1,0,0,2,"Indianapolis-Carmel-Greenwood, IN Metro Area", ,0,0,"Indianapolis, IN",0
+Nashville,"Nashville-Davidson--Murfreesboro--Franklin, TN",2021744,2033369,2071019,2102573,0,0,1,1,1,3,"Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area", ,0,0,"Nashville, TN",0
+San Jose,"San Jose-Sunnyvale-Santa Clara, CA",1995698,1951882,1945978,1945767,0,0,1,1,1,3,"San Jose-Sunnyvale-Santa Clara, CA Metro Area", ,0,0,"San Jose-Santa Clara, CA",0
+Norfolk,"Virginia Beach-Chesapeake-Norfolk, VA-NC",1781712,1785531,1785390,1787169,0,0,0,0,0,0,"Virginia Beach-Chesapeake-Norfolk, VA-NC Metro Area", ,0,0,"Norfolk-Virginia Beach, VA",0
+"Jacksonville, FL","Jacksonville, FL",1612981,1641741,1676329,1713240,0,0,1,0,0,1,"Jacksonville, FL Metro Area", ,0,0,"Jacksonville, FL",0
+Calgary,"Calgary (CMA), Alberta",1528262,1540242,1586725,1682509,0,0,0,1,0,1,"Calgary (CMA), Alberta", ,1,0,"Calgary (CMA), AB",1
+Providence,"Providence-Warwick, RI-MA",1673216,1676848,1673586,1677803,0,0,0,0,0,0,"Providence-Warwick, RI-MA Metro Area", ,0,0,"Providence, RI",0
+Ottawa,"Ottawa - Gatineau (CMA), Ontario/Quebec",1524974,1540340,1569135,1609805,0,0,0,1,0,1,"Ottawa - Gatineau (CMA), Ontario/Quebec", ,1,0,"Ottawa (CMA), ON-QC",1
+Edmonton,"Edmonton (CMA), Alberta",1461697,1472402,1500356,1563571,0,0,0,1,0,1,"Edmonton (CMA), Alberta", ,1,0,"Edmonton (CMA), AB",1
+Milwaukee,"Milwaukee-Waukesha, WI",1574476,1563237,1559128,1560424,1,1,0,0,0,2,"Milwaukee-Waukesha, WI Metro Area", ,0,0,"Milwaukee, WI",0
+Raleigh,"Raleigh-Cary, NC",1417455,1451435,1480080,1509231,0,0,0,1,0,1,"Raleigh-Cary, NC Metro Area", ,0,0,"Raleigh, NC",0
+Oklahoma City,"Oklahoma City, OK",1429940,1443830,1459957,1477926,0,1,0,0,0,1,"Oklahoma City, OK Metro Area", ,0,0,"Oklahoma City, OK",0
+Louisville,"Louisville/Jefferson County, KY-IN",1362955,1361424,1361300,1365557,0,0,0,0,0,0,"Louisville/Jefferson County, KY-IN Metro Area", ,0,0,"Louisville, KY",0
+Richmond,"Richmond, VA",1316646,1326307,1338238,1349732,0,0,0,0,0,0,"Richmond, VA Metro Area", ,0,0,"Richmond, VA",0
+Memphis,"Memphis, TN-MS-AR",1346172,1342637,1338667,1335674,0,1,0,0,0,1,"Memphis, TN-MS-AR Metro Area", ,0,0,"Memphis, TN",0
+Salt Lake City,"Salt Lake City-Murray, UT",1260338,1263087,1266524,1267864,0,1,0,1,1,3,"Salt Lake City-Murray, UT Metro Area", ,0,0,"Salt Lake City, UT",0
+Birmingham,"Birmingham, AL",1181776,1181650,1180786,1184290,0,0,0,0,0,0,"Birmingham, AL Metro Area", ,0,0,"Birmingham, AL",0
+Fresno,"Fresno, CA",1165897,1172069,1175688,1180020,0,0,0,0,0,0,"Fresno, CA Metro Area", ,0,0,"Fresno, CA",0
+Grand Rapids,"Grand Rapids-Wyoming-Kentwood, MI",1151502,1154529,1157285,1162950,0,0,0,0,0,0,"Grand Rapids-Wyoming-Kentwood, MI Metro Area", ,0,0,"Grand Rapids, MI",0
+Buffalo,"Buffalo-Cheektowaga, NY",1164468,1164631,1158890,1155604,0,0,1,1,0,2,"Buffalo-Cheektowaga, NY Metro Area", ,0,0,"Buffalo, NY",0
+Hartford,"Hartford-West Hartford-East Hartford, CT",1135704,1145572,1148050,1151543,0,0,0,0,0,0,"Hartford-West Hartford-East Hartford, CT Metro Area", ,0,1,"Hartford, CT",0
+Tucson,"Tucson, AZ",1045175,1048914,1057476,1063162,0,0,0,0,0,0,"Tucson, AZ Metro Area", ,0,0,"Tucson, AZ",0
+Rochester,"Rochester, NY",1062841,1060829,1054829,1052087,0,0,0,0,0,0,"Rochester, NY Metro Area", ,0,0,"Rochester, NY",0
+Tulsa,"Tulsa, OK",1017350,1025813,1034048,1044757,0,0,0,0,0,0,"Tulsa, OK Metro Area", ,0,0,"Tulsa, OK",0
+Honolulu,"Urban Honolulu, HI",1012399,1004163,994828,989408,0,0,0,0,0,0,"Urban Honolulu, HI Metro Area", ,0,0,"Urban Honolulu, HI",0
+Omaha,"Omaha, NE-IA",969146,972748,976309,983969,0,0,0,0,0,0,"Omaha, NE-IA Metro Area", ,0,0,"Omaha, NE-IA",0
+"Greenville, SC","Greenville-Anderson-Greer, SC",930762,941465,958918,975480,0,0,0,0,0,0,"Greenville-Anderson-Greer, SC Metro Area", ,0,0,"Greenville-Anderson-Greer, SC",0
+New Orleans,"New Orleans-Metairie, LA",1005281,993487,973385,962165,0,1,1,0,0,2,"New Orleans-Metairie, LA Metro Area", ,0,0,"New Orleans, LA",0
+Bridgeport,"Bridgeport-Stamford-Danbury, CT",942755,950010,949982,951558,0,0,0,0,0,0,"Bridgeport-Stamford-Danbury, CT Metro Area", ,0,0,"Bridgeport-Stamford-Danbury, CT",0
+Knoxville,"Knoxville, TN",905896,916415,932921,946264,0,0,0,0,0,0,"Knoxville, TN Metro Area", ,0,0,"Knoxville, TN",0
+Albuquerque,"Albuquerque, NM",917579,919392,920138,922296,0,0,0,0,0,0,"Albuquerque, NM Metro Area", ,0,0,"Albuquerque, NM",0
+Delano,"Bakersfield-Delano, CA",905910,912709,916751,913820,0,0,0,0,0,0,"Bakersfield-Delano, CA Metro Area", ,0,0,"Bakersfield-Delano, CA",0
+Winnipeg,"Winnipeg (CMA), Manitoba",852805,860237,876263,910240,0,0,0,1,0,1,"Winnipeg (CMA), Manitoba", ,1,0,"Winnipeg (CMA), MB",1
+North Port,"North Port-Bradenton-Sarasota, FL",837856,862352,891721,910108,0,0,0,0,0,0,"North Port-Bradenton-Sarasota, FL Metro Area", ,0,0,"North Port-Bradenton-Sarasota, FL",0
+"Albany, NY","Albany-Schenectady-Troy, NY",899724,904824,903595,904682,0,0,0,0,0,0,"Albany-Schenectady-Troy, NY Metro Area", ,0,0,"Albany-Schenectady-Troy, NY",0
+McAllen,"McAllen-Edinburg-Mission, TX",872856,879865,888286,898471,0,0,0,0,0,0,"McAllen-Edinburg-Mission, TX Metro Area", ,0,0,"McAllen-Edinburg-Mission, TX",0
+Quebec,"Quebec (CMA), Quebec",840396,844774,858600,880875,0,0,0,0,0,0,"Quebec (CMA), Quebec", ,1,1,"Québec (CMA), QC",0
+Baton Rouge,"Baton Rouge, LA",870286,872646,872347,873661,0,0,0,0,0,0,"Baton Rouge, LA Metro Area", ,0,0,"Baton Rouge, LA",0
+Allentown,"Allentown-Bethlehem-Easton, PA-NJ",861557,870135,870570,873555,0,0,0,0,0,0,"Allentown-Bethlehem-Easton, PA-NJ Metro Area", ,0,0,"Allentown-Bethlehem-Easton, PA-NJ",0
+El Paso,"El Paso, TX",869802,870774,870655,873331,0,0,0,0,0,0,"El Paso, TX Metro Area", ,0,0,"El Paso, TX",0
+Worcester,"Worcester, MA",859669,862224,862873,866866,0,0,0,0,0,0,"Worcester, MA Metro Area", ,0,0,"Worcester, MA",0
+"Columbia, SC","Columbia, SC",830137,837804,848112,858302,0,0,0,0,0,0,"Columbia, SC Metro Area", ,0,0,"Columbia, SC",0
+Charleston,"Charleston-North Charleston, SC",803475,814823,830352,849417,0,0,0,0,0,0,"Charleston-North Charleston, SC Metro Area", ,0,0,"Charleston-North Charleston, SC",0
+,"Hamilton (CMA), Ontario",811706,817777,827679,841186,0,0,0,0,0,0,,,1,,"Hamilton (CMA), ON",1
+Cape Coral,"Cape Coral-Fort Myers, FL",765547,790888,822391,834573,0,0,0,0,0,0,"Cape Coral-Fort Myers, FL Metro Area", ,0,0,"Cape Coral-Fort Myers, FL",0
+Oxnard,"Oxnard-Thousand Oaks-Ventura, CA",843371,839471,832871,829590,0,0,0,0,0,0,"Oxnard-Thousand Oaks-Ventura, CA Metro Area", ,0,0,"Oxnard-Thousand Oaks-Ventura, CA",0
+Boise City,"Boise City, ID",770223,797026,811355,824657,0,0,0,0,0,0,"Boise City, ID Metro Area", ,0,0,"Boise City, ID",0
+Lakeland,"Lakeland-Winter Haven, FL",730158,755598,788382,818330,0,0,0,0,0,0,"Lakeland-Winter Haven, FL Metro Area", ,0,0,"Lakeland-Winter Haven, FL",0
+Dayton,"Dayton-Kettering-Beavercreek, OH",814209,813802,812714,814363,0,0,0,0,0,0,"Dayton-Kettering-Beavercreek, OH Metro Area", ,0,0,"Dayton-Kettering-Beavercreek, OH",0
+Lodi,"Stockton-Lodi, CA",780617,788354,794293,800965,0,0,0,0,0,0,"Stockton-Lodi, CA Metro Area", ,0,0,"Stockton-Lodi, CA",0
+Greensboro,"Greensboro-High Point, NC",774941,778860,784619,789842,0,0,0,0,0,0,"Greensboro-High Point, NC Metro Area", ,0,0,"Greensboro-High Point, NC",0
+Colorado Springs,"Colorado Springs, CO",757128,762232,765456,768832,0,0,0,0,0,0,"Colorado Springs, CO Metro Area", ,0,0,"Colorado Springs, CO",0
+Little Rock,"Little Rock-North Little Rock-Conway, AR",748990,751986,757768,764045,0,0,0,0,0,0,"Little Rock-North Little Rock-Conway, AR Metro Area", ,0,0,"Little Rock-North Little Rock-Conway, AR",0
+Des Moines,"Des Moines-West Des Moines, IA",711200,720756,729303,737164,0,0,0,0,0,0,"Des Moines-West Des Moines, IA Metro Area", ,0,0,"Des Moines-West Des Moines, IA",0
+Provo,"Provo-Orem-Lehi, UT",675414,698178,715278,732197,0,0,0,0,0,0,"Provo-Orem-Lehi, UT Metro Area", ,0,0,"Provo-Orem-Lehi, UT",0
+Deltona,"Deltona-Daytona Beach-Ormond Beach, FL",671804,687342,706423,721796,0,0,0,0,0,0,"Deltona-Daytona Beach-Ormond Beach, FL Metro Area", ,0,0,"Deltona-Daytona Beach-Ormond Beach, FL",0
+Kiryas Joel,"Kiryas Joel-Poughkeepsie-Newburgh, NY",696887,703943,704100,704620,0,0,0,0,0,0,"Kiryas Joel-Poughkeepsie-Newburgh, NY Metro Area", ,0,0,"Kiryas Joel-Poughkeepsie-Newburgh, NY",0
+Akron,"Akron, OH",701674,696512,697511,698398,0,0,0,0,0,0,"Akron, OH Metro Area", ,0,0,"Akron, OH",0
+Salem,"Winston-Salem, NC",677134,682646,688799,695630,0,0,0,0,0,0,"Winston-Salem, NC Metro Area", ,0,0,"Winston-Salem, NC",0
+Madison,"Madison, WI",681902,680860,686829,694345,0,0,0,0,0,0,"Madison, WI Metro Area", ,0,0,"Madison, WI",0
+,"Kitchener - Cambridge - Waterloo (CMA), Ontario",595366,602303,626669,665188,0,0,0,0,0,0,,,1,,,0
+Ogden,"Ogden, UT",639141,646735,652184,658133,0,0,0,0,0,0,"Ogden, UT Metro Area", ,0,0,"Ogden, UT",0
+Syracuse,"Syracuse, NY",659556,657253,655021,652956,0,0,0,0,0,0,"Syracuse, NY Metro Area", ,0,0,"Syracuse, NY",0
+Wichita,"Wichita, KS",648526,648514,649687,652939,0,0,0,0,0,0,"Wichita, KS Metro Area", ,0,0,"Wichita, KS",0
+Palm Bay,"Palm Bay-Melbourne-Titusville, FL",608775,617900,630707,643979,0,0,0,0,0,0,"Palm Bay-Melbourne-Titusville, FL Metro Area", ,0,0,"Palm Bay-Melbourne-Titusville, FL",0
+Augusta,"Augusta-Richmond County, GA-SC",612172,616187,623985,629429,0,0,0,0,0,0,"Augusta-Richmond County, GA-SC Metro Area", ,0,0,"Augusta-Richmond County, GA-SC",0
+Jackson,"Jackson, MS",618896,614737,610703,610257,0,0,0,0,0,0,"Jackson, MS Metro Area", ,0,0,"Jackson, MS",0
+Durham,"Durham-Chapel Hill, NC",585020,595831,602827,608879,0,0,0,0,0,0,"Durham-Chapel Hill, NC Metro Area", ,0,0,"Durham-Chapel Hill, NC",0
+,"London (CMA), Ontario",559067,567539,586059,608343,0,0,0,0,0,0,,,1,,,0
+Carlisle,"Harrisburg-Carlisle, PA",592793,599732,603332,606055,0,0,0,0,0,0,"Harrisburg-Carlisle, PA Metro Area", ,0,0,"Harrisburg-Carlisle, PA",0
+Spokane,"Spokane-Spokane Valley, WA",587766,593129,598023,600292,0,0,0,0,0,0,"Spokane-Spokane Valley, WA Metro Area", ,0,0,"Spokane-Spokane Valley, WA",0
+Toledo,"Toledo, OH",605761,602291,600519,600141,0,0,0,0,0,0,"Toledo, OH Metro Area", ,0,0,"Toledo, OH",0
+"Fayetteville, AR","Fayetteville-Springdale-Rogers, AR",549937,563008,576967,590337,0,0,0,0,0,0,"Fayetteville-Springdale-Rogers, AR Metro Area", ,0,0,"Fayetteville-Springdale-Rogers, AR",0
+Chattanooga,"Chattanooga, TN-GA",563952,567446,574461,580971,0,0,0,0,0,0,"Chattanooga, TN-GA Metro Area", ,0,0,"Chattanooga, TN-GA",0
+Scranton,"Scranton--Wilkes-Barre, PA",566788,568091,568270,569413,0,0,0,0,0,0,"Scranton--Wilkes-Barre, PA Metro Area", ,0,0,"Scranton--Wilkes-Barre, PA",0
+Haven,"New Haven, CT",564076,568450,568402,568158,0,0,0,0,0,0,"New Haven, CT Metro Area", ,0,0,"New Haven, CT",0
+"Portland, ME","Portland-South Portland, ME",552577,558302,563159,566329,0,0,0,0,0,0,"Portland-South Portland, ME Metro Area", ,0,0,"Portland-South Portland, ME",0
+Reno,"Reno, NV",551283,559403,562773,564782,0,0,0,0,0,0,"Reno, NV Metro Area", ,0,0,"Reno, NV",0
+Lancaster,"Lancaster, PA",552821,556292,556660,558589,0,0,0,0,0,0,"Lancaster, PA Metro Area", ,0,0,"Lancaster, PA",0
+Modesto,"Modesto, CA",553257,552723,551226,551430,0,0,0,0,0,0,"Modesto, CA Metro Area", ,0,0,"Modesto, CA",0
+"Port St. Lucie, FL Metro Area","Port St. Lucie, FL",490112,504443,520873,536901,0,0,0,0,0,0,"Port St. Lucie, FL Metro Area", ,0,0,"Port St. Lucie, FL",0
+Pensacola,"Pensacola-Ferry Pass-Brent, FL",511579,517209,522059,530090,0,0,0,0,0,0,"Pensacola-Ferry Pass-Brent, FL Metro Area", ,0,0,"Pensacola-Ferry Pass-Brent, FL",0
+Huntsville,"Huntsville, AL",494706,503974,514473,527254,0,0,0,0,0,0,"Huntsville, AL Metro Area", ,0,0,"Huntsville, AL",0
+Fayette,"Lexington-Fayette, KY",517407,516639,517748,520045,0,0,0,0,0,0,"Lexington-Fayette, KY Metro Area", ,0,0,"Lexington-Fayette, KY",0
+,"Halifax (CMA), Nova Scotia",473565,482144,498931,518711,0,0,0,0,0,0,,,1,,,0
+Temple,"Killeen-Temple, TX",477093,487012,494449,501333,0,0,0,0,0,0,"Killeen-Temple, TX Metro Area", ,0,0,"Killeen-Temple, TX",0
+"Springfield, MO","Springfield, MO",476371,481693,486931,491053,0,0,0,0,0,0,"Springfield, MO Metro Area", ,0,0,"Springfield, MO",0
+Santa Rosa,"Santa Rosa-Petaluma, CA",488282,484519,482669,481812,0,0,0,0,0,0,"Santa Rosa-Petaluma, CA Metro Area", ,0,0,"Santa Rosa-Petaluma, CA",0
+Visalia,"Visalia, CA",473914,477176,477884,479468,0,0,0,0,0,0,"Visalia, CA Metro Area", ,0,0,"Visalia, CA",0
+,"St. Catharines - Niagara (CMA), Ontario",445110,450926,462002,478261,0,0,0,0,0,0,,,1,,,0
+Lansing,"Lansing-East Lansing, MI",473020,459596,471983,473177,0,0,0,0,0,0,"Lansing-East Lansing, MI Metro Area", ,0,0,"Lansing-East Lansing, MI",0
+,"Windsor (CMA), Ontario",438328,439473,452208,467973,0,0,0,0,0,0,,,1,,,0
+Wilmington,"Wilmington, NC",425133,437882,454390,467337,0,0,0,0,0,0,"Wilmington, NC Metro Area", ,0,0,"Wilmington, NC",0
+Hanover,"York-Hanover, PA",456720,459183,461049,464640,0,0,0,0,0,0,"York-Hanover, PA Metro Area", ,0,0,"York-Hanover, PA",0
+,"Oshawa (CMA), Ontario",424237,433529,447738,464356,0,0,0,0,0,0,,,1,,,0
+"Springfield, MA","Springfield, MA",464311,462862,460758,460291,0,0,0,0,0,0,"Springfield, MA Metro Area", ,0,0,"Springfield, MA",0
+Wayne,"Fort Wayne, IN",448587,451787,454519,457842,0,0,0,0,0,0,"Fort Wayne, IN Metro Area", ,0,0,"Fort Wayne, IN",0
+Shelton,"Waterbury-Shelton, CT",449285,452281,453590,456128,0,0,0,0,0,0,"Waterbury-Shelton, CT Metro Area", ,0,0,"Waterbury-Shelton, CT",0
+Vallejo,"Vallejo, CA",452723,450653,448885,449218,0,0,0,0,0,0,"Vallejo, CA Metro Area", ,0,0,"Vallejo, CA",0
+Corpus Christi,"Corpus Christi, TX",446171,447569,446640,448323,0,0,0,0,0,0,"Corpus Christi, TX Metro Area", ,0,0,"Corpus Christi, TX",0
+Santa Maria,"Santa Maria-Santa Barbara, CA",448424,437521,443915,441257,0,0,0,0,0,0,"Santa Maria-Santa Barbara, CA Metro Area", ,0,0,"Santa Maria-Santa Barbara, CA",0
+Salem,"Salem, OR",434306,437224,436312,436546,0,0,0,0,0,0,"Salem, OR Metro Area", ,0,0,"Salem, OR",0
+,"Victoria (CMA), British Columbia",409898,414596,426370,434429,0,0,0,0,0,0,,,1,,,0
+Reading,"Reading, PA",428671,429635,431573,432821,0,0,0,0,0,0,"Reading, PA Metro Area", ,0,0,"Reading, PA",0
+Salinas,"Salinas, CA",438322,437158,432884,430723,0,0,0,0,0,0,"Salinas, CA Metro Area", ,0,0,"Salinas, CA",0
+Nashua,"Manchester-Nashua, NH",422913,424413,427493,427354,0,0,0,0,0,0,"Manchester-Nashua, NH Metro Area", ,0,0,"Manchester-Nashua, NH",0
+Harlingen,"Brownsville-Harlingen, TX",421480,422636,424911,426710,0,0,0,0,0,0,"Brownsville-Harlingen, TX Metro Area", ,0,0,"Brownsville-Harlingen, TX",0
+Warren,"Youngstown-Warren, OH",429690,428101,426648,425969,0,0,0,0,0,0,"Youngstown-Warren, OH Metro Area", ,0,0,"Youngstown-Warren, OH",0
+Savannah,"Savannah, GA",405301,409428,418277,424935,0,0,0,0,0,0,"Savannah, GA Metro Area", ,0,0,"Savannah, GA",0
+Biloxi,"Gulfport-Biloxi, MS",416640,418527,420054,421916,0,0,0,0,0,0,"Gulfport-Biloxi, MS Metro Area", ,0,0,"Gulfport-Biloxi, MS",0
+Asheville,"Asheville, NC",407563,410828,413969,417202,0,0,0,0,0,0,"Asheville, NC Metro Area", ,0,0,"Asheville, NC",0
+"Lafayette, LA","Lafayette, LA",408213,410533,412641,414288,0,0,0,0,0,0,"Lafayette, LA Metro Area", ,0,0,"Lafayette, LA",0
+Mobile,"Mobile, AL",414377,413383,411398,411640,0,0,0,0,0,0,"Mobile, AL Metro Area", ,0,0,"Mobile, AL",0
+Ocala,"Ocala, FL",377472,385135,396437,409959,0,0,0,0,0,0,"Ocala, FL Metro Area", ,0,0,"Ocala, FL",0
+Naples,"Naples-Marco Island, FL",377310,387226,397516,404310,0,0,0,0,0,0,"Naples-Marco Island, FL Metro Area", ,0,0,"Naples-Marco Island, FL",0
+Flint,"Flint, MI",405777,404627,401923,401522,0,0,0,0,0,0,"Flint, MI Metro Area", ,0,0,"Flint, MI",0
+Anchorage,"Anchorage, AK",398397,400167,400455,401314,0,0,0,0,0,0,"Anchorage, AK Metro Area", ,0,0,"Anchorage, AK",0
+Massillon,"Canton-Massillon, OH",401224,400492,399471,399474,0,0,0,0,0,0,"Canton-Massillon, OH Metro Area", ,0,0,"Canton-Massillon, OH",0
+Myrtle Beach,"Myrtle Beach-Conway-North Myrtle Beach, SC",353765,366093,383147,397478,0,0,0,0,0,0,"Myrtle Beach-Conway-North Myrtle Beach, SC Metro Area", ,0,0,"Myrtle Beach-Conway-North Myrtle Beach, SC",0
+Beaumont,"Beaumont-Port Arthur, TX",397237,395526,394489,395479,0,0,0,0,0,0,"Beaumont-Port Arthur, TX Metro Area", ,0,0,"Beaumont-Port Arthur, TX",0
+Tallahassee,"Tallahassee, FL",385658,388370,390913,392645,0,0,0,0,0,0,"Tallahassee, FL Metro Area", ,0,0,"Tallahassee, FL",0
+"Fayetteville, NC","Fayetteville, NC",387706,391067,390472,392336,0,0,0,0,0,0,"Fayetteville, NC Metro Area", ,0,0,"Fayetteville, NC",0
+Montgomery,"Montgomery, AL",385403,384872,385410,385480,0,0,0,0,0,0,"Montgomery, AL Metro Area", ,0,0,"Montgomery, AL",0
+Spartanburg,"Spartanburg, SC",356560,362407,372687,383327,0,0,0,0,0,0,"Spartanburg, SC Metro Area", ,0,0,"Spartanburg, SC",0
+Shreveport,"Shreveport-Bossier City, LA",392511,388930,384943,383295,0,0,0,0,0,0,"Shreveport-Bossier City, LA Metro Area", ,0,0,"Shreveport-Bossier City, LA",0
+Princeton,"Trenton-Princeton, NJ",386466,382172,380779,381671,0,0,0,0,0,0,"Trenton-Princeton, NJ Metro Area", ,0,0,"Trenton-Princeton, NJ",0
+"Springfield, OR","Eugene-Springfield, OR",383308,384121,382181,381181,0,0,0,0,0,0,"Eugene-Springfield, OR Metro Area", ,0,0,"Eugene-Springfield, OR",0
+Davenport,"Davenport-Moline-Rock Island, IA-IL",383768,381639,379439,379441,0,0,0,0,0,0,"Davenport-Moline-Rock Island, IA-IL Metro Area", ,0,0,"Davenport-Moline-Rock Island, IA-IL",0
+Fort Collins,"Fort Collins-Loveland, CO",359923,362747,367577,370771,0,0,0,0,0,0,"Fort Collins-Loveland, CO Metro Area", ,0,0,"Fort Collins-Loveland, CO",0
+Hickory,"Hickory-Lenoir-Morganton, NC",365594,366175,367802,370030,0,0,0,0,0,0,"Hickory-Lenoir-Morganton, NC Metro Area", ,0,0,"Hickory-Lenoir-Morganton, NC",0
+Atlantic City,"Atlantic City-Hammonton, NJ",369234,370662,370787,369823,0,0,0,0,0,0,"Atlantic City-Hammonton, NJ Metro Area", ,0,0,"Atlantic City-Hammonton, NJ",0
+Ashland,"Huntington-Ashland, WV-KY-OH",375689,372853,369974,368261,0,0,0,0,0,0,"Huntington-Ashland, WV-KY-OH Metro Area", ,0,0,"Huntington-Ashland, WV-KY-OH",0
+Arbor,"Ann Arbor, MI",371834,365013,366504,365536,0,0,0,0,0,0,"Ann Arbor, MI Metro Area", ,0,0,"Ann Arbor, MI",0
+Peoria,"Peoria, IL",367917,365222,362771,362240,0,0,0,0,0,0,"Peoria, IL Metro Area", ,0,0,"Peoria, IL",0
+Lubbock,"Lubbock, TX",352167,355386,356789,360104,0,0,0,0,0,0,"Lubbock, TX Metro Area", ,0,0,"Lubbock, TX",0
+Greeley,"Greeley, CO",331458,339897,350266,359442,0,0,0,0,0,0,"Greeley, CO Metro Area", ,0,0,"Greeley, CO",0
+"Gainesville, FL","Gainesville, FL",340678,344361,348296,352126,0,0,0,0,0,0,"Gainesville, FL Metro Area", ,0,0,"Gainesville, FL",0
+,"Saskatoon (CMA), Saskatchewan",327547,328256,335932,352093,0,0,0,0,0,0,,,1,,,0
+Lincoln,"Lincoln, NE",340783,340960,342059,344387,0,0,0,0,0,0,"Lincoln, NE Metro Area", ,0,0,"Lincoln, NE",0
+Clarksville,"Clarksville, TN-KY",321827,328949,335527,340495,0,0,0,0,0,0,"Clarksville, TN-KY Metro Area", ,0,0,"Clarksville, TN-KY",0
+Rockford,"Rockford, IL",338259,336506,334610,334124,0,0,0,0,0,0,"Rockford, IL Metro Area", ,0,0,"Rockford, IL",0
+Green Bay,"Green Bay, WI",328591,328909,330417,331882,0,0,1,0,0,1,"Green Bay, WI Metro Area", ,0,0,"Green Bay, WI",0
+Boulder,"Boulder, CO",330938,327084,327339,326831,0,0,0,0,0,0,"Boulder, CO Metro Area", ,0,0,"Boulder, CO",0
+South Bend,"South Bend-Mishawaka, IN-MI",324241,323813,323759,324490,0,0,0,0,0,0,"South Bend-Mishawaka, IN-MI Metro Area", ,0,0,"South Bend-Mishawaka, IN-MI",0
+"Columbus, GA","Columbus, GA-AL",329196,326478,323826,323768,0,0,0,0,0,0,"Columbus, GA-AL Metro Area", ,0,0,"Columbus, GA-AL",0
+Roanoke,"Roanoke, VA",315217,314688,314150,314314,0,0,0,0,0,0,"Roanoke, VA Metro Area", ,0,0,"Roanoke, VA",0
+Richland,"Kennewick-Richland, WA",304569,308701,311411,314253,0,0,0,0,0,0,"Kennewick-Richland, WA Metro Area", ,0,0,"Kennewick-Richland, WA",0
+Bristol,"Kingsport-Bristol, TN-VA",307750,308690,311040,313025,0,0,0,0,0,0,"Kingsport-Bristol, TN-VA Metro Area", ,0,0,"Kingsport-Bristol, TN-VA",0
+Martinsburg,"Hagerstown-Martinsburg, MD-WV",294483,298623,302071,305902,0,0,0,0,0,0,"Hagerstown-Martinsburg, MD-WV Metro Area", ,0,0,"Hagerstown-Martinsburg, MD-WV",0
+Waco,"Waco, TX",296405,299333,301825,304865,0,0,0,0,0,0,"Waco, TX Metro Area", ,0,0,"Waco, TX",0
+Crestview,"Crestview-Fort Walton Beach-Destin, FL",288026,293662,299868,304818,0,0,0,0,0,0,"Crestview-Fort Walton Beach-Destin, FL Metro Area", ,0,0,"Crestview-Fort Walton Beach-Destin, FL",0
+Sioux Falls,"Sioux Falls, SD-MN",287364,291978,299079,304555,0,0,0,0,0,0,"Sioux Falls, SD-MN Metro Area", ,0,0,"Sioux Falls, SD-MN",0
+Olympia,"Olympia-Lacey-Tumwater, WA",295998,298196,298639,299003,0,0,0,0,0,0,"Olympia-Lacey-Tumwater, WA Metro Area", ,0,0,"Olympia-Lacey-Tumwater, WA",0
+Longview,"Longview, TX",286350,288187,290575,293498,0,0,0,0,0,0,"Longview, TX Metro Area", ,0,0,"Longview, TX",0
+Merced,"Merced, CA",281830,284610,290210,291920,0,0,0,0,0,0,"Merced, CA Metro Area", ,0,0,"Merced, CA",0
+"Rome, NY","Utica-Rome, NY",291119,289643,287942,287039,0,0,0,0,0,0,"Utica-Rome, NY Metro Area", ,0,0,"Utica-Rome, NY",0
+San Luis Obispo,"San Luis Obispo-Paso Robles, CA",281884,279464,282046,281639,0,0,0,0,0,0,"San Luis Obispo-Paso Robles, CA Metro Area", ,0,0,"San Luis Obispo-Paso Robles, CA",0
+Duluth,"Duluth, MN-WI",280619,280016,280328,281603,0,0,0,0,0,0,"Duluth, MN-WI Metro Area", ,0,0,"Duluth, MN-WI",0
+College Station,"College Station-Bryan, TX",268953,272667,277751,281445,0,0,0,0,0,0,"College Station-Bryan, TX Metro Area", ,0,0,"College Station-Bryan, TX",0
+Norwich,"Norwich-New London-Willimantic, CT",278342,278820,279257,279634,0,0,0,0,0,0,"Norwich-New London-Willimantic, CT Metro Area", ,0,0,"Norwich-New London-Willimantic, CT",0
+Tuscaloosa,"Tuscaloosa, AL",272988,276628,277490,278290,0,0,0,0,0,0,"Tuscaloosa, AL Metro Area", ,0,0,"Tuscaloosa, AL",0
+Bremerton,"Bremerton-Silverdale-Port Orchard, WA",275823,276589,277813,277658,0,0,0,0,0,0,"Bremerton-Silverdale-Port Orchard, WA Metro Area", ,0,0,"Bremerton-Silverdale-Port Orchard, WA",0
+Rapids,"Cedar Rapids, IA",276621,276009,275631,275668,0,0,0,0,0,0,"Cedar Rapids, IA Metro Area", ,0,0,"Cedar Rapids, IA",0
+Slidell,"Slidell-Mandeville-Covington, LA",265000,270147,273237,275583,0,0,0,0,0,0,"Slidell-Mandeville-Covington, LA Metro Area", ,0,0,"Slidell-Mandeville-Covington, LA",0
+Amarillo,"Amarillo, TX",269029,269804,270589,272395,0,0,0,0,0,0,"Amarillo, TX Metro Area", ,0,0,"Amarillo, TX",0
+,"Regina (CMA), Saskatchewan",257598,257368,260534,271119,0,0,0,0,0,0,,,1,,"Regina (CMA), SK",1
+Evansville,"Evansville, IN",269517,269987,269892,270717,0,0,0,0,0,0,"Evansville, IN Metro Area", ,0,0,"Evansville, IN",0
+Laredo,"Laredo, TX",267363,267400,267619,269148,0,0,0,0,0,0,"Laredo, TX Metro Area", ,0,0,"Laredo, TX",0
+Erie,"Erie, PA",270578,269257,268840,267571,0,0,0,0,0,0,"Erie, PA Metro Area", ,0,0,"Erie, PA",0
+Lynchburg,"Lynchburg, VA",261643,262483,263209,264590,0,0,0,0,0,0,"Lynchburg, VA Metro Area", ,0,0,"Lynchburg, VA",0
+Fargo,"Fargo, ND-MN",250220,255028,258573,262620,0,0,0,0,0,0,"Fargo, ND-MN Metro Area", ,0,0,"Fargo, ND-MN",0
+Portage,"Kalamazoo-Portage, MI",261796,260523,260892,262215,0,0,0,0,0,0,"Kalamazoo-Portage, MI Metro Area", ,0,0,"Kalamazoo-Portage, MI",0
+Santa Cruz,"Santa Cruz-Watsonville, CA",270474,260475,264240,261547,0,0,0,0,0,0,"Santa Cruz-Watsonville, CA Metro Area", ,0,0,"Santa Cruz-Watsonville, CA",0
+Bend,"Bend, OR",248974,256150,258184,260919,0,0,0,0,0,0,"Bend, OR Metro Area", ,0,0,"Bend, OR",0
+Yakima,"Yakima, WA",256733,256719,257019,256643,0,0,0,0,0,0,"Yakima, WA Metro Area", ,0,0,"Yakima, WA",0
+Daphne,"Daphne-Fairhope-Foley, AL",233227,239439,246531,253507,0,0,0,0,0,0,"Daphne-Fairhope-Foley, AL Metro Area", ,0,0,"Daphne-Fairhope-Foley, AL",0
+Prescott Valley,"Prescott Valley-Prescott, AZ",237217,242352,246230,249081,0,0,0,0,0,0,"Prescott Valley-Prescott, AZ Metro Area", ,0,0,"Prescott Valley-Prescott, AZ",0
+,"Kelowna (CMA), British Columbia",226205,232150,239853,246894,0,0,0,0,0,0,,,1,,,0
+Appleton,"Appleton, WI",243451,243903,244981,246433,0,0,0,0,0,0,"Appleton, WI Metro Area", ,0,0,"Appleton, WI",0
+Tyler,"Tyler, TX",234199,237182,241995,245209,0,0,0,0,0,0,"Tyler, TX Metro Area", ,0,0,"Tyler, TX",0
+Binghamton,"Binghamton, NY",246504,246642,245024,243792,0,0,0,0,0,0,"Binghamton, NY Metro Area", ,0,0,"Binghamton, NY",0
+Charles,"Lake Charles, LA",254314,242381,239113,240082,0,0,0,0,0,0,"Lake Charles, LA Metro Area", ,0,0,"Lake Charles, LA",0
+,"Sherbrooke (CMA), Quebec",225902,229294,233470,238808,0,0,0,0,0,0,,,1,,,0
+,"Barrie (CMA), Ontario",218493,222065,230163,238540,0,0,0,0,0,0,,,1,,,0
+Macon,"Macon-Bibb County, GA",233610,233159,233952,236074,0,0,0,0,0,0,"Macon-Bibb County, GA Metro Area", ,0,0,"Macon-Bibb County, GA",0
+Urbana,"Champaign-Urbana, IL",235848,236841,236100,235608,0,0,0,0,0,0,"Champaign-Urbana, IL Metro Area", ,0,0,"Champaign-Urbana, IL",0
+Hilton Head Island,"Hilton Head Island-Bluffton-Port Royal, SC",216965,222428,228133,232523,0,0,0,0,0,0,"Hilton Head Island-Bluffton-Port Royal, SC Metro Area", ,0,0,"Hilton Head Island-Bluffton-Port Royal, SC",0
+Topeka,"Topeka, KS",232903,232817,231897,232322,0,0,0,0,0,0,"Topeka, KS Metro Area", ,0,0,"Topeka, KS",0
+,"St. John's (CMA), Newfoundland and Labrador",219282,220052,224838,232039,0,0,0,0,0,0,,,1,,,0
+Bellingham,"Bellingham, WA",227449,226701,230598,231919,0,0,0,0,0,0,"Bellingham, WA Metro Area", ,0,0,"Bellingham, WA",0
+Town,"Barnstable Town, MA",228012,232315,232078,231735,0,0,0,0,0,0,"Barnstable Town, MA Metro Area", ,0,0,"Barnstable Town, MA",0
+Forth Smith,"Fort Smith, AR-OK",227207,228266,229951,231280,0,0,0,0,0,0,"Fort Smith, AR-OK Metro Area", ,0,0,"Fort Smith, AR-OK",0
+Rochester,"Rochester, MN",226576,227540,228134,229077,0,0,0,0,0,0,"Rochester, MN Metro Area", ,0,0,"Rochester, MN",0
+Burlington,"Burlington-South Burlington, VT",225717,227196,227566,227942,0,0,0,0,0,0,"Burlington-South Burlington, VT Metro Area", ,0,0,"Burlington-South Burlington, VT",0
+"Lafayette, IN","Lafayette-West Lafayette, IN",223864,225083,225911,226564,0,0,0,0,0,0,"Lafayette-West Lafayette, IN Metro Area", ,0,0,"Lafayette-West Lafayette, IN",0
+Las Cruces,"Las Cruces, NM",220060,221732,223530,225210,0,0,0,0,0,0,"Las Cruces, NM Metro Area", ,0,0,"Las Cruces, NM",0
+Charlottesville,"Charlottesville, VA",221620,223267,223996,225127,0,0,0,0,0,0,"Charlottesville, VA Metro Area", ,0,0,"Charlottesville, VA",0
+Lake Havasu City,"Lake Havasu City-Kingman, AZ",214185,217164,220905,223682,0,0,0,0,0,0,"Lake Havasu City-Kingman, AZ Metro Area", ,0,0,"Lake Havasu City-Kingman, AZ",0
+Athens,"Athens-Clarke County, GA",215712,218314,220331,222060,0,0,0,0,0,0,"Athens-Clarke County, GA Metro Area", ,0,0,"Athens-Clarke County, GA",0
+Monroe,"Monroe, LA",226694,224744,222631,221885,0,0,0,0,0,0,"Monroe, LA Metro Area", ,0,0,"Monroe, LA",0
+Medford,"Medford, OR",223620,224353,221669,220768,0,0,0,0,0,0,"Medford, OR Metro Area", ,0,0,"Medford, OR",0
+"Gainesville, GA","Gainesville, GA",203473,207080,212621,217267,0,0,0,0,0,0,"Gainesville, GA Metro Area", ,0,0,"Gainesville, GA",0
+"Columbia, MO","Columbia, MO",210850,212936,214663,216511,0,0,0,0,0,0,"Columbia, MO Metro Area", ,0,0,"Columbia, MO",0
+Panama City,"Panama City-Panama City Beach, FL",199845,204387,210615,216371,0,0,0,0,0,0,"Panama City-Panama City Beach, FL Metro Area", ,0,0,"Panama City-Panama City Beach, FL",0
+,"Abbotsford - Mission (CMA), British Columbia",203004,204670,207438,213785,0,0,0,0,0,0,,,1,,,0
+Jacksonville,"Jacksonville, NC",207757,206018,209031,213676,0,0,0,0,0,0,"Jacksonville, NC Metro Area", ,0,0,"Jacksonville, NC",0
+Yuma,"Yuma, AZ",205659,207284,208874,213221,0,0,0,0,0,0,"Yuma, AZ Metro Area", ,0,0,"Yuma, AZ",0
+Johnson City,"Johnson City, TN",207476,207171,210223,213198,0,0,0,0,0,0,"Johnson City, TN Metro Area", ,0,0,"Johnson City, TN",0
+Park,"Lexington Park, MD",206914,208883,209342,210009,0,0,0,0,0,0,"Lexington Park, MD Metro Area", ,0,0,"Lexington Park, MD",0
+Chico,"Chico, CA",210151,206336,207369,207172,0,0,0,0,0,0,"Chico, CA Metro Area", ,0,0,"Chico, CA",0
+Goshen,"Elkhart-Goshen, IN",206991,207054,206873,206409,0,0,0,0,0,0,"Elkhart-Goshen, IN Metro Area", ,0,0,"Elkhart-Goshen, IN",0
+Punta Gorda,"Punta Gorda, FL",187995,194934,202582,206134,0,0,0,0,0,0,"Punta Gorda, FL Metro Area", ,0,0,"Punta Gorda, FL",0
+"Springfield, IL","Springfield, IL",208414,207538,206223,205445,0,0,0,0,0,0,"Springfield, IL Metro Area", ,0,0,"Springfield, IL",0
+Joplin,"Joplin, MO-KS",200908,201950,203137,204787,0,0,0,0,0,0,"Joplin, MO-KS Metro Area", ,0,0,"Joplin, MO-KS",0
+Charleston,"Charleston, WV",209982,207331,204611,203164,0,0,0,0,0,0,"Charleston, WV Metro Area", ,0,0,"Charleston, WV",0
+Cloud,"St. Cloud, MN",199835,200737,201751,202577,0,0,0,0,0,0,"St. Cloud, MN Metro Area", ,0,0,"St. Cloud, MN",0
+St. George,"St. George, UT",182015,191513,197730,202452,0,0,0,0,0,0,"St. George, UT Metro Area", ,0,0,"St. George, UT",0
+Opelika,"Auburn-Opelika, AL",194218,196501,199230,201585,0,0,0,0,0,0,"Auburn-Opelika, AL Metro Area", ,0,0,"Auburn-Opelika, AL",0
+Robins,"Warner Robins, GA",192392,195473,198261,200779,0,0,0,0,0,0,"Warner Robins, GA Metro Area", ,0,0,"Warner Robins, GA",0
+"Florence, SC","Florence, SC",199665,199126,199176,199630,0,0,0,0,0,0,"Florence, SC Metro Area", ,0,0,"Florence, SC",0
+Houma,"Houma-Bayou Cane-Thibodaux, LA",206859,206554,200383,198672,0,0,0,0,0,0,"Houma-Bayou Cane-Thibodaux, LA Metro Area", ,0,0,"Houma-Bayou Cane-Thibodaux, LA",0
+Racine,"Racine-Mount Pleasant, WI",197568,196505,195961,196613,0,0,0,0,0,0,"Racine-Mount Pleasant, WI Metro Area", ,0,0,"Racine-Mount Pleasant, WI",0
+Billings,"Billings, MT",184726,187351,190275,191435,0,0,0,0,0,0,"Billings, MT Metro Area", ,0,0,"Billings, MT",0
+Dover,"Dover, DE",182315,185043,187758,189789,0,0,0,0,0,0,"Dover, DE Metro Area", ,0,0,"Dover, DE",0
+Bowling Green,"Bowling Green, KY",180070,182603,185996,188840,0,0,0,0,0,0,"Bowling Green, KY Metro Area", ,0,0,"Bowling Green, KY",0
+,"Kingston (CMA), Ontario",178343,179707,184196,188267,0,0,0,0,0,0,,,1,,,0
+Saginaw,"Saginaw, MI",189882,189516,188373,187782,0,0,0,0,0,0,"Saginaw, MI Metro Area", ,0,0,"Saginaw, MI",0
+,"Greater Sudbury (CMA), Ontario",176580,177415,180271,185230,0,0,0,0,0,0,,,1,,,0
+Coeur d'Alene,"Coeur d'Alene, ID",172785,180058,183290,185010,0,0,0,0,0,0,"Coeur d'Alene, ID Metro Area", ,0,0,"Coeur d'Alene, ID",0
+Yuba City,"Yuba City, CA",181437,182379,182922,183670,0,0,0,0,0,0,"Yuba City, CA Metro Area", ,0,0,"Yuba City, CA",0
+Kingston,"Kingston, NY",181271,183489,182320,182333,0,0,0,0,0,0,"Kingston, NY Metro Area", ,0,0,"Kingston, NY",0
+Midland,"Midland, TX",175614,173471,177247,182324,0,0,0,0,0,0,"Midland, TX Metro Area", ,0,0,"Midland, TX",0
+Jackson,"Jackson, TN",180559,180480,181418,181826,0,0,0,0,0,0,"Jackson, TN Metro Area", ,0,0,"Jackson, TN",0
+Abilene,"Abilene, TX",176883,177831,179665,181591,0,0,0,0,0,0,"Abilene, TX Metro Area", ,0,0,"Abilene, TX",0
+Blacksburg,"Blacksburg-Christiansburg-Radford, VA",181756,181213,181283,181428,0,0,0,0,0,0,"Blacksburg-Christiansburg-Radford, VA Metro Area", ,0,0,"Blacksburg-Christiansburg-Radford, VA",0
+,"Guelph (CMA), Ontario",170486,172876,176521,180476,0,0,0,0,0,0,,,1,,,0
+Redding,"Redding, CA",182002,182135,180937,180366,0,0,0,0,0,0,"Redding, CA Metro Area", ,0,0,"Redding, CA",0
+Iowa City,"Iowa City, IA",175598,177557,179457,180088,0,0,0,0,0,0,"Iowa City, IA Metro Area", ,0,0,"Iowa City, IA",0
+Burlington,"Burlington, NC",171960,173968,176618,179165,0,0,0,0,0,0,"Burlington, NC Metro Area", ,0,0,"Burlington, NC",0
+Centro,"El Centro, CA",179612,179138,178940,179057,0,0,0,0,0,0,"El Centro, CA Metro Area", ,0,0,"El Centro, CA",0
+,"Moncton (CMA), New Brunswick",158135,161376,168620,178971,0,0,0,0,0,0,,,1,,,0
+Muskegon,"Muskegon-Norton Shores, MI",174784,175550,175539,176564,0,0,0,0,0,0,"Muskegon-Norton Shores, MI Metro Area", ,0,0,"Muskegon-Norton Shores, MI",0
+"Greenville, NC","Greenville, NC",170390,172235,173610,175119,0,0,0,0,0,0,"Greenville, NC Metro Area", ,0,0,"Greenville, NC",0
+Eau Claire,"Eau Claire, WI",172238,172607,173539,174873,0,0,0,0,0,0,"Eau Claire, WI Metro Area", ,0,0,"Eau Claire, WI",0
+Neenah,"Oshkosh-Neenah, WI",171815,170580,170688,171735,0,0,0,0,0,0,"Oshkosh-Neenah, WI Metro Area", ,0,0,"Oshkosh-Neenah, WI",0
+Bloomington,"Bloomington, IL",170949,171109,170918,170441,0,0,0,0,0,0,"Bloomington, IL Metro Area", ,0,0,"Bloomington, IL",0
+La Crosse,"La Crosse-Onalaska, WI-MN",170466,169067,170042,170238,0,0,0,0,0,0,"La Crosse-Onalaska, WI-MN Metro Area", ,0,0,"La Crosse-Onalaska, WI-MN",0
+Sebastian,"Sebastian-Vero Beach-West Vero Corridor, FL",160446,163869,167267,169795,0,0,0,0,0,0,"Sebastian-Vero Beach-West Vero Corridor, FL Metro Area", ,0,0,"Sebastian-Vero Beach-West Vero Corridor, FL",0
+Pueblo,"Pueblo, CO",168337,169316,169472,169422,0,0,0,0,0,0,"Pueblo, CO Metro Area", ,0,0,"Pueblo, CO",0
+,"Trois-Rivières (CMA), Quebec",161361,162531,165866,169204,0,0,0,0,0,0,,,1,,,0
+Haute,"Terre Haute, IN",168778,168722,168596,168787,0,0,0,0,0,0,"Terre Haute, IN Metro Area", ,0,0,"Terre Haute, IN",0
+Idaho Falls,"Idaho Falls, ID",158401,162931,165577,168322,0,0,0,0,0,0,"Idaho Falls, ID Metro Area", ,0,0,"Idaho Falls, ID",0
+Waterloo,"Waterloo-Cedar Falls, IA",168388,168052,167661,168162,0,0,0,0,0,0,"Waterloo-Cedar Falls, IA Metro Area", ,0,0,"Waterloo-Cedar Falls, IA",0
+,"Brantford (CMA), Ontario",153544,156714,161425,167718,0,0,0,0,0,0,,,1,,,0
+Kenosha,"Kenosha, WI",169195,168414,167637,167488,0,0,0,0,0,0,"Kenosha, WI Metro Area", ,0,0,"Kenosha, WI",0
+,"Saguenay (CMA), Quebec",162285,162376,164304,167399,0,0,0,0,0,0,,,1,,,0
+Homosassa Springs,"Homosassa Springs, FL",154568,158167,162508,166696,0,0,0,0,0,0,"Homosassa Springs, FL Metro Area", ,0,0,"Homosassa Springs, FL",0
+Odessa,"Odessa, TX",165490,160758,161057,164494,0,0,0,0,0,0,"Odessa, TX Metro Area", ,0,0,"Odessa, TX",0
+Beloit,"Janesville-Beloit, WI",163758,164115,163841,164278,0,0,0,0,0,0,"Janesville-Beloit, WI Metro Area", ,0,0,"Janesville-Beloit, WI",0
+Wailuku,"Kahului-Wailuku, HI",164848,164878,164440,164264,0,0,0,0,0,0,"Kahului-Wailuku, HI Metro Area", ,0,0,"Kahului-Wailuku, HI",0
+Amherst Town,"Amherst Town-Northampton, MA",146616,163128,162518,162502,0,0,0,0,0,0,"Amherst Town-Northampton, MA Metro Area", ,0,0,"Amherst Town-Northampton, MA",0
+Bloomington,"Bloomington, IN",160903,161690,161108,160874,0,0,0,0,0,0,"Bloomington, IN Metro Area", ,0,0,"Bloomington, IN",0
+Junction,"Grand Junction, CO",156011,157439,158531,159681,0,0,0,0,0,0,"Grand Junction, CO Metro Area", ,0,0,"Grand Junction, CO",0
+Jackson,"Jackson, MI",160231,160162,159758,159424,0,0,0,0,0,0,"Jackson, MI Metro Area", ,0,0,"Jackson, MI",0
+"Decatur, AL","Decatur, AL",156377,156448,157418,158635,0,0,0,0,0,0,"Decatur, AL Metro Area", ,0,0,"Decatur, AL",0
+Logan,"Logan, UT-ID",147913,152128,155315,157887,0,0,0,0,0,0,"Logan, UT-ID Metro Area", ,0,0,"Logan, UT-ID",0
+Chambersburg,"Chambersburg, PA",155949,156573,156951,157854,0,0,0,0,0,0,"Chambersburg, PA Metro Area", ,0,0,"Chambersburg, PA",0
+StateCollege,"State College, PA",157979,157984,157533,157795,0,0,0,0,0,0,"State College, PA Metro Area", ,0,0,"State College, PA",0
+Traverse City,"Traverse City, MI",153654,154827,155752,156371,0,0,0,0,0,0,"Traverse City, MI Metro Area", ,0,0,"Traverse City, MI",0
+Rapid City,"Rapid City, SD",147800,150814,154029,155974,0,0,0,0,0,0,"Rapid City, SD Metro Area", ,0,0,"Rapid City, SD",0
+Santa Fe,"Santa Fe, NM",155043,155400,155761,155956,0,0,0,0,0,0,"Santa Fe, NM Metro Area", ,0,0,"Santa Fe, NM",0
+Hattiesburg,"Hattiesburg, MS",154032,154778,155120,155740,0,0,0,0,0,0,"Hattiesburg, MS Metro Area", ,0,0,"Hattiesburg, MS",0
+Bangor,"Bangor, ME",152169,153359,154728,155312,0,0,0,0,0,0,"Bangor, ME Metro Area", ,0,0,"Bangor, ME",0
+"Florence, AL","Florence-Muscle Shoals, AL",151329,152497,153868,155175,0,0,0,0,0,0,"Florence-Muscle Shoals, AL Metro Area", ,0,0,"Florence-Muscle Shoals, AL",0
+Monroe,"Monroe, MI",154896,155534,155235,155045,0,0,0,0,0,0,"Monroe, MI Metro Area", ,0,0,"Monroe, MI",0
+Dothan,"Dothan, AL",151151,151523,152477,153349,0,0,0,0,0,0,"Dothan, AL Metro Area", ,0,0,"Dothan, AL",0
+Corcoran,"Hanford-Corcoran, CA",152844,152775,152987,152682,0,0,0,0,0,0,"Hanford-Corcoran, CA Metro Area", ,0,0,"Hanford-Corcoran, CA",0
+Vineland,"Vineland, NJ",153719,152083,151347,152326,0,0,0,0,0,0,"Vineland, NJ Metro Area", ,0,0,"Vineland, NJ",0
+Niles,"Niles, MI",154197,153352,152835,152261,0,0,0,0,0,0,"Niles, MI Metro Area", ,0,0,"Niles, MI",0
+Wildwood,"Wildwood-The Villages, FL",130290,134870,144767,151565,0,0,0,0,0,0,"Wildwood-The Villages, FL Metro Area", ,0,0,"Wildwood-The Villages, FL",0
+Valdosta,"Valdosta, GA",148338,148941,149646,151118,0,0,0,0,0,0,"Valdosta, GA Metro Area", ,0,0,"Valdosta, GA",0
+Jefferson City,"Jefferson City, MO",149432,149951,150337,150733,0,0,0,0,0,0,"Jefferson City, MO Metro Area", ,0,0,"Jefferson City, MO",0
+Witchita Falls,"Wichita Falls, TX",148433,149086,149568,149947,0,0,0,0,0,0,"Wichita Falls, TX Metro Area", ,0,0,"Wichita Falls, TX",0
+Alexandria,"Alexandria, LA",151800,150882,149068,148171,0,0,0,0,0,0,"Alexandria, LA Metro Area", ,0,0,"Alexandria, LA",0
+Winchester,"Winchester, VA-WV",142984,145411,146126,147260,0,0,0,0,0,0,"Winchester, VA-WV Metro Area", ,0,0,"Winchester, VA-WV",0
+Denison,"Sherman-Denison, TX",136099,139563,143198,146907,0,0,0,0,0,0,"Sherman-Denison, TX Metro Area", ,0,0,"Sherman-Denison, TX",0
+Texarkana,"Texarkana, TX-AR",147485,146749,146185,145907,0,0,0,0,0,0,"Texarkana, TX-AR Metro Area", ,0,0,"Texarkana, TX-AR",0
+"Albany, GA","Albany, GA",148249,144933,145796,145508,0,0,0,0,0,0,"Albany, GA Metro Area", ,0,0,"Albany, GA",0
+Mount,"Rocky Mount, NC",143932,143537,144209,145383,0,0,0,0,0,0,"Rocky Mount, NC Metro Area", ,0,0,"Rocky Mount, NC",0
+Dalton,"Dalton, GA",142796,142687,143505,144722,0,0,0,0,0,0,"Dalton, GA Metro Area", ,0,0,"Dalton, GA",0
+Flagstaff,"Flagstaff, AZ",145192,142897,144223,144472,0,0,0,0,0,0,"Flagstaff, AZ Metro Area", ,0,0,"Flagstaff, AZ",0
+Sioux City,"Sioux City, IA-NE-SD",144326,143907,143737,144402,0,0,0,0,0,0,"Sioux City, IA-NE-SD Metro Area", ,0,0,"Sioux City, IA-NE-SD",0
+Lebanon,"Lebanon, PA",143278,143759,143902,144252,0,0,0,0,0,0,"Lebanon, PA Metro Area", ,0,0,"Lebanon, PA",0
+,"Peterborough (CMA), Ontario",132672,133661,137040,142737,0,0,0,0,0,0,,,1,,,0
+Morgantown,"Morgantown, WV",140100,140825,141200,141817,0,0,0,0,0,0,"Morgantown, WV Metro Area", ,0,0,"Morgantown, WV",0
+,"Saint John (CMA), New Brunswick",132226,133140,135565,138985,0,0,0,0,0,0,,,1,,,0
+Wausau,"Wausau, WI",138078,137755,137955,138612,0,0,0,0,0,0,"Wausau, WI Metro Area", ,0,0,"Wausau, WI",0
+Hammond,"Hammond, LA",133654,135488,136799,138064,0,0,0,0,0,0,"Hammond, LA Metro Area", ,0,0,"Hammond, LA",0
+Harrisonburg,"Harrisonburg, VA",135480,136015,136564,137650,0,0,0,0,0,0,"Harrisonburg, VA Metro Area", ,0,0,"Harrisonburg, VA",0
+Jonesboro,"Jonesboro, AR",134573,134485,135316,136390,0,0,0,0,0,0,"Jonesboro, AR Metro Area", ,0,0,"Jonesboro, AR",0
+Bismarck,"Bismarck, ND",133785,134406,134963,135786,0,0,0,0,0,0,"Bismarck, ND Metro Area", ,0,0,"Bismarck, ND",0
+Wheeling,"Wheeling, WV-OH",139127,137909,136625,135517,0,0,0,0,0,0,"Wheeling, WV-OH Metro Area", ,0,0,"Wheeling, WV-OH",0
+,"Lethbridge (CMA), Alberta",127455,128503,130741,135230,0,0,0,0,0,0,,,1,,,0
+"Springfield, OH","Springfield, OH",135887,135608,134732,134610,0,0,0,0,0,0,"Springfield, OH Metro Area", ,0,0,"Springfield, OH",0
+Battle Creek,"Battle Creek, MI",134200,133878,133424,133366,0,0,0,0,0,0,"Battle Creek, MI Metro Area", ,0,0,"Battle Creek, MI",0
+Napa,"Napa, CA",137459,136265,134370,133216,0,0,0,0,0,0,"Napa, CA Metro Area", ,0,0,"Napa, CA",0
+Manhattan,"Manhattan, KS",134187,133860,133384,132831,0,0,0,0,0,0,"Manhattan, KS Metro Area", ,0,0,"Manhattan, KS",0
+"Albany, OR","Albany, OR",128981,130120,130622,131496,0,0,0,0,0,0,"Albany, OR Metro Area", ,0,0,"Albany, OR",0
+Mount Vernon,"Mount Vernon-Anacortes, WA",129902,131005,131322,131417,0,0,0,0,0,0,"Mount Vernon-Anacortes, WA Metro Area", ,0,0,"Mount Vernon-Anacortes, WA",0
+,"Thunder Bay (CMA), Ontario",128815,128040,128949,130752,0,0,0,0,0,0,,,1,,,0
+Johnstown,"Johnstown, PA",133211,132237,131429,130668,0,0,0,0,0,0,"Johnstown, PA Metro Area", ,0,0,"Johnstown, PA",0
+Salisbury,"Salisbury, MD",128126,128660,129094,129710,0,0,0,0,0,0,"Salisbury, MD Metro Area", ,0,0,"Salisbury, MD",0
+"Cleveland, TN","Cleveland, TN",126394,127469,128317,129612,0,0,0,0,0,0,"Cleveland, TN Metro Area", ,0,0,"Cleveland, TN",0
+Elizabethtown,"Elizabethtown, KY",125702,126905,126893,127576,0,0,0,0,0,0,"Elizabethtown, KY Metro Area", ,0,0,"Elizabethtown, KY",0
+Staunton,"Staunton-Stuarts Draft, VA",125665,126059,126678,127344,0,0,0,0,0,0,"Staunton-Stuarts Draft, VA Metro Area", ,0,0,"Staunton-Stuarts Draft, VA",0
+Lawton,"Lawton, OK",126660,127766,127674,127001,0,0,0,0,0,0,"Lawton, OK Metro Area", ,0,0,"Lawton, OK",0
+Missoula,"Missoula, MT",122915,124700,126031,126939,0,0,0,0,0,0,"Missoula, MT Metro Area", ,0,0,"Missoula, MT",0
+Pittsfield,"Pittsfield, MA",128619,128376,127547,126818,0,0,0,0,0,0,"Pittsfield, MA Metro Area", ,0,0,"Pittsfield, MA",0
+Bozeman,"Bozeman, MT",119597,123098,124938,126409,0,0,0,0,0,0,"Bozeman, MT Metro Area", ,0,0,"Bozeman, MT",0
+,"Nanaimo (CMA), British Columbia",118556,120213,123026,125430,0,0,0,0,0,0,,,1,,,0
+Glens Falls,"Glens Falls, NY",126700,126593,126237,125427,0,0,0,0,0,0,"Glens Falls, NY Metro Area", ,0,0,"Glens Falls, NY",0
+,"Kamloops (CMA), British Columbia",118389,119049,122171,125332,0,0,0,0,0,0,,,1,,,0
+Ames,"Ames, IA",125347,126440,124836,125156,0,0,0,0,0,0,"Ames, IA Metro Area", ,0,0,"Ames, IA",0
+Mansfield,"Mansfield, OH",124966,125341,125261,125064,0,0,0,0,0,0,"Mansfield, OH Metro Area", ,0,0,"Mansfield, OH",0
+Wenatchee,"Wenatchee-East Wenatchee, WA",122267,123615,124261,124795,0,0,0,0,0,0,"Wenatchee-East Wenatchee, WA Metro Area", ,0,0,"Wenatchee-East Wenatchee, WA",0
+Sierra Vista,"Sierra Vista-Douglas, AZ",125527,126119,125487,124640,0,0,0,0,0,0,"Sierra Vista-Douglas, AZ Metro Area", ,0,0,"Sierra Vista-Douglas, AZ",0
+,"Chilliwack (CMA), British Columbia",116401,118634,121552,124163,0,0,0,0,0,0,,,1,,,0
+Morristown,"Morristown, TN",119458,119907,121827,124054,0,0,0,0,0,0,"Morristown, TN Metro Area", ,0,0,"Morristown, TN",0
+,"Belleville - Quinte West (CMA), Ontario",114220,115493,118551,121982,0,0,0,0,0,0,,,1,,,0
+Farmington,"Farmington, NM",121376,120996,120569,120675,0,0,0,0,0,0,"Farmington, NM Metro Area", ,0,0,"Farmington, NM",0
+Twin Falls,"Twin Falls, ID",114642,117132,119065,120635,0,0,0,0,0,0,"Twin Falls, ID Metro Area", ,0,0,"Twin Falls, ID",0
+Angelo,"San Angelo, TX",121705,120765,120447,120606,0,0,0,0,0,0,"San Angelo, TX Metro Area", ,0,0,"San Angelo, TX",0
+Lawrence,"Lawrence, KS",118784,119493,120007,120553,0,0,0,0,0,0,"Lawrence, KS Metro Area", ,0,0,"Lawrence, KS",0
+Altoona,"Altoona, PA",122666,122150,120734,120273,0,0,0,0,0,0,"Altoona, PA Metro Area", ,0,0,"Altoona, PA",0
+,"Fredericton (CMA), New Brunswick",110168,111017,114516,119059,0,0,0,0,0,0,,,1,,,0
+Goldsboro,"Goldsboro, NC",117221,116857,117449,118686,0,0,0,0,0,0,"Goldsboro, NC Metro Area", ,0,0,"Goldsboro, NC",0
+Joseph,"St. Joseph, MO-KS",121643,120784,119692,118475,0,0,0,0,0,0,"St. Joseph, MO-KS Metro Area", ,0,0,"St. Joseph, MO-KS",0
+Sheboygan,"Sheboygan, WI",118053,117687,117661,117752,0,0,0,0,0,0,"Sheboygan, WI Metro Area", ,0,0,"Sheboygan, WI",0
+Oxford,"Anniston-Oxford, AL",116243,115678,115780,116429,0,0,0,0,0,0,"Anniston-Oxford, AL Metro Area", ,0,0,"Anniston-Oxford, AL",0
+Brunswick,"Brunswick-St. Simons, GA",113511,113959,114538,116074,0,0,0,0,0,0,"Brunswick-St. Simons, GA Metro Area", ,0,0,"Brunswick-St. Simons, GA",0
+Watertown,"Watertown-Fort Drum, NY",116069,116902,115461,114787,0,0,0,0,0,0,"Watertown-Fort Drum, NY Metro Area", ,0,0,"Watertown-Fort Drum, NY",0
+Sandusky,"Sandusky, OH",115777,115052,114482,113838,0,0,0,0,0,0,"Sandusky, OH Metro Area", ,0,0,"Sandusky, OH",0
+Auburn,"Lewiston-Auburn, ME",111175,112732,113225,113765,0,0,0,0,0,0,"Lewiston-Auburn, ME Metro Area", ,0,0,"Lewiston-Auburn, ME",0
+Steubenville,"Weirton-Steubenville, WV-OH",116692,115748,114221,113544,0,0,0,0,0,0,"Weirton-Steubenville, WV-OH Metro Area", ,0,0,"Weirton-Steubenville, WV-OH",0
+Kelso,"Longview-Kelso, WA",111014,111685,112064,112864,0,0,0,0,0,0,"Longview-Kelso, WA Metro Area", ,0,0,"Longview-Kelso, WA",0
+Williamsport,"Williamsport, PA",114125,113561,113034,112724,0,0,0,0,0,0,"Williamsport, PA Metro Area", ,0,0,"Williamsport, PA",0
+Owensboro,"Owensboro, KY",112541,112211,112296,112512,0,0,0,0,0,0,"Owensboro, KY Metro Area", ,0,0,"Owensboro, KY",0
+Muncie,"Muncie, IN",111762,112057,112163,112321,0,0,0,0,0,0,"Muncie, IN Metro Area", ,0,0,"Muncie, IN",0
+Michigan City,"Michigan City-La Porte, IN",112270,112513,111822,111706,0,0,0,0,0,0,"Michigan City-La Porte, IN Metro Area", ,0,0,"Michigan City-La Porte, IN",0
+Beckley,"Beckley, WV",114822,113815,112189,111428,0,0,0,0,0,0,"Beckley, WV Metro Area", ,0,0,"Beckley, WV",0
+,"Chatham-Kent (CA), Ontario",107195,108243,109449,110986,0,0,0,0,0,0,,,1,,,0
+,"Cape Breton (CA), Nova Scotia",102356,100754,103095,109962,0,0,0,0,0,0,,,1,,,0
+,"Red Deer (CMA), Alberta",104477,104429,105654,109262,0,0,0,0,0,0,,,1,,,0
+Sebring,"Sebring, FL",101349,103279,105649,107614,0,0,0,0,0,0,"Sebring, FL Metro Area", ,0,0,"Sebring, FL",0
+,"Sarnia (CA), Ontario",101233,101251,104113,106984,0,0,0,0,0,0,,,1,,,0
+Pinehurst,"Pinehurst-Southern Pines, NC",100296,103044,105491,106898,0,0,0,0,0,0,"Pinehurst-Southern Pines, NC Metro Area", ,0,0,"Pinehurst-Southern Pines, NC",0
+Gettysburg,"Gettysburg, PA",103798,105686,105959,106748,0,0,0,0,0,0,"Gettysburg, PA Metro Area", ,0,0,"Gettysburg, PA",0
+,"Drummondville (CMA), Quebec",100909,102356,103887,106347,0,0,0,0,0,0,,,1,,,0
+Kankakee,"Kankakee, IL",107264,106605,105998,105940,0,0,0,0,0,0,"Kankakee, IL Metro Area", ,0,0,"Kankakee, IL",0
+Mankato,"Mankato, MN",103698,103728,103946,104248,0,0,0,0,0,0,"Mankato, MN Metro Area", ,0,0,"Mankato, MN",0
+Sumter,"Sumter, SC",105476,104854,103936,104165,0,0,0,0,0,0,"Sumter, SC Metro Area", ,0,0,"Sumter, SC",0
+Fond du Lac,"Fond du Lac, WI",104169,104116,103812,103948,0,0,0,0,0,0,"Fond du Lac, WI Metro Area", ,0,0,"Fond du Lac, WI",0
+Ithaca,"Ithaca, NY",99772,105966,104299,103558,0,0,0,0,0,0,"Ithaca, NY Metro Area", ,0,0,"Ithaca, NY",0
+Gadsden,"Gadsden, AL",103453,103010,102903,103241,0,0,0,0,0,0,"Gadsden, AL Metro Area", ,0,0,"Gadsden, AL",0
+Grand Forks,"Grand Forks, ND-MN",104217,103405,103146,103120,0,0,0,0,0,0,"Grand Forks, ND-MN Metro Area", ,0,0,"Grand Forks, ND-MN",0
+Bay City,"Bay City, MI",103742,103108,102638,102500,0,0,0,0,0,0,"Bay City, MI Metro Area", ,0,0,"Bay City, MI",0
+Paducah,"Paducah, KY-IL",103441,102920,102522,102267,0,0,0,0,0,0,"Paducah, KY-IL Metro Area", ,0,0,"Paducah, KY-IL",0
+Cheyenne,"Cheyenne, WY",100730,100827,100781,100984,0,0,0,0,0,0,"Cheyenne, WY Metro Area", ,0,0,"Cheyenne, WY",0
+Lima,"Lima, OH",102125,101784,101097,100838,0,0,0,0,0,0,"Lima, OH Metro Area", ,0,0,"Lima, OH",0
+"Decatur, IL","Decatur, IL",103752,102597,101333,100591,0,0,0,0,0,0,"Decatur, IL Metro Area", ,0,0,"Decatur, IL",0
+"Rome, GA","Rome, GA",98583,98487,99437,100113,0,0,0,0,0,0,"Rome, GA Metro Area", ,0,0,"Rome, GA",0
+Hot Springs,"Hot Springs, AR",100258,100393,99982,99784,0,0,0,0,0,0,"Hot Springs, AR Metro Area", ,0,0,"Hot Springs, AR",0
+Dubuque,"Dubuque, IA",99308,98854,98715,98887,0,0,0,0,0,0,"Dubuque, IA Metro Area", ,0,0,"Dubuque, IA",0
+Victoria,"Victoria, TX",98331,98029,98194,98808,0,0,0,0,0,0,"Victoria, TX Metro Area", ,0,0,"Victoria, TX",0
+Girardeau,"Cape Girardeau, MO-IL",97552,97743,98303,98223,0,0,0,0,0,0,"Cape Girardeau, MO-IL Metro Area", ,0,0,"Cape Girardeau, MO-IL",0
+Corvallis,"Corvallis, OR",95214,96321,97661,97713,0,0,0,0,0,0,"Corvallis, OR Metro Area", ,0,0,"Corvallis, OR",0
+,"Prince George (CA), British Columbia",94041,93542,94761,96758,0,0,0,0,0,0,,,1,,,0
+Helena,"Helena, MT",90179,92298,94386,96091,0,0,0,0,0,0,"Helena, MT Metro Area", ,0,0,"Helena, MT",0
+Fairbanks,"Fairbanks-College, AK",95337,95593,95202,94840,0,0,0,0,0,0,"Fairbanks-College, AK Metro Area", ,0,0,"Fairbanks-College, AK",0
+,"Granby (CA), Quebec",89821,91440,92580,93922,0,0,0,0,0,0,,,1,,,0
+,"Charlottetown (CA), Prince Edward Island",81853,83104,86488,90648,0,0,0,0,0,0,,,1,,,0
+Pocatello,"Pocatello, ID",87276,88515,89625,90400,0,0,0,0,0,0,"Pocatello, ID Metro Area", ,0,0,"Pocatello, ID",0
+Hinesville,"Hinesville, GA",81587,83908,86314,88804,0,0,0,0,0,0,"Hinesville, GA Metro Area", ,0,0,"Hinesville, GA",0
+Vienna,"Parkersburg-Vienna, WV",89330,88870,88480,88052,0,0,0,0,0,0,"Parkersburg-Vienna, WV Metro Area", ,0,0,"Parkersburg-Vienna, WV",0
+Pass,"Grants Pass, OR",88238,88637,87800,87821,0,0,0,0,0,0,"Grants Pass, OR Metro Area", ,0,0,"Grants Pass, OR",0
+,"Kawartha Lakes (CA), Ontario",81057,82147,83721,85117,0,0,0,0,0,0,,,1,,,0
+,"Sault Ste. Marie (CA), Ontario",80757,80202,81875,85033,0,0,0,0,0,0,,,1,,,0
+Great Falls,"Great Falls, MT",84407,84551,85001,84900,0,0,0,0,0,0,"Great Falls, MT Metro Area", ,0,0,"Great Falls, MT",0
+Midland,"Midland, MI",83478,83479,83762,84039,0,0,0,0,0,0,"Midland, MI Metro Area", ,0,0,"Midland, MI",0
+"Columbus, IN","Columbus, IN",82218,82729,83394,84003,0,0,0,0,0,0,"Columbus, IN Metro Area", ,0,0,"Columbus, IN",0
+Kokomo,"Kokomo, IN",83589,83650,83546,83831,0,0,0,0,0,0,"Kokomo, IN Metro Area", ,0,0,"Kokomo, IN",0
+Elmira,"Elmira, NY",83668,83039,81641,81325,0,0,0,0,0,0,"Elmira, NY Metro Area", ,0,0,"Elmira, NY",0
+,"Medicine Hat (CA), Alberta",78847,78780,79073,80331,0,0,0,0,0,0,,,1,,,0
+Casper,"Casper, WY",80299,79635,79523,79941,0,0,0,0,0,0,"Casper, WY Metro Area", ,0,0,"Casper, WY",0
+,"North Bay (CA), Ontario",73974,74521,76808,79732,0,0,0,0,0,0,,,1,,,0
+,"Wood Buffalo (CA), Alberta",76919,76888,76734,78737,0,0,0,0,0,0,,,1,,,0
+Island,"Grand Island, NE",76908,76263,76320,76479,0,0,0,0,0,0,"Grand Island, NE Metro Area", ,0,0,"Grand Island, NE",0
+Minot,"Minot, ND",77527,76867,76233,75742,0,0,0,0,0,0,"Minot, ND Metro Area", ,0,0,"Minot, ND",0
+,"Norfolk (CA), Ontario",69276,70300,72161,73730,0,0,0,0,0,0,,,1,,,0
+,"Vernon (CA), British Columbia",68340,69482,70914,71966,0,0,0,0,0,0,,,1,,,0
+,"Courtenay (CA), British Columbia",64411,65519,66769,67844,0,0,0,0,0,0,,,1,,,0
+,"Grande Prairie (CA), Alberta",67514,66628,66056,67606,0,0,0,0,0,0,,,1,,,0
+,"Cornwall (CA), Ontario",63136,63680,64422,66351,0,0,0,0,0,0,,,1,,,0
+Lewiston,"Lewiston, ID-WA",64469,64969,65445,65536,0,0,0,0,0,0,"Lewiston, ID-WA Metro Area", ,0,0,"Lewiston, ID-WA",0
+,"Saint-Hyacinthe (CA), Quebec",59927,60306,61293,62497,0,0,0,0,0,0,,,1,,,0
+Enid,"Enid, OK",62691,61964,61951,62023,0,0,0,0,0,0,"Enid, OK Metro Area", ,0,0,"Enid, OK",0
+Walla,"Walla Walla, WA",62623,62211,61853,61568,0,0,0,0,0,0,"Walla Walla, WA Metro Area", ,0,0,"Walla Walla, WA",0
+,"Brandon (CA), Manitoba",55816,55877,57005,59152,0,0,0,0,0,0,,,1,,,0
+Carson City,"Carson City, NV",58686,58764,58065,58036,0,0,0,0,0,0,"Carson City, NV Metro Area", ,0,0,"Carson City, NV",0
+Pass,"Eagle Pass, TX",57875,57683,57628,57762,0,0,0,0,0,0,"Eagle Pass, TX Metro Area", ,0,0,"Eagle Pass, TX",0
+,"Rimouski (CA), Quebec",54025,54209,54694,55733,0,0,0,0,0,0,,,1,,,0
+,"Joliette (CA), Quebec",52057,53023,53770,54583,0,0,0,0,0,0,,,1,,,0
+,"Victoriaville (CA), Quebec",52788,53099,53575,54199,0,0,0,0,0,0,,,1,,,0
+,"Woodstock (CA), Ontario",47176,48777,50048,51387,0,0,0,0,0,0,,,1,,,0
+,"Shawinigan (CA), Quebec",49117,49892,50676,51165,0,0,0,0,0,0,,,1,,,0
+,"Duncan (CA), British Columbia",48724,49241,50038,50590,0,0,0,0,0,0,,,1,,,0
+,"Penticton (CA), British Columbia",48349,48924,49472,49650,0,0,0,0,0,0,,,1,,,0
+,"Truro (CA), Nova Scotia",47616,48077,48816,49597,0,0,0,0,0,0,,,1,,,0
+,"Prince Albert (CA), Saskatchewan",47055,47084,46907,47385,0,0,0,0,0,0,,,1,,,0
+,"Salaberry-de-Valleyfield (CA), Quebec",42308,43177,43884,44827,0,0,0,0,0,0,,,1,,,0
+,"Timmins (CA), Ontario",42984,42763,43156,44819,0,0,0,0,0,0,,,1,,,0
+,"Campbell River (CA), British Columbia",41722,42231,43171,43812,0,0,0,0,0,0,,,1,,,0
+,"Rouyn-Noranda (CA), Quebec",42667,42565,42705,42954,0,0,0,0,0,0,,,1,,,0
+,"Sorel-Tracy (CA), Quebec",41703,42124,42567,42729,0,0,0,0,0,0,,,1,,,0
+,"Lloydminster (CA), Alberta/Saskatchewan",37737,37779,37627,38214,0,0,0,0,0,0,,,1,,,0
+,"Moose Jaw (CA), Saskatchewan",35993,35791,35977,36966,0,0,0,0,0,0,,,1,,,0
+,"Orillia (CA), Ontario",34029,34732,35462,36316,0,0,0,0,0,0,,,1,,,0
+,"Whitehorse (CA), Yukon",33332,34233,35257,36315,0,0,0,0,0,0,,,1,,,0
+,"New Glasgow (CA), Nova Scotia",35066,35345,35764,36208,0,0,0,0,0,0,,,1,,,0
+,"Winkler (CA), Manitoba",33340,33640,34451,36054,0,0,0,0,0,0,,,1,,,0
+,"Saint-Georges (CA), Quebec",34866,34970,35254,35764,0,0,0,0,0,0,,,1,,,0
+,"Stratford (CA), Ontario",34028,34522,34857,35421,0,0,0,0,0,0,,,1,,,0
+,"Owen Sound (CA), Ontario",33585,33887,34366,34757,0,0,0,0,0,0,,,1,,,0
+,"Val-d'Or (CA), Quebec",34208,34234,34322,34512,0,0,0,0,0,0,,,1,,,0
+,"Centre Wellington (CA), Ontario",31446,32336,33146,33811,0,0,0,0,0,0,,,1,,,0
+,"Brockville (CA), Ontario",32607,32768,33303,33649,0,0,0,0,0,0,,,1,,,0
+,"Bathurst (CA), New Brunswick",31799,31876,32201,32821,0,0,0,0,0,0,,,1,,,0
+,"Parksville (CA), British Columbia",31262,31767,32145,32292,0,0,0,0,0,0,,,1,,,0
+,"Okotoks (CA), Alberta",31042,31362,31494,32214,0,0,0,0,0,0,,,1,,,0
+,"Corner Brook (CA), Newfoundland and Labrador",30821,30827,30979,31061,0,0,0,0,0,0,,,1,,,0
+,"Alma (CA), Quebec",30406,30418,30521,30745,0,0,0,0,0,0,,,1,,,0
+,"Rivière-du-Loup (CA), Quebec",29941,30134,30263,30637,0,0,0,0,0,0,,,1,,,0
+,"Fort St. John (CA), British Columbia",30162,30216,30109,29988,0,0,0,0,0,0,,,1,,,0
+,"Midland (CA), Ontario",28439,28955,29458,29957,0,0,0,0,0,0,,,1,,,0
+,"Miramichi (CA), New Brunswick",27870,28085,28644,29411,0,0,0,0,0,0,,,1,,,0
+,"Squamish (CA), British Columbia",24535,25538,27633,29206,0,0,0,0,0,0,,,1,,,0
+,"Cranbrook (CA), British Columbia",28034,28197,28622,28968,0,0,0,0,0,0,,,1,,,0
+,"Thetford Mines (CA), Quebec",28028,28332,28477,28947,0,0,0,0,0,0,,,1,,,0
+,"Kentville (CA), Nova Scotia",27338,27776,28288,28842,0,0,0,0,0,0,,,1,,,0
+,"Sept-Îles (CA), Quebec",27895,27892,27813,27845,0,0,0,0,0,0,,,1,,,0
+,"Wasaga Beach (CA), Ontario",24400,25780,26667,27595,0,0,0,0,0,0,,,1,,,0
+,"Port Alberni (CA), British Columbia",26401,26726,27081,27343,0,0,0,0,0,0,,,1,,,0
+,"Collingwood (CA), Ontario",24949,25714,26283,26846,0,0,0,0,0,0,,,1,,,0
+,"Baie-Comeau (CA), Quebec",26719,26730,26661,26599,0,0,0,0,0,0,,,1,,,0
+,"Essa (CA), Ontario",23343,24039,24608,25125,0,0,0,0,0,0,,,1,,,0
+,"Williams Lake (CA), British Columbia",24378,24532,24857,25088,0,0,0,0,0,0,,,1,,,0
+,"Pembroke (CA), Ontario",24377,24701,24829,25068,0,0,0,0,0,0,,,1,,,0
+,"Quesnel (CA), British Columbia",24038,24000,23905,23853,0,0,0,0,0,0,,,1,,,0
+,"Edmundston (CA), New Brunswick",22385,22514,22664,23113,0,0,0,0,0,0,,,1,,,0
+,"Yellowknife (CA), Northwest Territories",21658,21904,22210,22600,0,0,0,0,0,0,,,1,,,0
+,"Terrace (CA), British Columbia",20378,20496,20759,21202,0,0,0,0,0,0,,,1,,,0
+,"Salmon Arm (CA), British Columbia",19923,20357,20643,20938,0,0,0,0,0,0,,,1,,,0
+,"Cobourg (CA), Ontario",20832,21159,20959,20854,0,0,0,0,0,0,,,1,,,0
+,"Sainte-Agathe-des-Monts (CA), Quebec",19454,20013,20255,20694,0,0,0,0,0,0,,,1,,,0
+,"Yorkton (CA), Saskatchewan",20367,20385,20342,20631,0,0,0,0,0,0,,,1,,,0
+,"Nelson (CA), British Columbia",19646,19877,20001,19973,0,0,0,0,0,0,,,1,,,0
+,"North Battleford (CA), Saskatchewan",19889,19886,19844,19953,0,0,0,0,0,0,,,1,,,0
+,"Summerside (CA), Prince Edward Island",18568,19051,19300,19795,0,0,0,0,0,0,,,1,,,0
+,"Tillsonburg (CA), Ontario",18109,18700,19082,19767,0,0,0,0,0,0,,,1,,,0
+,"Camrose (CA), Alberta",19286,19344,19384,19687,0,0,0,0,0,0,,,1,,,0
+,"Swift Current (CA), Saskatchewan",19259,19279,19383,19686,0,0,0,0,0,0,,,1,,,0
+,"Dawson Creek (CA), British Columbia",18893,18724,19077,19550,0,0,0,0,0,0,,,1,,,0
+,"Petawawa (CA), Ontario",18703,19131,19315,19464,0,0,0,0,0,0,,,1,,,0
+,"Steinbach (CA), Manitoba",17852,18282,18581,19258,0,0,0,0,0,0,,,1,,,0
+,"Amos (CA), Quebec",18886,18958,18945,18958,0,0,0,0,0,0,,,1,,,0
+,"Matane (CA), Quebec",18528,18494,18769,18886,0,0,0,0,0,0,,,1,,,0
+,"Powell River (CA), British Columbia",18107,18381,18639,18815,0,0,0,0,0,0,,,1,,,0
+,"Port Hope (CA), Ontario",17657,17915,18362,18707,0,0,0,0,0,0,,,1,,,0
+,"Sylvan Lake (CA), Alberta",16682,17144,17450,17970,0,0,0,0,0,0,,,1,,,0
+,"Canmore (CA), Alberta",16096,16617,17094,17813,0,0,0,0,0,0,,,1,,,0
+,"Ladysmith (CA), British Columbia",15800,16009,16338,16539,0,0,0,0,0,0,,,1,,,0
+,"Cowansville (CA), Quebec",14770,15377,15866,16180,0,0,0,0,0,0,,,1,,,0
+,"Brooks (CA), Alberta",15403,15420,15428,15762,0,0,0,0,0,0,,,1,,,0
+,"Kenora (CA), Ontario",15498,15599,15554,15612,0,0,0,0,0,0,,,1,,,0
+,"Dolbeau-Mistassini (CA), Quebec",15345,15295,15284,15320,0,0,0,0,0,0,,,1,,,0
+,"Strathmore (CA), Alberta",14618,14781,14839,15202,0,0,0,0,0,0,,,1,,,0
+,"High River (CA), Alberta",14524,14732,14810,15184,0,0,0,0,0,0,,,1,,,0
+,"Campbellton (CA), New Brunswick/Quebec",15047,15206,15088,15165,0,0,0,0,0,0,,,1,,,0
+,"Trail (CA), British Columbia",14860,15114,15152,15143,0,0,0,0,0,0,,,1,,,0
+,"Lachute (CA), Quebec",13664,14226,14830,15021,0,0,0,0,0,0,,,1,,,0
+,"Ingersoll (CA), Ontario",13974,14335,14444,14642,0,0,0,0,0,0,,,1,,,0
+,"Grand Falls-Windsor (CA), Newfoundland and Labrador",14225,14294,14369,14398,0,0,0,0,0,0,,,1,,,0
+,"Prince Rupert (CA), British Columbia",14039,14181,14102,14155,0,0,0,0,0,0,,,1,,,0
+,"Gander (CA), Newfoundland and Labrador",13677,13817,13846,14037,0,0,0,0,0,0,,,1,,,0
+,"Portage la Prairie (CA), Manitoba",13623,13813,13778,13980,0,0,0,0,0,0,,,1,,,0
+,"Sainte-Marie (CA), Quebec",12938,13199,13436,13745,0,0,0,0,0,0,,,1,,,0
+,"Lacombe (CA), Alberta",13754,13789,13593,13600,0,0,0,0,0,0,,,1,,,0
+,"Thompson (CA), Manitoba",13408,13459,13459,13438,0,0,0,0,0,0,,,1,,,0
+,"Estevan (CA), Saskatchewan",13297,13163,12998,12982,0,0,0,0,0,0,,,1,,,0
+,"Wetaskiwin (CA), Alberta",12942,12963,12804,12797,0,0,0,0,0,0,,,1,,,0
+,"Weyburn (CA), Saskatchewan",12541,12597,12605,12764,0,0,0,0,0,0,,,1,,,0
+,"Hawkesbury (CA), Ontario/Quebec",12200,12333,12440,12668,0,0,0,0,0,0,,,1,,,0
+,"Elliot Lake (CA), Ontario",11518,11711,11920,12115,0,0,0,0,0,0,,,1,,,0
