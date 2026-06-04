@@ -8,9 +8,9 @@
 ********************************************************************** 
 
 MiLB ballpark contruction costs discussed in Chapter 19 are presented in more detail in:
-Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," Economic Inquiry, In Press
-(LINK). 
-Further details on the emprical analysis and tables are available in the replication package for the article located here: LINK .
+Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," Economic Inquiry, 2026 (https://onlinelibrary.wiley.com/doi/10.1111/ecin.70055). 
+
+Further details on the emprical analysis and tables are available in the replication package for the article located here: https://www.icpsr.umich.edu/sites/weai/view/studies/241242/versions/V3.1 .
 
 Data Input (data\): 
 milb_ballparkcosts.dta
@@ -51,10 +51,7 @@ format medpc2024* low25pc2024* hi75pc2024*  medtc2024* low25tc* hi75tc2024* %9.0
 collapse (median) medpc2024_all low25pc2024_all hi75pc2024_all  medtc2024_all low25tc2024_all hi75tc2024_all, by(decade)
 
 save "$outdat\milb_median.dta", replace
-/* Data output into the data\ folder
-save "$data\milb_median.dta", replace
-export delimited "$data\milb_median.csv", replace
-*/
+
 
 g medpc2024_allst= string(medpc2024_all,"%9.0fc")
 g medpc2024_alldol = "$" +medpc2024_allst

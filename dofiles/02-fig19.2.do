@@ -9,8 +9,9 @@
 
 MiLB ballpark contruction costs discussed in Chapter 19 are presented in more detail in:
 Bradbury, John Charles (2026) "The public cost of Minor League Baseball stadium subsidies," Economic Inquiry, In Press
-(LINK). 
-Further details on the emprical analysis and tables are available in the replication package for the article located here: LINK .
+(https://onlinelibrary.wiley.com/doi/10.1111/ecin.70055). 
+
+Further details on the emprical analysis and tables are available in the replication package for the article located here: https://www.icpsr.umich.edu/sites/weai/view/studies/241242/versions/V3.1 .
 
 Data Input (data\): 
 milb_ballparkcosts.dta
