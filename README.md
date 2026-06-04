@@ -144,7 +144,7 @@ All data files provided in .csv format, which can be read by other data analysis
 - US Economic Experts Panel (2017) “[Sports Stadiums](https://www.kentclarkcenter.org/us-economic-experts-panel/)".
 
 ## Chapter 5
-
+ 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
