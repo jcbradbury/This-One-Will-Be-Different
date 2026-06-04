@@ -12,6 +12,8 @@ Bradbury, John Charles (2022a) "Does hosting a professional sports team benefit 
 
 The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
 
+Data repository associated with original study: https://github.com/jcbradbury/CobbProperty
+
 Data Input (data\): 
 propertyvpa2014_data.dta
 
@@ -69,10 +71,6 @@ format pctdifgrossvpa2013 %9.2f
 
 save "$outdat\propertyvpa2014_meanch.dta", replace
 
-/* Data output into the data\ folder
-save "$data\.dta", replace
-export delimited "$data\.csv", replace
-*/
 
 /* Fig 15.1 */
 mylabels -50(25)225, suffix(%) myscale(@)  local(pct) format(%2.0fc)

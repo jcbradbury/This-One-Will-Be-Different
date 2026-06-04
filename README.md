@@ -391,7 +391,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|15.1|02-fig15.1.do|77|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
+|15.1|02-fig15.1.do|75|propertyvpa2014_data.dta|propertyvpa2014_meanch.dta|
 |15.2|02-fig15.2.do|167|propertyvpa2014_data.dta|propvpa2014pct_synth.dta; propvpa2014pct.dta|
 
 ### Relevant Links
