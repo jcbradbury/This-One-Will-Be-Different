@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.10
 Tables (Stata viewer): 
-Data (outdat\):
+Data (outdat\): mls_lifespans.dta
 Other: 
 */
 
