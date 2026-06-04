@@ -152,7 +152,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.2|02-fig5.2.do|189|venuesdb_base.dta|venue_forecast.dta|
 |5.3|02-fig5.3_5.4_tab5.1.do|226|venuesdb_base.dta|ven_median_collapse.dta|
 |5.4|02-fig5.3_5.4_tab5.1.do|259|venuesdb_base.dta|ven_median_collapse.dta|
-|5.5|02-fig5.5.do|108|venue_forecast.dta; venuesdb_base.dta|cumulative_cost.dta|
+|5.5|02-fig5.5.do|104|venue_forecast.dta; venuesdb_base.dta|cumulative_cost.dta|
 |5.6|02-fig5.6.do|67|venuesdb_base.dta|ven_lifespans.dta|
 |5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta|none|
 |5.8|02-fig5.8.do|121|venuesdb_all.dta|venue_count_mls.dta|

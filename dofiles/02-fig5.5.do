@@ -92,11 +92,6 @@ format forecast_cumpc2024bil %9.0fc
 
 save "$outdat\cumulative_cost.dta", replace
 
-/* Data output into the data\ folder
-save "$data\cumulative_cost.dta", replace
-export delimited "$data\cumulative_cost.csv", replace
-*/
-
 /*Generate strings for labels */
 g cumpc2024bst= string(cumpc2024bil,"%9.0fc")
 g cumpc2024bdol = "$"+cumpc2024bst
