@@ -68,10 +68,6 @@ g x35 = 35
 
 save "$outdat\lifespan_collapse.dta", replace
 
-/* Data output into the data\ folder
-save "$data\lifespan_collapse.dta", replace
-export delimited "$data\lifespan_collapse.csv", replace
-*/
 
 /*Figure 5.1 */
 twoway rcap minlifesp maxlifesp decade if decade<2000, lc(black) lw(thin) ///

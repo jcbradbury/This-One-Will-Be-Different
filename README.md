@@ -148,7 +148,7 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|5.1|02-fig5.1.do|76|venuesdb_base.dta|lifespan_collapse.dta|
+|5.1|02-fig5.1.do|72|venuesdb_base.dta|lifespan_collapse.dta|
 |5.2|02-fig5.2.do|189|venuesdb_base.dta|venue_forecast.dta|
 |5.3|02-fig5.3_5.4_tab5.1.do|226|venuesdb_base.dta|ven_median_collapse.dta|
 |5.4|02-fig5.3_5.4_tab5.1.do|259|venuesdb_base.dta|ven_median_collapse.dta|
