@@ -22,7 +22,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |compare_mlb.dta|MLB ballparks comparable to Truist Park|02-fig10.1.do|02-fig10.1.do|venuesdb_base.dta|
 |countyST.dta|County sales tax data|Compiled by author|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024b) [repository](https://github.com/jcbradbury/CobbSalesTax)|
 |countyST_q_noSTch.dta|County sales tax data processed for SCM analysis in Chap. 13|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024b) [repository](https://github.com/jcbradbury/CobbSalesTax)|
-|countyST_q_noSTch_means.dta|County sales tax collection means|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024) [repository](https://github.com/jcbradbury/CobbSalesTax)|
+|countyST_q_noSTch_means.dta|County sales tax collection means|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024b) [repository](https://github.com/jcbradbury/CobbSalesTax)|
 |cpi2024.xlsx|Consumer Price Index (CPI) used for real dollar conversions|Downloaded and processed by author|Many do-files|BLS (2025)|
 |cumulative_cost.dta|Cumulative major-league venue construction costs over time|02-fig5.5.do|02-fig5.5.do|venue_forecast.dta; venuesdb_base.dta|
 |forecast_cost.dta|Estimate of future venue construction costs|02-fig5.2.do|02-fig5.2.do; 02-fig5.5.do|venuesdb_base.dta|
@@ -56,7 +56,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |venue_count_mls.dta|MLS stadium openings by year (1980-2028)|02-fig5.8.do|02-fig5.8.do|venuesdb_all.dta|
 |venue_demo.dta|Demographics of venue metropolitan areas|Compiled by author|02-tab7.1.do|BEA (2024)|
 |venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do|02-fig5.2.do; 02-fig5.5.do|venuesdb_base.dta|
-|venuecosts2020.dta|Venue contruction costs for selected venues (1990-2019)|See Bradbury (2024a)|02-fig6.3_tab6.2|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
+|venuecosts2020.dta|Venue construction costs for selected venues (1990-2019)|See Bradbury (2024a)|02-fig6.3_tab6.2|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
 |venuesdb_all.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|01-venuesdb_all_ build.do|Many do-files|venuesdb_base.dta; mls_stadiums_base.dta|
 |venuesdb_base.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do|Many do-files|venuesdb_raw.dta; BLS (2025)|
 |venuesdb_raw.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author|01-venuesdb_build.do|See Appendix A, Bradbury (2026, [book](https://academic.oup.com/book/62944/chapter-abstract/564467903))|
