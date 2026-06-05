@@ -40,9 +40,7 @@ do "00-setup.do"
 */
 
 use "$data\propheter_lease_data.dta" , clear
-/* Data output into the data\ folder
-export delimited "$data\.csv", replace
-*/
+
 
 /*Fig 6.4*/
 histogram minimumleaselengthyears if facilitytype!="soccer" ,  width(1) freq discrete ///
