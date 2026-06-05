@@ -60,8 +60,6 @@ by countyid: g realgrossvpa_pctch = (realgrossvpa-L1.realgrossvpa)/L1.realgrossv
 drop if year<2000
 
 save "$outdat\CPdata_pct.dta", replace
-export delimited "$data\CPdata_pct.csv", replace
-
 
 /*SCM estimate of stadium treatment effect*/
 synth realgrossvpa_pctch logrealypc sq_miles commercialpct popdens  millage hpiwith2000base distanceturner  ///
@@ -84,13 +82,13 @@ g treat100 = treat*100
 g counterfact100 = counterfact2014_alt*100
 sort year 
 
-save "$outdat\propvpa_pct2014.dta", replace
+save "$outdat\propvpa2014_pct100.dta", replace
 
 /*
 Note: The `synth' opitmization routine with the recommended allopt and nested options for obtaining variable weights can generate minor differences in estimated treatment effects accross computing environments. Thus your machine may produce propvpa2014_pct.dta in `outdat\' that differs slightly from mine. 
 */
 
-use "$data\propvpa2014_pct.dta", clear
+use "$data\propvpa2014_pct100.dta", clear
 
 /* Fig 15.2 */
 mylabels -10(5)15, suffix(%) myscale(@) local(pctsyn) format(%2.0fc) 
