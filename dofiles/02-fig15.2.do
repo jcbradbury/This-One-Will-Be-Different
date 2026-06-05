@@ -37,7 +37,7 @@ Intermediate Output (working directory): propvpa2014pct_temp.dta
 Final Output:
 Figures(figs\): 15.2
 Tables (Stata viewer): 
-Data (outdat\): propvpa2014pct_synth.dta; propvpa2014pct.dta
+Data (outdat\): CPdata_pct.dta; propvpa2014_pct100.dta
 Other: 
 */
 
