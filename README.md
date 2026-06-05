@@ -179,7 +179,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|116|
 |Venues hosting teams 30+ years and last renovation 15+ years by the end of 2020s|02-fig5.6.do|127|
 |Median and cumulative MLS stadium costs|02-fig5.9.do|39|
-|Public cost of venue subsidies to US households |02-fig5.10.do|96|
+|Public cost of venue subsidies to US households |02-tab5.5.do|92|
 
 
 ### Relevant Links
@@ -316,7 +316,7 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 |12.1|02-fig12.1_12.3.do|108|CIDgrossdigest.dta|CID_vpa.dta|
 |12.2|Illustration||||
 |12.3|02-fig12.1_12.3.do|129|CIDgrossdigest.dta|CID_vpa.dta|
-|12.4|02-fig12.4.do|68|CIDproperty.dta|CIDvpa2014_treat.dta|
+|12.4|02-fig12.4.do|67|CIDproperty.dta|CIDvpa2014_treat.dta|
 |12.5|Illustration||||
 
 ### Relevant Links
