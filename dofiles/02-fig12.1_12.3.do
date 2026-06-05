@@ -7,6 +7,14 @@
 ** Year: 2026
 ********************************************************************** 
 
+Much of the analysis discussed in Chapter 12 draws from the following study:
+Bradbury, John Charles (2022b) "The impact of sports stadiums on localized commercial activity: Evidence from a business improvement district," Journal of Regional Science, 62(1):194-217 (https://doi.org/10.1111/jors.12560).
+
+The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
+
+Data repository associated with original study: https://github.com/jcbradbury/CIDproperty
+
+
 Data Input (data\): 
 CIDgrossdigest.dta
 
@@ -15,6 +23,8 @@ Website: https://apps.dor.ga.gov/
 1. Click on  Digest Summaries under "Property Taxes"
 2. From drop-down menu, select Year:[year] and County: [County]
 3. Once County selected, select District: [CID] from drop-down menu
+
+See Source Data Files description in original paper repository for information on how to the data were compiled: https://github.com/jcbradbury/CobbProperty/tree/main/sourcefiles
 
 Intermediate Output (working directory):
 

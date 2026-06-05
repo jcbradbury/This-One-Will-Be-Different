@@ -12,8 +12,12 @@ Bradbury, John Charles (2022b) "The impact of sports stadiums on localized comme
 
 The paper provides a detailed explanation of the synthetic control method (SCM) application and robustness checks.
 
+Data repository associated with original study: https://github.com/jcbradbury/CIDproperty
+
 Data Input (data\): 
 CIDproperty.dta
+
+See Source Data Files description in original paper repository for information on how to the data were compiled: https://github.com/jcbradbury/CobbProperty/tree/main/sourcefiles
 
 Intermediate Output (working directory): vpa2014_temp.dta
 
