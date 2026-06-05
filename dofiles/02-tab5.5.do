@@ -88,10 +88,6 @@ sumpubpct100 |          6          42           0         42         42
 
 save "$outdat\ven_cost_current.dta", replace
 
-/* Data output into the data\ folder
-save "$data\ven_cost_current.dta", replace
-export delimited "$data\ven_cost_current.csv", replace
-*/
 
 /*CITED in text: Public cost of venue subsidies to US households 
 
