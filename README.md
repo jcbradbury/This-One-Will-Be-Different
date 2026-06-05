@@ -190,7 +190,7 @@ All data files provided in .csv format, which can be read by other data analysis
 
 ## Chapter 6
 
-The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is avaiable [here](https://doi.org/10.3886/E200122V2).
+The technical details of the analysis presented Chapter 6 are described thoroughly in [Bradbury (2024a)](https://doi.org/10.1111/ecin.13231). The complete replication package associated with the academic article is available [here](https://doi.org/10.3886/E200122V2).
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
@@ -217,7 +217,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 - Baker, Andrew, Brantly Callaway, Scott Cunningham, Andrew Goodman-Bacon, and Pedro HC Sant'Anna (2026) "[Difference-in-Differences Designs: A Practitioner’s Guide](https://www.aeaweb.org/articles?id=10.1257/jel.20251650)" *Journal of Economic Literature*. In Press.
 
-- Bradbury, J.C. (2024) “[Revisiting the novelty effect from new stadiums: An event study approach](https://doi.org/10.1111/ecin.13231),”*Economic Inquiry*, 62 (4), 1722–1747.
+- Bradbury, J.C. (2024a) “[Revisiting the novelty effect from new stadiums: An event study approach](https://doi.org/10.1111/ecin.13231),”*Economic Inquiry*, 62 (4), 1722–1747.
 
 - Callaway, Brantly and Pedro H.C. Sant’Anna (2021) “[Difference-in-differences with multiple time periods](https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948),” *Journal of Econometrics*, 225 (2), 200–230.
 
@@ -342,7 +342,7 @@ You can access the data repository and replication package for the paper [here](
 
 
 ## Chapter 13
-The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837).   
+The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024b)](https://doi.org/10.1080/07352166.2022.2044837).   
 You can access the data repository and replication package for the paper [here](https://github.com/jcbradbury/CobbSalesTax). 
 
 
@@ -369,9 +369,9 @@ You can access the data repository and replication package for the paper [here](
 
 - Abadie, Alberto (2021) “[Using synthetic controls: feasibility, data requirements, and methodological aspects](https://www.aeaweb.org/articles?id=10.1257/jel.20191450),” *Journal of Economic Literature*, 59 (2), 391–425.
 
-- Bradbury, J.C.  (2024) “[Sports stadiums and local economic activity: Evidence from sales tax collections](https://doi.org/10.1080/07352166.2022.2044837),” *Journal of Urban Affairs*, 46 (1), 139–159.
+- Bradbury, J.C.  (2024b) “[Sports stadiums and local economic activity: Evidence from sales tax collections](https://doi.org/10.1080/07352166.2022.2044837),” *Journal of Urban Affairs*, 46 (1), 139–159.
 
-- Bradbury, J.C. (2022) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County]( https://www.kennesaw.edu/coles/centers/markets-economic-opportunity/docs/bradbury-cobb-report-march-2022.pdf),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
+- Bradbury, J.C. (2022d) “[A home run for Cobb? The economic impact of Truist Park and The Battery Atlanta on Cobb County](https://dx.doi.org/10.2139/ssrn.6159506),” March, Bagwell Center for the Study of Markets and Economic Opportunity Policy Report.
 
 - Cunningham, Scott (2021) [*Causal Inference: The Mixtape*](https://mixtape.scunning.com/). Yale University Press.
 
