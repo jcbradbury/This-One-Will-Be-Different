@@ -308,7 +308,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ## Chapter 12
 
-The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560).
+The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560).  
 You can access the data repository and replication package for the paper [here](https://github.com/jcbradbury/CIDproperty). 
 
 ### Figures
@@ -343,6 +343,9 @@ You can access the data repository and replication package for the paper [here](
 
 ## Chapter 13
 The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837). 
+
+You can access the data repository and replication package for the paper [here]https://github.com/jcbradbury/CobbSalesTax). 
+
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
