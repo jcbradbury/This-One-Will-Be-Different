@@ -7,21 +7,15 @@
 ** Year: 2026
 ********************************************************************** 
 
-Data Input (data\): 
-
-Intermediate Output (working directory):
-
-Final Output:
-Figures(figs\):
-Tables (Stata viewer): 
-Data (outdat\):
-Other: 
-*/
+ ↓↓↓↓ IMPORTANT! ↓↓↓↓ 
 
 *************************
 **** SETUP **************
 *************************
-/*Run code below first if have not set up home directory
+
+You must set you home directory in 00-setup.do  before running this file.
+
+Follow the directions to set the home directory.
 
 global path ="[PATH]" // <== Replace [PATH] with home directory
 cd "$path" // Set your working directory
