@@ -153,7 +153,7 @@ All data files provided in .csv format, which can be read by other data analysis
 |5.3|02-fig5.3_5.4_tab5.1.do|226|venuesdb_base.dta|ven_median_collapse.dta|
 |5.4|02-fig5.3_5.4_tab5.1.do|259|venuesdb_base.dta|ven_median_collapse.dta|
 |5.5|02-fig5.5.do|104|venue_forecast.dta; venuesdb_base.dta|cumulative_cost.dta|
-|5.6|02-fig5.6.do|67|venuesdb_base.dta|ven_lifespans.dta|
+|5.6|02-fig5.6.do|63|venuesdb_base.dta|ven_lifespans.dta|
 |5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta|none|
 |5.8|02-fig5.8.do|121|venuesdb_all.dta|venue_count_mls.dta|
 |5.9|02-fig5.9.do|79|venuesdb_all.dta|mls_median_collapse.dta|
@@ -176,8 +176,8 @@ All data files provided in .csv format, which can be read by other data analysis
 |Cumulative public cost at key dates|02-tab5.2_5.3.do|138|
 |Summary stats for the renovated venues in Table 5.2|02-tab5.2_5.3.do|128|
 |Summary stats for future renovated venues in Table 5.3|02-tab5.2_5.3.do|139|
-|Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|116|
-|Venues hosting teams 30+ years and last renovation 15+ years by the end of 2020s|02-fig5.6.do|127|
+|Venues hosting teams 30+ years by the end of 2020s|02-fig5.6.do|112|
+|Venues hosting teams 30+ years and last renovation 15+ years by the end of 2020s|02-fig5.6.do|123|
 |Median and cumulative MLS stadium costs|02-fig5.9.do|39|
 |Public cost of venue subsidies to US households |02-tab5.5.do|92|
 
