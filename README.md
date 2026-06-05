@@ -317,7 +317,7 @@ The technical details of the analysis presented Chapter 12 are described thoroug
 |12.2|NA||||
 |12.3|02-fig12.1_12.3.do|129|CIDgrossdigest.dta|CID_vpa.dta|
 |12.4|02-fig12.4.do|68|CIDproperty.dta|CIDvpa2014_treat.dta|
-|12.5|I'm an economist, not an artist.||||
+|12.5|Illustration||||
 |13.1|Map||||
 
 ### Relevant Links
