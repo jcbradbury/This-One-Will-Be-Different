@@ -342,9 +342,8 @@ You can access the data repository and replication package for the paper [here](
 
 
 ## Chapter 13
-The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837). 
-
-You can access the data repository and replication package for the paper [here]https://github.com/jcbradbury/CobbSalesTax). 
+The technical details of the analysis presented Chapter 13 are described thoroughly in [Bradbury (2024)](https://doi.org/10.1080/07352166.2022.2044837).   
+You can access the data repository and replication package for the paper [here](https://github.com/jcbradbury/CobbSalesTax). 
 
 
 ### Figures
