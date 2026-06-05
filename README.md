@@ -390,7 +390,8 @@ Much of the analysis described in this chapter is based on [Bradbury and Stephen
 
 
 ## Chapter 15
-The technical details of the analysis presented Chapter 15 are described thoroughly in [Bradbury (2022a)](https://link.springer.com/article/10.1007/s10101-022-00268-z). 
+The technical details of the analysis presented Chapter 15 are described thoroughly in [Bradbury (2022a)](https://link.springer.com/article/10.1007/s10101-022-00268-z).  
+You can access the data repository and replication package for the paper [here](https://github.com/jcbradbury/CobbProperty).
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
