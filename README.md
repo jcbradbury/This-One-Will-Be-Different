@@ -391,7 +391,7 @@ The technical details of the analysis presented Chapter 15 are described thoroug
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|15.1|02-fig15.1.do|75|CPdata.dta;  CPdata_2020_2023.dta|propertyvpa2014_meanch.dta|
+|15.1|02-fig15.1.do|75|CPdata.dta;  CPdata_2020_2023.dta|propvpa2014_meanch.dta|
 |15.2|02-fig15.2.do|93|CPdata.dta|CPdata_pct.dta; propvpa2014_pct100.dta|
 
 ### Relevant Links

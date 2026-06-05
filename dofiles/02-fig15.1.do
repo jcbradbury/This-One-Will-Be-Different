@@ -69,7 +69,8 @@ g pctdifgrossvpa2013 = ((grossvpa-grossvpa2013)/grossvpa2013)*100
 label variable pctdifgrossvpa2013 "% Difference from 2013"
 format pctdifgrossvpa2013 %9.2f
 
-save "$outdat\propertyvpa2014_meanch.dta", replace
+save "$outdat\propvpa2014_meanch.dta", replace
+
 
 /* Fig 15.1 */
 mylabels -50(25)225, suffix(%) myscale(@)  local(pct) format(%2.0fc)
