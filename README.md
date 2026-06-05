@@ -578,7 +578,9 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Long, Judith Grant (2013) [Public-Private Partnerships for Major League Sports Facilities](https://doi.org/10.4324/9780203077276), Routledge.
 - Benson, Michael (1989) [Ballparks of North America](https://www.google.com/books/edition/Ballparks_of_North_America/aCZYPgAACAAJ?hl=en), McFarland.
-- Gershman, Michael [Diamonds: The Evolution of the Ballpark from Elysian Fields to Camden Yards](https://www.google.com/books/edition/Diamonds/FMPx7NpKomcC),  Houghton Mifflin.
+- Gershman, Michael (1993) [Diamonds: The Evolution of the Ballpark from Elysian Fields to Camden Yards](https://www.google.com/books/edition/Diamonds/FMPx7NpKomcC),  Houghton Mifflin.
+- Lowry, Philip J. (1986) [Green Cathedrals](https://www.google.com/books/edition/Green_Cathedrals/EItLAAAAYAAJ?hl=en), AG Press.
+
 <!-- 
 # References
 
