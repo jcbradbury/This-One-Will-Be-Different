@@ -85,10 +85,6 @@ tsset decade
 /*Outputs file of aggregated venue construction costs by decade */
 save "$outdat\ven_median_collapse.dta", replace
 
-/* Data output into the data\ folder
-save "$data\ven_median_collapse.dta", replace
-export delimited "$data\ven_median_collapse.csv", replace
-*/
 
 tabstat publiccost2024, by(decade) stats(median)
 /*
