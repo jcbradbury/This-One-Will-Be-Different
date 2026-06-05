@@ -17,7 +17,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\):
 Tables (Stata viewer): 7.1
-Data (outdat\):
+Data (outdat\): opulence.dta
 Other: 
 CITED in text: Truist Park opulence example
 */
