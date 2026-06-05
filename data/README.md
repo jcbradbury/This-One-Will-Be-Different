@@ -48,7 +48,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |propvpa2014_pct100.dta|Cobb property value post-SCM treatment effects|02-fig15.2.do|02-fig15.2.do|See Bradbury (2022a) [repository](https://github.com/jcbradbury/CobbProperty)|
 |propheter_lease_data.dta|Venues lease data |Compiled by Geoffrey Propheter (Attribution required as condition of use)|02-fig6.4.do|[Propheter, Geoffrey (2022)](https://doi.org/10.1007/978-3-031-18790-2) |
 |Teams.csv|Annual data for MLB teams|Downloaded by author||Lahman (2024)|
-|ven_cost_current.dta|||||
+|ven_cost_current.dta|Cumulative construction costs of current major-league venues|02-tab5.5.do|02-tab5.5.do|venuesdb_all.dta|
 |ven_lifespans.dta|||||
 |ven_median_collapse.dta|||||
 |venue_acres.dta|Acreage of venues|Compiled by author||Propheter (2017); Collected by author|
