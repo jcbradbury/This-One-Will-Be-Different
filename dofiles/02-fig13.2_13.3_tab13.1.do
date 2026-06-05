@@ -72,7 +72,7 @@ by qdate: egen meannonCobbsumcollections3_pc = mean( sumcollections3_pc) if coun
 by qdate: egen mednonCobbsumcollections3_pc = median( sumcollections3_pc) if county!="Cobb"
 
 save "$outdat\countyST_q_noSTch_means.dta", replace
-export delimited "$data\countyST_q_noSTch_means.csv", replace
+
 
 /*Fig 13.2*/
 mylabels 80(5)150, prefix($) myscale(@)  local(dollab) format(%2.0fc)
