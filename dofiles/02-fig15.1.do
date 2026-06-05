@@ -15,16 +15,11 @@ The paper provides a detailed explanation of the synthetic control method (SCM) 
 Data repository associated with original study: https://github.com/jcbradbury/CobbProperty
 
 Data Input (data\): 
-propertyvpa2014_data.dta
+CPdata.dta
+CPdata_2020_2023.dta
 
 Sources:
-- County property digests: Georgia Department of Revenue (link unstable)
-Collected manually for all counties and years.
-1. Go to website: https://sso.dor.ga.gov/
-2. Click on Digest Summaries
-3. Select Year, County
-	- See SUMMARY table at bottom right of screen
-	- Gross Digest, Residential, Commercial under 40% Value column
+- County property digests: Georgia Department of Revenue: https://sso.dor.ga.gov/ (link unstable)
 
 - County millage rates: Georgia Department of Revenue
 Annual data input manually from PDF files obtained from the following sites.  
@@ -35,6 +30,8 @@ These data now appear to be available from University of Georgia: https://georgi
 - County income and population from US BEA (CAINC1: Annual Personal Income by County), 2019 data release: 11/17/2020
 Direct download link: https://apps.bea.gov/regional/downloadzip.htm
 Main website: https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
+
+See Source Data Files description in original paper repository for information on how to the data were compiled: https://github.com/jcbradbury/CobbProperty/tree/main/sourcefiles
 
 Intermediate Output (working directory):
 
