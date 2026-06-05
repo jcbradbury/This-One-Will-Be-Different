@@ -11,8 +11,9 @@
 **	IMPORTANT	**
 Geoffrey Propheter kindly provided data from his book for me to conduct for the analyis below.
 As a condition of use of these data, you must cite his book as the source.
-Propheter, Geoffrey (2022) Major League Sports and the Property Tax. Series: Sports Economics, Management and Policy. Springer Nature.
-(https://link.springer.com/book/10.1007/978-3-031-18790-2 )
+
+Propheter, Geoffrey (2022) Major League Sports and the Property Tax. Series: Sports Economics, Management and Policy. Springer Nature. (https://doi.org/10.1007/978-3-031-18790-2)
+
 ************************
 
 Data Input (data\): 
@@ -40,7 +41,6 @@ do "00-setup.do"
 */
 
 use "$data\propheter_lease_data.dta" , clear
-
 
 /*Fig 6.4*/
 histogram minimumleaselengthyears if facilitytype!="soccer" ,  width(1) freq discrete ///
