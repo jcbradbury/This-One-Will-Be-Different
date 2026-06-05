@@ -35,19 +35,13 @@ do "00-setup.do"
 */
 
 use "$data\mls_stadiums_raw.dta", clear
-/* Data output into the data\ folder
-export delimited "$data\mls_stadiums_raw.csv", replace
-*/
+
 do "$dofiles\01-cpi2024_convert.do"
 
 so venuename_tex year
 
 save "$outdat\mls_stadiums_base.dta", replace
 
-/* Data output into the data\ folder
-save "$data\mls_stadiums_base.dta", replace
-export delimited "$data\mls_stadiums_base.csv", replace
-*/
 
 use "$data\venuesdb_base.dta", clear
 
@@ -92,8 +86,3 @@ replace renovation_amount = 516 if team_mls=="Vancouver Whitecaps" /* All public
 
 /*save the curated file that adds MLS venues to venues database */
 save "$outdat\venuesdb_all.dta", replace
-
-/* Data output into the data\ folder
-save "$data\venuesdb_all.dta", replace
-export delimited "$data\venuesdb_all.csv", replace
-*/
