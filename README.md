@@ -211,7 +211,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 ### Other Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
-|Distribution of lease term length|02-fig6.4.do|58|
+|Distribution of lease term length|02-fig6.4.do|56|
 
 ### Relevant Links
 
