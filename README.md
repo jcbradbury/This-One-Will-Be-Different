@@ -107,12 +107,12 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Figures
 | Figure | Do-file | Line # | Data Input| Data Output|
 |----|----|----|----|----|
-|3.1|02-fig3.1.do|64|venuesdb_base.dta|venue_count.dta|
+|3.1|02-fig3.1.do|60|venuesdb_base.dta|venue_count.dta|
 
 ### Other Information
 | Information cited in text| Do-file | Line #|
 |----|----|----|
-|Summary of public/private arenas opened since 2000|02-fig3.1.do|37|
+|Summary of public/private arenas opened since 2000|02-fig3.1.do|38|
 |Public funding of venues that opened in 1990s and 2000s|02-fig3.1.do|43|
 
 

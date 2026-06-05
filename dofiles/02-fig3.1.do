@@ -56,10 +56,6 @@ tssmooth ma ma11vens = vens, window(5 1 5)
 
 save "$outdat\venue_count.dta", replace
 
-/* Data output into the data\ folder
-save "$data\venue_count.dta", replace
-export delimited "$data\venue_count.csv", replace
-*/
 
 /*Figure 3.1*/
 twoway bar vens year if year<2020,  bc(gs5)  ///
