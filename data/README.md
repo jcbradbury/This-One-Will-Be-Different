@@ -55,7 +55,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |venue_count.dta|New major-league venue openings by year (1909-2020)|02-fig3.1.do|02-fig3.1.do|venuesdb_base.dta|
 |venue_count_mls.dta|MLS stadium openings by year (1980-2028)|02-fig5.8.do|02-fig5.8.do|venuesdb_all.dta|
 |venue_demo.dta|Demographics of venue metropolitan areas|Compiled by author|02-tab7.1.do|BEA (2024)|
-|venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do||venuesdb_base.dta|
+|venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do|02-fig5.2.do; 02-fig5.5.do|venuesdb_base.dta|
 |venuecosts2020.dta|||||
 |venuesdb_all.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|01-venuesdb_all_ build.do||venuesdb_base.dta; mls_stadiums_base.dta|
 |venuesdb_base.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do||venuesdb_raw.dta; BLS (2025)|

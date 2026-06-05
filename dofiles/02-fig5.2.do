@@ -181,10 +181,6 @@ replace ma11vensforecast_r_connect= ma11vens if year==2019
 
 save "$outdat\venue_forecast.dta", replace
 
-/* Data output into the data\ folder
-save "$data\venue_forecast.dta", replace
-export delimited "$data\venue_forecast.csv", replace
-*/
 
 /*Figure 5.2*/
 twoway bar vens year if year>1959,  bc(gs5)  ///
