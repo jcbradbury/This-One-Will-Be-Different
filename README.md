@@ -571,7 +571,7 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 ### Table
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|A.1|02-tabA.1.do|93|venuesdb_all.dta||
+|A.1|02-tabA.1.do|93|venuesdb_all.dta|Appendix table|
 
 <!-- 
 # References
