@@ -59,7 +59,9 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |venuecosts2020.dta|Venue contruction costs for selected venues (1990-2019)|See Bradbury (2024a)|02-fig6.3_tab6.2|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
 |venuesdb_all.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL with MLS)|01-venuesdb_all_ build.do|Many do-files|venuesdb_base.dta; mls_stadiums_base.dta|
 |venuesdb_base.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|01-venuesdb_build.do|Many do-files|venuesdb_raw.dta; BLS (2025)|
-|venuesdb_raw.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author||See Appendix A, Bradbury (2026)|
+|venuesdb_raw.dta|Historical database of venue construction costs (MLB, NFL, NBA, NHL)|Collected by author|01-venuesdb_build.do|See Appendix A, Bradbury (2026, [book](https://academic.oup.com/book/62944/chapter-abstract/564467903))|
+
+
 
 
 
