@@ -99,10 +99,6 @@ replace cumberland12_17=1 if cidid==1 &year==2017
 
 save "$outdat\CID_vpa.dta", replace
 
-/* Data output into the data\ folder
-save "$data\CID_vpa.dta", replace
-export delimited "$data\CID_vpa.csv", replace
-*/
 
 *Cumberland CID only, Fair market value
 /*Fig 12.1*/
