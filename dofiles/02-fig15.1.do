@@ -55,7 +55,7 @@ do "00-setup.do"
 
 use "$data\CPdata.dta", clear 
 drop if year<2003
-append using  "$data\CPdata_2020_2023.dta",
+append using  "$data\CPdata_2020_2023.dta", // adds recent data
 
 so countyid year
 
@@ -69,23 +69,7 @@ g pctdifgrossvpa2013 = ((grossvpa-grossvpa2013)/grossvpa2013)*100
 label variable pctdifgrossvpa2013 "% Difference from 2013"
 format pctdifgrossvpa2013 %9.2f
 
-/******* original
-use "$data\propertyvpa2014_data.dta", clear 
-drop if year<2003
-
-
-/*Identify each county's Gross Digest Value per Acre in 2013*/
-g grossvpa2013 = grossvpa if year==2013
-by county: egen meangrossvpa2013 = mean(grossvpa2013)
-replace grossvpa2013 = meangrossvpa2013 if grossvpa2013==.
-
-/*Record the change in property value in percentage terms*/
-g pctdifgrossvpa2013 = ((grossvpa-grossvpa2013)/grossvpa2013)*100
-label variable pctdifgrossvpa2013 "% Difference from 2013"
-format pctdifgrossvpa2013 %9.2f
-
 save "$outdat\propertyvpa2014_meanch.dta", replace
-***************/
 
 /* Fig 15.1 */
 mylabels -50(25)225, suffix(%) myscale(@)  local(pct) format(%2.0fc)
