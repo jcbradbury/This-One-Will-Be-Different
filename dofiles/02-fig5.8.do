@@ -15,7 +15,7 @@ Intermediate Output (working directory):
 Final Output:
 Figures(figs\): 5.8
 Tables (Stata viewer): 
-Data (outdat\):
+Data (outdat\): venue_count_mls.dta
 Other: 
 */
 
@@ -53,10 +53,6 @@ replace mlsonly= 0 if mlsonly==.
 
 save "$outdat\venue_count_mls.dta", replace
 
-/* Data output into the data\ folder
-save "$data\venue_count_mls.dta", replace
-export delimited "$data\venue_count_mls.csv", replace
-*/
 
 tabstat mls*, by(year) stats(sum)
 
