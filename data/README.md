@@ -43,7 +43,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |opulence.dta|Estimated opulence of venues|02-tab7.1.do|02-tab7.1.do|venuesdb_base.dta; venue_acres.dta; venue_demo.dta|
 |payroll2025.dta|Atlanta Braves annual payroll rank|02-fig6.5.do|02-fig6.5.do|Baseball-Reference|
 |population_msa.dta|Population of US/Canada metro areas|Downloaded and processed by author|02-tab18.1.do|US Census/Statistics Canada|
-|propertyvpa2014_data.dta|County gross property value digest data (1999-2023)|Compiled by author|02-fig15.1.do; 02-fig15.2.do|See Bradbury (2022) [repository](https://github.com/jcbradbury/CobbProperty)|
+|propertyvpa2014_meanch.dta|County gross property value digest data (2003-2023)|Compiled by author|02-fig15.1.do; 02-fig15.2.do|See Bradbury (2022a) [repository](https://github.com/jcbradbury/CobbProperty)|
 |propheter_lease_data.dta|||||
 |propvpa2014pct.dta|||||
 |Teams.csv|Annual data for MLB teams|Downloaded by author||Lahman (2024)|
