@@ -308,7 +308,8 @@ The technical details of the analysis presented Chapter 6 are described thorough
 
 ## Chapter 12
 
-The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560). 
+The technical details of the analysis presented Chapter 12 are described thoroughly in [Bradbury (2022b)](https://doi.org/10.1111/jors.12560).
+You can access the data repository and replication package for the paper [here](https://github.com/jcbradbury/CIDproperty). 
 
 ### Figures
 | Figure | Do-file/Information | Line #| Data Input | Data Output| 
