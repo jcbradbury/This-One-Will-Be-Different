@@ -38,9 +38,9 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |mls_stadiums_raw.dta|Historical database of stadium construction costs (MLS)|Compiled by author|01-venuesdb_all_build.do|See Appendix A, Bradbury (2026)|
 |msa_vens_pvt.dta|Data on privately financed stadiums |02-tab17.1.do|02-tab17.1.do|msarank2023.dta; venuesdb_all.dta|
 |msarank2023.dta|Major-league teams by metro area population rank|02-tab18.1.do|02-tab18.1.do|population_msa.dta|
-|nba_did.dta|NBA data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
-|nfl_did.dta|NHL data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
-|nhl_did.dta|NHL data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
+|nba_did.dta|NBA data used for DiD estimates in Chap. 6|See Bradbury (2024a)|02-fig6.2_tab6.1|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
+|nfl_did.dta|NHL data used for DiD estimates in Chap. 6|See Bradbury (2024a)|02-fig6.2_tab6.1|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
+|nhl_did.dta|NHL data used for DiD estimates in Chap. 6|See Bradbury (2024a)|02-fig6.2_tab6.1|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
 |opulence.dta|Estimated opulence of venues|02-tab7.1.do|02-tab7.1.do|venuesdb_base.dta; venue_acres.dta; venue_demo.dta|
 |payroll2025.dta|Atlanta Braves annual payroll rank|02-fig6.5.do|02-fig6.5.do|Baseball-Reference|
 |population_msa.dta|Population of US/Canada metro areas|Downloaded and processed by author|02-tab18.1.do|US Census/Statistics Canada|
