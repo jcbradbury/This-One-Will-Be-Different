@@ -198,7 +198,7 @@ The technical details of the analysis presented Chapter 6 are described thorough
 |6.1|02-fig6.1.do|65|Teams.csv|attend_atl.dta|
 |6.2|02-fig6.2_tab6.1|149|mlb_did.dta; nfl_did.dta; nba_did.dta; nhl_did.dta|none|
 |6.3|02-fig6.3_tab6.2|57|mlb_did.dta; nfl_did.dta; venuecosts2020.dta|none|
-|6.4|02-fig6.4.do|47|propheter_lease_data.dta|none|
+|6.4|02-fig6.4.do|45|propheter_lease_data.dta|none|
 |6.5|02-fig6.5.do|49|payroll2025.dta|none|
 |6.6|02-fig6.6.do|all|mlb_did.dta; nfl_did.dta; nba_did.dta; nhl_did.dta|none|
 
