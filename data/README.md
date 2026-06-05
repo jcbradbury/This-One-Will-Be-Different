@@ -28,7 +28,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |forecast_cost.dta|Estimate of future venue construction costs|02-fig5.2.do|02-fig5.2.do; 02-fig5.5.do|venuesdb_base.dta|
 |leagues_revenue.dta|Average annual team revenue for US major sports leagues|Compiled by author|02-fig5.7_tab5.4.do|Forbes (various webpages)|
 |lifespan_collapse.dta|Distribution of venue hosting lifespans by decade|02-fig5.1.do|02-fig5.1.do|venuesdb_base.dta|
-|milb_ballparkcosts.dta|MiLB (minor league) ballpark costs|Collected by author|02-fig19.2.do; 02-fig19.3do|Author|
+|milb_ballparkcosts.dta|MiLB (minor league) ballpark costs|Collected by author|02-fig19.2.do; 02-fig19.3do|See Bradbury (2026) [repository](https://doi.org/10.3886/E241242V3)|
 |milb_cumulative.dta|Cumulative MiLB ballpark construction costs over time|02-fig19.2.do; 02-fig19.3do|02-fig19.2.do; 02-fig19.3do|milb_ballparkcosts.dta|
 |milb_median.dta|Distribution of MiLB ballpark construction costs over time|02-fig19.2.do; 02-fig19.3do|02-fig19.2.do; 02-fig19.3do|milb_ballparkcosts.dta|
 |mlb_did.dta|MLB data used for DiD estimates in Chap. 6|See Bradbury (2024a)|02-fig6.2_tab6.1|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
