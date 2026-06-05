@@ -150,8 +150,8 @@ All data files provided in .csv format, which can be read by other data analysis
 |----|----|----|----|----|
 |5.1|02-fig5.1.do|72|venuesdb_base.dta|lifespan_collapse.dta|
 |5.2|02-fig5.2.do|189|venuesdb_base.dta|venue_forecast.dta|
-|5.3|02-fig5.3_5.4_tab5.1.do|226|venuesdb_base.dta|ven_median_collapse.dta|
-|5.4|02-fig5.3_5.4_tab5.1.do|259|venuesdb_base.dta|ven_median_collapse.dta|
+|5.3|02-fig5.3_5.4_tab5.1.do|222|venuesdb_base.dta|ven_median_collapse.dta|
+|5.4|02-fig5.3_5.4_tab5.1.do|255|venuesdb_base.dta|ven_median_collapse.dta|
 |5.5|02-fig5.5.do|104|venue_forecast.dta; venuesdb_base.dta|cumulative_cost.dta|
 |5.6|02-fig5.6.do|63|venuesdb_base.dta|ven_lifespans.dta|
 |5.7|02-fig5.7_tab5.4.do|35|leagues_revenue.dta|none|
@@ -162,7 +162,7 @@ All data files provided in .csv format, which can be read by other data analysis
 ### Tables
 | Table | Do-file | Line #| Data Input | Data Output| 
 |----|----|----|----|----|
-|5.1|02-fig5.3_5.4_tab5.1.do|286|venuesdb_base.dta|ven_median_collapse.dta|
+|5.1|02-fig5.3_5.4_tab5.1.do|282|venuesdb_base.dta|ven_median_collapse.dta|
 |5.2|02-tab5.2_5.3.do|95|venuesdb_base.dta|none|
 |5.3|02-tab5.2_5.3.do|120|venuesdb_base.dta|none|
 |5.4|02-fig5.7_tab5.4.do|53|leagues_revenue.dta|none|
