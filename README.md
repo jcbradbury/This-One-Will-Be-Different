@@ -574,6 +574,9 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 |----|----|----|----|----|
 |A.1|02-tabA.1.do|93|venuesdb_all.dta|Appendix table|
 
+### Relevant Links
+
+- Long, Judith Grant (2013) [Public-Private Partnerships for Major League Sports Facilities](https://doi.org/10.4324/9780203077276), Routledge.
 <!-- 
 # References
 
