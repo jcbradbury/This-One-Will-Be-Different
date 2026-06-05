@@ -52,7 +52,7 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |ven_lifespans.dta|Hosting status of current major-league venues|02-fig5.6.do|02-fig5.6.do|venuesdb_base.dta|
 |ven_median_collapse.dta|Medium public funding devoted to major-league venues, by decade|02-fig5.3_5.4_tab5.1.do|02-fig5.3_5.4_tab5.1.do|venuesdb_base.dta|
 |venue_acres.dta|Acreage of venues|Compiled by author|02-tab7.1.do|Propheter (2017); Collected by author|
-|venue_count.dta|||||
+|venue_count.dta|New major-league venue openings by year (1909-2020)|02-fig3.1.do|02-fig3.1.do|venuesdb_base.dta|
 |venue_count_mls.dta|||||
 |venue_demo.dta|Demographics of venue metropolitan areas|Compiled by author||BEA (2024)|
 |venue_forecast.dta|Extrapolation of future venue construction|02-fig5.2.do||venuesdb_base.dta|
