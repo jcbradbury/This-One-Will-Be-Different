@@ -8,6 +8,7 @@
 ********************************************************************** 
 
 Data Input (data\): 
+venuesdb_base.dta
 
 Intermediate Output (working directory):
 
@@ -18,7 +19,6 @@ Data (outdat\): ven_lifespans.dta
 Other: 
 CITED in text: Venues hosting teams 30+ years by the end of 2020s
 CITED in text: Venues hosting teams 30+ years and last renovatin 15+ years by the end of 2020s
-
 */
 
 *************************
@@ -59,10 +59,6 @@ replace renovationspan_2029 = 2029-future_renovation_complete+1 if future_renova
 
 save "$outdat\ven_lifespans.dta", replace
 
-/* Data output into the data\ folder
-save "$data\ven_lifespans.dta", replace
-export delimited "$data\ven_lifespans.csv", replace
-*/
 
 /* Hosting Lifespan Graphs */
 /*MLB*/
