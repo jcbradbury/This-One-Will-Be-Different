@@ -467,7 +467,8 @@ You can access the data repository and replication package for the paper [here](
 - Ross, Stephen F. (1989) “[Monopoly sports leagues](https://heinonline.org/HOL/P?h=hein.journals/mnlr73&i=657),” *Minnesota Law Review*, 73, 643–761.
 
 ## Chapter 19
-MiLB ballpark contruction costs discussed in Chapter 19 are presented in more detail in [Bradbury (2026)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5318600)
+MiLB ballpark construction costs discussed in Chapter 19 are presented in more detail in [Bradbury (2026)](https://doi.org/10.1111/ecin.70055).  
+The complete replication package associated with the academic article is available [here](https://doi.org/10.3886/E241242V3).
 
 ### Figures
 | Figure | Do-file | Line #| Data Input | Data Output| 
@@ -486,7 +487,7 @@ MiLB ballpark contruction costs discussed in Chapter 19 are presented in more de
 
 - Boudway, Ira and Kate Smith (2016) “[The Braves play taxpayers better than they play baseball](https://www.bloomberg.com/features/2016-atlanta-braves-stadium/),” Bloomberg Businessweek, May 2, 48–53.
 
-- Bradbury, J.C. (2026) "[The public cost of Minor League Baseball stadium subsidies](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5318600)," *Economic Inquiry*.
+- Bradbury, J.C. (2026) "[The public cost of Minor League Baseball stadium subsidies]( https://doi.org/10.1111/ecin.70055)," *Economic Inquiry*.
 
 ## Chapter 20
 
