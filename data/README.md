@@ -18,10 +18,10 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |CPdata.dta|County gross property value digest data (1999-2019)|Compiled by author|02-fig15.1.do; 02-fig15.2.do|See Bradbury (2022a) [repository](https://github.com/jcbradbury/CobbProperty)|
 |CPdata_2020_2023.dta|County gross property value digest data (2020-2023)|Compiled by author|02-fig15.1.do|See Bradbury (2022a) [repository](https://github.com/jcbradbury/CobbProperty)|
 |CPdata_pct.dta|County gross property value digest data (1999-2019), percentage change|02-fig15.2.do|02-fig15.2.do|See Bradbury (2022a) [repository](https://github.com/jcbradbury/CobbProperty)|
-|cobb_stsynth_noSTch_q.dta|Cobb sales tax post-SCM treatment effects|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024) [repository](https://github.com/jcbradbury/CobbSalesTax)|
+|cobb_stsynth_noSTch_q.dta|Cobb sales tax post-SCM treatment effects|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024b) [repository](https://github.com/jcbradbury/CobbSalesTax)|
 |compare_mlb.dta|MLB ballparks comparable to Truist Park|02-fig10.1.do|02-fig10.1.do|venuesdb_base.dta|
-|countyST.dta|County sales tax data|Compiled by author|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024) [repository](https://github.com/jcbradbury/CobbSalesTax)|
-|countyST_q_noSTch.dta|County sales tax data processed for SCM analysis in Chap. 13|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024) [repository](https://github.com/jcbradbury/CobbSalesTax)|
+|countyST.dta|County sales tax data|Compiled by author|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024b) [repository](https://github.com/jcbradbury/CobbSalesTax)|
+|countyST_q_noSTch.dta|County sales tax data processed for SCM analysis in Chap. 13|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024b) [repository](https://github.com/jcbradbury/CobbSalesTax)|
 |countyST_q_noSTch_means.dta|County sales tax collection means|02-fig13.2_13.3_tab13.1.do|02-fig13.2_13.3_tab13.1.do|See Bradbury (2024) [repository](https://github.com/jcbradbury/CobbSalesTax)|
 |cpi2024.xlsx|Consumer Price Index (CPI) used for real dollar conversions|Downloaded and processed by author|Many do-files|BLS (2025)|
 |cumulative_cost.dta|Cumulative major-league venue construction costs over time|02-fig5.5.do|02-fig5.5.do|venue_forecast.dta; venuesdb_base.dta|
@@ -31,11 +31,11 @@ The `CobbDocs/` subfolder includes documents relating to the Cobb-Braves stadium
 |milb_ballparkcosts.dta|MiLB (minor league) ballpark costs|Collected by author|02-fig19.2.do; 02-fig19.3do|Author|
 |milb_cumulative.dta|Cumulative MiLB ballpark construction costs over time|02-fig19.2.do; 02-fig19.3do|02-fig19.2.do; 02-fig19.3do|milb_ballparkcosts.dta|
 |milb_median.dta|Distribution of MiLB ballpark construction costs over time|02-fig19.2.do; 02-fig19.3do|02-fig19.2.do; 02-fig19.3do|milb_ballparkcosts.dta|
-|mlb_did.dta|MLB data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
+|mlb_did.dta|MLB data used for DiD estimates in Chap. 6|See Bradbury (2024a)|02-fig6.2_tab6.1|See Bradbury (2024a) [repository](https://doi.org/10.3886/E200122V2)|
 |mls_lifespans.dta|Hosting status of MLS stadiums|02-fig5.10.do|02-fig5.10.do|venuesdb_all.dta|
 |mls_median_collapse.dta|MLS stadium construction costs by year|02-fig5.9.do|02-fig5.9.do|venuesdb_all.dta|
-|mls_stadiums_base.dta|Historical databse of stadium construction costs (MLS)|01-venuesdb_all_build.do|01-venuesdb_all_build.do|mls_stadiums_raw.dta; BLS (2025)|
-|mls_stadiums_raw.dta|Historical databse of stadium construction costs (MLS)|Compiled by author|01-venuesdb_all_build.do|See Appendix A, Bradbury (2026)|
+|mls_stadiums_base.dta|Historical database of stadium construction costs (MLS)|01-venuesdb_all_build.do|01-venuesdb_all_build.do|mls_stadiums_raw.dta; BLS (2025)|
+|mls_stadiums_raw.dta|Historical database of stadium construction costs (MLS)|Compiled by author|01-venuesdb_all_build.do|See Appendix A, Bradbury (2026)|
 |msa_vens_pvt.dta|Data on privately financed stadiums |02-tab17.1.do|02-tab17.1.do|msarank2023.dta; venuesdb_all.dta|
 |msarank2023.dta|Major-league teams by metro area population rank|02-tab18.1.do|02-tab18.1.do|population_msa.dta|
 |nba_did.dta|NBA data used for DiD estimates in Chap. 6|See Bradbury (2024)|02-fig6.2_tab6.1|Bradbury (2024)|
