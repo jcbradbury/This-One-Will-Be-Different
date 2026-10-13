@@ -42,7 +42,7 @@ Original data sources are credited in accompanying documentation and remain subj
 If you use these data or code, please cite:
 
 Bradbury, J. C. (2026). *Data Repository for This One Will Be Different*.
-GitHub repository. https://github.com/jcbra/This-One-Will-Be-Different
+GitHub repository. https://github.com/jcbradbury/This-One-Will-Be-Different
 
  ## Datasets
 
